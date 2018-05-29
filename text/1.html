@@ -1,1 +1,439 @@
-sfdffffff
+译，但会尽量保证原文的表达。文中观点仅代表原作者观点，本文不做评论。
+
+
+
+I never understood JavaScript closures
+
+Until someone explained it to me like this …
+
+我从来都不懂Javascript闭包
+
+直到有人对我像这样解释了它
+
+
+
+As the title states, JavaScript closures have always been a bit of a mystery to me. I have read multiple articles, I have used closures in my work, sometimes I even used a closure without realizing I was using a closure.
+就像本文标题所说的，Javascript一直以来对我来说都是有一点神秘的。我读过很多文章，也在我的工作中使用过闭包，但有些时候我甚至在使用闭包时都没有意识到我在使用一个闭包。
+
+Recently I went to a talk where someone really explained it in a way it finally clicked for me. I’ll try to take this approach to explain closures in this article. Let me give credit to the great folks at CodeSmith and their JavaScript The Hard Parts series.
+最近我去参加了一个交流会，在那里有人真正地对它（闭包）进行了解释，并最终点醒了我。我会尝试着在这篇文章中用这种方式去解释一下闭包。让我来膜拜一下来自CodeSmith的大佬们和他们的Javascript The Hard Parts（一组系列文章）系列吧。
+
+Before we start 
+
+准备工作
+
+Some concepts are important to grok before you can grok closures. One of them is the execution context.
+在和闭包进行神交之前，你需要跟一些重要的概念先进行神交。其中之一就是执行上下文。
+
+This article has a very good primer on Execution Context. To quote the article:
+When code is run in JavaScript, the environment in which it is executed is very important, and is evaluated as 1 of the following:
+Global code — The default environment where your code is executed for the first time.
+Function code — Whenever the flow of execution enters a function body.
+(…)
+(…), let’s think of the term execution context as the environment / scope the current code is being evaluated in.
+这篇文章对执行上下文有一些非常好的基础指导。这里引用一些其中的内容：
+
+在Javascript代码运行过程中，它执行的上下文是非常重要的，它被处理为以下几种情况之一：
+Global code —— 你的代码刚开始执行时的默认环境。
+Function code —— 任何当执行流进入一个函数体的时候。
+(...)
+(...)，让我们把执行上下文（execution context）这个术语理解为一个当前代码被处理的环境或域。
+
+
+In other words, as we start the program, we start in the global execution context. Some variables are declared within the global execution context. We call these global variables. When the program calls a function, what happens? A few steps:
+用另一句话说，当我们启动程序时，我们启动了全局的执行上下文。有一些变量会在全局的执行上下文中进行声明，我们称之为全局变量。当这个程序调用了函数时，发生了什么？请看以下步骤：
+
+1. JavaScript creates a new execution context, a local execution context
+2. That local execution context will have its own set of variables, these variables will be local to that execution context.
+3. The new execution context is thrown onto the execution stack. Think of the execution stack as a mechanism to keep track of where the program is in its execution
+Javascript创建了一个新的执行上下文，一个本地的执行上下文
+这个本地执行上下文会有自己的变量集，这些变量对于这个执行上下文是本地变量
+这个新的执行上下文被扔进了执行栈。你可以把执行栈理解为一个持续跟踪程序的运行过程的机制
+When does the function end? When it encounters a return statement or it encounters a closing bracket }. When a function ends, the following happens:
+这个函数什么时候结束呢？当它遇到一个了return语句或关闭括号}时。当一个函数执行完毕，以下的事情会发生。 
+
+1. The local execution contexts pops off the execution stack
+2. The functions sends the return value back to the calling context. The calling context is the execution context that called this function, it could be the global execution context or another local execution context. It is up to the calling execution context to deal with the return value at that point. The returned value could be an object, an array, a function, a boolean, anything really. If the function has no return statement, undefined is returned.
+3. The local execution context is destroyed. This is important. Destroyed. All the variables that were declared within the local execution context are erased. They are no longer available. That’s why they’re called local variables.
+本地执行上下文退出执行栈
+这个函数将返回值递交给调用上下文。调用上下文是指调用这个函数的执行上下文。它可以是全局执行上下文或者其他本地执行上下文。在哪里处理返回值是由调用执行上下文决定的。返回值可以是一个对象，一个数组，一个函数，一个布尔值，说白了可以是任何东西。如果 这个函数没有return语句 ，它相当于返回了undefined。
+本地上下文被销毁。这一点是非常重要的。销毁之后，在这个本地上下文中声明的所有变量都会被抹去。它们再也不能被使用了。这就是为什么它们被称为本地变量。 
+A very basic example
+
+一个非常简单的例子
+
+Before we get to closures, let’s take a look at the following piece of code. It seems very straightforward, anybody reading this article probably knows exactly what it does.
+在我们开始讨论闭包之前，我们先来看看以下这段代码。它看起来非常直白，每个阅读这篇文章的人可能都确切地知道它在干什么。
+
+1: let a = 3
+2: function addTwo(x) {
+3:   let ret = x + 2
+4:   return ret
+5: }
+6: let b = addTwo(a)
+7: console.log(b)
+In order to understand how the JavaScript engine really works, let’s break this down in great detail.
+为了理解Javascript引擎究竟干了什么，我们来把它分解成细节来进行理解。
+
+1. On line 1 we declare a new variable a in the global execution context and assign it the number 3.
+2. Next it gets tricky. Lines 2 through 5 are really together. What happens here? We declare a new variable named addTwo in the global execution context. And what do we assign to it? A function definition. Whatever is between the two brackets { } is assigned to addTwo. The code inside the function is not evaluated, not executed, just stored into a variable for future use.
+3. So now we’re at line 6. It looks simple, but there is much to unpack here. First we declare a new variable in the global execution context and label it b. As soon as a variable is declared it has the value of undefined.
+第1行我们在全局执行上下文声明了一个新的变量a并给它赋值3。
+下面就稍微有点复杂了。第2-5行其实是打包在一起的。这里发生了什么呢？我们在全局执行上下文中声明了一个新的变量称之为addTwo。那么我们它他赋值了什么呢？一个函数定义。所有在两个括号{ }中间的部分都被赋值给了addTwo。 这个函数内部的代码是没有被处理的，它们没有被执行，仅仅暂存到一个变量中来给之后使用。
+现在我们到第6行了。这句看起来挺简单的，但这儿仍然有很多需要拆分出来解释的东西。首先我们在全局执行上下文定义了一个新的变量称之为b。当变量刚刚被声明的时候它拥有一个undefined值。 
+4. Next, still on line 6, we see an assignment operator. We are getting ready to assign a new value to the variable b. Next we see a function being called. When you see a variable followed by round brackets (…), that’s the signal that a function is being called. Flash forward, every function returns something (either a value, an object or undefined). Whatever is returned from the function will be assigned to variable b.
+5. But first we need to call the function labeled addTwo. JavaScript will go and look in its global execution context memory for a variable named addTwo. Oh, it found one, it was defined in step 2 (or lines 2–5). And lo and behold variable addTwo contains a function definition. Note that the variable a is passed as an argument to the function. 6. JavaScript searches for a variable a in its global execution context memory, finds it, finds that its value is 3 and passes the number 3 as an argument to the function. Ready to execute the function.
+4. 接下来，还是在第6行，我们看见一个赋值运算符。我们将要给变量b赋值一个新的值。接着我们看到一个函数被调用了。在你看到一个变量后面跟着圆括号的时候(...)， 就代表一个函数被调用了。还记得吗，任何函数都会返回一些东西（一个值、一个对象或者undefined）。这个函数返回的无论什么都会被赋值给变量b。
+
+5. 但是首先我们需要先调用函数addTwo。Javascript会到它的全局执行上下文内存中去查找名为addTwo的函数。然后它找到了一个，就是在第2步（2-5行）定义的那个。 然后发现了addTwo包含了一个函数定义。注意这时变量a是被当做参数传递给了这个函数。
+
+6. Javascript会在全局执行上下文内存中搜索变量a，然后找到了它，发现它的值是3接着把3作为参数传递给了这个函数。函数即将执行。 
+
+7. Now the execution context will switch. A new local execution context is created, let’s name it the ‘addTwo execution context’. The execution context is pushed onto the call stack. What is the first thing we do in the local execution context?
+8. You may be tempted to say, “A new variable ret is declared in the local execution context”. That is not the answer. The correct answer is, we need to look at the parameters of the function first. A new variable x is declared in the local execution context. And since the value 3 was passed as an argument, the variable x is assigned the number 3.
+9. The next step is: A new variable ret is declared in the local execution context. Its value is set to undefined. (line 3)
+10. Still line 3, an addition needs to be performed. First we need the value of x. JavaScript will look for a variable x. It will look in the local execution context first. And it found one, the value is 3. And the second operand is the number2. The result of the addition (5) is assigned to the variable ret.
+7. 现在执行上下文会进行切换，一个新的本地执行上下文被创建了出来，我们称之为‘addTwo执行上下文’。这个执行上下文被推到了调用栈。在这个本地执行上下文中我们将要做的第一件事是什么呢？
+
+8. 你可能很想说，“一个新的变量ret被声明在了本地执行上下文中”。并不是这个答案。正确的答案是，我们需要先看一下这个函数的参数。一个新的变量x被声明在了本地执行上下文中。然后前面提到的数值3被作为参数传入了这个函数，所以x赋值为3。
+
+9. 下一步：一个新的变量ret被声明在了本地执行上下文。它被赋值为undefined。（第3行）
+
+10. 仍然在第3行，这里做了一个加法运算。首先我们需要x的值。Javascript会去查找x的值。它会先在本地执行上下文中查找。然后它找到了一个，它的值为3。然后第一个操作数是数字2。加法计算的结果（5）被赋值给了变量ret。 
+
+11. Line 4. We return the content of the variable ret. Another lookup in the local execution context. ret contains the value 5. The function returns the number 5. And the function ends.
+12. Lines 4–5. The function ends. The local execution context is destroyed. The variables x and ret are wiped out. They no longer exist. The context is popped of the call stack and the return value is returned to the calling context. In this case the calling context is the global execution context, because the function addTwo was called from the global execution context.
+13. Now we pick up where we left off in step 4. The returned value (number 5) gets assigned to the variable b. We are still at line 6 of the little program.
+I am not going into detail, but in line 7, the content of variable b gets printed in the console. In our example the number 5.
+11. 第4行。我们返回了变量ret的内容。于是再在本地执行上下文中进行了一次查找。ret的内容是5。所以这个函数返回了数字5。接着这个函数就结束了。
+
+12. 第4-5行。函数结束了。它对应的本地执行上下文就被销毁了。变量x和ret被清理掉了。它们再也不存在了。这个上下文被从调用栈退出来并将返回值返回给了调用上下文。因为函数addTwo是被全局执行上下文调用的，所以这里的调用上下文就是全局执行上下文。 
+
+13. 现在我们再捡起刚刚在第4步搁置的流程。返回值（数字5）被赋值给了变量b。我们现在仍然在这一段小程序的第6行。在第7行，变量b的值，在我们的例子中即数字5在控制台打印了出来，这里我就不详细解释了。 
+
+That was a very long winded explanation for a very simple program, and we haven’t even touched upon closures yet. We will get there I promise. But first we need to take another detour or two.
+以上我们围绕一个非常简单的程序解释了半天，但目前为止我们还没有谈论到闭包。我保证我们会到那儿的。但是在那之前我们还得再绕一两个弯。
+
+Lexical scope.
+
+作用域
+
+We need to understand some aspects of lexical scope. Take a look at the following example.
+我们需要理解作用域方面的一些概念。来看看下面这个例子。
+
+1: let val1 = 2
+2: function multiplyThis(n) {
+3:   let ret = n * val1
+4:   return ret
+5: }
+6: let multiplied = multiplyThis(6)
+7: console.log('example of scope:', multiplied)
+The idea here is that we have variables in the local execution context and variables in the global execution context. One intricacy of JavaScript is how it looks for variables. If it can’t find a variable in its local execution context, it will look for it in its calling context. And if not found there in its calling context. Repeatedly, until it is looking in the global execution context. (And if it does not find it there, it’s undefined). Follow along with the example above, it will clarify it. If you understand how scope works, you can skip this.
+同样地我们在本地执行上下文中有一些变量，在全局执行上下文中也有一些变量。Javascript的一个复杂之处就是它如何去查找变量。如果它不能在本地执行上下文中找到一个变量，它会在它的调用上下文中继续查找。如果在它的调用上下文中也没找到，它会反复回溯，直到它查找到全局的执行上下文中。（如果它还是没找到，那就会认为它是undefined了）。接下来我们看看上面的例子，它会把这个解释清楚。如果你已经知道作用域是怎么工作的，你可以跳过这一节。
+
+1. Declare a new variable val1 in the global execution context and assign it the number 2.
+2. Lines 2–5. Declare a new variable multiplyThis and assign it a function definition.
+3. Line 6. Declare a new variable multiplied in the global execution context.
+在全局执行上下文中声明变量val1并赋值为2。
+第2-5行。声明一个变量multiplyThis并赋值一个函数定义。
+第6行。在全局执行上下文中声明一个变量multiplied。 
+4. Retrieve the variable multiplyThis from the global execution context memory and execute it as a function. Pass the number 6 as argument.
+5. New function call = new execution context. Create a new local execution context.
+6. In the local execution context, declare a variable n and assign it the number 6.
+4. 从全局执行上下文内存中查找出变量multiplyThis然后把它作为函数来执行。把数字6作为参数传递进去。
+
+5. 新的函数调用 = 新的执行上下文。创建一个新的执行上下文。
+
+6. 在本地执行上下文中，声明一个变量n并赋值为6。
+
+7. Line 3. In the local execution context, declare a variable ret.
+8. Line 3 (continued). Perform an multiplication with two operands; the content of the variables n and val1. Look up the variable n in the local execution context. We declared it in step 6. Its content is the number 6. Look up the variable val1 in the local execution context. The local execution context does not have a variable labeled val1. Let’s check the calling context. The calling context is the global execution context. Let’s look for val1 in the global execution context. Oh yes, it’s there. It was defined in step 1. The value is the number 2.
+9. Line 3 (continued). Multiply the two operands and assign it to the retvariable. 6 * 2 = 12. ret is now 12.
+7. 第3行。在本地执行上下文，声明一个变量ret。
+
+8. 第3行（继续）。将两个操作数进行加法运算，即变量n和val1的内容。在本地执行上下文中查找变量n。我们在第6步已经声明了它。它的内容是数字6。在本地执行上下文中查找变量val1。本地执行上下文中没有一个名为val1的变量。那么我们来看看调用上下文。这个调用上下文即全局执行上下文。那么让我们在全局执行上下文中查找变量val1。 真棒，它就在这儿。它是在第1步被声明的。它的值为2。
+
+9. 继续第3行。将两个操作数相乘并将结果赋值给变量ret。6 * 2 = 12，ret现在是12了。 
+
+10. Return the ret variable. The local execution context is destroyed, along with its variables ret and n. The variable val1 is not destroyed, as it was part of the global execution context.
+11. Back to line 6. In the calling context, the number 12 is assigned to the multiplied variable.
+12. Finally on line 7, we show the value of the multiplied variable in the console.
+10. 返回变量ret。本地执行上下文被销毁，同时变量ret和n也一起被抹去。变量val1因为是全局执行上下文的一部分所以没有被销毁。
+
+11. 回到第6行，在调用上下文中，数字12被赋值给了变量multiplied。
+
+12. 最后在第7行，我们在控制台展示了变量multiplied的值。 
+
+So in this example, we need to remember that a function has access to variables that are defined in its calling context. The formal name of this phenomenon is the lexical scope.
+在这个例子中，我们需要记住函数是拥有在调用上下文中定义的变量的访问权限的。这种现象的正式名称就是作用域。
+
+A function that returns a function
+
+返回值是函数的函数
+
+In the first example the function addTwo returns a number. Remember from earlier that a function can return anything. Let’s look at an example of a function that returns a function, as this is essential to understand closures. Here is the example that we are going to analyze.
+在第一个例子中函数addTwo返回了一个数字。记得在那之前我们说过个函数是可以返回任何东西的。让我们来看看返回值为函数的函数的例子，这对我们理解闭包是必要的。 下面就是我们将要去分析的例子。
+
+ 1: let val = 7
+ 2: function createAdder() {
+ 3:   function addNumbers(a, b) {
+ 4:     let ret = a + b
+ 5:     return ret
+ 6:   }
+ 7:   return addNumbers
+ 8: }
+ 9: let adder = createAdder()
+10: let sum = adder(val, 8)
+11: console.log('example of function returning a function: ', sum)
+Let’s go back to the step-by-step breakdown.
+我们继续来进行一步一步的分解。
+
+1. Line 1. We declare a variable val in the global execution context and assign the number 7 to that variable.
+2. Lines 2–8. We declare a variable named createAdder in the global execution context and we assign a function definition to it. Lines 3 to 7 describe said function definition. As before, at this point, we are not jumping into that function. We just store the function definition into that variable (createAdder).
+3. Line 9. We declare a new variable, named adder, in the global execution context. Temporarily, undefined is assigned to adder.
+在第1行。我们在全局执行上下文中声明了变量val并且赋值为7。
+第2-8行。我们在全局执行上下文中声明了一个变量createAdder并将一个函数定义赋值给它。第3-7行的描述就是函数定义。就像之前一样，这时候我们是不会进入这个函数的。我们仅仅将函数定义保存到变量（createAdder）中。
+第9行。我们在全局执行上下文中声明一个新的变量adder。 undefined会被暂时赋值给adder。 
+4. Still line 9. We see the brackets (); we need to execute or call a function. Let’s query the global execution context’s memory and look for a variable named createAdder. It was created in step 2. Ok, let’s call it.
+5. Calling a function. Now we’re at line 2. A new local execution context is created. We can create local variables in the new execution context. The engine adds the new context to the call stack. The function has no arguments, let’s jump right into the body of it.
+6. Still lines 3–6. We have a new function declaration. We create a variable addNumbers in the local execution context. This important. addNumbersexists only in the local execution context. We store a function definition in the local variable named addNumbers.
+4. 还是第9行。我们看到了括号( )；我们需要去执行或调用一个函数。我们在全局执行上下文的内存中查找名为createAdder的变量。它在第2步被声明了。那么，让我们调用它。
+
+5. 调用这个函数。现在我们到了第2行。一个新的本地执行上下文被创建出来。我们可以在新的执行上下文中创建本地变量。内部引擎将新的上下文添加到调用栈。这个函数没有参数，我们直接进入这个函数的函数体。
+
+6. 还是在第3-6行。我们有了新的函数声明。我们在本地执行上下文中创建一个变量名为adddNumbers。这里很重要。addNumbers只在本地执行上下文中存在。我们在名为addNumbers的本地变量中存储了一个函数定义。  
+
+7. Now we’re at line 7. We return the content of the variable addNumbers. The engine looks for a variable named addNumbers and finds it. It’s a function definition. Fine, a function can return anything, including a function definition. So we return the definition of addNumbers. Anything between the brackets on lines 4 and 5 makes up the function definition. We also remove the local execution context from the call stack.
+8. Upon return, the local execution context is destroyed. The addNumbersvariable is no more. The function definition still exists though, it is returned from the function and it is assigned to the variable adder; that is the variable we created in step 3.
+9. Now we’re at line 10. We define a new variable sum in the global execution context. Temporary assignment is undefined.
+7. 接着我们到了第7行。我们将变量addNumbers的内容返回了。引擎查询并找到了变量addNumbers。它是一个函数定义。当然，函数可以返回任何东西，包括一个函数定义。因此我们将addNumbers保存的函数定义返回。在第4行和第5行包裹在括号内的任何东西组成了这个函数定义。同时我们从调用栈移除这个本地执行上下文。
+
+8. 返回之后，本地执行上下文被销毁。addNumbers变量就不在了。不过这个函数定义仍旧存在，它是从函数中返回的并且现在赋值给了变量adder；这个变量我们在第3步进行了声明。
+
+9. 现在我们来到了第10行。我们在全局执行上下文中声明一个新的变量sum。暂时赋值为undefined。 
+
+10. We need to execute a function next. Which function? The function that is defined in the variable named adder. We look it up in the global execution context, and sure enough we find it. It’s a function that takes two parameters.
+11. Let’s retrieve the two parameters, so we can call the function and pass the correct arguments. The first one is the variable val, which we defined in step 1, it represents the number 7, and the second one is the number 8.
+12. Now we have to execute that function. The function definition is outlined lines 3–5. A new local execution context is created. Within the local context two new variables are created: a and b. They are respectively assigned the values 7 and 8, as those were the arguments we passed to the function in the previous step.
+10. 接下来我们需要执行一个函数。哪一个呢？在变量adder中定义的函数。我们在全局执行上下文中查找它，毋庸置疑我们找到了它。那是一个有两个参数的函数。
+
+11. 我们来查询这两个参数，为了保证在调用这个函数时能够传递正确的参数。第一个是变量val，我们在第1步声明了它，它代表了数字7，然后第二个参数是数字8。
+
+12. 现在我们需要执行函数了。这个函数的定义是在第3-5行。一个新的本地执行上下文被创建。在这个本地上下文中两个新的变量被创建：a和b。他们分别被赋值了数字7和8，这是我们在上一步传递进函数的参数。 
+
+13. Line 4. A new variable is declared, named ret. It is declared in the local execution context.
+14. Line 4. An addition is performed, where we add the content of variable aand the content of variable b. The result of the addition (15) is assigned to the ret variable.
+15. The ret variable is returned from that function. The local execution context is destroyed, it is removed from the call stack, the variables a, band ret no longer exist.
+13. 第4行。一个新的变量被声明，称之为ret。它是在本地执行上下文中被声明的。
+
+14. 第4行。我们将变量a和变量b的内容进行了加法运算。运算结果（15）被赋值给变量ret。
+
+15. 变量ret被从这个函数返回。本地执行上下文被销毁，它从调用栈被移除，变量a,b和ret将不再存在。 
+
+16. The returned value is assigned to the sum variable we defined in step 9.
+17. We print out the value of sum to the console.
+16. 返回值被赋值给在第9步声明的变量sum。
+
+17. 我们将sum的值在控制台打印出来。 
+
+As expected the console will print 15. We really go through a bunch of hoops here. I am trying to illustrate a few points here. First, a function definition can be stored in a variable, the function definition is invisible to the program until it gets called. Second, every time a function gets called, a local execution context is (temporarily) created. That execution context vanishes when the function is done. A function is done when it encounters return or the closing bracket }.
+可以预料到地我们在控制台打印了15.我们真的是在这经历了环环相扣。我试着在这儿说明几个要点。首先，变量里面是可以存储一个函数定义的，这个函数定义直到它被调用前都是不可见的。第二，每次一个函数被调用，一个临时的本地执行上下文会被创建。在函数调用结束后那个执行上下文就会消失。当遇上了return或者关闭括号}函数就会执行结束。 
+
+Finally, a closure
+
+最后，闭包
+
+Take a look a the next code and try to figure out what will happen.
+看看下面的代码并试着弄清楚会发生什么。
+
+ 1: function createCounter() {
+ 2:   let counter = 0
+ 3:   const myFunction = function() {
+ 4:     counter = counter + 1
+ 5:     return counter
+ 6:   }
+ 7:   return myFunction
+ 8: }
+ 9: const increment = createCounter()
+10: const c1 = increment()
+11: const c2 = increment()
+12: const c3 = increment()
+13: console.log('example increment', c1, c2, c3)
+Now that we got the hang of it from the previous two examples, let’s zip through the execution of this, as we expect it to run.
+现在我们从前面两个例子找到了一点窍门，我们来按我们期望的执行方式过一遍它的执行流程。
+
+1. Lines 1–8. We create a new variable createCounter in the global execution context and it get’s assigned function definition.
+2. Line 9. We declare a new variable named increment in the global execution context..
+3. Line 9 again. We need call the createCounter function and assign its returned value to the increment variable.
+第1-8行，我们在全局执行上下文中创建一个新变量createCounter并给它赋值一个函数定义。
+第9行。我们在全局执行上下文中声明一个名为increment的变量。
+再第9行。我们需要调用函数createCounter并把它的返回值赋值给increment变量。 
+4. Lines 1–8 . Calling the function. Creating new local execution context.
+5. Line 2. Within the local execution context, declare a new variable named counter. Number 0 is assigned to counter.
+6. Line 3–6. Declaring new variable named myFunction. The variable is declared in the local execution context. The content of the variable is yet another function definition. As defined in lines 4 and 5.
+4. 第1-8行。调用这个函数。创建新的本地执行上下文。
+
+5. 第2行。在本地执行上下文中，声明新的变量counter。数字0被赋值给counter。
+
+6. 第3-6行。声明新的变量命名为myFunction。这个变量是在本地执行上下文中声明的。这个变量的内容目前还是另一个函数定义。在第4-5行定义的。 
+
+7. Line 7. Returning the content of the myFunction variable. Local execution context is deleted. myFunction and counter no longer exist. Control is returned to the calling context.
+8. Line 9. In the calling context, the global execution context, the value returned by createCounter is assigned to increment. The variable increment now contains a function definition. The function definition that was returned by createCounter. It is no longer labeled myFunction, but it is the same definition. Within the global context, it is labeledincrement.
+9. Line 10. Declare a new variable (c1).
+7. 第7行。返回变量myFunction的内容。本地执行上下文被删除。myFunction和counter不在存在。控制权返还给了调用上下文。
+
+8. 第9行。 在调用上下文，即全局执行上下文中，函数createCounter的返回值被赋值给了变量increment。变量increment现在包含了一个函数定义。这个函数定义是由createCounter返回的。它再也不被标记为myFunction了，但是它还是同样的那个定义。但在全局上下文中，它被标记为increment。
+
+9. 第10行。声明一个新变量（c1）。 
+
+10. Line 10 (continued). Look up the variable increment, it’s a function, call it. It contains the function definition returned from earlier, as defined in lines 4–5.
+11. Create a new execution context. There are no parameters. Start execution the function.
+12. Line 4. counter = counter + 1. Look up the value counter in the local execution context. We just created that context and never declare any local variables. Let’s look in the global execution context. No variable labeled counter here. Javascript will evaluate this as counter = undefined + 1, declare a new local variable labeled counter and assign it the number 1, as undefined is sort of 0.
+10. 继续第10行。查找变量increment，它是一个函数，调用它。它包含了之前在第4-5行定义的函数定义。
+
+11. 创建一个新的执行上下文。这个函数没有参数。直接开始执行这个函数。
+
+12. 第4行。counter = counter + 1。在本地执行上下文查找变量counter。我们刚刚才创建这个上下文根本没有声明任何本地变量。那么我们在全局执行上下文中继续查找。这儿也没有标记为counter的变量。Javascript在这儿会把它处理为counter = undefined + 1,创建一个新的环境变量并标记为counter然后把数字1赋值给它，因为undefined是0的一种。 
+
+13. Line 5. We return the content of counter, or the number 1. We destroy the local execution context, and the counter variable.
+14. Back to line 10. The returned value (1) gets assigned to c1.
+15. Line 11. We repeat steps 10–14, c2 gets assigned 1 also.
+16. Line 12. We repeat steps 10–14, c3 gets assigned 1 also.
+17. Line 13. We log the content of variables c1, c2 and c3.
+13. 第5行。我们返回了counter的内容，或者说是数字1。我们销毁本地执行上下文，和counter变量。
+
+14. 回到第10行。返回值1被赋值给c1。
+
+15. 第11行。我们重复第10-14步，c2也被赋值为1。
+
+16. 第12行。继续重复第10-14不，c3也被赋值为1。
+
+17. 第13行。我们打印变量c1，c2，c3的内容。 
+
+Try this out for yourself and see what happens. You’ll notice that it is not logging 1, 1, and 1 as you may expect from my explanation above. Instead it is logging 1, 2 and 3. So what gives?
+自己尝试这么做一下来看看发生了什么。你会注意到它没有按我们期望的以上的解释打印出1，1和1 。而是打印出了1，2和3。 所以究竟发生了什么？
+
+Somehow, the increment function remembers that counter value. How is that working?
+Is counter part of the global execution context? Try console.log(counter)and you’ll get undefined. So that’s not it.
+可能以某种方式,increment函数记住了那个counter变量。那么这是怎么做到的呢？
+
+counter是全局执行上下文的一部分吗？试着执行一下console.log(counter)你会得到undefined。说明并不是这样。 
+
+Maybe, when you call increment, somehow it goes back to the the function where it was created (createCounter)? How would that even work? The variable increment contains the function definition, not where it came from. So that’s not it.
+可能当你调用increment时它回溯到这个函数创建出来的地方（createCounter）了？那么这又是怎么回事呢？变量increment包含了函数定义，并不是它创建的地方的那个。所以这也不是。 
+
+So there must be another mechanism. The Closure. We finally got to it, the missing piece.
+Here is how it works. Whenever you declare a new function and assign it to a variable, you store the function definition, as well as a closure. The closure contains all the variables that are in scope at the time of creation of the function. It is analogous to a backpack. A function definition comes with a little backpack. And in its pack it stores all the variables that were in scope at the time that the function definition was created.
+So our explanation above was all wrong, let’s try it again, but correctly this time.
+那么这里面一定有另外一种机制。称之为闭包。我们想到了它，这被遗忘的一部分。
+
+这里解释它是如何工作的。任何时候你声明一个新的函数并将它赋值给一个变量，你存储了函数定义，同时存储了闭包。闭包包含了在创建函数时的作用域里面的所有变量。它就像一个背包。一个函数定义随附了一个小背包。在这个包里保存了所有在这个函数定义创建时的作用域中的拥有的变量。所以我们上面的解释是完全错误的，让我们重新再来一次，但这一次是正确的。
+
+1: function createCounter() {
+ 2:   let counter = 0
+ 3:   const myFunction = function() {
+ 4:     counter = counter + 1
+ 5:     return counter
+ 6:   }
+ 7:   return myFunction
+ 8: }
+ 9: const increment = createCounter()
+10: const c1 = increment()
+11: const c2 = increment()
+12: const c3 = increment()
+13: console.log('example increment', c1, c2, c3)
+1. Lines 1–8. We create a new variable createCounter in the global execution context and it get’s assigned function definition. Same as above.
+2. Line 9. We declare a new variable named increment in the global execution context. Same as above.
+3. Line 9 again. We need call the createCounter function and assign its returned value to the increment variable. Same as above.
+第1-8行，我们在全局执行上下文中创建一个新的变量createCounter 并赋值给它一个函数定义。和上面一样。
+第9行。我们在全局执行上下文中声明一个名为increment的变量。和上面一样。
+继续第9行。我们需要调用函数createCounter并将其返回值赋值给变量increment。和上面一样。 
+4. Lines 1–8 . Calling the function. Creating new local execution context. Same as above.
+5. Line 2. Within the local execution context, declare a new variable named counter. Number 0 is assigned to counter. Same as above.
+6. Line 3–6. Declaring new variable named myFunction. The variable is declared in the local execution context. The content of the variable is yet another function definition. As defined in lines 4 and 5. Now we also create a closure and include it as part of the function definition. The closure contains the variables that are in scope, in this case the variable counter (with the value of 0).
+4. 第1-8行。调用这个函数。创建新的本地执行上下文。和上面一样。
+
+5. 第2行。在本地执行上下文中，声明新的变量counter。数字0被赋值给counter。仍然和上面一样。
+
+6. 第3-6行。声明新的变量命名为myFunction。这个变量是在本地执行上下文中声明的。这个变量的内容目前还是另一个函数定义。在第4-5行定义的。 这时候我们同时创建一个闭包作为函数定义的一部分。这个闭包包含了这个作用域内的变量，在这里就是变量counter（和它的值0）。 
+
+7. Line 7. Returning the content of the myFunction variable. Local execution context is deleted. myFunction and counter no longer exist. Control is returned to the calling context. So we are returning the function definition and its closure, the backpack with the variables that were in scope when it was created.
+8. Line 9. In the calling context, the global execution context, the value returned by createCounter is assigned to increment. The variable increment now contains a function definition (and closure). The function definition that was returned by createCounter. It is no longer labeled myFunction, but it is the same definition. Within the global context, it is called increment.
+9. Line 10. Declare a new variable (c1).
+7. 第7行。将变量myFunction的值返回。本地执行上下文被删除。myFunction和counter不再存在。控制权返还给调用上下文。于是我们返回了这个函数定义和它的闭包，这个包含了创建它时的作用域中的变量的背包。
+
+8. 第9行。在调用上下文中，即全局执行上下文，createCounter的返回值被赋值给increment。变量increment现在包含了一个函数定义（和它的闭包）。这个函数定义是createCounter返回的。它再也不会标记为myFunction，但是是同一个定义。在全局上下文中，它被标记为increment。
+
+9. 第10行。声明一个新的变量c1。 
+
+10. Line 10 (continued). Look up the variable increment, it’s a function, call it. It contains the function definition returned from earlier, as defined in lines 4–5. (and it also has a backpack with variables)
+11. Create a new execution context. There are no parameters. Start execution the function.
+12. Line 4. counter = counter + 1. We need to look for the variable counter. Before we look in the local or global execution context, let’s look in our backpack. Let’s check the closure. Lo and behold, the closure contains a variable named counter, its value is 0. After the expression on line 4, its value is set to 1. And it is stored in the backpack again. The closure now contains the variable counter with a value of 1.
+10. 继续第10行。查找变量increment，它是一个函数，调用它。它包含了之前在第4-5行定义的函数定义（同时包含一个拥有变量的背包）。
+
+11. 创建一个新的执行上下文。这儿没有参数。开始执行函数。
+
+12. 第4行。counter = counter + 1。我们需要查询一下变量counter。在我们查找本地或全局执行上下文前，我们先在我们的背包里面找一下。我们来检查一下闭包。你看这个闭包里面包含了名为counter的变量。它的值为0。在第4行的执行完后，它的值被设置为了1。然后它再次被存进了背包。现在这个闭包包含了值为1的变量counter。 
+
+13. Line 5. We return the content of counter, or the number 1. We destroy the local execution context.
+14. Back to line 10. The returned value (1) gets assigned to c1.
+15. Line 11. We repeat steps 10–14. This time, when we look at our closure, we see that the counter variable has a value of 1. It was set in step 12 or line 4 of the program. Its value gets incremented and stored as 2 in the closure of the increment function. And c2 gets assigned 2.
+13. 第5行。我们返回了counter的内容，或者说数字1。我们销毁本地执行上下文。
+
+14. 回到第10行。返回值1被赋值给c1。
+
+15. 第11行。我们重复第10-14步。这一次，当我们在我们的闭包中查询时，我们发现变量counter的值 是1，那是在第12步或者说在程序的第4行被设置的。 它的值再次增加并以2存储在increment函数的闭包中。然后c2被赋值为2。 
+
+16. Line 12. We repeat steps 10–14, c3 gets assigned 3.
+17. Line 13. We log the content of variables c1, c2 and c3.
+16. 第12行。我们重复第10-14步，c3被赋值为3。
+
+17.第13行。我们打印出变量c1，c2和c3的内容。 
+
+So now we understand how this works. The key to remember is that when a function gets declared, it contains a function definition and a closure. The closure is a collection of all the variables in scope at the time of creation of the function.
+所以现在我们理解了它是怎么一回事了。要记住的关键点就是当一个函数被声明时，它会同时包含一个函数定义和一个闭包。这个闭包是指在这个函数创建出来时的作用域中的所有变量的集合。
+
+You may ask, does any function has a closure, even functions created in the global scope? The answer is yes. Functions created in the global scope create a closure. But since these functions were created in the global scope, they have access to all the variables in the global scope. And the closure concept is not really relevant.
+你可能会问，任何函数都有闭包吗，甚至在全局作用域创建的函数？答案是有。在全局作用域创建的函数也会创建一个闭包。但是因为这些函数是在全局作用域被创建的，它们拥有所有全局作用域的变量的访问权限。这种情况下闭包的概念并没有什么意义。
+
+When a function returns a function, that is when the concept of closures becomes more relevant. The returned function has access to variables that are not in the global scope, but they solely exist in its closure.
+当一个函数返回一个函数时，这才是让闭包概念变得有意义的时候。这个返回的函数拥有并不在全局作用域中的变量的访问权限，但他们是完全存在于闭包内的。
+
+Not so trivial closures
+
+闭包并不是微不足道的
+
+Sometimes closures show up when you don’t even notice it. You may have seen an example of what we call partial application. Like in the following code.
+有时候闭包在你完全没有注意到它的情况下出现。你可能在偏函数应用中已经看到过例子。就像下面的代码。
+
+let c = 4
+const addX = x => n => n + x
+const addThree = addX(3)
+let d = addThree(c)
+console.log('example partial application', d)
+In case the arrow function throws you off, here is the equivalent.
+如果箭头函数让你难以理解，下面是等价的代码。
+
+let c = 4
+function addX(x) {
+  return function(n) {
+     return n + x
+  }
+}
+const addThree = addX(3)
+let d = addThree(c)
+console.log('example partial application', d)
+We declare a generic adder function addX that takes one parameter (x) and returns another function.
+The returned function also takes one parameter and adds it to the variable x.
+The variable x is part of the closure. When the variable addThree gets declared in the local context, it is assigned a function definition and a closure. The closure contains the variable x.
+我们声明了一个常规的加法函数addX，它包含一个参数（x）并返回另一个函数。
+
+返回的函数仍然有一个参数，并且将它加到变量x上。
+
+变量x是闭包的一部分。当变量addTree在本地上下文中声明时，它被赋值了一个函数定义和一个闭包。这个闭包中含有变量x。 
+
+So now when addThree is called and executed, it has access to the variable xfrom its closure and the variable n which was passed as an argument and is able to return the sum.
+In this example the console will print the number 7.
+于是现在当addThree被调用并执行，它拥有对它的闭包中变量x的访问权限，并且将变量n作为参数传递进去给予它返回和值的能力。
+
+在这个例子中，控制台会打印出数字7。 
