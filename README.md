@@ -83,4 +83,6 @@
 
 参考： 《JavaScript高级程序设计》 《你不知道的JavaScript》 阮一峰的网络日志《学习Javascript闭包（Closure）》
 
+<h1>原型、构造函数、实例、原型链</h1>
+
 
