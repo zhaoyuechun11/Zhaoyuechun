@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>下拉</title>
+
+<style>
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+ul{
+
+position: relative;
+
+}
+
+ul li{
+
+background-color: #eee;
+
+border-bottom: 1px solid black;
+
+text-align: center;
+
+line-height: 60px;
+
+list-style: none;
+
+ 
+
+}
+
+p{
+
+text-align: center;
+
+line-height: 65px;
+
+position: absolute;
+
+font-size: 18px;
+
+width: 100%;
+
+height: 65px;
+
+}
+
+#msg{
+
+position: fixed;
+
+top: 0;
+
+width: 300px;
+
+height: 30px;
+
+background-color: rgb(37, 92, 92);
+
+color: white;
+
+z-index: 100;
+
+line-height: 28px;
+
+border-radius: 6px;
+
+border: 1px solid white;
+
+border-top: none;
+
+transform: translateX(-50%);
+
+left: 50%;
+
+opacity: 0;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="box">
+
+<p id="msg"></p>
+
+<P id="title"></P>
+
+<ul id="ul">
+
+<li>第1行</li>
+
+<li>第2行</li>
+
+<li>第3行</li>
+
+<li>第4行</li>
+
+<li>第5行</li>
+
+<li>第6行</li>
+
+<li>第7行</li>
+
+<li>第8行</li>
+
+<li>第9行</li>
+
+<li>第10行</li>
+
+<li>第11行</li>
+
+<li>第12行</li>
+
+<li>第13行</li>
+
+<li>第14行</li>
+
+</ul>
+
+</div>
+
+<p id="footer">上拉加载更多</p>
+
+
+
+
+</body>
+
+</html>
+
+<script src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="1.js"></script> 

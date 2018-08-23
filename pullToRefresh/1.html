@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0,user-scalable=no"/>
+	<title>Document</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.outscroll {
+		position: relative;
+		width: 100%;
+		height: 100vh;
+	}
+	.header, li {
+		text-align: center;
+		margin: 5px 0px;
+	}
+	.list {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background-color: white;
+	}
+	.bottom {
+		text-align: center;
+		display: none;
+	}
+
+	.bottom.active {
+		display: block;
+	}
+	li {
+		list-style-type: none;
+		height: 30px;
+		line-height: 20px;
+		margin: 2px 10px;
+		border-radius: 5px;
+		background-color: #bebebe;
+		z-index: 333;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div class="outscroll">
+		<!-- header -->
+		<div class="header">
+			<p>下拉刷新</p>
+		</div>
+		<div class="list">
+		<ul>
+			<li>1</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>
+			<li>10</li>
+	
+			<li>1</li>
+		</ul>
+		</div>
+
+		<!-- 底部 -->
+		
+	</div>
+	<script type="text/javascript">
+
+	// 内容list
+	var list = document.getElementsByClassName('list')[0];
+
+	//外层滚动容器
+	var outscroll = document.querySelector('.outscroll');
+
+	var bottom = document.getElementsByClassName('bottom');
+
+	//记录起点 
+	var touchStart = 0;
+
+	// 绑定事件
+	
+	outscroll.addEventListener('touchstart', function (event) {
+
+		//记录初始位置的Y坐标
+		var touch= event.targetTouches[0]
+
+		touchStart = touch.pageY;
+	});
+
+	outscroll.addEventListener('touchmove', function (event) {
+		var touch = event.targetTouches[0];
+
+		//计算偏移量
+		
+		var top = list.offsetTop + touch.pageY - touchStart + "px";
+		list.style.top = top;
+
+		//记录这次的起点，防止重复累加偏移量
+		touchStart = touch.pageY;
+
+	});
+
+	outscroll.addEventListener('touchend', function (event) {
+
+		touchStart = 0;
+
+		//判断list.offsetTop是否为0，不为0，将其设置为0
+		
+
+		var top = list.offsetTop;
+
+	
+		if (top > 0) {
+			var time = setInterval(function () {
+				list.style.top = list.offsetTop - 2 + 'px';
+				if(list.offsetTop <= 0) {
+					list.style.top = 0 + 'px';
+					clearInterval(time);
+				}
+			}, 1)
+		}
+	})
+	</script>
+</body>
+</html>
