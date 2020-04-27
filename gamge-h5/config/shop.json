@@ -1,0 +1,70 @@
+[
+    {
+        "name" :"head_portrait_frame",
+        "product": [
+            {
+                "id": "1000",
+                "cost_type": 1,
+                "cost_num":25,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k1.png"
+            },
+            {
+                "id": "1001",
+                "cost_type": 1,
+                "cost_num":100,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k2.png"
+            },
+			{
+                "id": "1002",
+                "cost_type": 1,
+                "cost_num":100,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k3.png"
+            },
+            {
+                "id": "1003",
+                "cost_type": 1,
+                "cost_num":700,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k4.png"
+            },
+			{
+                "id": "1004",
+                "cost_type": 1,
+                "cost_num":700,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k5.png"
+            },
+            {
+                "id": "1005",
+                "cost_type": 1,
+                "cost_num":700,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k6.png"
+            },
+			{
+                "id": "1006",
+                "cost_type": 1,
+                "cost_num":3000,
+                "name":"ss",
+                "desc":"ss",
+				"status":1,
+                "image":"http://res.bongogames.info:8585/bongo/images/head/k7.png"
+            }
+			]
+    }
+]

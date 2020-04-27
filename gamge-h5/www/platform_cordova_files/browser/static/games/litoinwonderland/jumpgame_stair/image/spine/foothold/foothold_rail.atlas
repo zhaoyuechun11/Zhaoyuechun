@@ -1,0 +1,62 @@
+
+foothold_rail.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foothold_rail
+  rotate: false
+  xy: 2, 98
+  size: 179, 104
+  orig: 179, 104
+  offset: 0, 0
+  index: -1
+foothold_rail_side1
+  rotate: true
+  xy: 2, 5
+  size: 91, 109
+  orig: 91, 109
+  offset: 0, 0
+  index: -1
+foothold_rail_side2
+  rotate: true
+  xy: 113, 6
+  size: 90, 109
+  orig: 90, 109
+  offset: 0, 0
+  index: -1
+rail1
+  rotate: false
+  xy: 2, 356
+  size: 227, 150
+  orig: 227, 150
+  offset: 0, 0
+  index: -1
+rail1_back
+  rotate: false
+  xy: 231, 235
+  size: 154, 119
+  orig: 154, 119
+  offset: 0, 0
+  index: -1
+rail1_front
+  rotate: true
+  xy: 387, 200
+  size: 154, 119
+  orig: 154, 119
+  offset: 0, 0
+  index: -1
+rail2
+  rotate: false
+  xy: 2, 204
+  size: 227, 150
+  orig: 227, 150
+  offset: 0, 0
+  index: -1
+rail3
+  rotate: false
+  xy: 231, 356
+  size: 227, 150
+  orig: 227, 150
+  offset: 0, 0
+  index: -1

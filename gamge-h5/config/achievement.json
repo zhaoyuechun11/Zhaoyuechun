@@ -1,0 +1,84 @@
+
+{
+   "continue_login":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k1.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k2.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k3.png"},
+		{"level":4,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k4.png"},
+		{"level":5,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k5.png"},
+		{"level":6,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k6.png"},
+		{"level":7,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k7.png"}
+   ],
+   
+   "like":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k8.png"}
+   ],
+   
+   "belike":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k9.png"}
+   ],
+   
+   "use_face":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k1.png"}
+   ],
+   
+   "friend":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k2.png"}
+	
+   ],
+   
+   "game":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k3.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k4.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k5.png"},
+		{"level":4,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k6.png"},
+		{"level":5,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k7.png"},
+		{"level":6,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k7.png"},
+		{"level":7,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k7.png"}
+	
+   ],
+   
+   "game_win":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k3.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k4.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k5.png"},
+		{"level":4,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k6.png"},
+		{"level":5,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k7.png"}
+	
+   ],
+   
+   "agile_game_win":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k8.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k9.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k1.png"}
+	
+   ],
+   "brain_game_win":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k2.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k3.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k4.png"}
+	
+   ],
+   "operate_game_win":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k5.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k6.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k7.png"}
+	
+   ],
+   
+   "knowledge_game_win":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k8.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k9.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k1.png"}
+	
+   ],
+   
+    "fortune_game_win":[
+		{"level":1,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k2.png"},
+		{"level":2,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k3.png"},
+		{"level":3,"img":"http://res.bongogames.info:8585/bongo-test/touxiang/k4.png"}
+	
+   ]
+  
+   
+}

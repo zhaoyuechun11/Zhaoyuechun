@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/eruda/1.5.6/eruda.min.js"></script>
+    <script >eruda.init();</script>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="theme-color" content="#2196f3">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+  <title>Unico Live</title>
+  <!-- 加载动画样式控制 -->
+  <style type="text/css">
+    /* #Loading {
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translateY(-50%) translateX(-50%);
+      transform: translateY(-50%) translateX(-50%);
+      z-index: 100;
+    }
+
+    @-webkit-keyframes ball-beat {
+      50% {
+        opacity: 0.2;
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+      }
+
+      100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    @keyframes ball-beat {
+      50% {
+        opacity: 0.2;
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+      }
+
+      100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+    }
+
+    .ball-beat>div {
+      background-color: #5D9BFF;
+      width: 15px;
+      height: 15px;
+      border-radius: 100% !important;
+      margin: 2px;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      display: inline-block;
+      -webkit-animation: ball-beat 0.7s 0s infinite linear;
+      animation: ball-beat 0.7s 0s infinite linear;
+    }
+
+    .ball-beat>div:nth-child(2n-1) {
+      -webkit-animation-delay: 0.35s !important;
+      animation-delay: 0.35s !important;
+    } */
+  </style>
+
+  <script>
+    //var deviceName = "browser";
+    var deviceName = "android";
+
+    var isOpen = 1;//是否是开发服务和测试服务及线上服务环境s
+    switch (isOpen) {
+      /*************开发环境配置游戏列表   **************/
+      case 1:
+        document.write('<script src="http://172.31.2.229:8081/static/gameList/game_list/game_list.js?v=' + Math.random() + '"><\/script>');
+        break;
+      /******************测试配置环境**************/
+      case 2:
+        document.write('<script src="http://test.unicolive.com/gameList/game_list/game_list.js?v=' + Math.random() + '"><\/script>');
+        break;
+      default:
+        document.write('<script src="http://game.unicolive.com//gameList/game_list/game_list.js?v=' + Math.random() + '"><\/script>');
+    }
+
+    function nnlog(msg) {
+      console.log("[2019_7_24]" + msg);
+    }
+    function environment(url, interfaceName) {
+
+      switch (isOpen) {
+        case 1:
+          url = "http://120.132.101.7:8082" + interfaceName;
+          break;
+        case 2:
+          url = "http://test-api.unicolive.com" + interfaceName;
+
+          break;
+        default:
+          url = "http://game.unicolive.com" + interfaceName;
+      }
+      nnlog("环境的地址" + url);
+      return url;
+    }
+    !function (e, t) { function n() { var n = l.getBoundingClientRect().width; t = t || 540, n > t && (n = t); var i = 100 * n / e; r.innerHTML = "html{font-size:" + i + "px;}" } var i, d = document, o = window, l = d.documentElement, r = document.createElement("style"); if (l.firstElementChild) l.firstElementChild.appendChild(r); else { var a = d.createElement("div"); a.appendChild(r), d.write(a.innerHTML), a = null } n(), o.addEventListener("resize", function () { clearTimeout(i), i = setTimeout(n, 300) }, !1), o.addEventListener("pageshow", function (e) { e.persisted && (clearTimeout(i), i = setTimeout(n, 300)) }, !1), "complete" === d.readyState ? d.body.style.fontSize = "16px" : d.addEventListener("DOMContentLoaded", function (e) { d.body.style.fontSize = "16px" }, !1) }(750, 750);
+
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="fb-root"></div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cha_arm_3
+  rotate: false
+  xy: 466, 449
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+cha_arm_4
+  rotate: false
+  xy: 466, 386
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+cha_backpack_1
+  rotate: false
+  xy: 2, 4
+  size: 80, 100
+  orig: 80, 100
+  offset: 0, 0
+  index: -1
+cha_body_2
+  rotate: true
+  xy: 408, 312
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+cha_flag_1
+  rotate: false
+  xy: 2, 238
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_flag_2
+  rotate: false
+  xy: 192, 380
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_flag_3
+  rotate: false
+  xy: 2, 106
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_flag_4
+  rotate: false
+  xy: 329, 380
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_flag_5
+  rotate: true
+  xy: 139, 233
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_flag_6
+  rotate: false
+  xy: 139, 101
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_flag_7
+  rotate: false
+  xy: 271, 248
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+cha_hair_1
+  rotate: true
+  xy: 84, 44
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+cha_hair_2
+  rotate: false
+  xy: 408, 260
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+cha_head_3
+  rotate: false
+  xy: 2, 370
+  size: 188, 140
+  orig: 188, 140
+  offset: 0, 0
+  index: -1
+cha_leg_5
+  rotate: true
+  xy: 84, 2
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+cha_leg_6
+  rotate: false
+  xy: 470, 347
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1

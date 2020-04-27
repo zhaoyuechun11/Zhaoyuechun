@@ -1,0 +1,13 @@
+
+elevator_siren_red.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+siren_eff
+  rotate: false
+  xy: 2, 2
+  size: 324, 324
+  orig: 324, 324
+  offset: 0, 0
+  index: -1

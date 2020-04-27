@@ -1,0 +1,41 @@
+
+etc_message.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+go_en
+  rotate: false
+  xy: 2, 342
+  size: 416, 166
+  orig: 416, 166
+  offset: 0, 0
+  index: -1
+ready_en
+  rotate: false
+  xy: 2, 141
+  size: 361, 98
+  orig: 361, 98
+  offset: 0, 0
+  index: -1
+stage_clear_1
+  rotate: false
+  xy: 2, 241
+  size: 358, 99
+  orig: 358, 99
+  offset: 0, 0
+  index: -1
+stage_clear_2
+  rotate: false
+  xy: 2, 40
+  size: 347, 99
+  orig: 347, 99
+  offset: 0, 0
+  index: -1
+time_over_en
+  rotate: true
+  xy: 420, 7
+  size: 501, 88
+  orig: 501, 88
+  offset: 0, 0
+  index: -1

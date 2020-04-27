@@ -1,0 +1,48 @@
+cordova platform add android 时报Current working directory is not a Cordova-based project.解决方法是在根目录下新建www文件夹
+nodejs版本11.6.0
+cordova版本8.1.2
+http://localhost:8081/index.html
+cordova run browser -- --lr
+cordova build android -release
+
+E:\Games\gamge-h5\platforms\android\app\src\main\assets\www压缩成zip给android
+
+
+      /* let url = 'http://120.132.18.158:8585/sever-games';
+                     alert(url);
+                   cordova.exec(successCallback,failCallback,'SDKWrapper','downloadGame',[url,e.gameName]);
+                    function successCallback(result){
+                            if(result!=null){
+                                alert(result);
+                            }
+                    }*/
+
+
+gitLab的秘密123456789
+
+http://localhost:8081/gameList/sever-games/juicypang.zip
+
+
+https://mp.weixin.qq.com/
+ggg_w@163.com
+Nxin4UakA9LPhCu
+
+线上小程序数据库
+http://5.9.68.66/management/myadmin/index.php
+148.251.10.19
+read
+read@Avazu_318
+
+
+
+公司接口文档接口地址https://avazu1.atlassian.net/wiki/spaces/APS/pages/993361966/Tasks
+账号：network.distribution@avazu.net
+密码：avazu2014up
+
+
+
+
+
+
+邮箱地址 yuechun.zhao@unicolive.com
+密码 1234qwer!

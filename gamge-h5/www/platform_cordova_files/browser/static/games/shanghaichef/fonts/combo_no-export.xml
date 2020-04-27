@@ -1,0 +1,23 @@
+﻿<font>
+	<info face="combo_no-export" size="80" />
+	<common lineHeight="80" scaleW="178" scaleH="183" pages="1" />
+	<pages>
+		<page id="0" file="combo_no-export.png" />
+	</pages>
+	<chars count="12">
+		<char id="48" x="50" y="0" width="47" height="60" xoffset="0" yoffset="20" xadvance="48" /><!-- 0 -->
+		<char id="49" x="143" y="60" width="34" height="60" xoffset="0" yoffset="20" xadvance="35" /><!-- 1 -->
+		<char id="50" x="49" y="122" width="46" height="60" xoffset="0" yoffset="20" xadvance="47" /><!-- 2 -->
+		<char id="51" x="97" y="61" width="45" height="60" xoffset="0" yoffset="20" xadvance="46" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="49" height="60" xoffset="0" yoffset="20" xadvance="50" /><!-- 4 -->
+		<char id="53" x="98" y="0" width="45" height="59" xoffset="0" yoffset="21" xadvance="46" /><!-- 5 -->
+		<char id="54" x="0" y="122" width="48" height="60" xoffset="0" yoffset="20" xadvance="49" /><!-- 6 -->
+		<char id="55" x="96" y="122" width="46" height="59" xoffset="0" yoffset="21" xadvance="47" /><!-- 7 -->
+		<char id="56" x="49" y="61" width="47" height="60" xoffset="0" yoffset="20" xadvance="48" /><!-- 8 -->
+		<char id="57" x="0" y="61" width="48" height="60" xoffset="0" yoffset="20" xadvance="49" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

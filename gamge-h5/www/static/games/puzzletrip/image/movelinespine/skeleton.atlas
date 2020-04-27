@@ -1,0 +1,13 @@
+
+skeleton.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_move_effect
+  rotate: false
+  xy: 2, 2
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1

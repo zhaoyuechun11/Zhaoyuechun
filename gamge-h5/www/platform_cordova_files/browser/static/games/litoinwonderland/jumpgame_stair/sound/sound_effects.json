@@ -1,0 +1,133 @@
+{
+  "spritemap": {
+    "sound_100": {
+      "start": 0,
+      "end": 1.947219
+    },
+    "sound_1000": {
+      "start": 2.29175,
+      "end": 5.022656
+    },
+    "sound_50": {
+      "start": 5.367188,
+      "end": 7.497281
+    },
+    "sound_allclear": {
+      "start": 7.841813,
+      "end": 11.304156
+    },
+    "sound_bgm": {
+      "start": 11.648688,
+      "end": 72.606531
+    },
+    "sound_birdhit": {
+      "start": 72.951063,
+      "end": 73.383188
+    },
+    "sound_birdout": {
+      "start": 73.727719,
+      "end": 74.656156
+    },
+    "sound_bonusblock": {
+      "start": 75.000688,
+      "end": 76.242594
+    },
+    "sound_clear": {
+      "start": 76.587125,
+      "end": 79.213531
+    },
+    "sound_dangling": {
+      "start": 79.558063,
+      "end": 80.460406
+    },
+    "sound_dark": {
+      "start": 80.804938,
+      "end": 81.550531
+    },
+    "sound_falling": {
+      "start": 81.895063,
+      "end": 85.409625
+    },
+    "sound_feverappear": {
+      "start": 85.754156,
+      "end": 87.335656
+    },
+    "sound_feverget": {
+      "start": 87.680188,
+      "end": 88.869875
+    },
+    "sound_fevermode": {
+      "start": 89.214406,
+      "end": 91.448969
+    },
+    "sound_fevertext": {
+      "start": 91.7935,
+      "end": 93.662344
+    },
+    "sound_firework2": {
+      "start": 95.906781,
+      "end": 97.096469
+    },
+    "sound_firework3": {
+      "start": 97.441,
+      "end": 98.630688
+    },
+    "sound_flap": {
+      "start": 98.975219,
+      "end": 99.773063
+    },
+    "sound_gameover": {
+      "start": 100.117594,
+      "end": 103.188094
+    },
+    "sound_gauge": {
+      "start": 103.532625,
+      "end": 103.703531
+    },
+    "sound_help": {
+      "start": 104.048063,
+      "end": 105.054875
+    },
+    "sound_hit": {
+      "start": 105.399406,
+      "end": 106.458469
+    },
+    "sound_jump": {
+      "start": 106.803,
+      "end": 107.15675
+    },
+    "sound_newblock": {
+      "start": 107.501281,
+      "end": 108.142375
+    },
+    "sound_newtheme": {
+      "start": 108.486906,
+      "end": 110.66925
+    },
+    "sound_perfect": {
+      "start": 111.013781,
+      "end": 112.020594
+    },
+    "sound_start": {
+      "start": 112.365125,
+      "end": 114.547469
+    },
+    "sound_wallhit": {
+      "start": 114.892,
+      "end": 115.794344
+    },
+    "sound_watchout": {
+      "start": 116.138875,
+      "end": 116.884469
+    },
+    "sound_firework1": {
+      "start": 117.229,
+      "end": 118.784375
+    }
+  },
+  "resources": [
+    "sound_effects.wav",
+    "sound_effects.ogg",
+    "sound_effects.mp3"
+  ]
+}

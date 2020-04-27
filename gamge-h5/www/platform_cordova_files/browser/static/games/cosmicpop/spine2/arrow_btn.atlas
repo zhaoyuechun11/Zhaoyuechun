@@ -1,0 +1,62 @@
+
+arrow_btn.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow_icon
+  rotate: false
+  xy: 2, 2
+  size: 122, 90
+  orig: 122, 90
+  offset: 0, 0
+  index: -1
+btn_back
+  rotate: false
+  xy: 2, 344
+  size: 167, 156
+  orig: 167, 156
+  offset: 0, 0
+  index: -1
+btn_circle
+  rotate: false
+  xy: 2, 219
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+btn_circle_eff_2
+  rotate: false
+  xy: 171, 377
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+btn_circle_eff_3
+  rotate: false
+  xy: 2, 94
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+btn_circle_eff_4
+  rotate: false
+  xy: 297, 377
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+dummy_text
+  rotate: true
+  xy: 423, 402
+  size: 98, 57
+  orig: 98, 57
+  offset: 0, 0
+  index: -1
+left
+  rotate: true
+  xy: 128, 262
+  size: 80, 56
+  orig: 80, 56
+  offset: 0, 0
+  index: -1

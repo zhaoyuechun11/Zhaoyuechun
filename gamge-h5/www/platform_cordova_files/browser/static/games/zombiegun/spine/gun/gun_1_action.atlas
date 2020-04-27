@@ -1,0 +1,83 @@
+
+gun_1_action.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gun_fire_1
+  rotate: false
+  xy: 899, 1695
+  size: 228, 198
+  orig: 228, 198
+  offset: 0, 0
+  index: -1
+gun_fire_2
+  rotate: false
+  xy: 2, 2
+  size: 166, 143
+  orig: 166, 143
+  offset: 0, 0
+  index: -1
+hand_gun_1
+  rotate: false
+  xy: 2, 1458
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_2
+  rotate: false
+  xy: 2, 1021
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_3
+  rotate: false
+  xy: 301, 1458
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_4
+  rotate: false
+  xy: 2, 584
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_5
+  rotate: false
+  xy: 301, 1021
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_6
+  rotate: false
+  xy: 600, 1458
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_7
+  rotate: false
+  xy: 2, 147
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_8_1
+  rotate: false
+  xy: 301, 584
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1
+hand_gun_8_2
+  rotate: false
+  xy: 600, 1021
+  size: 297, 435
+  orig: 297, 435
+  offset: 0, 0
+  index: -1

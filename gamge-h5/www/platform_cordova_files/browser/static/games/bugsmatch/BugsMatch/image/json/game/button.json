@@ -1,0 +1,20 @@
+{"frames": {
+
+"timebar_button.png":
+{
+	"frame": {"x":1,"y":1,"w":87,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":87},
+	"sourceSize": {"w":87,"h":87}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "button.png",
+	"format": "RGBA8888",
+	"size": {"w":89,"h":89},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e541b360c80593e07ce31529a2e0d477:c8efa75acd2936a243f6ac5df77a6885:c39245c3a59c1712d97d26c862b4cbc5$"
+}
+}

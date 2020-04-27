@@ -1,0 +1,118 @@
+
+buster_bubble.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb-05-1
+  rotate: false
+  xy: 2, 796
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+bomb-05-2
+  rotate: false
+  xy: 2, 589
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+bomb-05-3
+  rotate: false
+  xy: 192, 796
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+bomb-05-4
+  rotate: false
+  xy: 2, 382
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+bomb-05-5
+  rotate: false
+  xy: 192, 589
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+bomb-05-6
+  rotate: false
+  xy: 382, 796
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+bubble_eff
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+buster_1
+  rotate: false
+  xy: 2, 217
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_2
+  rotate: false
+  xy: 192, 424
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_3
+  rotate: false
+  xy: 382, 631
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_4
+  rotate: false
+  xy: 572, 838
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_5
+  rotate: false
+  xy: 2, 52
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_6
+  rotate: false
+  xy: 737, 838
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_7
+  rotate: false
+  xy: 192, 259
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_8
+  rotate: false
+  xy: 167, 94
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+buster_9
+  rotate: false
+  xy: 382, 466
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1

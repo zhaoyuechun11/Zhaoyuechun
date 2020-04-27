@@ -1,0 +1,90 @@
+
+btn_check_ani.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: false
+  xy: 216, 5
+  size: 139, 133
+  orig: 139, 133
+  offset: 0, 0
+  index: -1
+btn_white
+  rotate: false
+  xy: 216, 140
+  size: 232, 114
+  orig: 232, 114
+  offset: 0, 0
+  index: -1
+particle-eff-01
+  rotate: true
+  xy: 357, 22
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+particle-eff-02
+  rotate: false
+  xy: 870, 145
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+particle-eff-03
+  rotate: false
+  xy: 468, 84
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+particle-eff-04
+  rotate: false
+  xy: 586, 84
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+particle-eff-05
+  rotate: false
+  xy: 704, 84
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+text_30sec
+  rotate: false
+  xy: 450, 195
+  size: 208, 59
+  orig: 208, 59
+  offset: 0, 0
+  index: -1
+text_30sec_white
+  rotate: false
+  xy: 660, 195
+  size: 208, 59
+  orig: 208, 59
+  offset: 0, 0
+  index: -1
+watch
+  rotate: false
+  xy: 2, 7
+  size: 212, 247
+  orig: 212, 247
+  offset: 0, 0
+  index: -1
+watch_2
+  rotate: false
+  xy: 468, 8
+  size: 75, 74
+  orig: 75, 74
+  offset: 0, 0
+  index: -1
+watch_3
+  rotate: false
+  xy: 357, 2
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1

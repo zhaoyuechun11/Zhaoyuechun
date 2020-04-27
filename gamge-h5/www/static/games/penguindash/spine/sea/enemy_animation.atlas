@@ -1,0 +1,160 @@
+
+enemy_animation.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb-04-3
+  rotate: false
+  xy: 2, 87
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+character_1
+  rotate: true
+  xy: 379, 186
+  size: 68, 87
+  orig: 68, 87
+  offset: 0, 0
+  index: -1
+character_2
+  rotate: true
+  xy: 94, 13
+  size: 72, 92
+  orig: 72, 92
+  offset: 0, 0
+  index: -1
+character_4
+  rotate: true
+  xy: 191, 82
+  size: 66, 85
+  orig: 66, 85
+  offset: 0, 0
+  index: -1
+character_fallen_1
+  rotate: false
+  xy: 411, 34
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+character_fallen_2
+  rotate: false
+  xy: 278, 68
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+character_fallen_3
+  rotate: false
+  xy: 433, 64
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+character_fallen_4
+  rotate: false
+  xy: 263, 18
+  size: 53, 48
+  orig: 53, 48
+  offset: 0, 0
+  index: -1
+eff-01-1
+  rotate: true
+  xy: 188, 27
+  size: 53, 73
+  orig: 53, 73
+  offset: 0, 0
+  index: -1
+eff-01-2
+  rotate: false
+  xy: 278, 118
+  size: 53, 73
+  orig: 53, 73
+  offset: 0, 0
+  index: -1
+enemy_1
+  rotate: true
+  xy: 271, 193
+  size: 61, 106
+  orig: 61, 106
+  offset: 0, 0
+  index: -1
+enemy_1_arm
+  rotate: false
+  xy: 384, 27
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+enemy_1_death
+  rotate: false
+  xy: 191, 150
+  size: 78, 104
+  orig: 78, 104
+  offset: 0, 0
+  index: -1
+enemy_2
+  rotate: false
+  xy: 333, 63
+  size: 51, 61
+  orig: 51, 61
+  offset: 0, 0
+  index: -1
+enemy_2_2
+  rotate: false
+  xy: 2, 2
+  size: 90, 83
+  orig: 90, 83
+  offset: 0, 0
+  index: -1
+enemy_2_tale
+  rotate: false
+  xy: 378, 128
+  size: 63, 56
+  orig: 63, 56
+  offset: 0, 0
+  index: -1
+hall
+  rotate: true
+  xy: 333, 126
+  size: 65, 43
+  orig: 65, 43
+  offset: 0, 0
+  index: -1
+hall_cap_1
+  rotate: true
+  xy: 386, 54
+  size: 72, 45
+  orig: 72, 45
+  offset: 0, 0
+  index: -1
+hall_cap_2
+  rotate: false
+  xy: 443, 114
+  size: 45, 70
+  orig: 45, 70
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 318, 25
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+muffler
+  rotate: true
+  xy: 363, 32
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 468, 191
+  size: 63, 38
+  orig: 63, 38
+  offset: 0, 0
+  index: -1

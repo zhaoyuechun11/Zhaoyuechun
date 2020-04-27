@@ -1,0 +1,57 @@
+/*
+@font-face {
+    font-family: 'Amatica SC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amatica SC'),
+    local('AmaticaSC-Regular'),
+    url(fonts/amaticasc-regular.ttf) format('truetype');
+}
+*/
+/*
+@font-face {
+    font-family: 'Amatica SC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amatica SC'), url(https://fonts.gstatic.com/s/amaticasc/v1/r4IyjqPgTL10SERuDuUzpAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+}
+*/
+
+/* 폰트지연로딩
+let font = new FontFaceObserver('Amatica SC');
+font.load().then(function () {
+game.add.text(0, 0, 'Lorem ipsum', {
+    font: '12px Amatica SC',
+    fill: '#fff'
+});
+}
+*/
+
+
+/*@font-face {*/
+    /*font-family: 'Conv_PassionOne-Regular';*/
+    /*src: url("../font/PassionOne-Regular.eot");*/
+    /*src: url("../font/PassionOne-Regular.eot?#iefix") format("embedded-opentype"),*/
+    /*url("../font/PassionOne-Regular.woff") format("woff");*/
+    /*font-weight: 100;*/
+    /*font-style: normal;*/
+/*}*/
+
+@font-face {
+    font-family: 'Conv_FZHPFW_GB1';
+    src: url("../font/FZHPFW_GB1.eot");
+    src: url("../font/FZHPFW_GB1.eot?#iefix") format("embedded-opentype"),
+    url("../font/FZHPFW_GB1.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*@font-face {*/
+    /*font-family: 'Conv_FZHPFW--GB1-0';*/
+    /*src: url('../font/FZHPFW_GB1.eot'); !* IE9 Compat Modes *!*/
+    /*src: url('../font/FZHPFW_GB1.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+    /*!* url('../font/FZHPFW_GB1.woff2') format('woff2'), Super Modern Browsers *!*/
+    /*url('../font/FZHPFW_GB1.woff') format('woff'), !* Pretty Modern Browsers *!*/
+    /*url('../font/FZHPFW_GB1.ttf')  format('truetype'), !* Safari, Android, iOS *!*/
+    /*url('../font/FZHPFW_GB1.svg#svgFontName') format('svg'); !* Legacy iOS *!*/
+/*}*/

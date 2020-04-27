@@ -1,0 +1,46 @@
+
+ #loading{
+    position: fixed;
+     z-index: 998;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(0,0,0,.3);
+  }
+.a-loading {
+    &-android {
+        animation: rotate 1s linear infinite;
+        transform-origin: center center;
+        >circle {
+            display: inline-block;
+            animation: dash 1500ms ease-in-out infinite;
+            stroke-linecap: round; 
+            color: currentColor;
+        }
+      
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+      
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+            }
+
+            50% {
+                stroke-dasharray: 100, 200;
+                stroke-dashoffset: -45;
+            }
+
+            100% {
+                stroke-dasharray: 100, 200;
+                stroke-dashoffset: -124;
+            }
+        }
+    }
+}
+
+

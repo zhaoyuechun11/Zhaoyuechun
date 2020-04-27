@@ -1,0 +1,451 @@
+body {
+    font-size: 0.12rem;
+  }
+  .activeClass {
+    background-color: #dfa6ff;
+  }
+  .md .block {
+    margin: 0;
+    padding: 0;
+  }
+  .page-content {
+    padding: 0;
+  }
+  .wrapContent {
+    // margin: 0;
+    padding: 0 20px;
+    background-image: url("../../static/images/bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+  }
+  .back {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  .back  .head_title{
+    color: #fff;
+    margin-left: 0.2rem;
+  }
+  .game_name {
+    color: #fff;
+    margin-left: 5px;
+    padding: 5px 0;
+  }
+
+  .back img {
+    width: 12px;
+    height: 19px;
+    vertical-align: sub;
+  }
+  .game_list {
+    display: flex;
+    overflow-x: hidden;
+  }
+  .game-card .card-header {
+    overflow: hidden;
+    background-size: contain;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 10px;
+    background-position: center;
+    height: 64px;
+    width: 64px;
+    border: 3px solid #dfa6ff;
+  }
+  .game-card .active {
+    border: 3px solid #ffffff;
+  }
+  .game-card {
+    transition-property: transform;
+    transform: scale(1) !important;
+    transition-duration: 0.1s;
+    border-radius: 10px !important;
+  }
+  
+  .game-card .card-header:after {
+    content: none;
+  }
+  .game-card .card-footer:before {
+    content: none;
+  }
+  .md .card {
+    margin: 0;
+    margin-right: 15px;
+  }
+  .text-effect {
+    backface-visibility: visible !important;
+    animation-name: rotate-hor-center;
+    animation-duration: 0.8s;
+  }
+  @keyframes rotate-hor-center {
+    from {
+      transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+  
+    40% {
+      transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+      animation-timing-function: ease-in;
+    }
+  
+    60% {
+      transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+      opacity: 1;
+    }
+  
+    80% {
+      transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+  
+    to {
+      transform: perspective(400px);
+    }
+  }
+  .btn_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+  }
+  .btn {
+    width: 46%;
+    height: 34px;
+    display: inline-block;
+    background-color: #939292;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 5px;
+  }
+  .selected {
+    background-color: #0084ff;
+  }
+  .ranInfoBox{
+    margin-top: 0.4rem;
+  }
+  .top_tree {
+    background-image: url("../../static/images/topThree.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 4rem;
+  }
+  .top_tree_flex {
+    color: #fff;
+  }
+  .top_tree_flex_item {
+    text-align: center;
+    display: inline-block;
+    width: 2.25rem;
+    margin: 0 auto;
+    position: relative;
+    top: -0.4rem;
+  }
+  .onlyOne{
+    left: 32%;
+  }
+  .third_item_name {
+    position: relative;
+    top: -10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+  }
+  .top_tree_flex_item .head_img {
+    position: relative;
+    top: -0.08rem;
+  }
+  .last_item .head_img {
+    position: relative;
+    top: -5px;
+  }
+  .first_item {
+    position: relative;
+    padding: 0 0.2rem 0 0;
+    top: -0.4rem;
+  }
+  .first_item .head_img {
+    position: relative;
+    top: -10px;
+  }
+  .first_item_name {
+    position: relative;
+    top: -6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+  }
+  .last_item_name {
+    position: relative;
+    top: -6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .second_item {
+    position: relative;
+    top: -1.1rem;
+  }
+  .top_tree_flex_item .head_img::before {
+    width: 25px;
+    height: 23px;
+    display: block;
+    position: absolute;
+    content: "";
+  }
+  .second_item .head_img::before {
+    background: url("../../static/images/cold_crown.png") no-repeat center;
+    background-size: contain;
+    top: -0.2rem;
+    left: 1.3rem;
+  }
+  .last_item .head_img::before {
+    background: url("../../static/images/copper_crown.png") no-repeat center;
+    background-size: contain;
+    left: 1.1rem;
+    top: -0.2rem;
+  }
+  .first_item .head_img::before {
+    background: url("../../static/images/greater.png") no-repeat center;
+    background-size: contain;
+    left: 1.13rem;
+    top: -0.2rem;
+  }
+  
+  .nicheng_img {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+  }
+  .second_item .head_img img {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.7rem;
+  }
+  .first_item .head_img img {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+  }
+  .head_img img {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+  }
+ 
+  .last_item {
+    position: relative;
+    top: 0.2rem;
+    padding: 0 0 0 0.2rem;
+  }
+  .winning {
+    color: #767676;
+  }
+  .top_tree .star {
+    width: 30px;
+    height: 30px;
+  }
+  .rank_list .star {
+    width: 15px;
+    height: 15px;
+  }
+  .score {
+    color: #fd4a89;
+  }
+ 
+  .white {
+    background-image: url("../../static/images/whiteBg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 4.3rem;
+    position: relative;
+    top: -0.9rem;
+    padding-top: 20px;
+    padding-bottom: 0.4rem;
+  }
+  .rank_list {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+    font-size: 12px;
+  }
+  .nicheng_win_box {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  .rankNum {
+    margin-right: 0.1rem;
+    color: #000;
+    font-size: 15px;
+    width: 0.5rem;
+    text-align: center;
+  }
+  .footer .rankNum{
+    width: 1rem;
+  }
+  .num_four {
+    padding: 40px 10px 10px;
+  }
+  .plus {
+    padding: 0 5px;
+    width: 0.3rem;
+  }
+  .topTreeFollow img{
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+  .follow{
+    margin-right: 0.1rem;
+  }
+  .follow img{
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+  .live {
+    width: 61px;
+  }
+  .minus_wrap {
+    margin-right: 5px;
+  }
+  .nicheng {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 1.5rem;
+  }
+  .minus {
+    width: 0.2rem;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 1.2rem;
+    border-top: 4px solid #523590;
+  }
+  .top_tree_flex .live_box{
+    width: 1rem;
+    background-color: #7a6ad5;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+.live_box{
+  width: 1rem;
+  background-color: #7a6ad5;
+  border-radius: 0.3rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+}
+.k-line {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+}
+ .k-line2-1 {
+  animation: k-loadingA 1.5s 0s infinite;
+}
+.k-line2-2 {
+  animation: k-loadingA 1.5s .5s infinite;
+}
+.k-line2-3 {
+  animation: k-loadingA 1.5s 1s infinite;
+}
+@keyframes k-loadingA {
+  0 {
+      height: 3px
+  }
+
+  50% {
+      height: 6px
+  }
+
+  100% {
+      height: 9px
+  }
+}
+.afterFourthScore * ,.arrSelfRank *{  
+  vertical-align:middle;  
+}  
+.warnMessage{
+  margin-right: 0.5rem;
+}
+
+
+//chenwei8.9
+.gift-box{
+  position: absolute;
+  right: 8vw;
+  bottom: 20vw;
+  .gift-img{
+    width: 12vw;
+    height: 12vw;
+  }
+}
+
+.modal-pages{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  .success-page{
+    width: 80vw;
+    border: 1px solid #000;
+    border-radius: 4vw; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0vw 4vw;
+    box-sizing: border-box;
+    background: #fff;
+    .page-title{
+      width: 100%;
+      text-align: center;
+      font-size: 4vw;
+      font-family: 'DroidSans';
+      font-weight: 400;
+    }
+    .page-content{
+      font-size: 3.5vw;
+      font-family: 'DroidSans';
+    }
+    .page-awared{
+      font-size: 5vw;
+      text-align: center;
+      padding-top: 1vw;
+      font-family: 'DroidSans';
+    }
+    .page-confirm{
+      width: 30vw;
+      padding: 1vw 0vw 1vw; 
+      margin: 4vw auto;
+      text-align: center;
+      background: #0084ff;
+      box-sizing: border-box;
+      color: #fff;
+      font-size: 3.5vw;
+      border-radius: 1vw; 
+      font-family: 'DroidSans';
+    }
+    .page-confirm:hover{
+      opacity: 0.7;
+    }
+  }
+}

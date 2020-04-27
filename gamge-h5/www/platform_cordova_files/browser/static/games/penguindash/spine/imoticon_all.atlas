@@ -1,0 +1,48 @@
+
+imoticon_all.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add_1
+  rotate: true
+  xy: 71, 50
+  size: 17, 46
+  orig: 17, 46
+  offset: 0, 0
+  index: -1
+add_2
+  rotate: false
+  xy: 2, 2
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+add_5
+  rotate: false
+  xy: 71, 69
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+add_6
+  rotate: false
+  xy: 68, 7
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+add_7
+  rotate: false
+  xy: 35, 2
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+text_balloon
+  rotate: false
+  xy: 2, 50
+  size: 67, 64
+  orig: 67, 64
+  offset: 0, 0
+  index: -1

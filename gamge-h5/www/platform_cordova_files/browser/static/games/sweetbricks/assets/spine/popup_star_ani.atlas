@@ -1,0 +1,48 @@
+
+popup_star_ani.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+result_clear
+  rotate: false
+  xy: 2, 772
+  size: 474, 146
+  orig: 474, 146
+  offset: 0, 0
+  index: -1
+result_perfect
+  rotate: true
+  xy: 2, 269
+  size: 501, 117
+  orig: 501, 117
+  offset: 0, 0
+  index: -1
+result_stage
+  rotate: false
+  xy: 478, 801
+  size: 440, 117
+  orig: 440, 117
+  offset: 0, 0
+  index: -1
+start_star_1
+  rotate: false
+  xy: 121, 452
+  size: 153, 149
+  orig: 153, 149
+  offset: 0, 0
+  index: -1
+start_star_2
+  rotate: false
+  xy: 121, 603
+  size: 179, 167
+  orig: 179, 167
+  offset: 0, 0
+  index: -1
+start_star_3
+  rotate: false
+  xy: 302, 621
+  size: 152, 149
+  orig: 152, 149
+  offset: 0, 0
+  index: -1

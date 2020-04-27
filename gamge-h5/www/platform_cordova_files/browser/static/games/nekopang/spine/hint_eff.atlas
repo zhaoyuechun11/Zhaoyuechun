@@ -1,0 +1,62 @@
+
+hint_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_1
+  rotate: false
+  xy: 2, 314
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_2
+  rotate: false
+  xy: 2, 210
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_3
+  rotate: false
+  xy: 105, 314
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_4
+  rotate: false
+  xy: 2, 106
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_5
+  rotate: false
+  xy: 105, 210
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_6
+  rotate: false
+  xy: 208, 314
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_7
+  rotate: false
+  xy: 2, 2
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+eff_8
+  rotate: false
+  xy: 105, 106
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1

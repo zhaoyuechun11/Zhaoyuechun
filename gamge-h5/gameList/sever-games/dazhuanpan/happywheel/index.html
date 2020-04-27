@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        @font-face { 
+            font-family: 'MyText'; 
+            src:url('./font/DroidSansFallback.ttf') ; 
+        }
+        html, body {
+            -ms-touch-action: none;
+            font-family: "MyText";
+            background: #ffffff;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        .a-loading-android{
+            animation: rotate 2s linear infinite;
+            transform-origin: center center;
+        }
+
+        circle {
+            display: inline-block;
+            animation: dash 1500ms ease-in-out infinite;
+            stroke-linecap: round;
+            color: currentColor;
+        }
+  
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+      
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+            }
+
+            50% {
+                stroke-dasharray: 100, 200;
+                stroke-dashoffset: -45;
+            }
+
+            100% {
+                stroke-dasharray: 100, 200;
+                stroke-dashoffset: -124;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="30"
+         data-content-width="1080"
+         data-content-height="1920"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <div id="jindu" style='background: #fff;position: relative;height: 100%;width: 100%'>
+        <!--<div style='background: #132957;position: absolute;height: 100%;width: 70%;left:50%;top:50%;transform: translate(-50%, -50%);'>
+            <div style='width: 100%;height: 30px;background: #999;border-radius: 40px;position: absolute;left:50%;top:50%;transform: translate(-50%, -50%);z-index: 10;'></div>
+            <div id="tiao" style='width: 15%;height: 30px;background: blue;border-radius: 40px;position: absolute;left:0%;top:50%;transform: translate(0%, -50%);z-index: 12;'></div>
+            <img id="logo" src="resource/assets/loading02.png" style="position: absolute;left:20%;top:50%;transform: translate(-50%, -50%) scale(0.01,0.01);display:none;z-index: 12;"></>
+            <img id="word" src="resource/assets/zhuye002.png" style="position: absolute;left:50%;top:50%;transform: translate(-50%, -50%) scale(0.01,0.01);z-index: 12;"></>
+        </div>-->
+        <div id="a" style='position: absolute;height: 100%;width: 70%;left:50%;top:50%;transform: translate(-50%, -50%);'>
+            <div id="b" style='position: absolute;height: 36px;width: 36px;left:50%;top:50%;transform: translate(-50%, -50%);'>
+                <svg width="36" height="36" viewBox="0 0 50 50" class="a-loading-android" style="position: absolute;">
+                    <circle id="c" cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle>
+                </svg>
+            </div>
+        </div>
+    </div>
+<script>
+    var hh=window.innerHeight;
+    var ww=window.innerWidth;
+    console.log("size:",ww,hh);
+    // let word= document.getElementById("word");
+    // let logo= document.getElementById("logo");
+    //     var myTween = TweenLite.to(word, 2, {
+    //         scaleX:.5,
+    //         scaleY:.5,
+    //         rotation:-720,
+    //         onComplete:()=>{
+    //             logo.x=word.x-20;
+    //             logo.style.display="block";
+    //             TweenLite.to(logo, 0.5,{
+    //                 scaleX:0.3,
+    //                 scaleY:0.3,
+    //                 onComplete:()=>{
+    //                     TweenLite.to(logo, 0.5,{
+    //                         scaleX:0.25,
+    //                         scaleY:0.25
+    //                     });
+    //                 }
+    //             });
+    //             TweenLite.to(word, 0.5,{
+    //                 x:-80
+    //             });
+    //         }
+    //     });
+
+    function setJindu(percent){
+      //  document.getElementById("tiao").style.width=percent+"%";
+    }
+    function hideJindu(percent){
+      document.getElementById("jindu").style.display="none";
+    }
+    function showLoading(){
+        document.getElementById("jindu").style.background="#000";
+        document.getElementById("jindu").style.opacity="0.5";
+        document.getElementById("c").setAttribute("stroke", "white");
+        document.getElementById("jindu").style.display="block";
+    }
+    function hideLoading(){
+        document.getElementById("jindu").style.display="none";
+    }
+
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({ renderMode: "canvas", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 1;
+                return (window.devicePixelRatio || 1) / backingStore;
+            }});
+        });
+    });
+    xhr.send(null);
+</script>
+</body>
+
+</html>

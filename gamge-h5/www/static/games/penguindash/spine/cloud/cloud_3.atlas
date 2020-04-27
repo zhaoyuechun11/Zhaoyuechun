@@ -1,0 +1,13 @@
+
+cloud_3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud
+  rotate: false
+  xy: 2, 2
+  size: 351, 372
+  orig: 351, 372
+  offset: 0, 0
+  index: -1

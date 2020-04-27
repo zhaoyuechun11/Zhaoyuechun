@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Sweet Bricks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+
+	<script src="library/jquery-3.1.1.min.js"></script>
+
+
+
+	<script src="js_lib/phaser.js"></script>
+	<script src="js_lib/phaser-nineslice.js"></script>
+	<script src="js_lib/TweenMax.min.js"></script>
+	<script src="js_lib/phaser-spine.js"></script>
+
+
+</head>
+<style>
+    @import url(css/font.css);
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: #000000;
+
+		font-family: '';
+	}
+	canvas {
+		margin:0 auto;
+	}
+	#turn{
+		width:100%;
+		height:100%;
+		position:fixed;
+		top:0px;
+		left:0px;
+		background-color:#2e85ed;
+		background-image:url('assets/png/rotate.png');
+		background-repeat:no-repeat;
+		background-position: center center;
+		display:none;
+	}
+</style>
+<body style="padding:0; margin: 0; overflow:hidden;"> <!--width:auto;-->
+	<!--
+	<script> var console = { log: function() {} }; </script>
+	-->
+<script src="../add_js/netbase.js"></script>
+<script src="js/Common.js"></script>
+
+	<script src="js/NetworkManager.js"></script>
+	<script src="js/HeartController.js"></script>
+	<script src="js/NaverShop.js"></script>
+
+	<script src="js/Levels.js"></script>
+	<script src="js/AtlasMp3.js"></script>
+	<script src="js/Utiljs.js"></script>
+	<script src="js/Utilph.js"></script>
+
+	<script src="js/NetInit.js"></script>
+	<script src="js/CreateUI.js"></script>
+	<script src="js/NetSocket.js"></script>
+
+	<script src="js/game/Utilities.js"></script>
+	<script src="js/game/LoadState.js"></script>
+	<script src="js/game/MenuState.js"></script>
+	<script src="js/game/PlayerController.js"></script>
+	<script src="js/game/PowerupController.js"></script>
+	<script src="js/game/MassiveController.js"></script>
+	<script src="js/game/BGController.js"></script>
+	<script src="js/game/UIController.js"></script>
+	<script src="js/game/GameState.js"></script>
+
+	<script src="js/game/IndexGame.js"></script>
+
+
+
+
+<!--
+
+	<script src = "movilib.js"></script>
+
+	<script src="../add_js/netbase.js"></script>
+
+	<script src = "movisrc.js"></script>
+
+-->
+
+
+
+	<div id="gameContainer"></div>
+	<div id = "turn" display="none"></div>
+
+</body>
+</html>
+	

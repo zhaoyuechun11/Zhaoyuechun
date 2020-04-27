@@ -1,0 +1,612 @@
+{"frames": {
+
+"game_tutorial1_1.png":
+{
+	"frame": {"x":753,"y":705,"w":241,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":3,"w":241,"h":56},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_2.png":
+{
+	"frame": {"x":414,"y":1845,"w":93,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":6,"w":93,"h":54},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_3.png":
+{
+	"frame": {"x":793,"y":472,"w":144,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":6,"w":144,"h":53},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_4.png":
+{
+	"frame": {"x":497,"y":1901,"w":101,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":94,"y":6,"w":101,"h":53},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_5.png":
+{
+	"frame": {"x":878,"y":1795,"w":96,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":8,"w":96,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_6.png":
+{
+	"frame": {"x":354,"y":1902,"w":141,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":6,"w":141,"h":54},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_7.png":
+{
+	"frame": {"x":210,"y":1902,"w":142,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":5,"w":142,"h":55},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_8.png":
+{
+	"frame": {"x":210,"y":1845,"w":202,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":5,"w":202,"h":55},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_9.png":
+{
+	"frame": {"x":752,"y":1845,"w":242,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":10,"w":242,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_10.png":
+{
+	"frame": {"x":313,"y":1747,"w":281,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":10,"w":281,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_11.png":
+{
+	"frame": {"x":746,"y":763,"w":246,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":10,"w":246,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_12.png":
+{
+	"frame": {"x":746,"y":813,"w":243,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":10,"w":243,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_13.png":
+{
+	"frame": {"x":1,"y":1795,"w":281,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":10,"w":281,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_14.png":
+{
+	"frame": {"x":596,"y":1795,"w":280,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":10,"w":280,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_15.png":
+{
+	"frame": {"x":752,"y":1845,"w":242,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":10,"w":242,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_16.png":
+{
+	"frame": {"x":313,"y":1747,"w":281,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":10,"w":281,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_17.png":
+{
+	"frame": {"x":746,"y":763,"w":246,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":10,"w":246,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_18.png":
+{
+	"frame": {"x":746,"y":813,"w":243,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":10,"w":243,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_19.png":
+{
+	"frame": {"x":1,"y":1795,"w":281,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":10,"w":281,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_20.png":
+{
+	"frame": {"x":596,"y":1795,"w":280,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":10,"w":280,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_21.png":
+{
+	"frame": {"x":497,"y":1956,"w":131,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":11,"w":131,"h":47},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_22.png":
+{
+	"frame": {"x":814,"y":1,"w":170,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":11,"w":170,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_23.png":
+{
+	"frame": {"x":284,"y":1797,"w":135,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":77,"y":11,"w":135,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_24.png":
+{
+	"frame": {"x":600,"y":1896,"w":131,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":11,"w":131,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_25.png":
+{
+	"frame": {"x":814,"y":49,"w":170,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":11,"w":170,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_26.png":
+{
+	"frame": {"x":814,"y":97,"w":169,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":11,"w":169,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_27.png":
+{
+	"frame": {"x":630,"y":1945,"w":129,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":81,"y":12,"w":129,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_28.png":
+{
+	"frame": {"x":814,"y":145,"w":167,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":12,"w":167,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_29.png":
+{
+	"frame": {"x":421,"y":1797,"w":132,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":12,"w":132,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_30.png":
+{
+	"frame": {"x":761,"y":1945,"w":129,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":12,"w":129,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_31.png":
+{
+	"frame": {"x":793,"y":375,"w":167,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":12,"w":167,"h":46},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_32.png":
+{
+	"frame": {"x":793,"y":423,"w":166,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":11,"w":166,"h":47},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_33.png":
+{
+	"frame": {"x":509,"y":1845,"w":241,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":9,"w":241,"h":49},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_34.png":
+{
+	"frame": {"x":752,"y":1895,"w":238,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":9,"w":238,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_35.png":
+{
+	"frame": {"x":746,"y":863,"w":243,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":10,"w":243,"h":48},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial1_36.png":
+{
+	"frame": {"x":354,"y":1958,"w":118,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":12,"w":118,"h":45},
+	"sourceSize": {"w":287,"h":73}
+},
+"game_tutorial2_1.png":
+{
+	"frame": {"x":1,"y":115,"w":402,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":26,"w":402,"h":94},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_2.png":
+{
+	"frame": {"x":1,"y":319,"w":394,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":19,"w":394,"h":103},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_3.png":
+{
+	"frame": {"x":405,"y":168,"w":394,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":16,"w":394,"h":106},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_4.png":
+{
+	"frame": {"x":397,"y":382,"w":394,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":19,"w":394,"h":103},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_5.png":
+{
+	"frame": {"x":1,"y":211,"w":394,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":16,"w":394,"h":106},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_6.png":
+{
+	"frame": {"x":1,"y":424,"w":394,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":21,"w":394,"h":101},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_7.png":
+{
+	"frame": {"x":397,"y":276,"w":394,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":394,"h":104},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_8.png":
+{
+	"frame": {"x":1,"y":1845,"w":207,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":8,"w":207,"h":128},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_9.png":
+{
+	"frame": {"x":315,"y":1633,"w":312,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":24,"w":312,"h":112},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_10.png":
+{
+	"frame": {"x":629,"y":1431,"w":312,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":21,"w":312,"h":115},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_11.png":
+{
+	"frame": {"x":1,"y":1550,"w":312,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":24,"w":312,"h":112},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_12.png":
+{
+	"frame": {"x":315,"y":1517,"w":312,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":22,"w":312,"h":114},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_13.png":
+{
+	"frame": {"x":629,"y":1548,"w":312,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":23,"w":312,"h":112},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_14.png":
+{
+	"frame": {"x":1,"y":1046,"w":327,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":22,"w":327,"h":113},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_15.png":
+{
+	"frame": {"x":315,"y":1392,"w":312,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":13,"w":312,"h":123},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_16.png":
+{
+	"frame": {"x":326,"y":1265,"w":312,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":11,"w":312,"h":125},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_17.png":
+{
+	"frame": {"x":1,"y":1298,"w":312,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":11,"w":312,"h":125},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_18.png":
+{
+	"frame": {"x":640,"y":1304,"w":312,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":11,"w":312,"h":125},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_19.png":
+{
+	"frame": {"x":656,"y":1176,"w":312,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":9,"w":312,"h":126},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_20.png":
+{
+	"frame": {"x":1,"y":1425,"w":312,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":12,"w":312,"h":123},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_21.png":
+{
+	"frame": {"x":663,"y":1042,"w":326,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":5,"w":326,"h":132},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_22.png":
+{
+	"frame": {"x":330,"y":1136,"w":324,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":10,"w":324,"h":127},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_23.png":
+{
+	"frame": {"x":370,"y":875,"w":331,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":9,"w":331,"h":128},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_24.png":
+{
+	"frame": {"x":1,"y":1161,"w":323,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":2,"w":323,"h":135},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_25.png":
+{
+	"frame": {"x":1,"y":915,"w":329,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":7,"w":329,"h":129},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_26.png":
+{
+	"frame": {"x":332,"y":1005,"w":329,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":7,"w":329,"h":129},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_27.png":
+{
+	"frame": {"x":397,"y":487,"w":376,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":9,"w":376,"h":128},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_28.png":
+{
+	"frame": {"x":378,"y":617,"w":373,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":10,"w":373,"h":127},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_29.png":
+{
+	"frame": {"x":375,"y":746,"w":369,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":10,"w":369,"h":127},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_30.png":
+{
+	"frame": {"x":1,"y":785,"w":367,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":9,"w":367,"h":128},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_31.png":
+{
+	"frame": {"x":1,"y":656,"w":372,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":9,"w":372,"h":127},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_32.png":
+{
+	"frame": {"x":1,"y":527,"w":375,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":9,"w":375,"h":127},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_33.png":
+{
+	"frame": {"x":703,"y":913,"w":291,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":9,"w":291,"h":127},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_34.png":
+{
+	"frame": {"x":629,"y":1662,"w":299,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":5,"w":299,"h":131},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_35.png":
+{
+	"frame": {"x":1,"y":1664,"w":310,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":7,"w":310,"h":129},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial2_36.png":
+{
+	"frame": {"x":409,"y":1,"w":403,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":8,"w":403,"h":165},
+	"sourceSize": {"w":410,"h":180}
+},
+"game_tutorial2_37.png":
+{
+	"frame": {"x":1,"y":1,"w":406,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":12,"w":406,"h":112},
+	"sourceSize": {"w":410,"h":145}
+},
+"game_tutorial_keg.png":
+{
+	"frame": {"x":801,"y":193,"w":190,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":180},
+	"sourceSize": {"w":190,"h":180}
+},
+"game_tutorial_keg2.png":
+{
+	"frame": {"x":775,"y":527,"w":210,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":176},
+	"sourceSize": {"w":210,"h":180}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "missionHelp.png",
+	"format": "RGBA8888",
+	"size": {"w":995,"h":2004},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ad9dcac9fc9691b106713b17d12ba5dd:6eaaaf38ac9af2d89122de067f4ebe73:00785645378f40157a3f84955d9ebfb9$"
+}
+}

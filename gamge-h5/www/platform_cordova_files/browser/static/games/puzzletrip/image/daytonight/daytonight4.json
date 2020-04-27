@@ -1,0 +1,20 @@
+{"frames": {
+
+"level_next_0007.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":1130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1130},
+	"sourceSize": {"w":720,"h":1130}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "daytonight4.png",
+	"format": "RGBA8888",
+	"size": {"w":722,"h":1132},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:848d2b610f6f865f26203e464203dbfe:4da2351357a412e2975f7fcbcd281c4b:77ec0b19a572f7e10d7584f9867f1cfa$"
+}
+}

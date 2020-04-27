@@ -1,0 +1,20 @@
+
+lock_eff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb_eff
+  rotate: false
+  xy: 2, 82
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+lock_icon
+  rotate: false
+  xy: 2, 2
+  size: 60, 78
+  orig: 60, 78
+  offset: 0, 0
+  index: -1

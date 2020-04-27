@@ -1,0 +1,24 @@
+<font>
+	<info face="D:\PROJECT\No21 Game(땅짜르기)\ART\png\mission_no-export" size="80" />
+	<common lineHeight="80" scaleW="133" scaleH="113" pages="1" />
+	<pages>
+		<page id="0" file="D:\PROJECT\No21 Game(땅짜르기)\ART\png\mission_no-export.png" />
+	</pages>
+	<chars count="13">
+		<char id="48" x="67" y="74" width="32" height="37" xoffset="0" yoffset="43" xadvance="30" /><!-- 0 -->
+		<char id="49" x="43" y="0" width="24" height="36" xoffset="0" yoffset="44" xadvance="22" /><!-- 1 -->
+		<char id="50" x="35" y="37" width="32" height="36" xoffset="0" yoffset="43" xadvance="30" /><!-- 2 -->
+		<char id="51" x="100" y="38" width="32" height="36" xoffset="0" yoffset="44" xadvance="30" /><!-- 3 -->
+		<char id="52" x="0" y="37" width="34" height="37" xoffset="0" yoffset="43" xadvance="32" /><!-- 4 -->
+		<char id="53" x="101" y="0" width="31" height="36" xoffset="0" yoffset="44" xadvance="29" /><!-- 5 -->
+		<char id="54" x="68" y="0" width="32" height="37" xoffset="0" yoffset="43" xadvance="30" /><!-- 6 -->
+		<char id="55" x="100" y="75" width="31" height="36" xoffset="0" yoffset="44" xadvance="29" /><!-- 7 -->
+		<char id="56" x="0" y="75" width="33" height="37" xoffset="0" yoffset="43" xadvance="31" /><!-- 8 -->
+		<char id="57" x="34" y="75" width="32" height="37" xoffset="0" yoffset="43" xadvance="30" /><!-- 9 -->
+		<char id="37" x="0" y="0" width="42" height="36" xoffset="0" yoffset="44" xadvance="40" /><!-- % -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

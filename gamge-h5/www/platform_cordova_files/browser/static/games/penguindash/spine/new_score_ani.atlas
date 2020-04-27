@@ -1,0 +1,41 @@
+
+new_score_ani.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+character
+  rotate: false
+  xy: 718, 262
+  size: 206, 198
+  orig: 206, 198
+  offset: 0, 0
+  index: -1
+lightning_eff
+  rotate: false
+  xy: 718, 462
+  size: 348, 371
+  orig: 348, 371
+  offset: 0, 0
+  index: -1
+new_text
+  rotate: false
+  xy: 2, 2
+  size: 337, 150
+  orig: 337, 150
+  offset: 0, 0
+  index: -1
+pink_line
+  rotate: false
+  xy: 1068, 804
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 154
+  size: 714, 679
+  orig: 714, 679
+  offset: 0, 0
+  index: -1

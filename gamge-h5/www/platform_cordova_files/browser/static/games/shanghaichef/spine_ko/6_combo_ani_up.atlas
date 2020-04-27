@@ -1,0 +1,20 @@
+
+6_combo_ani_up.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pig_2_2
+  rotate: false
+  xy: 2, 210
+  size: 183, 206
+  orig: 183, 206
+  offset: 0, 0
+  index: -1
+pig_2_3
+  rotate: false
+  xy: 2, 2
+  size: 183, 206
+  orig: 183, 206
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+jewel_charge_eff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jewel
+  rotate: false
+  xy: 2, 89
+  size: 79, 85
+  orig: 79, 85
+  offset: 0, 0
+  index: -1
+jewel_2
+  rotate: false
+  xy: 2, 2
+  size: 79, 85
+  orig: 79, 85
+  offset: 0, 0
+  index: -1

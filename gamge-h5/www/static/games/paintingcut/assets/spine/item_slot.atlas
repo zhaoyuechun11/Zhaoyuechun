@@ -1,0 +1,90 @@
+
+item_slot.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+equip_slot
+  rotate: false
+  xy: 2, 82
+  size: 157, 157
+  orig: 157, 157
+  offset: 0, 0
+  index: -1
+icon_shield
+  rotate: false
+  xy: 2, 2
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+icon_slow
+  rotate: false
+  xy: 79, 2
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+icon_time
+  rotate: true
+  xy: 311, 62
+  size: 75, 78
+  orig: 75, 78
+  offset: 0, 0
+  index: -1
+normal_slot
+  rotate: false
+  xy: 161, 91
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+text_equip
+  rotate: false
+  xy: 391, 109
+  size: 79, 28
+  orig: 79, 28
+  offset: 0, 0
+  index: -1
+text_shield_big
+  rotate: false
+  xy: 311, 207
+  size: 170, 32
+  orig: 170, 32
+  offset: 0, 0
+  index: -1
+text_shield_count
+  rotate: false
+  xy: 483, 220
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_slow_count
+  rotate: false
+  xy: 483, 220
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_time_count
+  rotate: false
+  xy: 483, 220
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_slow_big
+  rotate: false
+  xy: 311, 173
+  size: 170, 32
+  orig: 170, 32
+  offset: 0, 0
+  index: -1
+text_time_big
+  rotate: false
+  xy: 311, 139
+  size: 170, 32
+  orig: 170, 32
+  offset: 0, 0
+  index: -1

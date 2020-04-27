@@ -1,0 +1,76 @@
+
+lyto.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 221, 197
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: false
+  xy: 36, 12
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+face1
+  rotate: false
+  xy: 2, 34
+  size: 105, 107
+  orig: 105, 107
+  offset: 0, 0
+  index: -1
+face2
+  rotate: false
+  xy: 114, 144
+  size: 105, 107
+  orig: 105, 107
+  offset: 0, 0
+  index: -1
+face3
+  rotate: false
+  xy: 109, 34
+  size: 105, 107
+  orig: 105, 107
+  offset: 0, 0
+  index: -1
+face4
+  rotate: false
+  xy: 2, 143
+  size: 110, 108
+  orig: 110, 108
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 64, 20
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: false
+  xy: 221, 172
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 221, 215
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1

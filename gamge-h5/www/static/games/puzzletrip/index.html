@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Puzzle Trip</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+
+
+    function loaded(){
+        window.scrollTo(0, 1);
+    }
+
+    var gamen = {};
+
+    //파라미터 값
+//    function getHttpParam(name){
+//        var regexS = "[\\?&]" + name + "=([^&#]*)";
+//        var regex = new RegExp(regexS);
+//        var results = regex.exec(window.location.href);
+//
+//        if(results == null) return "";
+//        else return results[1];
+//    }
+//
+//    var tempStage = getHttpParam("la");
+//    if(tempStage == ""){
+//        gamen.game_language = "ko";//사용 언어
+//    }else{
+//        gamen.game_language = tempStage;//사용 언어
+//    }
+
+    gamen.game_language = "en";
+    var lodingOverFlag = false;
+
+    /*이미지 서버*/
+    var IMG_SERVER = '';
+    var GAME_IMG_PATH = '';
+    var COMMON_IMG_PATH = '/human/';
+
+    /*JS 서버*/
+    var JS_SERVER = '';
+    var GAME_JS_PATH = '';
+    var COMMON_JS_PATH = '/human/';
+    var JS_PATH = '';
+
+    document.addEventListener("visibilitychange", function () {
+        if(!lodingOverFlag)return;
+        if (document.hidden) {
+            gc.pauseMusic();
+        } else  {
+            gc.resumeMusic();
+        }
+    }, false);
+
+</script>
+
+
+<script>
+    window.onload = function(){
+        document.getElementById('gameJs').setAttribute("src", "cocos2d.js?ver="+Date.now());
+    };
+</script>
+<script id='gameJs'></script>
+<div id="gamecontainer"></div>
+</body>
+</html>

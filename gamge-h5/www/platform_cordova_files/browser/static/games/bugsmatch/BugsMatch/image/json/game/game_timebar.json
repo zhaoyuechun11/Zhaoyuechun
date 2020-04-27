@@ -1,0 +1,28 @@
+{"frames": {
+
+"game_timebar.png":
+{
+	"frame": {"x":1,"y":69,"w":609,"h":34},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":16,"w":609,"h":34},
+	"sourceSize": {"w":643,"h":66}
+},
+"game_timebarBg.png":
+{
+	"frame": {"x":1,"y":1,"w":643,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":643,"h":66},
+	"sourceSize": {"w":643,"h":66}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "game_timebar.png",
+	"format": "RGBA8888",
+	"size": {"w":645,"h":104},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:696eeade0e9f4e10e2af7a182dae2fe3:713c2b0890c07383bc92bdc65fd6409b:3eeaebd36b82f24e03824b84a8704d6c$"
+}
+}

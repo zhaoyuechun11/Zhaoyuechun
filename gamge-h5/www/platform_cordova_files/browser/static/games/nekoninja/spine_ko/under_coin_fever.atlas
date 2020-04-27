@@ -1,0 +1,48 @@
+
+under_coin_fever.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_2
+  rotate: false
+  xy: 122, 177
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+coin_3
+  rotate: false
+  xy: 242, 298
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+star_eff_01
+  rotate: false
+  xy: 2, 244
+  size: 118, 119
+  orig: 118, 119
+  offset: 0, 0
+  index: -1
+star_eff_02
+  rotate: false
+  xy: 2, 123
+  size: 118, 119
+  orig: 118, 119
+  offset: 0, 0
+  index: -1
+star_eff_03
+  rotate: false
+  xy: 122, 244
+  size: 118, 119
+  orig: 118, 119
+  offset: 0, 0
+  index: -1
+star_eff_04
+  rotate: false
+  xy: 2, 2
+  size: 118, 119
+  orig: 118, 119
+  offset: 0, 0
+  index: -1

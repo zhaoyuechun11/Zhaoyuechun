@@ -1,0 +1,62 @@
+
+bomb_summer.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_summer_1
+  rotate: false
+  xy: 356, 139
+  size: 73, 104
+  orig: 73, 104
+  offset: 0, 0
+  index: -1
+eff_summer_2
+  rotate: true
+  xy: 431, 205
+  size: 38, 79
+  orig: 38, 79
+  offset: 0, 0
+  index: -1
+eff_summer_3
+  rotate: false
+  xy: 290, 20
+  size: 51, 67
+  orig: 51, 67
+  offset: 0, 0
+  index: -1
+eff_summer_4
+  rotate: false
+  xy: 356, 88
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+eff_summer_drop_1_copy
+  rotate: false
+  xy: 431, 129
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+eff_summer_drop_2_copy
+  rotate: true
+  xy: 200, 2
+  size: 85, 88
+  orig: 85, 88
+  offset: 0, 0
+  index: -1
+eff_summer_drop_4_copy
+  rotate: false
+  xy: 200, 89
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+eff_summer_drop_5_copy
+  rotate: false
+  xy: 2, 40
+  size: 196, 203
+  orig: 196, 203
+  offset: 0, 0
+  index: -1

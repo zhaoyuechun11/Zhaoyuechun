@@ -1,0 +1,129 @@
+{
+  "frames": {
+    "panel_result": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 630,
+        "y": 16,
+        "w": 258,
+        "h": 80
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 258,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 258,
+        "h": 80
+      }
+    },
+    "popup_info": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 630,
+        "y": 98,
+        "w": 340,
+        "h": 90
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 340,
+        "h": 90
+      },
+      "sourceSize": {
+        "w": 340,
+        "h": 90
+      }
+    },
+    "popup_level_info": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 364,
+        "y": 190,
+        "w": 400,
+        "h": 322
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 400,
+        "h": 322
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 322
+      }
+    },
+    "popup_message": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 626,
+        "h": 186
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 626,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 626,
+        "h": 186
+      }
+    },
+    "popup_pause": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 364,
+        "y": 514,
+        "w": 544,
+        "h": 374
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 544,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 544,
+        "h": 374
+      }
+    },
+    "title_bg": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 248,
+        "w": 360,
+        "h": 640
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 640
+      },
+      "sourceSize": {
+        "w": 360,
+        "h": 640
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "data03.png"
+  }
+}

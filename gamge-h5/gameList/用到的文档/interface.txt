@@ -1,0 +1,93 @@
+直播游戏接口文档
+接口调用方法：
+开发环境接口host：http://172.31.2.218:8087/game/
+Token传递：请求header里面增加：x-auth-token，token内容由手机端传给h5
+返回格式：{"code":0,"message":"","data":{}}，code=0表示请求成功，具体返回数据在data里面，其他code都是错误，具体错误信息在message里面
+
+一、	提交游戏分数
+接口地址：game/commit_score
+请求方式：POST，form
+接收参数：
+    gid：游戏id
+    score：最新分数
+返回参数：
+    {
+        "data":1,
+        "code":0,
+        "message":"SUCCESS",
+        "serverTime":1560824408973
+    }
+测试示例：
+    http://172.31.2.218:8087/game/commit_score?x-auth-token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyLWlkIjoxNSwicmVmcmVzaC10b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SjFjMlZ5TFdsa0lqb3hOU3dpY21GdVpDSTZNVGt5TXpnNU16Z3pOMzAuT0t1bGcwNms5Z1pLS1NGNFpnZXRxUmRiUmREdS1ZVEpnNFM1ZlBqRzQ0SSIsInJlZnJlc2gtdGltZSI6MTU1OTgzNjg2NzE3Nn0.y_Xuh9UCb_SDv11kUfo7aQ9ACfQbtrcfgMcI0uwEGGI&gid=game1&score=50
+
+二、	获取游戏周排行榜
+接口地址：game/week_of_rank?gid=game1
+请求方式：GET
+接收参数：
+    gid：游戏id
+返回参数：
+{
+    "data":{
+        "rank":[
+            {
+                "score":0,
+                "memberId":15
+            },
+            {
+                "score":0,
+                "memberId":5
+            }
+        ],
+        "rankingInfo":{
+            "code":0,
+            "data":[
+                {
+                    "profilePicture":null,
+                    "liveFlag":0,
+                    "roomNo":100014,
+                    "nickName":"sazdfasdfasdfasfasfasdfasfasfasdf",
+                    "followFlag":0,
+                    "memberId":15
+                },
+                {
+                    "profilePicture":null,
+                    "liveFlag":0,
+                    "roomNo":100004,
+                    "nickName":"ID:100004",
+                    "followFlag":0,
+                    "memberId":5
+                }
+            ],
+            "serverTime":1560824247639,
+            "message":"SUCCESS"
+        },
+        "friendList":{
+            "code":0,
+            "data":{
+                "number":0,
+                "size":0,
+                "content":[
+
+                ],
+                "totalElements":0
+            },
+            "serverTime":1560824247838,
+            "message":"SUCCESS"
+        }
+    },
+    "code":0,
+    "message":"SUCCESS",
+    "serverTime":1560824247841
+}
+测试示例：
+    http://172.31.2.218:8087/game/week_of_rank?x-auth-token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyLWlkIjoxNSwicmVmcmVzaC10b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SjFjMlZ5TFdsa0lqb3hOU3dpY21GdVpDSTZNVGt5TXpnNU16Z3pOMzAuT0t1bGcwNms5Z1pLS1NGNFpnZXRxUmRiUmREdS1ZVEpnNFM1ZlBqRzQ0SSIsInJlZnJlc2gtdGltZSI6MTU1OTgzNjg2NzE3Nn0.y_Xuh9UCb_SDv11kUfo7aQ9ACfQbtrcfgMcI0uwEGGI&gid=game1
+
+三、	获取游戏总排行榜
+接口地址：game/total_of_rank?gid=game1
+请求方式：GET
+接收参数：
+    gid：游戏id
+返回参数：
+    同周排行数据格式
+测试示例：
+    http://172.31.2.218:8087/game/total_of_rank?x-auth-token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyLWlkIjoxNSwicmVmcmVzaC10b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SjFjMlZ5TFdsa0lqb3hOU3dpY21GdVpDSTZNVGt5TXpnNU16Z3pOMzAuT0t1bGcwNms5Z1pLS1NGNFpnZXRxUmRiUmREdS1ZVEpnNFM1ZlBqRzQ0SSIsInJlZnJlc2gtdGltZSI6MTU1OTgzNjg2NzE3Nn0.y_Xuh9UCb_SDv11kUfo7aQ9ACfQbtrcfgMcI0uwEGGI&gid=game1

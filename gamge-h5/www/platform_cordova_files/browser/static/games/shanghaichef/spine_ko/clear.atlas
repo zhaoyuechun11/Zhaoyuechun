@@ -1,0 +1,41 @@
+
+clear.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cha_1
+  rotate: false
+  xy: 2, 494
+  size: 367, 347
+  orig: 367, 347
+  offset: 0, 0
+  index: -1
+cha_2
+  rotate: false
+  xy: 2, 158
+  size: 295, 334
+  orig: 295, 334
+  offset: 0, 0
+  index: -1
+light_eff_1
+  rotate: false
+  xy: 2, 2
+  size: 180, 154
+  orig: 180, 154
+  offset: 0, 0
+  index: -1
+light_eff_2
+  rotate: false
+  xy: 371, 499
+  size: 178, 102
+  orig: 178, 102
+  offset: 0, 0
+  index: -1
+light_eff_3
+  rotate: false
+  xy: 371, 603
+  size: 180, 238
+  orig: 180, 238
+  offset: 0, 0
+  index: -1

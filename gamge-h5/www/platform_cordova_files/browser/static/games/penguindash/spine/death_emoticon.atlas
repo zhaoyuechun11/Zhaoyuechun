@@ -1,0 +1,90 @@
+
+death_emoticon.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+balloon_1
+  rotate: false
+  xy: 2, 507
+  size: 368, 287
+  orig: 368, 287
+  offset: 0, 0
+  index: -1
+balloon_2
+  rotate: false
+  xy: 2, 218
+  size: 368, 287
+  orig: 368, 287
+  offset: 0, 0
+  index: -1
+balloon_character_body
+  rotate: false
+  xy: 372, 631
+  size: 236, 163
+  orig: 236, 163
+  offset: 0, 0
+  index: -1
+balloon_character_emotion
+  rotate: false
+  xy: 2, 90
+  size: 33, 59
+  orig: 33, 59
+  offset: 0, 0
+  index: -1
+balloon_character_eye_1
+  rotate: false
+  xy: 744, 745
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
+balloon_character_eye_2
+  rotate: false
+  xy: 2, 151
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+balloon_character_mark
+  rotate: false
+  xy: 372, 465
+  size: 115, 164
+  orig: 115, 164
+  offset: 0, 0
+  index: -1
+balloon_character_mouth
+  rotate: true
+  xy: 610, 649
+  size: 40, 61
+  orig: 40, 61
+  offset: 0, 0
+  index: -1
+balloon_character_sweat_1
+  rotate: false
+  xy: 489, 581
+  size: 55, 48
+  orig: 55, 48
+  offset: 0, 0
+  index: -1
+balloon_character_sweat_2
+  rotate: false
+  xy: 372, 409
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+balloon_yellow_line
+  rotate: false
+  xy: 2, 209
+  size: 274, 7
+  orig: 274, 7
+  offset: 0, 0
+  index: -1
+balloon_yellow_mark
+  rotate: false
+  xy: 610, 691
+  size: 132, 103
+  orig: 132, 103
+  offset: 0, 0
+  index: -1

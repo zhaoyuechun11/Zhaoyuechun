@@ -1,0 +1,13 @@
+
+core_bubble_eff.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+egg-base-eff
+  rotate: false
+  xy: 2, 32
+  size: 96, 66
+  orig: 96, 66
+  offset: 0, 0
+  index: -1

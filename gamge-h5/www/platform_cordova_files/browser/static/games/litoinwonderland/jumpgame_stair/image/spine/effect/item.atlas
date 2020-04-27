@@ -1,0 +1,48 @@
+
+item.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deco2
+  rotate: false
+  xy: 381, 266
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+item_gauge
+  rotate: false
+  xy: 247, 183
+  size: 132, 120
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 2, 241
+  size: 243, 244
+  orig: 243, 244
+  offset: 0, 0
+  index: -1
+light3
+  rotate: false
+  xy: 2, 2
+  size: 237, 237
+  orig: 237, 237
+  offset: 0, 0
+  index: -1
+light4
+  rotate: false
+  xy: 247, 305
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 429, 457
+  size: 50, 28
+  orig: 50, 28
+  offset: 0, 0
+  index: -1

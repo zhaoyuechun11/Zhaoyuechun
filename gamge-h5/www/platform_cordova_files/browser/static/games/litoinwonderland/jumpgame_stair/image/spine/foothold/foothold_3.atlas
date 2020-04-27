@@ -1,0 +1,48 @@
+
+foothold_3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foothold1
+  rotate: false
+  xy: 269, 342
+  size: 178, 123
+  orig: 178, 123
+  offset: 0, 0
+  index: -1
+foothold2
+  rotate: false
+  xy: 2, 129
+  size: 219, 151
+  orig: 219, 151
+  offset: 0, 0
+  index: -1
+foothold3
+  rotate: false
+  xy: 2, 282
+  size: 265, 183
+  orig: 265, 183
+  offset: 0, 0
+  index: -1
+foothold_bg1
+  rotate: false
+  xy: 269, 220
+  size: 123, 120
+  orig: 123, 120
+  offset: 0, 0
+  index: -1
+foothold_side0
+  rotate: false
+  xy: 2, 2
+  size: 123, 125
+  orig: 123, 125
+  offset: 0, 0
+  index: -1
+foothold_side2
+  rotate: false
+  xy: 127, 3
+  size: 121, 124
+  orig: 121, 124
+  offset: 0, 0
+  index: -1

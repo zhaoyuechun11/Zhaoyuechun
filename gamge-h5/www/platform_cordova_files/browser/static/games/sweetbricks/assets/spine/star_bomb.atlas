@@ -1,0 +1,27 @@
+
+star_bomb.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb_eff
+  rotate: false
+  xy: 2, 59
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 2, 2
+  size: 58, 55
+  orig: 58, 55
+  offset: 0, 0
+  index: -1
+heart_eff
+  rotate: false
+  xy: 191, 171
+  size: 58, 55
+  orig: 58, 55
+  offset: 0, 0
+  index: -1

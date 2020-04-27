@@ -1,0 +1,85 @@
+{
+  "gameList": [
+    {
+      "gameId": "puzzletrip",
+      "gameUrl": "puzzletrip",
+      "gameName": "Puzzle Trip",
+      "gameImage": "./static/icon/001.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#1cc0f3",
+      "gameServer": null,
+      "singleMode": true,
+      "versionNo":"1.0.0"
+    },
+    {
+      "gameId": "juicypang",
+      "gameUrl": "juicypang",
+      "gameName": "Juicy Pang",
+      "gameImage": "./static/icon/002.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#ffea27",
+      "gameServer": null,
+      "singleMode": true,
+      "versionNo":"1.0.0"
+    },
+    {
+      "gameId": "penguindash",
+      "gameUrl": "penguindash",
+      "gameName": "Penguin Dash",
+      "gameImage": "./static/icon/025.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#42d3d8",
+      "gameServer": null,
+      "singleMode": true,
+      "versionNo":"1.0.0"
+    },
+    {
+      "gameId": "nekopang",
+      "gameUrl": "nekopang",
+      "gameName": "Neko Pang",
+      "gameImage": "./static/icon/033.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#a1d842",
+      "gameServer": null,
+      "singleMode": true,
+      "versionNo":"1.0.0"
+    },
+    {
+      "gameId": "paintingcut",
+      "gameUrl": "paintingcut",
+      "gameName": "Painting Cut",
+      "gameImage": "./static/icon/054.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#42d892",
+      "gameServer": null,
+      "singleMode": true,
+      "versionNo":"1.0.0"
+    },
+    {
+      "gameId": "pocketsudoku",
+      "gameUrl": "pocketsudoku",
+      "gameName": "Pocket Sudoku",
+      "gameImage": "./static/icon/052.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#f31ce3",
+      "gameServer": null,
+      "singleMode": true,
+      "versionNo":"1.0.0"
+    }
+  
+  ],
+  "homeGames": [
+    [
+      "puzzletrip",
+      "juicypang"
+    ],
+    [
+      "nekopang",
+      "paintingcut"
+    ],
+    [
+      "pocketsudoku",
+      "penguindash"
+    ]
+  ]
+}

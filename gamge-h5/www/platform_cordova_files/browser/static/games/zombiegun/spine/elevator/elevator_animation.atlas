@@ -1,0 +1,76 @@
+
+elevator_animation.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk-eff-3
+  rotate: false
+  xy: 644, 420
+  size: 62, 5
+  orig: 62, 5
+  offset: 0, 0
+  index: -1
+back_3
+  rotate: false
+  xy: 1395, 1318
+  size: 253, 297
+  orig: 253, 297
+  offset: 0, 0
+  index: -1
+elevator
+  rotate: false
+  xy: 2, 427
+  size: 851, 1514
+  orig: 851, 1514
+  offset: 0, 0
+  index: -1
+elevator_2
+  rotate: true
+  xy: 855, 439
+  size: 213, 379
+  orig: 213, 379
+  offset: 0, 0
+  index: -1
+elevator_dark
+  rotate: true
+  xy: 2, 65
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+elevator_door
+  rotate: false
+  xy: 855, 852
+  size: 268, 1089
+  orig: 268, 1089
+  offset: 0, 0
+  index: -1
+elevator_door_2
+  rotate: false
+  xy: 1125, 852
+  size: 268, 1089
+  orig: 268, 1089
+  offset: 0, 0
+  index: -1
+elevator_door_2_2
+  rotate: true
+  xy: 855, 654
+  size: 196, 498
+  orig: 196, 498
+  offset: 0, 0
+  index: -1
+siren_eff
+  rotate: false
+  xy: 1395, 1617
+  size: 324, 324
+  orig: 324, 324
+  offset: 0, 0
+  index: -1
+speed-line
+  rotate: false
+  xy: 2, 2
+  size: 285, 61
+  orig: 285, 61
+  offset: 0, 0
+  index: -1

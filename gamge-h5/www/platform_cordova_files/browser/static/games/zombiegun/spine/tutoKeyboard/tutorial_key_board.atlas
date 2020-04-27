@@ -1,0 +1,34 @@
+
+tutorial_key_board.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tutorial_keyboard
+  rotate: false
+  xy: 261, 298
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+tutorial_keyboard_click
+  rotate: false
+  xy: 2, 2
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+tutorial_space_btn
+  rotate: false
+  xy: 2, 298
+  size: 257, 146
+  orig: 257, 146
+  offset: 0, 0
+  index: -1
+tutorial_space_btn_click
+  rotate: false
+  xy: 2, 150
+  size: 257, 146
+  orig: 257, 146
+  offset: 0, 0
+  index: -1

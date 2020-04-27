@@ -1,0 +1,27 @@
+
+enemy_imoticon_all.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add_3
+  rotate: false
+  xy: 71, 73
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+add_4
+  rotate: false
+  xy: 2, 2
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+text_balloon
+  rotate: false
+  xy: 2, 48
+  size: 67, 64
+  orig: 67, 64
+  offset: 0, 0
+  index: -1

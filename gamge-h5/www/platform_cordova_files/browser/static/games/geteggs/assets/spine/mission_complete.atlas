@@ -1,0 +1,62 @@
+
+mission_complete.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ribbon
+  rotate: false
+  xy: 2, 19
+  size: 706, 215
+  orig: 706, 215
+  offset: 0, 0
+  index: -1
+ribbon_minion_1
+  rotate: false
+  xy: 845, 53
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+ribbon_minion_2
+  rotate: false
+  xy: 845, 101
+  size: 135, 133
+  orig: 135, 133
+  offset: 0, 0
+  index: -1
+ribbon_minion_3
+  rotate: false
+  xy: 782, 3
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+ribbon_minion_4
+  rotate: false
+  xy: 982, 140
+  size: 38, 43
+  orig: 38, 43
+  offset: 0, 0
+  index: -1
+ribbon_minion_5
+  rotate: true
+  xy: 982, 185
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+ribbon_minion_6
+  rotate: false
+  xy: 710, 64
+  size: 133, 170
+  orig: 133, 170
+  offset: 0, 0
+  index: -1
+ribbon_minion_7
+  rotate: false
+  xy: 710, 2
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
