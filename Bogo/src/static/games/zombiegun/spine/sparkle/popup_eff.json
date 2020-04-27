@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "IylNgUACPPrl4LE+KMd9GYIUeKo", "spine": "3.4.02", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "eff", "parent": "root" }
+],
+"slots": [
+	{ "name": "eff", "bone": "eff" }
+],
+"skins": {
+	"default": {
+		"eff": {
+			"eff": { "width": 412, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"popup_eff": {
+		"slots": {
+			"eff": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffa4", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffa4" },
+					{ "time": 0.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "eff" }
+				]
+			}
+		},
+		"bones": {
+			"eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

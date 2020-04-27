@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-cache",
+  "version": "0.0.1",
+  "description": "get cache size and clear it",
+  "cordova": {
+    "id": "org.apache.cordova.cache",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javames/cache.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "javames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javames/cache/issues"
+  },
+  "homepage": "https://github.com/javames/cache#readme"
+}

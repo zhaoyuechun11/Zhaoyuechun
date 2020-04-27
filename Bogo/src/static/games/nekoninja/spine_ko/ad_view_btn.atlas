@@ -1,0 +1,34 @@
+
+ad_view_btn.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: false
+  xy: 180, 185
+  size: 35, 37
+  orig: 35, 37
+  offset: 0, 0
+  index: -1
+eff
+  rotate: false
+  xy: 2, 91
+  size: 136, 131
+  orig: 136, 131
+  offset: 0, 0
+  index: -1
+kunai
+  rotate: false
+  xy: 2, 2
+  size: 122, 87
+  orig: 122, 87
+  offset: 0, 0
+  index: -1
+touch
+  rotate: true
+  xy: 140, 55
+  size: 167, 38
+  orig: 167, 38
+  offset: 0, 0
+  index: -1

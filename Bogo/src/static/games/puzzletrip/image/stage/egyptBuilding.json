@@ -1,0 +1,28 @@
+{"frames": {
+
+"egypt_building_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+},
+"egypt_building_0002.png":
+{
+	"frame": {"x":893,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "egyptBuilding.png",
+	"format": "RGBA8888",
+	"size": {"w":1784,"h":1107},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:90e4cff5d8a2fd7f97def7ee0be2bf41:67197a43bd0d486e6353f0eb02b83a5f:1b998a4ff4805f5e2a53298e9b94eb02$"
+}
+}

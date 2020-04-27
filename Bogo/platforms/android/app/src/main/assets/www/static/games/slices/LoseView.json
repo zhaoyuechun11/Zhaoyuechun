@@ -1,0 +1,1 @@
+{"type":"Dialog","props":{"width":290,"height":290},"compId":2,"child":[{"type":"Sprite","props":{"y":63,"x":19.5,"width":251,"texture":"game/game_lose.png","height":145},"compId":3}],"loadList":["game/game_lose.png"],"loadList3D":[]}

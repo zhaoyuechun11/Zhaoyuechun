@@ -1,0 +1,83 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 54
+  size: 269, 209
+  orig: 269, 209
+  offset: 0, 0
+  index: -1
+effect
+  rotate: false
+  xy: 634, 349
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+effect_1
+  rotate: true
+  xy: 2, 2
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+effect_2
+  rotate: false
+  xy: 886, 723
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 525, 146
+  size: 111, 117
+  orig: 111, 117
+  offset: 0, 0
+  index: -1
+page
+  rotate: false
+  xy: 2, 265
+  size: 630, 720
+  orig: 630, 720
+  offset: 0, 0
+  index: -1
+puzzle_0
+  rotate: true
+  xy: 886, 785
+  size: 200, 110
+  orig: 200, 110
+  offset: 0, 0
+  index: -1
+puzzle_1
+  rotate: false
+  xy: 634, 501
+  size: 200, 180
+  orig: 200, 180
+  offset: 0, 0
+  index: -1
+puzzle_effect_0003
+  rotate: false
+  xy: 634, 835
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+puzzle_effect_0006
+  rotate: false
+  xy: 273, 113
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1
+puzzle_effect_0008
+  rotate: false
+  xy: 634, 683
+  size: 250, 150
+  orig: 250, 150
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+bomb_autumn.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_autumn_1
+  rotate: false
+  xy: 2, 89
+  size: 135, 127
+  orig: 135, 127
+  offset: 0, 0
+  index: -1
+eff_autumn_2
+  rotate: false
+  xy: 2, 2
+  size: 88, 85
+  orig: 88, 85
+  offset: 0, 0
+  index: -1
+eff_autumn_3
+  rotate: false
+  xy: 139, 129
+  size: 59, 87
+  orig: 59, 87
+  offset: 0, 0
+  index: -1
+eff_autumn_4
+  rotate: false
+  xy: 92, 4
+  size: 55, 83
+  orig: 55, 83
+  offset: 0, 0
+  index: -1

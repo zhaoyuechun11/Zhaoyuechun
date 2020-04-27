@@ -1,0 +1,60 @@
+{"frames": {
+
+"fever_0001.png":
+{
+	"frame": {"x":524,"y":280,"w":434,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":24,"w":434,"h":169},
+	"sourceSize": {"w":452,"h":206}
+},
+"gameover.png":
+{
+	"frame": {"x":1,"y":1,"w":521,"h":304},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":521,"h":304},
+	"sourceSize": {"w":521,"h":304}
+},
+"momotime_0001.png":
+{
+	"frame": {"x":524,"y":1,"w":499,"h":277},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":499,"h":277},
+	"sourceSize": {"w":520,"h":290}
+},
+"ready_0001.png":
+{
+	"frame": {"x":1,"y":307,"w":400,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":19,"w":400,"h":121},
+	"sourceSize": {"w":402,"h":158}
+},
+"start_0001.png":
+{
+	"frame": {"x":960,"y":292,"w":446,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":446,"h":148},
+	"sourceSize": {"w":448,"h":158}
+},
+"super_fever_0001.png":
+{
+	"frame": {"x":1025,"y":1,"w":443,"h":289},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":443,"h":289},
+	"sourceSize": {"w":450,"h":300}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "game_text.png",
+	"format": "RGBA8888",
+	"size": {"w":1469,"h":450},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88ca9e9d46946fad896291080ce513c8:175562e3e4a8ee7b564e5ca90a5f0a63:29eab6157080e888709ae7cd0dbc8636$"
+}
+}

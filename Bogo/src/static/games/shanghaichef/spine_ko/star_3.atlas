@@ -1,0 +1,13 @@
+
+star_3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+star
+  rotate: false
+  xy: 2, 8
+  size: 184, 178
+  orig: 184, 178
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,8 @@
+{
+    "jsData":[
+      { "jsName": "movilib.js",          "path": ""},
+      { "jsName": "netbase.js",          "path": "../add_js/"},
+      { "jsName": "MGMenu.js",          "path": "../Common/"},
+      { "jsName": "movisrc.js",          "path": ""}
+    ]
+}

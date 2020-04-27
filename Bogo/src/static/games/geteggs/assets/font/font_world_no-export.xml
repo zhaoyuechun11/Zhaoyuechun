@@ -1,0 +1,23 @@
+<font>
+	<info face="C:\Project\Movi_RushHour\assets\font\font_world_no-export" size="80" />
+	<common lineHeight="80" scaleW="126" scaleH="130" pages="1" />
+	<pages>
+		<page id="0" file="C:\Project\Movi_RushHour\assets\font\font_world_no-export.png" />
+	</pages>
+	<chars count="12">
+		<char id="48" x="0" y="86" width="34" height="43" xoffset="0" yoffset="37" xadvance="35" /><!-- 0 -->
+		<char id="49" x="102" y="0" width="23" height="43" xoffset="0" yoffset="37" xadvance="24" /><!-- 1 -->
+		<char id="50" x="35" y="0" width="33" height="42" xoffset="0" yoffset="38" xadvance="34" /><!-- 2 -->
+		<char id="51" x="35" y="43" width="33" height="42" xoffset="0" yoffset="38" xadvance="34" /><!-- 3 -->
+		<char id="52" x="0" y="43" width="34" height="42" xoffset="0" yoffset="38" xadvance="35" /><!-- 4 -->
+		<char id="53" x="0" y="0" width="34" height="42" xoffset="0" yoffset="38" xadvance="35" /><!-- 5 -->
+		<char id="54" x="69" y="0" width="32" height="42" xoffset="0" yoffset="38" xadvance="33" /><!-- 6 -->
+		<char id="55" x="35" y="86" width="33" height="42" xoffset="0" yoffset="38" xadvance="34" /><!-- 7 -->
+		<char id="56" x="69" y="43" width="32" height="43" xoffset="0" yoffset="37" xadvance="33" /><!-- 8 -->
+		<char id="57" x="69" y="87" width="32" height="42" xoffset="0" yoffset="38" xadvance="33" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

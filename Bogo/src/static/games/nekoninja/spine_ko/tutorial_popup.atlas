@@ -1,0 +1,20 @@
+
+tutorial_popup.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tutorial_popup_ui_1
+  rotate: false
+  xy: 2, 20
+  size: 43, 321
+  orig: 43, 321
+  offset: 0, 0
+  index: -1
+tutorial_popup_ui_2
+  rotate: false
+  xy: 2, 343
+  size: 609, 268
+  orig: 609, 268
+  offset: 0, 0
+  index: -1

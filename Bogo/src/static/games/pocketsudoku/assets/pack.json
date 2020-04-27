@@ -1,0 +1,371 @@
+{
+  "boot": [
+    {
+      "type": "image",
+      "key": "rotate",
+      "url": "assets/image/load/rotate.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "movi_game",
+      "url": "assets/image/load/movi_03.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "loadback",
+      "url": "assets/image/load/movi_01.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "loadprocess",
+      "url": "assets/image/load/movi_02.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Loading_banner",
+      "url": "assets/image/load/Loading_banner.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "backtile",
+      "url": "assets/image/back/backtile.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "loading02",
+      "url": "assets/image/load/loading02.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "zhuye002",
+      "url": "assets/image/load/zhuye002.png",
+      "overwrite": false
+    }
+  ],
+  "preloader": [
+    {
+      "type": "atlas",
+      "key": "data01",
+      "textureURL": "assets/image/atlas/data01.png",
+      "atlasURL": "assets/image/atlas/data01.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "data02",
+      "textureURL": "assets/image/atlas/data02.png",
+      "atlasURL": "assets/image/atlas/data02.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "data03",
+      "textureURL": "assets/image/atlas/data03.png",
+      "atlasURL": "assets/image/atlas/data03.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "spritesheet",
+      "key": "btn_select",
+      "url": "assets/image/sheetdata/btn_selectlevel.png",
+      "frameWidth": 182,
+      "frameHeight": 123,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "grade",
+      "url": "assets/image/sheetdata/grade.png",
+      "frameWidth": 38,
+      "frameHeight": 46,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "no_default",
+      "url": "assets/image/sheetdata/no_default.png",
+      "frameWidth": 49,
+      "frameHeight": 71,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "no_memo",
+      "url": "assets/image/sheetdata/no_memo.png",
+      "frameWidth": 49,
+      "frameHeight": 71,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "no_normal",
+      "url": "assets/image/sheetdata/no_normal.png",
+      "frameWidth": 49,
+      "frameHeight": 71,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "no_resulttime",
+      "url": "assets/image/sheetdata/no_result_time.png",
+      "frameWidth": 91,
+      "frameHeight": 89,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "best",
+      "url": "assets/image/back/best.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg",
+      "url": "assets/image/back/bg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "effect",
+      "url": "assets/image/back/effect.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "good",
+      "url": "assets/image/back/good.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "popup_result",
+      "url": "assets/image/back/popup_result.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "popup_tutorial",
+      "url": "assets/image/back/popup_tutorial.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "btn_small",
+      "url": "assets/image/sheetdata/smallbtn.png",
+      "frameWidth": 107,
+      "frameHeight": 108,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "btn_icon",
+      "url": "assets/image/sheetdata/btn_icon.png",
+      "frameWidth": 82,
+      "frameHeight": 83,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "levelback",
+      "url": "assets/image/sheetdata/levelback.png",
+      "frameWidth": 240,
+      "frameHeight": 62,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "btn_sudoku",
+      "url": "assets/image/sheetdata/BtnSudoku.png",
+      "frameWidth": 78,
+      "frameHeight": 78,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "BGM_Game",
+      "urls": [
+        "assets/sound/OGG/BGM_Game.ogg",
+        "assets/sound/MP3/BGM_Game.mp3"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BGM_Title",
+      "urls": [
+        "assets/sound/MP3/BGM_Title.mp3",
+        "assets/sound/OGG/BGM_Title.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_1",
+      "urls": [
+        "assets/sound/MP3/SE_1.mp3",
+        "assets/sound/OGG/SE_1.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_2",
+      "urls": [
+        "assets/sound/MP3/SE_2.mp3",
+        "assets/sound/OGG/SE_2.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Check",
+      "urls": [
+        "assets/sound/MP3/SE_Check.mp3",
+        "assets/sound/OGG/SE_Check.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Click",
+      "urls": [
+        "assets/sound/MP3/SE_Click.mp3",
+        "assets/sound/OGG/SE_Click.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Correct",
+      "urls": [
+        "assets/sound/MP3/SE_Correct.mp3",
+        "assets/sound/OGG/SE_Correct.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Error",
+      "urls": [
+        "assets/sound/OGG/SE_Error.ogg",
+        "assets/sound/MP3/SE_Error.mp3"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Go",
+      "urls": [
+        "assets/sound/OGG/SE_Go.ogg",
+        "assets/sound/MP3/SE_Go.mp3"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Keypad",
+      "urls": [
+        "assets/sound/OGG/SE_Keypad.ogg",
+        "assets/sound/MP3/SE_Keypad.mp3"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Memo",
+      "urls": [
+        "assets/sound/MP3/SE_Memo.mp3",
+        "assets/sound/OGG/SE_Memo.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Number",
+      "urls": [
+        "assets/sound/MP3/SE_Number.mp3",
+        "assets/sound/OGG/SE_Number.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Popup_OFF",
+      "urls": [
+        "assets/sound/MP3/SE_Popup_OFF.mp3",
+        "assets/sound/OGG/SE_Popup_OFF.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Popup_ON",
+      "urls": [
+        "assets/sound/MP3/SE_Popup_ON.mp3",
+        "assets/sound/OGG/SE_Popup_ON.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_SelectNumber",
+      "urls": [
+        "assets/sound/MP3/SE_SelectNumber.mp3",
+        "assets/sound/OGG/SE_SelectNumber.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Shuffle",
+      "urls": [
+        "assets/sound/MP3/SE_Shuffle.mp3",
+        "assets/sound/OGG/SE_Shuffle.ogg"
+      ],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "SE_Win",
+      "urls": [
+        "assets/sound/OGG/SE_Win.ogg",
+        "assets/sound/MP3/SE_Win.mp3"
+      ],
+      "autoDecode": true
+    }
+  ],
+  "meta": {
+    "generated": "1524026154903",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

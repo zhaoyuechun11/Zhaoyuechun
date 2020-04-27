@@ -1,0 +1,90 @@
+{
+"skeleton": { "hash": "9fYHqjM1ZM5hxAAhdIH1ZNYClyA", "spine": "3.5.44", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "stage_slot", "parent": "root" }
+],
+"slots": [
+	{ "name": "stage_select_slot", "bone": "stage_slot" }
+],
+"skins": {
+	"default": {
+		"stage_select_slot": {
+			"stage_select_slot": { "width": 191, "height": 285 },
+			"stage_select_slot_2": { "width": 191, "height": 285 },
+			"stage_select_slot_3": { "width": 191, "height": 285 },
+			"stage_select_slot_4": { "width": 191, "height": 285 },
+			"stage_select_slot_5": { "width": 191, "height": 285 },
+			"stage_select_slot_6": { "width": 191, "height": 285 }
+		}
+	}
+},
+"animations": {
+	"empty": {},
+	"stage_slot_ani": {
+		"slots": {
+			"stage_select_slot": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "stage_select_slot" },
+					{ "time": 0.1, "name": "stage_select_slot_2" },
+					{ "time": 0.2, "name": "stage_select_slot_3" },
+					{ "time": 0.3, "name": "stage_select_slot_4" },
+					{ "time": 0.4, "name": "stage_select_slot_5" },
+					{ "time": 0.5, "name": "stage_select_slot_6" },
+					{ "time": 0.6, "name": "stage_select_slot" },
+					{ "time": 2.3333, "name": "stage_select_slot" }
+				]
+			}
+		},
+		"bones": {
+			"stage_slot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"stage_slot_idle": {
+		"slots": {
+			"stage_select_slot": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "stage_select_slot" }
+				]
+			}
+		},
+		"bones": {
+			"stage_slot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

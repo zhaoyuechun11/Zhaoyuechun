@@ -1,0 +1,20 @@
+
+item_bomb_eff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff
+  rotate: false
+  xy: 2, 628
+  size: 722, 96
+  orig: 722, 96
+  offset: 0, 0
+  index: -1
+egg-eff-00
+  rotate: false
+  xy: 2, 474
+  size: 159, 152
+  orig: 159, 152
+  offset: 0, 0
+  index: -1

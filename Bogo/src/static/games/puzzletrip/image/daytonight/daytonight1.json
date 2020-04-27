@@ -1,0 +1,28 @@
+{"frames": {
+
+"level_next_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":1130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1130},
+	"sourceSize": {"w":720,"h":1130}
+},
+"level_next_0002.png":
+{
+	"frame": {"x":723,"y":1,"w":720,"h":1130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1130},
+	"sourceSize": {"w":720,"h":1130}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "daytonight1.png",
+	"format": "RGBA8888",
+	"size": {"w":1444,"h":1132},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c51649c74c734f9e883e2fe59566d461:f64e94d7b4f1ed0732db45d3dd44ed07:96cbc0a23187aa8bdc240045f62cbe22$"
+}
+}

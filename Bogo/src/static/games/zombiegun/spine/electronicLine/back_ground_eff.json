@@ -1,0 +1,103 @@
+{
+"skeleton": { "hash": "HpMhlHM/mbAUrPfxmQ0y2gKS9Xg", "spine": "3.5.46", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "electric_code", "parent": "root", "length": 161.64, "rotation": -93.53 },
+	{ "name": "electric_eff", "parent": "electric_code", "x": 164.34, "y": -1.31 }
+],
+"slots": [
+	{ "name": "electric_code", "bone": "electric_code" },
+	{ "name": "electric_eff", "bone": "electric_eff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"electric_code": {
+			"electric_code": { "x": 88.37, "y": 3.23, "rotation": 93.53, "width": 41, "height": 194 }
+		},
+		"electric_eff": {
+			"electric_eff_1": { "rotation": 93.53, "width": 123, "height": 150 },
+			"electric_eff_2": { "rotation": 93.53, "width": 123, "height": 150 },
+			"electric_eff_3": { "rotation": 93.53, "width": 123, "height": 150 },
+			"electric_eff_4": { "rotation": 93.53, "width": 123, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"back_eff_type_1_electric": {
+		"slots": {
+			"electric_code": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "electric_code" }
+				]
+			},
+			"electric_eff": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "electric_eff_1" },
+					{ "time": 0.1, "name": "electric_eff_2" },
+					{ "time": 0.2, "name": "electric_eff_3" },
+					{ "time": 0.3, "name": "electric_eff_4" },
+					{ "time": 0.4, "name": "electric_eff_3" },
+					{ "time": 0.5, "name": "electric_eff_2" },
+					{ "time": 0.6, "name": "electric_eff_1" },
+					{ "time": 0.7, "name": "electric_eff_2" },
+					{ "time": 0.8, "name": "electric_eff_3" },
+					{ "time": 0.9, "name": "electric_eff_4" },
+					{ "time": 1, "name": "electric_eff_3" },
+					{ "time": 1.1, "name": "electric_eff_2" },
+					{ "time": 1.2, "name": "electric_eff_1" },
+					{ "time": 1.3, "name": "electric_eff_2" },
+					{ "time": 1.4, "name": "electric_eff_3" },
+					{ "time": 1.5, "name": "electric_eff_4" },
+					{ "time": 1.6, "name": "electric_eff_1" }
+				]
+			}
+		},
+		"bones": {
+			"electric_code": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -8.43,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8,
+						"angle": 12.32,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.6, "angle": -8.43 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"electric_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

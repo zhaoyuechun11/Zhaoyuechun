@@ -1,0 +1,89 @@
+{
+"skeleton": { "hash": "3xe/Q3OUTN597VNsPoBgN01LQFE", "spine": "3.4.02", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bomb_eff_1", "parent": "root" },
+	{ "name": "bubble_eff", "parent": "root" }
+],
+"slots": [
+	{ "name": "bomb-04-1", "bone": "bomb_eff_1", "blend": "additive" },
+	{ "name": "bubble_eff", "bone": "bubble_eff" }
+],
+"skins": {
+	"default": {
+		"bomb-04-1": {
+			"bomb-04-1": { "width": 187, "height": 167 },
+			"bomb-04-2": { "width": 187, "height": 167 },
+			"bomb-04-3": { "width": 187, "height": 167 },
+			"bomb-04-4": { "width": 187, "height": 167 },
+			"bomb-04-5": { "width": 187, "height": 167 }
+		},
+		"bubble_eff": {
+			"bubble_eff": { "width": 48, "height": 48 }
+		}
+	}
+},
+"animations": {
+	"normal_bubble_bomb": {
+		"slots": {
+			"bomb-04-1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bomb-04-1" },
+					{ "time": 0.0666, "name": "bomb-04-2" },
+					{ "time": 0.1333, "name": "bomb-04-3" },
+					{ "time": 0.2, "name": "bomb-04-4" },
+					{ "time": 0.2666, "name": "bomb-04-5" }
+				]
+			},
+			"bubble_eff": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bubble_eff" }
+				]
+			}
+		},
+		"bones": {
+			"bomb_eff_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bubble_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

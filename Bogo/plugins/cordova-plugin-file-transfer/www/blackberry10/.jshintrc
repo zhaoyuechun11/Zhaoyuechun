@@ -1,0 +1,6 @@
+{
+    "globals": {
+        "requestAnimationFrame": true,
+        "esversion": 6
+    }
+}

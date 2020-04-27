@@ -1,0 +1,174 @@
+
+sudoku_title.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: true
+  xy: 2, 301
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+back_eff
+  rotate: true
+  xy: 749, 124
+  size: 175, 302
+  orig: 175, 302
+  offset: 0, 0
+  index: -1
+banner
+  rotate: false
+  xy: 2, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+btn_sound_on
+  rotate: false
+  xy: 2, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+btn_start
+  rotate: false
+  xy: 2, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+btn_tutorial
+  rotate: false
+  xy: 2, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_banner_color
+  rotate: false
+  xy: 2, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_star_count
+  rotate: false
+  xy: 2, 6
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+bird_1
+  rotate: false
+  xy: 547, 2
+  size: 70, 87
+  orig: 70, 87
+  offset: 0, 0
+  index: -1
+bird_2
+  rotate: false
+  xy: 619, 2
+  size: 70, 87
+  orig: 70, 87
+  offset: 0, 0
+  index: -1
+cha_arm_1
+  rotate: true
+  xy: 1053, 130
+  size: 169, 166
+  orig: 169, 166
+  offset: 0, 0
+  index: -1
+cha_arm_2
+  rotate: false
+  xy: 550, 148
+  size: 173, 151
+  orig: 173, 151
+  offset: 0, 0
+  index: -1
+cha_body
+  rotate: false
+  xy: 1284, 588
+  size: 516, 433
+  orig: 516, 433
+  offset: 0, 0
+  index: -1
+cha_eye
+  rotate: false
+  xy: 691, 49
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+cha_head
+  rotate: true
+  xy: 1284, 87
+  size: 499, 366
+  orig: 499, 366
+  offset: 0, 0
+  index: -1
+title_1
+  rotate: false
+  xy: 2, 27
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+title_2
+  rotate: false
+  xy: 111, 27
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+title_6
+  rotate: false
+  xy: 111, 27
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+title_3
+  rotate: false
+  xy: 220, 27
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+title_4
+  rotate: false
+  xy: 329, 27
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+title_5
+  rotate: false
+  xy: 438, 27
+  size: 107, 108
+  orig: 107, 108
+  offset: 0, 0
+  index: -1
+title_7
+  rotate: false
+  xy: 547, 91
+  size: 200, 44
+  orig: 200, 44
+  offset: 0, 0
+  index: -1
+title_add
+  rotate: true
+  xy: 1652, 167
+  size: 419, 385
+  orig: 419, 385
+  offset: 0, 0
+  index: -1
+under_ui
+  rotate: false
+  xy: 2, 137
+  size: 546, 162
+  orig: 546, 162
+  offset: 0, 0
+  index: -1

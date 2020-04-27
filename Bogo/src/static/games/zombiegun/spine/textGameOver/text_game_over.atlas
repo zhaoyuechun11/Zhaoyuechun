@@ -1,0 +1,13 @@
+
+text_game_over.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gameover
+  rotate: false
+  xy: 2, 489
+  size: 657, 170
+  orig: 657, 170
+  offset: 0, 0
+  index: -1

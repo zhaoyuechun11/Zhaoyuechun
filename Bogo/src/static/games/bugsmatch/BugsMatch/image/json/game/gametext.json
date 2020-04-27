@@ -1,0 +1,44 @@
+{"frames": {
+
+"combo.png":
+{
+	"frame": {"x":1,"y":239,"w":402,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":402,"h":102},
+	"sourceSize": {"w":402,"h":102}
+},
+"gameover.png":
+{
+	"frame": {"x":1,"y":1,"w":642,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":642,"h":120},
+	"sourceSize": {"w":642,"h":120}
+},
+"levelup.png":
+{
+	"frame": {"x":645,"y":1,"w":611,"h":293},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":611,"h":293},
+	"sourceSize": {"w":611,"h":293}
+},
+"start.png":
+{
+	"frame": {"x":1,"y":123,"w":431,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":114},
+	"sourceSize": {"w":431,"h":114}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "gametext.png",
+	"format": "RGBA8888",
+	"size": {"w":1257,"h":342},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88f0ae67cfdb81655d83bdab1cae7f09:da09e7913df2e45d995ee2617f5200ad:ca3d7561186f9e4de3351ad55fd78b5f$"
+}
+}

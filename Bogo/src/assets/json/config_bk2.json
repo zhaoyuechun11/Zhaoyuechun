@@ -1,0 +1,104 @@
+{
+  "gameList": [{
+    "gameId": "supperzzle",
+    "gameUrl": "supperzzle",
+    "gameName": "Fun Link",
+    "gameImage": "./static/icon/lianliankan.jpg",
+    "gamePlayer": 2000,
+    "gameColor": "#003ab4",
+    "gameServer": null,
+    "singleMode": false
+    }, {
+      "gameId": "slices",
+      "gameUrl": "slices",
+      "gameName": "Slices",
+      "gameImage": "./static/icon/slices.jpg",
+      "gamePlayer": 10000,
+      "gameColor": "#4d9500",
+      "gameServer": null,
+      "singleMode": false
+    }, {
+      "gameId": "darts",
+      "gameUrl": "darts",
+      "gameName": "Knife Throw",
+      "gameImage": "./static/icon/feidao.jpg",
+      "gamePlayer": 10000,
+      "gameColor": "#af5e00",
+      "gameServer": null,
+      "singleMode": false
+    }, {
+      "gameId": "penguinjump",
+      "gameUrl": "penguinjump",
+      "gameName": "Penguin Jump",
+      "gameImage": "./static/icon/penguinjump.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#999ef0",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "stickmanrun",
+      "gameUrl": "stickmanrun",
+      "gameName": "Stick Man",
+      "gameImage": "./static/icon/stickman.png",
+      "gamePlayer": 10000,
+      "gameColor": "#4d9500",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "slamcookies",
+      "gameUrl": "slamcookies",
+      "gameName": "Hit Cookie",
+      "gameImage": "./static/icon/slamcookies.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#d8ecf1",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "birds",
+      "gameUrl": "birds",
+      "gameName": "Birds",
+      "gameImage": "./static/icon/birds.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#613ed7",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "ludoescape",
+      "gameUrl": "ludoescape",
+      "gameName": "Jelly Escape",
+      "gameImage": "./static/icon/ludoescape.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#18b8dc",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "climbhigh",
+      "gameUrl": "climbhigh",
+      "gameName": "Prince Climb",
+      "gameImage": "./static/icon/climbhigh.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#999ef0",
+      "singleMode": false,
+      "gameServer": {
+        "url": "5.9.36.158",
+        "port": "8900"
+      }
+    },
+    {
+      "gameId": "jumpover",
+      "gameUrl": "jumpover",
+      "gameName": "Jump Over",
+      "gameImage": "./static/icon/jumpover.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#939393",
+      "gameServer": null,
+      "singleMode": false
+    }],
+  "homeGames": [
+    [ "supperzzle", "slices"],
+    [ "darts","penguinjump"],
+    [ "stickmanrun","slamcookies"],
+    [ "ludoescape","birds"],
+    [ "jumpover", "climbhigh"]
+  ]
+}

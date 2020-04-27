@@ -1,0 +1,28 @@
+{"frames": {
+
+"greece_building_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+},
+"greece_building_0002.png":
+{
+	"frame": {"x":893,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "greeceBuilding.png",
+	"format": "RGBA8888",
+	"size": {"w":1784,"h":1107},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ad82c2b630c1c93af3bc7da411c011bc:5cc6bc425054e5bb6a82442dd4908a1a:14d02599d2c17da9de3128faedbd4cdf$"
+}
+}

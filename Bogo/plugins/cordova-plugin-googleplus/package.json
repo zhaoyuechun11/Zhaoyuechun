@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
+  "_id": "cordova-plugin-googleplus@7.0.0",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-googleplus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus",
+    "rawSpec": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus",
+    "saveSpec": "git+https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
+    "fetchSpec": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git#f30ff4e4a743803101d01e99f524cad45d465db2",
+  "_spec": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus",
+  "_where": "E:\\avazu\\bongo",
+  "bundleDependencies": false,
+  "cordova_name": "Google SignIn",
+  "deprecated": false,
+  "description": "Use your Google account to authenticate with the app.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.5.0"
+    }
+  ],
+  "issue": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus/issues",
+  "keywords": [
+    "Google",
+    "Google SignIn",
+    "Google Sign In",
+    "GoogleSignIn",
+    "Google Login",
+    "Google Plus",
+    "Login",
+    "OAuth",
+    "Identity",
+    "Authentication",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-googleplus",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repo": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
+  "version": "7.0.0"
+}

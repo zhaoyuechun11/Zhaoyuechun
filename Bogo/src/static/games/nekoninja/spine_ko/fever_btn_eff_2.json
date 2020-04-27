@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "Ia20zT8w64OUYm8MbFMNwcGsB/8", "spine": "3.5.46", "width": 478.05, "height": 263.44, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fever_btn_eff", "parent": "root", "scaleX": 1.494, "scaleY": 1.464 }
+],
+"slots": [
+	{ "name": "bomb-03-25p", "bone": "fever_btn_eff", "attachment": "bomb-03-25p", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bomb-03-25p": {
+			"bomb-03-25p": { "width": 320, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bomb-03-25p": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bomb-03-25p" }
+				]
+			}
+		},
+		"bones": {
+			"fever_btn_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1.096, "y": 1.117 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

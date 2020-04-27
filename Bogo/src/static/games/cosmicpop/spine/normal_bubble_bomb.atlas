@@ -1,0 +1,48 @@
+
+normal_bubble_bomb.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb-04-1
+  rotate: false
+  xy: 2, 340
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-2
+  rotate: false
+  xy: 2, 171
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-3
+  rotate: false
+  xy: 191, 340
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-4
+  rotate: false
+  xy: 2, 2
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-5
+  rotate: false
+  xy: 191, 171
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bubble_eff
+  rotate: false
+  xy: 380, 459
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1

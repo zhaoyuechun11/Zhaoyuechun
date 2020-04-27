@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=white><meta http-equiv=Content-Type content="text/html; charset=utf-8"><title>Bongo Games</title><link href=styles.css rel=stylesheet></head><body onload=onLoad()><div id=app></div><div id=fb-root></div><script>function onLoad() {
+     document.addEventListener('deviceready',onDeviceReady, false)
+   }
+
+   function onDeviceReady() {
+     document.addEventListener('backbutton', onBackKeyDown, false);
+     setTimeout(function () {
+       navigator.splashscreen.hide();
+     },1000)
+   }
+
+   function onBackKeyDown() {
+     navigator.notification.confirm("Are you sure you want to exit ?", onConfirm, "Bongo Games", ['Yes','No']);
+   }
+   
+   function onConfirm(btn) {
+      if(btn==2){//If User selected No, then we just do nothing
+        return;
+      }else{
+      if(navigator.app){
+          console.log("=======================================##################=======================================11111111111111==========");
+          navigator.app.exitApp();
+        }else if(navigator.device){
+          console.log("=======================================##################=======================================22222222222222==========");
+          navigator.device.exitApp();
+      }
+     }
+   }</script><script src=cordova.js></script><script src=d43d0d9b583c515b3fea.main.js></script></body></html>

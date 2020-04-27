@@ -1,0 +1,23 @@
+<font>
+	<info face="RankNum" size="61" />
+	<common lineHeight="61" scaleW="283" scaleH="290" pages="1" />
+	<pages>
+		<page id="0" file="rankNum.png" />
+	</pages>
+	<chars count="12">
+		<char id="48" x="143" y="98" width="69" height="97" xoffset="0" yoffset="-36" xadvance="72" /><!-- 0 -->
+		<char id="49" x="214" y="0" width="51" height="94" xoffset="0" yoffset="-34" xadvance="54" /><!-- 1 -->
+		<char id="50" x="0" y="0" width="72" height="96" xoffset="0" yoffset="-36" xadvance="75" /><!-- 2 -->
+		<char id="51" x="213" y="98" width="69" height="97" xoffset="0" yoffset="-36" xadvance="72" /><!-- 3 -->
+		<char id="52" x="0" y="195" width="70" height="94" xoffset="0" yoffset="-34" xadvance="73" /><!-- 4 -->
+		<char id="53" x="73" y="0" width="69" height="95" xoffset="0" yoffset="-34" xadvance="72" /><!-- 5 -->
+		<char id="54" x="143" y="0" width="70" height="97" xoffset="0" yoffset="-36" xadvance="73" /><!-- 6 -->
+		<char id="55" x="71" y="195" width="63" height="94" xoffset="0" yoffset="-34" xadvance="66" /><!-- 7 -->
+		<char id="56" x="0" y="97" width="71" height="97" xoffset="0" yoffset="-36" xadvance="74" /><!-- 8 -->
+		<char id="57" x="72" y="97" width="70" height="97" xoffset="0" yoffset="-36" xadvance="73" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="17" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="136" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

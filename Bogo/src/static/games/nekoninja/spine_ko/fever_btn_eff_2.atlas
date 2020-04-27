@@ -1,0 +1,13 @@
+
+fever_btn_eff_2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb-03-25p
+  rotate: false
+  xy: 2, 142
+  size: 320, 180
+  orig: 320, 180
+  offset: 0, 0
+  index: -1

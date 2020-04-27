@@ -1,0 +1,65 @@
+{
+"skeleton": {
+	"hash": "0Q46WaHCINKJtM9XPbU5IIN17go",
+	"spine": "3.6.52",
+	"width": 93,
+	"height": 102,
+	"images": "\\\\192.168.0.7\\02. 게임개발\\0016_네이버\\01 위챗점프게임\\02 디자인\\게임\\ver_2\\effect\\navigation\\psd\\images"
+},
+"bones": [
+	{ "name": "root", "x": -0.67, "y": -0.34 },
+	{ "name": "light", "parent": "root", "x": 3.68, "y": 0.34 },
+	{ "name": "target", "parent": "root", "x": 0.67, "y": 0.34 }
+],
+"slots": [
+	{ "name": "light", "bone": "light", "attachment": "light" },
+	{ "name": "target", "bone": "target", "attachment": "target" }
+],
+"skins": {
+	"default": {
+		"light": {
+			"light": { "width": 93, "height": 102 }
+		},
+		"target": {
+			"target": { "width": 40, "height": 52 }
+		}
+	}
+},
+"animations": {
+	"target": {
+		"slots": {
+			"light": {
+				"color": [
+					{ "time": 0, "color": "ffffff64" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff64" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "light" }
+				]
+			},
+			"target": {
+				"attachment": [
+					{ "time": 0, "name": "target" }
+				]
+			}
+		},
+		"bones": {
+			"light": {
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.6667, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"target": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

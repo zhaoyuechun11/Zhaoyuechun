@@ -1,0 +1,41 @@
+
+bubble_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+touch-eff-01
+  rotate: false
+  xy: 2, 310
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+touch-eff-02
+  rotate: false
+  xy: 2, 156
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+touch-eff-03
+  rotate: false
+  xy: 156, 310
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+touch-eff-04
+  rotate: false
+  xy: 2, 2
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+touch-eff-05
+  rotate: false
+  xy: 156, 156
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,615 @@
+{
+"skeleton": { "hash": "hHwA3cPLgdlLy7e11JsqrSbLjwg", "spine": "3.6.53", "width": 567.98, "height": 684.68, "images": "./psd/images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -1.9, "y": 20.76 },
+	{ "name": "bone2", "parent": "bone", "length": 180.46, "rotation": -78.42, "x": 11.2, "y": -19.85 },
+	{ "name": "bone3", "parent": "bone", "length": 177.46, "rotation": -103.54, "x": -13.04, "y": -20.65 },
+	{ "name": "bone4", "parent": "bone", "x": -90.51, "y": -71.05, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone5", "parent": "bone", "x": -62.15, "y": -128.2, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone6", "parent": "bone", "x": -175.66, "y": -221.17 },
+	{ "name": "bone7", "parent": "bone", "x": 94.24, "y": -63.28, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone8", "parent": "bone", "x": 163.67, "y": -277.27, "scaleX": 0.3, "scaleY": 0.3 },
+	{ "name": "bone9", "parent": "bone", "x": 126.39, "y": -407.4 },
+	{ "name": "bone10", "parent": "bone", "x": -125.1, "y": -339.38 },
+	{ "name": "bone11", "parent": "bone", "x": 139.81, "y": -152.51, "scaleX": 0.3, "scaleY": 0.3 },
+	{ "name": "light1", "parent": "root" },
+	{ "name": "light2", "parent": "root" },
+	{ "name": "potal", "parent": "root" },
+	{ "name": "light3", "parent": "potal" }
+],
+"slots": [
+	{ "name": "light3", "bone": "light3", "attachment": "light3" },
+	{ "name": "light2", "bone": "light2", "attachment": "light2" },
+	{ "name": "light1", "bone": "light1", "attachment": "light1" },
+	{ "name": "portal1_1", "bone": "potal", "attachment": "portal1_5" },
+	{ "name": "light4", "bone": "bone2", "color": "ffffff95", "attachment": "light4", "blend": "additive" },
+	{ "name": "light5", "bone": "bone3", "color": "ffffff93", "attachment": "light4", "blend": "additive" },
+	{ "name": "twinkle", "bone": "bone10", "attachment": "twinkle", "blend": "screen" },
+	{ "name": "twinkle2", "bone": "bone9", "color": "ffffff76", "attachment": "twinkle" },
+	{ "name": "twinkle3", "bone": "bone8", "attachment": "twinkle" },
+	{ "name": "twinkle8", "bone": "bone11", "attachment": "twinkle" },
+	{ "name": "twinkle4", "bone": "bone7", "attachment": "twinkle" },
+	{ "name": "twinkle5", "bone": "bone6", "color": "ffffff90", "attachment": "twinkle", "blend": "screen" },
+	{ "name": "twinkle6", "bone": "bone5", "attachment": "twinkle" },
+	{ "name": "twinkle7", "bone": "bone4", "attachment": "twinkle" }
+],
+"skins": {
+	"default": {
+		"light1": {
+			"light1": { "width": 170, "height": 170 }
+		},
+		"light2": {
+			"light2": { "width": 243, "height": 244 }
+		},
+		"light3": {
+			"light3": { "width": 237, "height": 237 }
+		},
+		"light4": {
+			"light4": { "x": 246.79, "y": 10.34, "scaleX": 1.5, "scaleY": 1.5, "rotation": 87.76, "width": 235, "height": 399 }
+		},
+		"light5": {
+			"light4": { "x": 243.15, "y": 10.92, "scaleX": 1.5, "scaleY": 1.5, "rotation": 95.72, "width": 235, "height": 399 }
+		},
+		"portal1_1": {
+			"portal1_1": { "width": 190, "height": 220 },
+			"portal1_2": { "width": 189, "height": 220 },
+			"portal1_3": { "width": 189, "height": 221 },
+			"portal1_4": { "width": 188, "height": 228 },
+			"portal1_5": { "width": 191, "height": 228 }
+		},
+		"twinkle": {
+			"twinkle": { "scaleX": 0.3, "scaleY": 0.3, "width": 48, "height": 58 }
+		},
+		"twinkle2": {
+			"twinkle": { "scaleX": 0.5, "scaleY": 0.5, "width": 48, "height": 58 }
+		},
+		"twinkle3": {
+			"twinkle": { "width": 48, "height": 58 }
+		},
+		"twinkle4": {
+			"twinkle": { "width": 48, "height": 58 }
+		},
+		"twinkle5": {
+			"twinkle": { "scaleX": 0.5, "scaleY": 0.5, "width": 48, "height": 58 }
+		},
+		"twinkle6": {
+			"twinkle": { "width": 48, "height": 58 }
+		},
+		"twinkle7": {
+			"twinkle": { "width": 48, "height": 58 }
+		},
+		"twinkle8": {
+			"twinkle": { "width": 48, "height": 58 }
+		}
+	}
+},
+"animations": {
+	"map_light": {
+		"slots": {
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light4": {
+				"color": [
+					{ "time": 0, "color": "ffffffa2" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "light4" }
+				]
+			},
+			"light5": {
+				"color": [
+					{ "time": 0, "color": "ffffffa0" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "light4" }
+				]
+			},
+			"portal1_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle": {
+				"color": [
+					{ "time": 2.1667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffac" },
+					{ "time": 2.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.1667, "name": "twinkle" }
+				]
+			},
+			"twinkle2": {
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffa1" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "twinkle" }
+				]
+			},
+			"twinkle3": {
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffa3" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "twinkle" }
+				]
+			},
+			"twinkle4": {
+				"color": [
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffffaf" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3333, "name": "twinkle" }
+				]
+			},
+			"twinkle5": {
+				"color": [
+					{ "time": 2.3333, "color": "ffffff00" },
+					{ "time": 2.6667, "color": "ffffffb2" },
+					{ "time": 3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.3333, "name": "twinkle" }
+				]
+			},
+			"twinkle6": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 0.9333, "color": "ffffffa8" },
+					{ "time": 1.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.6667, "name": "twinkle" }
+				]
+			},
+			"twinkle7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffb6" },
+					{ "time": 0.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffc1" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "twinkle" },
+					{ "time": 1.1667, "name": "twinkle" }
+				]
+			},
+			"twinkle8": {
+				"color": [
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffb3" },
+					{ "time": 1.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.1667, "name": "twinkle" }
+				]
+			}
+		},
+		"bones": {
+			"bone11": {
+				"scale": [
+					{ "time": 1.1667, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.3, "y": 1.3 },
+					{ "time": 1.8333, "x": 1, "y": 1 }
+				]
+			},
+			"bone10": {
+				"scale": [
+					{ "time": 2.1667, "x": 1, "y": 1 },
+					{ "time": 2.5, "x": 1.218, "y": 1.218 },
+					{ "time": 2.8333, "x": 1, "y": 1 }
+				]
+			},
+			"bone9": {
+				"scale": [
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.178, "y": 1.178 },
+					{ "time": 1.1667, "x": 1, "y": 1 }
+				]
+			},
+			"bone8": {
+				"scale": [
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.347, "y": 1.347 },
+					{ "time": 1.1667, "x": 1, "y": 1 }
+				]
+			},
+			"bone7": {
+				"scale": [
+					{ "time": 1.3333, "x": 1, "y": 1 },
+					{ "time": 1.6667, "x": 1.162, "y": 1.162 },
+					{ "time": 2, "x": 0.981, "y": 0.981 }
+				]
+			},
+			"bone6": {
+				"scale": [
+					{ "time": 2.3333, "x": 1, "y": 1 },
+					{ "time": 2.6667, "x": 1.112, "y": 1.112 },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			},
+			"bone5": {
+				"scale": [
+					{ "time": 0.6667, "x": 1, "y": 1 },
+					{ "time": 0.9333, "x": 1.37, "y": 1.37 },
+					{ "time": 1.2333, "x": 1, "y": 1 }
+				]
+			},
+			"bone4": {
+				"scale": [
+					{ "time": 0, "x": 0.624, "y": 0.624 },
+					{ "time": 0.3333, "x": 1.139, "y": 1.139 },
+					{ "time": 0.6667, "x": 1, "y": 1 },
+					{ "time": 1.1667, "x": 0.624, "y": 0.624 },
+					{ "time": 1.5, "x": 1.139, "y": 1.139 },
+					{ "time": 1.8333, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": -3.46 },
+					{ "time": 1.5, "angle": 0 },
+					{ "time": 3, "angle": -3.46 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.177, "y": 1 },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.5, "angle": -1.58 },
+					{ "time": 3, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.5, "x": 1.236, "y": 1 },
+					{ "time": 3, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"portal_appear": {
+		"slots": {
+			"light1": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1667, "name": "light1" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"light2": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "light3" }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"portal1_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "portal1_1" }
+				]
+			},
+			"twinkle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"potal": {
+				"scale": [
+					{ "time": 0.5, "x": 0.6, "y": 0.6 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			},
+			"light2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 90 },
+					{ "time": 0.5, "angle": 110 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.49, "y": 0.588 },
+					{ "time": 0.2, "x": 1.07, "y": 1.562 },
+					{ "time": 0.5, "x": 1.713, "y": 1 }
+				]
+			},
+			"light1": {
+				"translate": [
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1667, "x": 0.217, "y": 0.672 },
+					{ "time": 0.3333, "x": 0.609, "y": 1.511 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"portal_normal": {
+		"slots": {
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light3" }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"portal1_1": {
+				"attachment": [
+					{ "time": 0, "name": "portal1_1" },
+					{ "time": 0.1333, "name": "portal1_2" },
+					{ "time": 0.2667, "name": "portal1_3" },
+					{ "time": 0.4, "name": "portal1_4" },
+					{ "time": 0.5333, "name": "portal1_5" },
+					{ "time": 0.6667, "name": "portal1_1" }
+				]
+			},
+			"twinkle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"light3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 30 },
+					{ "time": 0.6667, "angle": 60 }
+				]
+			},
+			"potal": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.912, "y": 1 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"portal_transition": {
+		"slots": {
+			"light1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light3": {
+				"attachment": [
+					{ "time": 0, "name": "light3" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"light4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"light5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"portal1_1": {
+				"attachment": [
+					{ "time": 0, "name": "portal1_1" },
+					{ "time": 0.3667, "name": null }
+				]
+			},
+			"twinkle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"twinkle8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"light3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": 15 },
+					{ "time": 0.3333, "angle": 30 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 3, "y": 3 }
+				]
+			},
+			"potal": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.6, "y": 0.6 }
+				]
+			}
+		}
+	}
+}
+}

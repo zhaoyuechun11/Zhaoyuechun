@@ -1,0 +1,28 @@
+{"frames": {
+
+"france_building_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+},
+"france_building_0002.png":
+{
+	"frame": {"x":893,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "franceBuilding.png",
+	"format": "RGBA8888",
+	"size": {"w":1784,"h":1107},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7a2f5482e21cf98ec81c02b91793db45:a8954693ac62247b1c69edb073dbb4b3:0df604b2c43cc45ec61d747f75131255$"
+}
+}

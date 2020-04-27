@@ -1,0 +1,272 @@
+
+baby_all.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baby_1
+  rotate: false
+  xy: 2, 768
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_10
+  rotate: false
+  xy: 689, 768
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_1_flower
+  rotate: true
+  xy: 922, 504
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+baby_2
+  rotate: false
+  xy: 2, 512
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_3
+  rotate: false
+  xy: 231, 768
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_4
+  rotate: false
+  xy: 2, 256
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_5
+  rotate: false
+  xy: 231, 512
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_6
+  rotate: false
+  xy: 460, 768
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_7
+  rotate: false
+  xy: 231, 256
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_8
+  rotate: true
+  xy: 2, 27
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_9
+  rotate: false
+  xy: 460, 512
+  size: 227, 254
+  orig: 227, 254
+  offset: 0, 0
+  index: -1
+baby_base
+  rotate: true
+  xy: 662, 283
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+baby_base_2
+  rotate: true
+  xy: 690, 10
+  size: 114, 56
+  orig: 114, 56
+  offset: 0, 0
+  index: -1
+bg_stage
+  rotate: false
+  xy: 763, 111
+  size: 126, 44
+  orig: 126, 44
+  offset: 0, 0
+  index: -1
+btn_stage_1
+  rotate: false
+  xy: 748, 35
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+btn_stage_2
+  rotate: false
+  xy: 840, 35
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+btn_stage_lock
+  rotate: false
+  xy: 443, 12
+  size: 88, 98
+  orig: 88, 98
+  offset: 0, 0
+  index: -1
+btn_stage_normal
+  rotate: false
+  xy: 533, 12
+  size: 88, 98
+  orig: 88, 98
+  offset: 0, 0
+  index: -1
+egg
+  rotate: false
+  xy: 460, 280
+  size: 200, 230
+  orig: 200, 230
+  offset: 0, 0
+  index: -1
+egg_1
+  rotate: true
+  xy: 792, 271
+  size: 200, 166
+  orig: 200, 166
+  offset: 0, 0
+  index: -1
+egg_2
+  rotate: false
+  xy: 460, 112
+  size: 200, 166
+  orig: 200, 166
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: true
+  xy: 623, 11
+  size: 99, 65
+  orig: 99, 65
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: true
+  xy: 932, 37
+  size: 99, 65
+  orig: 99, 65
+  offset: 0, 0
+  index: -1
+eye_2_2
+  rotate: true
+  xy: 922, 577
+  size: 99, 65
+  orig: 99, 65
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: true
+  xy: 922, 678
+  size: 99, 65
+  orig: 99, 65
+  offset: 0, 0
+  index: -1
+foot_shadow
+  rotate: false
+  xy: 2, 6
+  size: 57, 19
+  orig: 57, 19
+  offset: 0, 0
+  index: -1
+light_eff_1
+  rotate: false
+  xy: 918, 779
+  size: 77, 41
+  orig: 77, 41
+  offset: 0, 0
+  index: -1
+light_eff_2
+  rotate: false
+  xy: 662, 126
+  size: 99, 155
+  orig: 99, 155
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 960, 455
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+lock_white
+  rotate: false
+  xy: 960, 406
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+mission_eff_1
+  rotate: false
+  xy: 874, 473
+  size: 46, 293
+  orig: 46, 293
+  offset: 0, 0
+  index: -1
+mission_eff_2
+  rotate: false
+  xy: 918, 919
+  size: 104, 103
+  orig: 104, 103
+  offset: 0, 0
+  index: -1
+mission_star_1
+  rotate: true
+  xy: 689, 524
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+mission_star_2
+  rotate: false
+  xy: 763, 157
+  size: 131, 112
+  orig: 131, 112
+  offset: 0, 0
+  index: -1
+mission_star_3
+  rotate: true
+  xy: 258, 12
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+mission_star_4
+  rotate: true
+  xy: 896, 138
+  size: 131, 112
+  orig: 131, 112
+  offset: 0, 0
+  index: -1
+stage_effect
+  rotate: true
+  xy: 792, 473
+  size: 49, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 918, 822
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1

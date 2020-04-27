@@ -1,0 +1,69 @@
+
+foothold_4.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foothold1
+  rotate: false
+  xy: 260, 385
+  size: 171, 119
+  orig: 171, 119
+  offset: 0, 0
+  index: -1
+foothold2
+  rotate: false
+  xy: 2, 195
+  size: 198, 137
+  orig: 198, 137
+  offset: 0, 0
+  index: -1
+foothold3
+  rotate: false
+  xy: 2, 334
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+foothold_bg1
+  rotate: false
+  xy: 2, 2
+  size: 128, 96
+  orig: 128, 96
+  offset: 0, 0
+  index: -1
+foothold_bg2
+  rotate: true
+  xy: 202, 197
+  size: 135, 86
+  orig: 135, 86
+  offset: 0, 0
+  index: -1
+foothold_bg3
+  rotate: false
+  xy: 2, 100
+  size: 147, 93
+  orig: 147, 93
+  offset: 0, 0
+  index: -1
+foothold_side0
+  rotate: false
+  xy: 290, 151
+  size: 110, 115
+  orig: 110, 115
+  offset: 0, 0
+  index: -1
+foothold_side1
+  rotate: false
+  xy: 290, 268
+  size: 110, 115
+  orig: 110, 115
+  offset: 0, 0
+  index: -1
+foothold_side2
+  rotate: false
+  xy: 151, 78
+  size: 110, 115
+  orig: 110, 115
+  offset: 0, 0
+  index: -1

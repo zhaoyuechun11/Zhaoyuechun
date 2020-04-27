@@ -1,0 +1,146 @@
+
+block_animation.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3-1
+  rotate: true
+  xy: 164, 428
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-2
+  rotate: true
+  xy: 284, 428
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-3
+  rotate: false
+  xy: 112, 300
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-4
+  rotate: false
+  xy: 112, 180
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+add_1
+  rotate: true
+  xy: 366, 382
+  size: 44, 26
+  orig: 44, 26
+  offset: 0, 0
+  index: -1
+add_2
+  rotate: false
+  xy: 366, 337
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+add_3
+  rotate: true
+  xy: 2, 2
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+bomb-03-25p
+  rotate: false
+  xy: 2, 420
+  size: 160, 90
+  orig: 160, 90
+  offset: 0, 0
+  index: -1
+bomb-05-4
+  rotate: true
+  xy: 404, 416
+  size: 94, 103
+  orig: 94, 103
+  offset: 0, 0
+  index: -1
+ice_block_1
+  rotate: false
+  xy: 2, 302
+  size: 108, 116
+  orig: 108, 116
+  offset: 0, 0
+  index: -1
+ice_block_2
+  rotate: false
+  xy: 2, 184
+  size: 108, 116
+  orig: 108, 116
+  offset: 0, 0
+  index: -1
+ice_block_3
+  rotate: false
+  xy: 2, 66
+  size: 108, 116
+  orig: 108, 116
+  offset: 0, 0
+  index: -1
+item_block
+  rotate: false
+  xy: 196, 323
+  size: 90, 103
+  orig: 90, 103
+  offset: 0, 0
+  index: -1
+item_block_shadow
+  rotate: false
+  xy: 2, 26
+  size: 68, 38
+  orig: 68, 38
+  offset: 0, 0
+  index: -1
+item_chaos
+  rotate: false
+  xy: 112, 82
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1
+item_jewel
+  rotate: false
+  xy: 196, 225
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1
+item_power_up
+  rotate: false
+  xy: 288, 330
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1
+part_1
+  rotate: true
+  xy: 196, 182
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+part_2
+  rotate: false
+  xy: 72, 18
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 244, 182
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1

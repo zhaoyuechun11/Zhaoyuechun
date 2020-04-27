@@ -1,0 +1,92 @@
+{"frames": {
+
+"gameOver_box.png":
+{
+	"frame": {"x":504,"y":745,"w":632,"h":270},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":270},
+	"sourceSize": {"w":632,"h":270}
+},
+"hand_left_btn.png":
+{
+	"frame": {"x":1007,"y":1,"w":213,"h":251},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":251},
+	"sourceSize": {"w":213,"h":251}
+},
+"hand_right_btn.png":
+{
+	"frame": {"x":1007,"y":254,"w":213,"h":251},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":251},
+	"sourceSize": {"w":213,"h":251}
+},
+"option_box1_0.png":
+{
+	"frame": {"x":504,"y":466,"w":501,"h":277},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":501,"h":277},
+	"sourceSize": {"w":501,"h":277}
+},
+"option_box1_1.png":
+{
+	"frame": {"x":1,"y":592,"w":501,"h":391},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":501,"h":391},
+	"sourceSize": {"w":501,"h":391}
+},
+"option_box_0.png":
+{
+	"frame": {"x":504,"y":1,"w":501,"h":463},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":501,"h":463},
+	"sourceSize": {"w":501,"h":463}
+},
+"option_box_1.png":
+{
+	"frame": {"x":1,"y":1,"w":501,"h":589},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":501,"h":589},
+	"sourceSize": {"w":501,"h":589}
+},
+"option_exit_btn_s.png":
+{
+	"frame": {"x":1007,"y":606,"w":210,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":97},
+	"sourceSize": {"w":210,"h":97}
+},
+"option_help_btn.png":
+{
+	"frame": {"x":1007,"y":507,"w":324,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":97},
+	"sourceSize": {"w":324,"h":97}
+},
+"retry_btn.png":
+{
+	"frame": {"x":1138,"y":705,"w":210,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":97},
+	"sourceSize": {"w":210,"h":97}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "human_popup_cn.png",
+	"format": "RGBA8888",
+	"size": {"w":1349,"h":1016},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:eab678a9065c012880245f13c615fc6a:3037d68b7f913c80f4a66beaec17dbd4:f022021c16562a0551a419d0991d9b8d$"
+}
+}

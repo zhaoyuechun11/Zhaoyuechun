@@ -1,0 +1,62 @@
+{
+"skeleton": { "hash": "Ju6kQaq+Hrws+Kc8MLkB3vhY7NY", "spine": "3.5.46", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hint_eff", "parent": "root" }
+],
+"slots": [
+	{ "name": "eff_1", "bone": "hint_eff" }
+],
+"skins": {
+	"default": {
+		"eff_1": {
+			"eff_1": { "width": 101, "height": 102 },
+			"eff_2": { "width": 101, "height": 102 },
+			"eff_3": { "width": 101, "height": 102 },
+			"eff_4": { "width": 101, "height": 102 },
+			"eff_5": { "width": 101, "height": 102 },
+			"eff_6": { "width": 101, "height": 102 },
+			"eff_7": { "width": 101, "height": 102 },
+			"eff_8": { "width": 101, "height": 102 }
+		}
+	}
+},
+"animations": {
+	"hint_eff": {
+		"slots": {
+			"eff_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "eff_1" },
+					{ "time": 0.0667, "name": "eff_2" },
+					{ "time": 0.1333, "name": "eff_3" },
+					{ "time": 0.2, "name": "eff_4" },
+					{ "time": 0.2667, "name": "eff_5" },
+					{ "time": 0.3333, "name": "eff_6" },
+					{ "time": 0.4, "name": "eff_7" },
+					{ "time": 0.4667, "name": "eff_8" },
+					{ "time": 0.5333, "name": "eff_1" }
+				]
+			}
+		},
+		"bones": {
+			"hint_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

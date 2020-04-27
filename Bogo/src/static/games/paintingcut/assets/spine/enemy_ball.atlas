@@ -1,0 +1,251 @@
+
+enemy_ball.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb_ani_1
+  rotate: false
+  xy: 304, 455
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+bomb_ani_2
+  rotate: false
+  xy: 204, 255
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+bomb_ani_3
+  rotate: false
+  xy: 304, 398
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+bomb_ani_4
+  rotate: false
+  xy: 350, 455
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+bomb_core
+  rotate: false
+  xy: 63, 16
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+bomb_eff_1
+  rotate: false
+  xy: 104, 350
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+bomb_eff_2
+  rotate: false
+  xy: 104, 250
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+bomb_eff_3
+  rotate: false
+  xy: 104, 150
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+bomb_eff_4
+  rotate: false
+  xy: 104, 50
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+bomb_eff_5
+  rotate: false
+  xy: 204, 412
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+bomb_eff_6
+  rotate: false
+  xy: 204, 312
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+bomb_part_1
+  rotate: false
+  xy: 204, 160
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+bomb_part_2
+  rotate: true
+  xy: 63, 2
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+bomb_part_3
+  rotate: false
+  xy: 482, 473
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+bomb_part_4
+  rotate: true
+  xy: 482, 493
+  size: 17, 28
+  orig: 17, 28
+  offset: 0, 0
+  index: -1
+bomb_part_5
+  rotate: true
+  xy: 350, 401
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+bomb_part_6
+  rotate: true
+  xy: 250, 256
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+bomb_part_7
+  rotate: false
+  xy: 89, 21
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+item_box_1
+  rotate: true
+  xy: 204, 197
+  size: 56, 34
+  orig: 56, 34
+  offset: 0, 0
+  index: -1
+item_box_2
+  rotate: true
+  xy: 2, 5
+  size: 35, 59
+  orig: 35, 59
+  offset: 0, 0
+  index: -1
+item_box_3_1
+  rotate: false
+  xy: 169, 451
+  size: 29, 59
+  orig: 29, 59
+  offset: 0, 0
+  index: -1
+item_box_3_2
+  rotate: true
+  xy: 104, 42
+  size: 6, 48
+  orig: 6, 48
+  offset: 0, 0
+  index: -1
+item_fever
+  rotate: false
+  xy: 2, 450
+  size: 165, 60
+  orig: 165, 60
+  offset: 0, 0
+  index: -1
+item_life_up
+  rotate: false
+  xy: 2, 348
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+item_stop
+  rotate: false
+  xy: 2, 246
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+item_super
+  rotate: false
+  xy: 2, 144
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+item_time_plus
+  rotate: false
+  xy: 2, 42
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+normal_ball
+  rotate: false
+  xy: 250, 269
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+normal_ball_2
+  rotate: false
+  xy: 304, 355
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+normal_ball_3
+  rotate: false
+  xy: 350, 412
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+normal_ball_4
+  rotate: false
+  xy: 396, 469
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+normal_ball_5
+  rotate: false
+  xy: 304, 312
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+normal_ball_eff_1
+  rotate: false
+  xy: 293, 269
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+normal_ball_eff_2
+  rotate: false
+  xy: 439, 469
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 204, 180
+  size: 32, 15
+  orig: 32, 15
+  offset: 0, 0
+  index: -1

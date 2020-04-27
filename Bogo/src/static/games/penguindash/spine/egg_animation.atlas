@@ -1,0 +1,97 @@
+
+egg_animation.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3-1
+  rotate: false
+  xy: 2, 8
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-2
+  rotate: false
+  xy: 86, 8
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-3
+  rotate: false
+  xy: 170, 8
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-4
+  rotate: false
+  xy: 254, 8
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+egg
+  rotate: false
+  xy: 338, 45
+  size: 65, 81
+  orig: 65, 81
+  offset: 0, 0
+  index: -1
+egg_back_1
+  rotate: false
+  xy: 405, 76
+  size: 90, 50
+  orig: 90, 50
+  offset: 0, 0
+  index: -1
+egg_back_2
+  rotate: false
+  xy: 497, 76
+  size: 90, 50
+  orig: 90, 50
+  offset: 0, 0
+  index: -1
+egg_part_1
+  rotate: false
+  xy: 674, 96
+  size: 38, 30
+  orig: 38, 30
+  offset: 0, 0
+  index: -1
+egg_part_2
+  rotate: false
+  xy: 714, 96
+  size: 36, 30
+  orig: 36, 30
+  offset: 0, 0
+  index: -1
+egg_part_3
+  rotate: true
+  xy: 633, 95
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
+egg_part_4
+  rotate: true
+  xy: 405, 46
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+egg_part_5
+  rotate: false
+  xy: 589, 92
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 338, 2
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1

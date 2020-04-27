@@ -1,0 +1,667 @@
+syntax = "proto2";
+package down;
+
+//tcp协议格式为：packet_len(2)+id(2)+seq(1)+reserve(4)+body即数据包长度(2字节大端序，包括id+seq+reserve+body，不包含packet_len本身字节)+协议号(2字节大端序)+序号(1字节)+预留字节(4字节)+数据包包体
+
+//websocket协议格式为：head+body即数据包长度(2字节大端序，包括协议号+包体字节，不包含本身字节)+协议号(4字节大端序)+数据包包体
+//head = seq(1)+id(2)+body_len(2) seq:序号(暂未实现)，1字节；id，消息号,2个字节；body_len，消息体长度，2个字节(消息体长度其实无意义，可作保留字段用)
+
+//通用协议------------------------------------------
+//登录流程：连接-->handshake(暂时不用，后期再实现)-->login-->get_user_info[首次-->create_user[-->get_user_info]]
+//游戏流程：获取相关信息-->...-->match_game-->game_ready
+
+
+//通用协议------------------------------------------
+enum handshake_type_enum {
+    suggest_upgrade    = 1; // 建议升级
+    required_upgrade   = 2; // 强制升级
+    server_maintain    = 3; // 服务维护
+    server_restart     = 4; // 服务重启
+}
+
+enum login_type_enum {
+    default_login          = 1; // 默认登陆方式 (账号/密码)
+    facebook_login         = 2; // facebook登录
+    guest_login            = 3; // 游客登录
+    token_login            = 4; // 内部token登录
+    mobile_login           = 5; // 手机号登录
+    google_login           = 6; // google登录
+}
+
+enum logout_reason_enum {
+    normal_logout          = 1; // 客户端正常登出，服务端将立即关闭连接，客户端将不能收到服务端任何消息
+    switch_user            = 2; // 切换用户，服务端给予一定时间让用户选择其它帐户登录，连接暂时不会关闭
+    relogin                = 22; // 重复登录，系统自动先将前一登录登出
+    //以下仅为服务端使用
+    break_line             = 20; // 客户端断线
+    for_error              = 21; // 错误引起
+    timeout_logout         = 23; // 超时引起
+    kick                   = 24; // 被踢下线
+}
+
+// 错误码
+enum result_enum {
+    error_code_success                                      = 0;    //操作成功
+    error_code_none                                         = 90002;    //正常的失败，无须打印警告或错误日志
+    error_code_fail                                         = 90003;    //失败，服务器异常
+    error_code_invalid_req                                  = 90004;    //非法操作，操作依赖的状态不正常
+    error_code_user_inexistent                              = 90005;    //用户不存在,uid无效等
+    error_code_diamond_not_enough                           = 90006;    //玩家钻石不够，可能是自身，也可能是其他玩家影响
+    error_code_db_fail                                      = 90007;    //db操作失败
+    error_code_service_inexistent                           = 90008;    //未找到请求对应的服务，可能服务未开启
+    error_code_game_not_begin                               = 90009;    //游戏没有开始
+    error_code_game_is_over                                 = 90010;    //游戏已经结束
+    error_code_service_busy                                 = 90011;    //服务忙(可能正在处理当前用户的其它相关任务)
+    error_code_param_error                                  = 90012;    //参数错误，如超出有效范围
+    error_code_not_join_game                                = 90013;    //没有加入游戏或没有参与匹配游戏
+    error_code_allow_in_one_room_limit                      = 90014;    //同一时间仅允许在一个房间玩游戏，一个玩家只允许创建一个固定庄家房间
+    error_code_playing_unable_leave_room                    = 90015;    //游戏中不允许离开房间
+    error_code_alread_playing                               = 90016;    //已经在游戏中
+    error_code_need_login_first                             = 90017;    //用户没有登录
+    error_code_player_count_not_enough                      = 90018;    //玩家个数不够
+    error_code_can_not_join_game                            = 90019;    //不能加入游戏
+    error_code_alread_sit_down                              = 90020;    //已经坐下
+    error_code_gold_is_not_enough                           = 90021;    //金币不足
+    error_code_user_not_init                                = 90022;    //用户没有初始化，没有创建用户信息或角色
+    error_code_send_expression_to_myself                    = 90024;    //给自己发表情
+    error_code_obj_already_existent                         = 90025;    //对象已存在
+    error_code_user_in_black_list                           = 90026;    //对方已被您拉黑
+    error_code_new_account_already_binding                  = 90027;    //新账户已经绑定过
+    error_code_user_alread_join_other_game                  = 90028;    //用户已经加入别的游戏对局
+    error_code_timeout                                      = 90029;    //表示xxx超时
+    //...增加错误码
+}
+
+message result {
+    required result_enum              _err_no               = 1;        // 错误码
+    optional string                   _err_desc             = 2;        // 失败时的错误原因描述
+}
+
+//游戏玩家显示的信息:ID,昵称，微信头像
+message user_base_info_struct {
+    optional uint64                   _uid                  = 1;  // 用户唯一标识，登录时由服务器返回
+    optional string                   _user_name            = 2;  // 用户名/昵称
+    optional string                   _birthday             = 3;  // 生日,时间
+    optional string                   _head_portrait        = 4;  // 头像，目前微信登录才有效
+    optional uint32                   _sex                  = 5;  // 性别：1，男；2，女 ；0 未知
+    optional string                   _job                  = 6;  // 职业
+    optional string                   _homeland             = 7;  // 家乡
+    optional string                   _constellation        = 8;  // 星座
+    optional string                   _signature            = 9;  // 签名
+    optional uint32                   _is_robot             = 10;  // 是否为机器人:非0表示设置为机器人
+    repeated string                   _live_img_list        = 11;  // 生活照列表
+}
+
+//玩家自身信息:ID,昵称，钻石数量，微信头像
+message user_info_struct {
+    required user_base_info_struct    _user_base_info       = 1;  // 基本信息
+    optional uint64                   _total_like           = 2;  // 点赞数
+    optional uint64                   _total_belike         = 3;  // 被点赞(喜欢)数
+    optional int32                    _total_integral       = 4;  // 总积分值
+    optional string                   _head_portrait_frame  = 5;  // 佩戴的头像框,对应的id
+    optional uint64                   _diamond              = 6;  // 钻石
+    optional uint64                   _gold                 = 7;  // 金币
+    optional bool                     _is_trusteeship       = 8;  // 是否托管状态
+    optional string                   _other_info           = 99; // 其它信息(服务器无须特别关心和操作的，可能只须记录及原样转发给客户端)，使用json格式，目前微信登录才有效
+}
+
+//聊天频道：1，当前游戏组聊(如一个处牌座内部)；2，私聊，仅两人交流；3，所在游戏所有在线玩家广播；4，所有游戏全服在线玩家广播；5，玩家所以公会广播；
+enum chat_channel {
+    playing                = 1;
+    private                = 2;
+    cur_game               = 3;
+    all_world              = 4;
+    game_guild             = 5;
+}
+
+//内容类型：1，固定选择文字；2，表情；3，语音; 4, 自定义文字；
+enum chat_type {
+    chat_optional          = 1;
+    chat_face              = 2;
+    chat_voice             = 3;
+    chat_custom            = 4;
+}
+//通用协议------------------------------------------
+
+//玩家分数
+message user_game_score {
+    required uint64                   _uid                  = 1;
+    required uint64                   _cur_score            = 2;
+}
+
+//喜爱游戏
+message love_game_struct {
+    required string                   _gid                  = 1;
+    required uint32                   _play_times           = 2;
+}
+
+//游戏在线数
+message gid_num_struct {
+    required string                   _gid                  = 1;
+    required uint64                   _online_num           = 2;
+}
+//简单用户信息
+message simple_user_info_struct {
+    required uint64                   _uid                  = 1;
+    optional string                   _user_name            = 2;
+    optional uint32                   _sex                  = 3;  // 性别：1，男；2，女 ；0 未知
+    optional string                   _head_portrait        = 4;
+    optional string                   _head_portrait_frame  = 5;  // 佩戴的头像框,对应的id
+    optional uint64                   _distance             = 6;  // 两个用户的距离,单位m米
+}
+
+//离线消息类型
+enum offline_data_type {
+    all                               = 1; //所有的离线消息
+    chat                              = 2; //聊天
+    add_friend                        = 3; //添加好友
+    agree_add_friend                  = 4; //同意添加好友
+    invite_game                       = 5; //游戏邀请
+    cancel_invite_game                = 6; //取消游戏邀请
+    like                              = 7; //点赞
+}
+
+//用户反馈类型
+enum feedback_type {
+    login                  = 1; //登录问题
+    game                   = 2; //游戏相关
+    personal_data          = 3; //个人信息
+    chat_frame             = 4; //聊天框
+    other_question_or_suggestion  = 5; //其他问题建议
+    report_or_complaint    = 6; //举报投诉
+}
+
+//黑名单结构体
+message black_list_struct {
+    required uint64                 _uid                  = 1; //被拉黑的uid
+    required string                 _time                 = 2; //拉黑时间 "2019-01-09"
+}
+
+//游戏排行榜数据结构体
+message rank_struct {
+    required uint64                 _uid                  = 1; //用户id
+    optional uint64                 _score                = 2; //游戏分数,时间,星数等
+    optional uint64                 _level                = 3; //游戏等级,关卡等
+}
+
+//用户成就数据结构体
+message achievement_struct {
+    required string                 _achievement_name     = 1; //成就名
+    required uint32                 _level                = 2; //成就等级: 1,2,3,4...;
+}
+
+//游戏结果数据结构体
+message game_result_struct {
+    required uint64                 _uid                  = 1; //用户id
+    required int32                  _ret                  = 2; // 1,win;0,deuce;-1,lose;-2,异常/失败;
+    optional int32                  _integral_num         = 3; //获得积分
+}
+
+//图片操作的类型
+enum img_operate_tag {
+    head_portrait_set      = 1; //头像设置
+    live_img_add           = 2; //生活照添加,使用头添加
+    live_img_delete        = 3; //生活照删除
+    live_img_replace       = 4; //生活照替换
+    live_img_move          = 5; //生活照移动
+}
+
+//仅测试协议类型用
+message test_sub_struct {
+    //标量数值类型
+    required uint32                   _required            = 1;
+    optional uint32                   _optional            = 2[default = 1];         //默认值测试
+    repeated uint32                   _repeated            = 3;
+}                                                          
+message test_protobuf {                                    
+    //标量数值类型                                         
+    required double                   _double              = 1;
+    required float                    _float               = 2;
+    required int32                    _int32               = 3;
+    required int64                    _int64               = 4;
+    required uint32                   _uint32              = 5;
+    required uint64                   _uint64              = 6;
+    optional sint32                   _sint32              = 7;
+    optional sint64                   _sint64              = 8;
+    optional fixed32                  _fixed32             = 9;
+    optional fixed64                  _fixed64             = 10;
+    optional sfixed32                 _sfixed32            = 11;
+    optional sfixed64                 _sfixed64            = 12;
+    optional bool                     _bool                = 13;
+    optional string                   _string              = 14;
+    optional bytes                    _bytes               = 15;
+
+    //枚举类型测试，枚举常量必须在32位整型值的范围内。因为enum值是使用可变编码方式的，对负数不够高效，因此不推荐在enum中使用负数。
+    optional login_type_enum     _login_type_enum    = 16;
+
+    //字段规则
+    optional uint32                   _required            = 17;
+    optional uint32                   _optional            = 18[default = 10];         //默认值测试
+    repeated uint32                   _repeated            = 19;
+    //使用其他消息类型                                     
+    optional test_sub_struct          _test_sub_struct     = 20;
+}                                                          
+message TestOtherProtobuf {                                
+    //标量数值类型                                         
+    optional double                   Adouble              = 1;
+    optional float                    Afloat               = 2;
+    optional int32                    Aint32               = 3;
+    optional int64                    Aint64               = 4;
+    optional uint32                   Auint32              = 5;
+    optional uint64                   Auint64              = 6;
+    optional sint32                   Asint32              = 7;
+    optional sint64                   Asint64              = 8;
+    optional fixed32                  Afixed32             = 9;
+    optional fixed64                  Afixed64             = 10;
+    optional sfixed32                 Asfixed32            = 11;
+    optional sfixed64                 Asfixed64            = 12;
+    optional bool                     Abool                = 13;
+    optional string                   Astring              = 14;
+    optional bytes                    Abytes               = 15;
+}
+
+//-------------------------通用协议--------------------------------------
+message handshake {//如果服务端效验handshark_req不合法(包括版本不再兼容)将直接关闭连接，无失败包回应
+    required handshake_type_enum      _result              = 1;
+    required string                   _server_encrypt_key  = 2; // 用于后面客户端较验服务器端数据包返回的合法性
+    required string                   _verify_value        = 3; // 用于按约定的算法效验_encrypt_key合法性
+    optional string                   _notice              = 4; // 公告
+}
+
+message keepalive {
+    optional string                   _something           = 1; // 根据版本自定含义，目前可以为空或任意
+}
+
+message exception {
+    required        result            _result              = 1; //
+    optional        uint32            _msg_id              = 2; // 失败的请求id
+}
+
+//登录
+message login {
+    optional uint64                   _uid                 = 1; // 登录失败为0，成功为非0
+    optional string                   _sid                 = 2; // 会话id
+    optional uint32                   _last_login          = 3; // 上次登陆时间
+    optional string                   _err                 = 4; // 失败时的错误原因描述
+    optional string                   _token               = 5; // 服务端提供的token，用于token_login方式登录
+}
+
+//登出，服务器将根据需求自身策略决定是否通知客户端还是直接断开链接
+message logout {
+    optional logout_reason_enum      _reason               = 1; // 登出原因
+}
+
+//创建用户
+message create_user {
+    optional result_enum              _value               = 1; // 
+    optional string                   _err                 = 2; //失败时的错误原因描述
+}
+
+//获取用户信息
+message get_user_info {
+    optional user_info_struct         _user_info           = 1;
+}
+
+
+//修改用户信息
+message modify_user_info {
+
+}
+
+//用户名改变广播通知，无对应请求协议
+message user_info_change {
+    optional uint64                   _uid                 = 1; //为空表示自身，否则表示指定玩家
+    optional user_info_struct         _user_info           = 2;
+}
+
+
+//聊天
+message chat {
+    optional uint64                   _uid                 = 1;
+    optional chat_type                _type                = 2;
+    optional string                   _data                = 3;
+    optional chat_channel             _channel             = 4;
+    optional uint64                   _timestamp           = 5; //时间戳,毫秒
+}
+
+//建议
+message suggest {
+
+}
+//-------------------------通用协议--------------------------------------
+
+
+//-------------------------匹配服协议ggame_match-------------------------
+//匹配游戏
+message match_game {
+    repeated uint64                   _uid_list            = 1; // 采用累加模式，已经存在或新加入的用户列表，不包含自己，不会重发，每个用户只通知一次，即已经发过的不再重发
+    optional bool                     _match_complete      = 2;
+    // 当玩家强制退出游戏，游戏被托管后再次进入游戏时发使用此字段设置error_code_alread_playing告知
+}
+
+//取消匹配游戏; 多人游戏邀请时会带_room_id
+message cancel_match_game {
+    optional uint64                   _uid                 = 1; // 请求返回失败时为空
+    // 请求返回可能失败，服务器推送通知时永远不失败
+    optional uint64                   _room_id             = 2; //房间号
+}
+
+//匹配超时失败
+message match_game_failed {
+    required string                   _gid                 = 1;
+    required uint32                   _reson               = 2; // 1,timeout;2,邀请双方有一方离开;3,邀请双方至少有一方已经在游戏中;4,邀请双方至少有一方已经在匹配队列中;5,目标用户繁忙
+}
+//-------------------------匹配服协议ggame_match-------------------------
+
+
+//-------------------------逻辑服协议gpublic_game_logic------------------
+//游戏准备就绪
+message game_ready {
+    optional uint64                   _uid                 = 1;
+}
+
+//游戏开始
+message game_begin {
+
+}
+
+//重新进入游戏(之前曾强退过)，_private_data统一封装成string，例如json串，目前设计退出和重入消息暂时对其他用户屏蔽
+message reentry_game {
+    optional string                   _gid                 = 1;
+    optional uint32                   _state               = 2; // 1,表示等待用户游戏准备中(需请求game_ready)；2，表示游戏已经开始；
+    repeated user_game_score          _user_game_score     = 3;
+    optional uint32                   _left_time           = 4;
+    optional string                   _private_data        = 5;
+}
+
+//强制退出游戏
+message quit_game {                   
+    optional uint64                   _uid                 = 1;
+}
+
+//游戏分数改变，将广播给一起玩的所有玩家
+message game_score_change {
+    required user_game_score          _user_game_score     = 1;
+}
+
+//游戏私有数据广播，统一封装成string，例如json串
+message game_private_data {
+    required uint64                   _uid                 = 1;
+    optional string                   _cmd                 = 2;
+    optional string                   _private_data        = 3;
+}
+
+// 此消息为点位符，仅用于协议生成工具生成协议用，服务器不会发送此协议到客户端
+message send_game_private_data {
+}
+
+// 此消息为点位符，仅用于协议生成工具生成协议用，服务器不会发送此协议到客户端
+message broadcast_game_private_data {
+}
+
+//游戏结束结果
+message game_over {
+    required int32                    _ret                 = 1; // 1,win;0,deuce;-1,lose;-2,异常/失败;
+    repeated game_result_struct       _game_result_list    = 2; // 游戏结束结果; 新版本使用，旧版本只有_ret,做兼容
+}
+//-------------------------逻辑服协议gpublic_game_logic------------------
+
+
+//-------------------------游戏动态数据服协议guser_game_data--------------
+//获取喜欢游戏列表，可考虑改为使用json格式
+message get_love_game_list {
+    repeated love_game_struct         _love_game           = 1;
+}
+
+//获取动态游戏数据
+message get_game_data {
+    optional uint64                   _uid                 = 1; // 如果为空表示自己
+    required string                   _private_data        = 2;
+}
+//-------------------------游戏动态数据服协议guser_game_data--------------
+
+
+//-------------------------游戏管理服协议ggame_mannage--------------------
+//获取游戏在线数人数
+message game_online_num {
+    repeated gid_num_struct           _gid_num_list        = 1; //游戏在线数
+}
+//-------------------------游戏管理服协议ggame_mannage--------------------
+
+
+//-------------------------好友服协议gfriendserver------------------------
+//获取好友列表
+message get_friend_list {
+    repeated uint64                   _uid_list            = 1; // 返回的用户列表
+}
+
+//添加好友
+message add_friend {
+    optional uint64                   _uid                 = 1; //发起添加好友的uid
+}
+
+//接受好友请求
+message agree_add_friend {
+    optional uint64                   _uid                 = 1; //发起添加好友的uid
+    optional bool                     _is_agree            = 2; //true为同意,false拒绝
+}
+
+//删除好友(同步删除)
+message remove_friend {
+    required uint64                   _uid                  = 1; //删除的好友uid
+}
+//-------------------------好友服协议gfriendserver------------------------
+
+
+//-------------------------搜索服协议gsearchserver------------------------
+//搜索好友
+message search_friend {
+    optional bool                     _is_end_page         = 1; //是否为最后一页
+    repeated simple_user_info_struct  _user_info_list      = 99; //推荐到的好友
+}
+
+//推荐好友
+message recommend_friend {
+    repeated simple_user_info_struct  _user_info_list      = 99; //推荐到的好友
+}
+//-------------------------搜索服协议gsearchserver------------------------
+
+
+//-------------------------获取离线消息goffline_data----------------------
+//获取离线消息，--注意：消息类型和消息体要一一对应
+message get_offline_data {
+    optional offline_data_type       _type                 = 1; //离线消息类型
+    repeated chat                    _chat_list            = 2; //聊天离线消息
+    repeated add_friend              _add_friend_list      = 3; //添加好友离线消息
+    repeated agree_add_friend        _agree_add_friend_list = 4; //同意离线消息
+    repeated invite_game             _invite_game_list     = 5; //邀请游戏离线消息
+    repeated cancel_invite_game      _cancel_invite_game_list = 6; //取消游戏离线消息
+    repeated like                    _like_list            = 7; //点赞消息列表
+}
+//-------------------------获取离线消息goffline_data----------------------
+
+//游戏邀请
+message invite_game {
+    required uint64                 _uid                  = 1; //被邀请人uid
+    required string                 _gid                  = 2; //游戏id
+    optional uint64                 _timestamp            = 3; //时间戳,毫秒
+    optional uint64                 _room_id              = 4; //房间号
+    optional uint64                 _server_timestamp     = 5; //服务端的时间戳,秒;在同一邀请时直接带回来
+}
+
+//取消游戏邀请
+message cancel_invite_game {
+    required uint64                 _uid                  = 1; //被邀请的好友
+    required string                 _gid                  = 2; //游戏id
+    optional uint64                 _timestamp            = 3; //时间戳,毫秒
+}
+
+//同意游戏邀请,多人游戏邀请时需要带_room_id
+//_agree为true 时，服务端会进行匹配初始化，(1)双人游戏,返回匹配完成 (2)多人游戏，加入房间，更新房间信息
+message agree_invite_game {
+    required uint64                 _uid                  = 1; //用户id
+    required string                 _gid                  = 2; //游戏id
+    required bool                   _agree                = 3; //true 为同意: false为拒绝
+    optional uint64                 _room_id              = 4; //房间号
+    optional uint64                 _timestamp            = 5; //时间戳,毫秒
+}
+
+//用户反馈
+message feedback {
+
+}
+
+//拉黑名单,无返回值
+message add_black {
+
+}
+
+//取消黑名单
+message cancel_black {
+
+}
+
+//获取黑名单
+message get_black_list {
+    repeated black_list_struct      _black_list           = 99; //被拉黑的uid
+}
+
+//获取游戏世界排行
+message get_game_word_rank {
+    required string                 _gid                  = 1; //游戏id
+    optional uint32                 _cur_page             = 2; //当前页
+    optional uint32                 _total_page           = 3; //总页
+    repeated rank_struct            _rank_list            = 99; //排行榜
+}
+
+//获取游戏好友排行
+message get_game_friend_rank {
+    required string                 _gid                  = 1; //游戏id
+    optional uint32                 _cur_page             = 2; //当前页
+    optional uint32                 _total_page           = 3; //总页
+    repeated rank_struct            _rank_list            = 99; //排行榜
+}
+
+//更新排行榜类游戏数据
+message update_rank_game_data {
+    optional uint64                 _world_rank           = 1; //世界排行榜名次(上榜才会存在该字段)
+    optional uint64                 _today_rank           = 2; //今日排行榜名次(上榜才会存在该字段)
+    optional bool                   _world_rank_rise      = 3; //世界排行榜名次是否上升,true为上升，false为没有上升
+    optional bool                   _today_rank_rise      = 4; //今日排行榜名次是否上升,true为上升，false为没有上升
+    optional uint32                 _integral_num         = 5; //获得积分
+}
+
+//点赞(喜欢)
+message like {
+    required uint64                 _uid                  = 1; //被点赞的uid
+    optional string                 _data                 = 2; //发送内容;预留
+}
+
+//1对1聊天
+message voice_single_chat {
+    optional string                 _access_token         = 1; //token
+    optional string                 _channel_name         = 2; //聊天频道
+}
+
+//群聊
+message voice_multiple_chat {
+    optional string                 _access_token         = 1; //toekn
+    optional string                 _channel_name         = 2; //聊天频道
+}
+
+//更新access_token
+message update_access_token {
+    optional string                 _access_token         = 1; //toekn
+    optional string                 _channel_name         = 2; //聊天频道
+}
+
+//获取用户成就列表
+message get_user_achievement {
+    optional uint64                 _uid                  = 1; // 用户唯一标识，登录时由服务器返回
+    repeated achievement_struct     _achievement_list     = 2; // 成就列表
+}
+
+//商品交易
+message commodity_trading {
+    required string                 _id                   = 1; //交易成功,返回商品的唯一id;失败直接抛异常
+}
+
+//获取用户购买的商品
+message get_user_commodity {
+    repeated string                 _id_list              = 1; //返回用户已购买商品的id列表
+}
+
+//设置(佩戴)用户购买的商品
+message set_user_commodity {
+    required string                 _id                   = 1; //设置成功,返回商品的唯一id;失败直接抛异常
+}
+
+
+//获取用户已经点赞(喜欢)列表
+message get_like_list {
+    repeated uint64                 _uid_list             = 1; // 用户点赞的的好友
+}
+
+
+//头像设置
+message head_portrait_set {
+    optional string                 _url                  = 1; //返回图片服务器的url(baseurl+token)
+}
+
+//生活照添加,使用头添加
+message live_img_add {
+    optional string                 _url                  = 1; //返回图片服务器的url(baseurl+token)
+}
+
+//生活照删除
+message live_img_delete {
+    optional string                 _url                  = 1; //返回图片服务器的url(baseurl+token)
+}
+
+//生活照替换
+message live_img_replace {
+    optional string                 _url                  = 1; //返回图片服务器的url(baseurl+token)
+}
+
+//生活照移动
+message live_img_move {
+    optional string                 _url                  = 1; //返回图片服务器的url(baseurl+token)
+}
+
+//账号绑定;只支持访客登录方式绑定到正式登录方式
+message account_binding {
+    optional uint64                 _uid                  = 1; // 用户id
+    optional string                 _token                = 2; // 服务端提供的token，用于token_login方式登录
+    optional bool                   _already_binding      = 3; // true表示新账户已经绑定过,false(没有改字段)表示没有绑定过
+}
+
+//创建游戏房间
+message create_game_room {
+    optional string                 _gid                  = 1; //游戏id
+    optional uint64                 _room_id              = 2; //房间id,对应一个uid,是谁的uid谁就是房主
+}
+
+//更新游戏房间信息
+message update_game_room_info {
+    repeated string                 _uid_list             = 1; //游戏id
+    optional uint64                 _room_id              = 2; //房间id,对应一个uid,是谁的uid谁就是房主
+}
+
+//创建游戏房间
+message leave_game_room {
+
+}
+
+//加入游戏房间失败
+message join_game_room_failed {
+    optional string                 _gid                  = 1; //游戏id
+    optional uint32                 _reson                = 2; //1,已经在游戏中;2,房间不存在;3,房间人满;4,用户繁忙
+}
+
+//获取游戏(世界)今日排行
+message get_game_today_rank {
+    required string                 _gid                  = 1; //游戏id
+    optional uint32                 _cur_page             = 2; //当前页
+    optional uint32                 _total_page           = 3; //总页
+    repeated rank_struct            _rank_list            = 99; //排行榜
+}

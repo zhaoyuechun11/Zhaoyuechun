@@ -1,0 +1,48 @@
+
+bonus_stage_lock_ani.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rock_icon
+  rotate: false
+  xy: 358, 417
+  size: 136, 77
+  orig: 136, 77
+  offset: 0, 0
+  index: -1
+rock_icon_white
+  rotate: false
+  xy: 358, 338
+  size: 136, 77
+  orig: 136, 77
+  offset: 0, 0
+  index: -1
+rock_stage_slot
+  rotate: false
+  xy: 180, 61
+  size: 170, 212
+  orig: 170, 212
+  offset: 0, 0
+  index: -1
+white_eff_1
+  rotate: false
+  xy: 2, 275
+  size: 176, 219
+  orig: 176, 219
+  offset: 0, 0
+  index: -1
+white_eff_2
+  rotate: false
+  xy: 2, 54
+  size: 176, 219
+  orig: 176, 219
+  offset: 0, 0
+  index: -1
+white_eff_3
+  rotate: false
+  xy: 180, 275
+  size: 176, 219
+  orig: 176, 219
+  offset: 0, 0
+  index: -1

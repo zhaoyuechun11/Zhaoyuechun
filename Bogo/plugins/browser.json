@@ -1,0 +1,82 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-facebook4": {
+      "APP_ID": "279052759480098",
+      "APP_NAME": "Bongo",
+      "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1",
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.dotcgames.bongo"
+    },
+    "cordova-plugin-googleplus": {
+      "WEB_APPLICATION_CLIENT_ID": "572025193413-uh9sa0kopn55sh1rkacuk5e74jt8b5q5.apps.googleusercontent.com",
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-crosswalk-webview": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "org.apache.cordova.cache": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-broadcaster": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    },
+    "org.apache.cordova.agoravoice": {
+      "AGORA_ID": "3268bbf868934d2f9b8bc20b195fdcc8",
+      "AGORA_ANDROID_SDK_VERSION": "2.2.0",
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.dotjoy.bongo"
+    }
+  }
+}

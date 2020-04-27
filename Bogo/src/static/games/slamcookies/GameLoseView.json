@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":720,"height":720},"compId":2,"child":[{"type":"Sprite","props":{"y":56,"x":53,"texture":"game/lose.png"},"compId":3}],"loadList":["game/lose.png"],"loadList3D":[]}

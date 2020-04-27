@@ -1,0 +1,41 @@
+
+shock_eff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3-1
+  rotate: false
+  xy: 2, 122
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-2
+  rotate: false
+  xy: 2, 2
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-3
+  rotate: false
+  xy: 86, 122
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+3-4
+  rotate: false
+  xy: 86, 2
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 170, 199
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
