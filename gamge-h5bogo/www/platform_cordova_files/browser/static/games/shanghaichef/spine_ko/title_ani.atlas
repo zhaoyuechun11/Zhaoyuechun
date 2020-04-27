@@ -1,0 +1,174 @@
+
+title_ani.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 753
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+blocks
+  rotate: false
+  xy: 724, 980
+  size: 838, 1053
+  orig: 838, 1053
+  offset: 0, 0
+  index: -1
+character_1
+  rotate: false
+  xy: 2, 2
+  size: 551, 749
+  orig: 551, 749
+  offset: 0, 0
+  index: -1
+character_2
+  rotate: false
+  xy: 1564, 884
+  size: 385, 507
+  orig: 385, 507
+  offset: 0, 0
+  index: -1
+lightning-eff-03-1
+  rotate: true
+  xy: 555, 262
+  size: 50, 156
+  orig: 50, 156
+  offset: 0, 0
+  index: -1
+lightning-eff-03-2
+  rotate: false
+  xy: 1951, 902
+  size: 50, 156
+  orig: 50, 156
+  offset: 0, 0
+  index: -1
+lightning-eff-03-3
+  rotate: true
+  xy: 1339, 928
+  size: 50, 156
+  orig: 50, 156
+  offset: 0, 0
+  index: -1
+lightning-eff-03-4
+  rotate: false
+  xy: 1897, 726
+  size: 50, 156
+  orig: 50, 156
+  offset: 0, 0
+  index: -1
+lightning-eff-03-5
+  rotate: false
+  xy: 555, 104
+  size: 50, 156
+  orig: 50, 156
+  offset: 0, 0
+  index: -1
+start_btn
+  rotate: true
+  xy: 1169, 378
+  size: 341, 177
+  orig: 341, 177
+  offset: 0, 0
+  index: -1
+title_logo_1
+  rotate: false
+  xy: 724, 721
+  size: 613, 257
+  orig: 613, 257
+  offset: 0, 0
+  index: -1
+title_logo_2_1
+  rotate: false
+  xy: 713, 509
+  size: 454, 210
+  orig: 454, 210
+  offset: 0, 0
+  index: -1
+title_logo_2_2
+  rotate: false
+  xy: 713, 297
+  size: 454, 210
+  orig: 454, 210
+  offset: 0, 0
+  index: -1
+title_logo_back
+  rotate: true
+  xy: 1564, 1393
+  size: 640, 467
+  orig: 640, 467
+  offset: 0, 0
+  index: -1
+under_logo_ani_1
+  rotate: true
+  xy: 1951, 1060
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_2
+  rotate: false
+  xy: 1169, 316
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_3
+  rotate: false
+  xy: 1169, 254
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_4
+  rotate: false
+  xy: 1502, 822
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_5
+  rotate: false
+  xy: 1502, 760
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_6
+  rotate: false
+  xy: 1502, 698
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_7
+  rotate: false
+  xy: 1502, 636
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_8
+  rotate: false
+  xy: 1502, 574
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ani_9
+  rotate: true
+  xy: 1835, 551
+  size: 331, 60
+  orig: 331, 60
+  offset: 0, 0
+  index: -1
+under_logo_ribbon
+  rotate: true
+  xy: 555, 314
+  size: 437, 156
+  orig: 437, 156
+  offset: 0, 0
+  index: -1

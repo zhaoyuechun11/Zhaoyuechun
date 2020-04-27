@@ -1,0 +1,13 @@
+
+paddle_out.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb_eff
+  rotate: false
+  xy: 2, 2
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1

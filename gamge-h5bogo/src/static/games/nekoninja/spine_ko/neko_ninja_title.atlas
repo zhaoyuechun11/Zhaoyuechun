@@ -1,0 +1,76 @@
+
+neko_ninja_title.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 507
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+dark_1
+  rotate: false
+  xy: 1508, 1467
+  size: 180, 320
+  orig: 180, 320
+  offset: 0, 0
+  index: -1
+dark_2
+  rotate: false
+  xy: 1690, 1760
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+eye_light_1
+  rotate: false
+  xy: 1508, 1423
+  size: 73, 42
+  orig: 73, 42
+  offset: 0, 0
+  index: -1
+feaver_eye_eff
+  rotate: false
+  xy: 1120, 700
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+sakura
+  rotate: false
+  xy: 724, 809
+  size: 782, 978
+  orig: 782, 978
+  offset: 0, 0
+  index: -1
+start_btn
+  rotate: false
+  xy: 724, 684
+  size: 394, 123
+  orig: 394, 123
+  offset: 0, 0
+  index: -1
+start_btn_eff
+  rotate: false
+  xy: 724, 658
+  size: 327, 24
+  orig: 327, 24
+  offset: 0, 0
+  index: -1
+title_logo_1
+  rotate: false
+  xy: 2, 124
+  size: 701, 381
+  orig: 701, 381
+  offset: 0, 0
+  index: -1
+title_logo_2
+  rotate: false
+  xy: 2, 2
+  size: 296, 120
+  orig: 296, 120
+  offset: 0, 0
+  index: -1

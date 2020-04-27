@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "K/MOVGEDpfWKitSFIGw5LvLFPXI", "spine": "3.4.02", "width": 133, "height": 180, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "arrow", "parent": "root" }
+],
+"slots": [
+	{ "name": "tutorial_arrow", "bone": "arrow", "attachment": "tutorial_arrow" }
+],
+"skins": {
+	"default": {
+		"tutorial_arrow": {
+			"tutorial_arrow": { "width": 133, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"tutorial_arrow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_arrow" }
+				]
+			}
+		},
+		"bones": {
+			"arrow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -17 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

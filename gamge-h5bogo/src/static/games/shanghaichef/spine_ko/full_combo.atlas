@@ -1,0 +1,27 @@
+
+full_combo.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+combo
+  rotate: false
+  xy: 2, 282
+  size: 374, 94
+  orig: 374, 94
+  offset: 0, 0
+  index: -1
+full
+  rotate: false
+  xy: 2, 187
+  size: 258, 93
+  orig: 258, 93
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 65
+  size: 149, 120
+  orig: 149, 120
+  offset: 0, 0
+  index: -1

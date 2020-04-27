@@ -1,0 +1,20 @@
+
+ui_star_eff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb-04-5
+  rotate: false
+  xy: 2, 66
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 2
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1

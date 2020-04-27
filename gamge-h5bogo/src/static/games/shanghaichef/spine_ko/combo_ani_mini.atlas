@@ -1,0 +1,27 @@
+
+combo_ani_mini.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+block_line_eff
+  rotate: false
+  xy: 2, 35
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+round_eff_1
+  rotate: false
+  xy: 108, 108
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+round_eff_2
+  rotate: false
+  xy: 2, 2
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1

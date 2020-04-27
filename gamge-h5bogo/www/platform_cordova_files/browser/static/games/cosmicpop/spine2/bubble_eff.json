@@ -1,0 +1,209 @@
+{
+"skeleton": { "hash": "yv7YGrU04HknGuMOEPdVnqDKTKA", "spine": "3.5.46", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "effect", "parent": "root" }
+],
+"slots": [
+	{ "name": "touch-eff-01", "bone": "effect" }
+],
+"skins": {
+	"default": {
+		"touch-eff-01": {
+			"touch-eff-01": { "width": 152, "height": 152 },
+			"touch-eff-02": { "width": 152, "height": 152 },
+			"touch-eff-03": { "width": 152, "height": 152 },
+			"touch-eff-04": { "width": 152, "height": 152 },
+			"touch-eff-05": { "width": 152, "height": 152 }
+		}
+	}
+},
+"animations": {
+	"active_ani_blue": {
+		"slots": {
+			"touch-eff-01": {
+				"color": [
+					{ "time": 0, "color": "07e9ffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "07e9ffff" },
+					{ "time": 0.3667, "color": "06e8ff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "touch-eff-01" },
+					{ "time": 0.0667, "name": "touch-eff-02" },
+					{ "time": 0.1333, "name": "touch-eff-03" },
+					{ "time": 0.2, "name": "touch-eff-04" },
+					{ "time": 0.2667, "name": "touch-eff-05" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.1, "y": 1.1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"active_ani_green": {
+		"slots": {
+			"touch-eff-01": {
+				"color": [
+					{ "time": 0, "color": "6cff16ff" },
+					{ "time": 0.2667, "color": "68ff15ff" },
+					{ "time": 0.3667, "color": "68ff1500" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "touch-eff-01" },
+					{ "time": 0.0667, "name": "touch-eff-02" },
+					{ "time": 0.1333, "name": "touch-eff-03" },
+					{ "time": 0.2, "name": "touch-eff-04" },
+					{ "time": 0.2667, "name": "touch-eff-05" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.1, "y": 1.1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"active_ani_pupple": {
+		"slots": {
+			"touch-eff-01": {
+				"color": [
+					{ "time": 0, "color": "d25fffff" },
+					{ "time": 0.2667, "color": "d15dffff" },
+					{ "time": 0.3667, "color": "d15dff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "touch-eff-01" },
+					{ "time": 0.0667, "name": "touch-eff-02" },
+					{ "time": 0.1333, "name": "touch-eff-03" },
+					{ "time": 0.2, "name": "touch-eff-04" },
+					{ "time": 0.2667, "name": "touch-eff-05" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.1, "y": 1.1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"active_ani_red": {
+		"slots": {
+			"touch-eff-01": {
+				"color": [
+					{ "time": 0, "color": "ff5764ff" },
+					{ "time": 0.2667, "color": "ff5763ff" },
+					{ "time": 0.3667, "color": "ff576300" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "touch-eff-01" },
+					{ "time": 0.0667, "name": "touch-eff-02" },
+					{ "time": 0.1333, "name": "touch-eff-03" },
+					{ "time": 0.2, "name": "touch-eff-04" },
+					{ "time": 0.2667, "name": "touch-eff-05" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.1, "y": 1.1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"active_ani_yellow": {
+		"slots": {
+			"touch-eff-01": {
+				"color": [
+					{ "time": 0, "color": "fcff38ff" },
+					{ "time": 0.2667, "color": "f9ff37ff" },
+					{ "time": 0.3667, "color": "faff3700" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "touch-eff-01" },
+					{ "time": 0.0667, "name": "touch-eff-02" },
+					{ "time": 0.1333, "name": "touch-eff-03" },
+					{ "time": 0.2, "name": "touch-eff-04" },
+					{ "time": 0.2667, "name": "touch-eff-05" },
+					{ "time": 0.3667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.3667, "x": 1.1, "y": 1.1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"empty": {}
+}
+}

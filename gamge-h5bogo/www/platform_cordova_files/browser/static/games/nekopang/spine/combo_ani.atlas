@@ -1,0 +1,34 @@
+
+combo_ani.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ex
+  rotate: false
+  xy: 2, 895
+  size: 659, 98
+  orig: 659, 98
+  offset: 0, 0
+  index: -1
+good
+  rotate: false
+  xy: 663, 896
+  size: 330, 97
+  orig: 330, 97
+  offset: 0, 0
+  index: -1
+great
+  rotate: false
+  xy: 2, 796
+  size: 400, 97
+  orig: 400, 97
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 683
+  size: 114, 111
+  orig: 114, 111
+  offset: 0, 0
+  index: -1

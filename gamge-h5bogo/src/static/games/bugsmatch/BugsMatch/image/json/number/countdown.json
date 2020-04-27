@@ -1,0 +1,36 @@
+{"frames": {
+
+"count_1.png":
+{
+	"frame": {"x":1,"y":287,"w":86,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":0,"w":86,"h":140},
+	"sourceSize": {"w":125,"h":141}
+},
+"count_2.png":
+{
+	"frame": {"x":1,"y":144,"w":122,"h":141},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":122,"h":141},
+	"sourceSize": {"w":125,"h":141}
+},
+"count_3.png":
+{
+	"frame": {"x":1,"y":1,"w":125,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":141},
+	"sourceSize": {"w":125,"h":141}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "countdown.png",
+	"format": "RGBA8888",
+	"size": {"w":127,"h":428},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5f46c17609c79afdc324039e90422815:1f966c1688e5997d6b5e11b08756845a:d7632b2ef722b276a9b266ab897c133e$"
+}
+}

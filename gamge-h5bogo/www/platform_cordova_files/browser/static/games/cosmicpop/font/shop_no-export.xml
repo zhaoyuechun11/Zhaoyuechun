@@ -1,0 +1,24 @@
+<font>
+	<info face="shop_no-export" size="54" />
+	<common lineHeight="54" scaleW="145" scaleH="151" pages="1" />
+	<pages>
+		<page id="0" file="shop_no-export.png" />
+	</pages>
+	<chars count="13">
+		<char id="120" x="0" y="120" width="36" height="30" xoffset="0" yoffset="24" xadvance="40" /><!-- x -->
+		<char id="48" x="84" y="0" width="40" height="39" xoffset="0" yoffset="15" xadvance="44" /><!-- 0 -->
+		<char id="49" x="123" y="80" width="21" height="39" xoffset="0" yoffset="15" xadvance="25" /><!-- 1 -->
+		<char id="50" x="83" y="40" width="40" height="39" xoffset="0" yoffset="15" xadvance="44" /><!-- 2 -->
+		<char id="51" x="83" y="80" width="39" height="39" xoffset="0" yoffset="15" xadvance="43" /><!-- 3 -->
+		<char id="52" x="42" y="80" width="40" height="39" xoffset="0" yoffset="15" xadvance="44" /><!-- 4 -->
+		<char id="53" x="0" y="80" width="41" height="39" xoffset="0" yoffset="15" xadvance="45" /><!-- 5 -->
+		<char id="54" x="42" y="40" width="40" height="39" xoffset="0" yoffset="15" xadvance="44" /><!-- 6 -->
+		<char id="55" x="0" y="0" width="42" height="39" xoffset="0" yoffset="15" xadvance="46" /><!-- 7 -->
+		<char id="56" x="0" y="40" width="41" height="39" xoffset="0" yoffset="15" xadvance="45" /><!-- 8 -->
+		<char id="57" x="43" y="0" width="40" height="39" xoffset="0" yoffset="15" xadvance="44" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="25" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="200" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <title>Penguin Rescue</title>
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+            background-color: #000000;
+            background-image:url(http://g1.LAMPgame.com/Run/Img/BG_06.gif);
+		}
+		canvas {
+			margin:0 auto;
+		}
+
+        #turn{
+            width:100%;
+            height:100%;
+            position:fixed;
+            top:0px;
+            left:0px;
+            background-color:#2e85ed;
+            background-image:url('assets/atlas/load/rotate.png');
+            background-repeat:no-repeat;
+            background-position: center center;
+            display:none;
+        }
+    </style>
+
+    <script src="js_lib/jquery-3.1.1.min.js"></script>
+    <script src="js_lib/phaser.js"></script>
+    <script src="js_lib/phaser-nineslice.js"></script>
+    <script src="js_lib/phaser-spine.js"></script>
+
+    <script src = "netbase.js"></script>
+
+</head>
+<body>
+    <div id = "turn"></div>
+    <script src="js/map.js"></script>
+    <script src="js/Enum.js"></script>
+    <script src="js/Define.js"></script>
+
+    <script src="js/game.js"></script>
+  <!--  <script src="movilib.js?ver=1.001"></script>-->
+ <!--   <script src = "netbase.js"></script>
+    <script src="movisrc.js?ver=1.001"></script>-->
+
+</body>
+</html>       

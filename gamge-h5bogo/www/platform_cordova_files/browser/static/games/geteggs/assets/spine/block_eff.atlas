@@ -1,0 +1,20 @@
+
+block_eff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+particle_eff_1
+  rotate: false
+  xy: 2, 48
+  size: 129, 182
+  orig: 129, 182
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 2
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1

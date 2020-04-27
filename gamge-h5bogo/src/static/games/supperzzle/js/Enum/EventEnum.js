@@ -1,0 +1,1 @@
+var EventEnum;!function(e){e[e.start_game=0]="start_game",e[e.preLoad_complete=1]="preLoad_complete",e[e.preLoad_progress=2]="preLoad_progress",e[e.enter_game=3]="enter_game",e[e.over_game=4]="over_game",e[e.login=5]="login",e[e.game=6]="game",e[e.net_update_score=7]="net_update_score",e[e.net_user_info=8]="net_user_info"}(EventEnum||(EventEnum={}));

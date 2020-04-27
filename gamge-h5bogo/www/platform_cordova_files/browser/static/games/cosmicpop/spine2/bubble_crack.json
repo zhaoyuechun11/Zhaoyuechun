@@ -1,0 +1,146 @@
+{
+"skeleton": { "hash": "UHhcV3/oXtZQldLRonNvScYzHYU", "spine": "3.5.43", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bubble_crack", "parent": "root" },
+	{ "name": "bomb_eff", "parent": "bubble_crack", "x": 7.1, "scaleX": 1.161, "scaleY": 1.226 }
+],
+"slots": [
+	{ "name": "bubble_crack_1", "bone": "bubble_crack" },
+	{ "name": "bomb-04-1", "bone": "bomb_eff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bomb-04-1": {
+			"bomb-04-1": { "width": 187, "height": 167 },
+			"bomb-04-2": { "width": 187, "height": 167 },
+			"bomb-04-3": { "width": 187, "height": 167 },
+			"bomb-04-4": { "width": 187, "height": 167 },
+			"bomb-04-5": { "width": 187, "height": 167 }
+		},
+		"bubble_crack_1": {
+			"bubble_crack_1": { "width": 56, "height": 56 },
+			"bubble_crack_2": { "width": 56, "height": 56 }
+		}
+	}
+},
+"animations": {
+	"bubble_crack_bomb": {
+		"slots": {
+			"bomb-04-1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bomb-04-1" },
+					{ "time": 0.0667, "name": "bomb-04-2" },
+					{ "time": 0.1333, "name": "bomb-04-3" },
+					{ "time": 0.2, "name": "bomb-04-4" },
+					{ "time": 0.2667, "name": "bomb-04-5" }
+				]
+			},
+			"bubble_crack_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bubble_crack_2" }
+				]
+			}
+		},
+		"bones": {
+			"bubble_crack": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bomb_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.64, "y": -2.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.039, "y": 1.084 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"bubble_crack_damaged": {
+		"slots": {
+			"bubble_crack_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bubble_crack_2" }
+				]
+			}
+		},
+		"bones": {
+			"bubble_crack": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"bubble_crack_normal": {
+		"slots": {
+			"bubble_crack_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bubble_crack_1" }
+				]
+			}
+		},
+		"bones": {
+			"bubble_crack": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"empty": {}
+}
+}

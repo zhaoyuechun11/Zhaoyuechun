@@ -1,0 +1,951 @@
+{
+"skeleton": { "hash": "IA9rb+lBccF6QaWy+/2H+T1PThw", "spine": "3.5.43", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "arrow_btn", "parent": "root" },
+	{ "name": "arrow_eff", "parent": "arrow_btn", "x": 5.09, "y": 23.42 },
+	{ "name": "arrow_icon", "parent": "arrow_btn", "x": -94.16, "y": 192.72 },
+	{ "name": "circle", "parent": "arrow_btn", "x": -5.52 },
+	{ "name": "circle_eff", "parent": "circle" },
+	{ "name": "dummy_text", "parent": "root", "x": -6.16, "y": -22 },
+	{ "name": "hexagon_eff_2", "parent": "circle" },
+	{ "name": "hexagon_eff_3", "parent": "circle" },
+	{ "name": "hexagon_eff_4", "parent": "circle" }
+],
+"slots": [
+	{ "name": "btn_back", "bone": "arrow_btn" },
+	{ "name": "btn_circle", "bone": "circle" },
+	{ "name": "btn_circle2", "bone": "circle_eff", "blend": "additive" },
+	{ "name": "btn_circle_eff_2", "bone": "hexagon_eff_2", "blend": "additive" },
+	{ "name": "btn_circle_eff_3", "bone": "hexagon_eff_3", "blend": "additive" },
+	{ "name": "btn_circle_eff_4", "bone": "hexagon_eff_4", "blend": "additive" },
+	{ "name": "arrow_icon", "bone": "arrow_icon" },
+	{ "name": "arrow_icon2", "bone": "arrow_eff", "blend": "additive" },
+	{ "name": "dummy_text", "bone": "dummy_text" }
+],
+"skins": {
+	"default": {
+		"arrow_icon": {
+			"arrow_icon": { "x": 97.68, "y": -160.16, "width": 122, "height": 90 }
+		},
+		"arrow_icon2": {
+			"arrow_icon": { "x": -1.57, "y": 9.14, "width": 122, "height": 90 }
+		},
+		"btn_back": {
+			"btn_back": { "width": 167, "height": 156 }
+		},
+		"btn_circle": {
+			"btn_circle": { "width": 124, "height": 123 }
+		},
+		"btn_circle2": {
+			"btn_circle": { "width": 124, "height": 123 }
+		},
+		"btn_circle_eff_2": {
+			"btn_circle_eff_2": { "width": 124, "height": 123 }
+		},
+		"btn_circle_eff_3": {
+			"btn_circle_eff_3": { "width": 124, "height": 123 }
+		},
+		"btn_circle_eff_4": {
+			"btn_circle_eff_4": { "width": 124, "height": 123 }
+		},
+		"dummy_text": {
+			"dummy_text": { "width": 98, "height": 57 },
+			"left": { "width": 80, "height": 56 }
+		}
+	}
+},
+"animations": {
+	"arrow_btn_disable": {
+		"slots": {
+			"arrow_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffff56" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"btn_back": {
+				"color": [
+					{ "time": 0, "color": "ffffff9f" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_back" }
+				]
+			},
+			"btn_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffff3f" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"dummy_text": {
+				"color": [
+					{ "time": 0, "color": "ffffff6a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "dummy_text" }
+				]
+			}
+		},
+		"bones": {
+			"arrow_icon": {
+				"rotate": [
+					{ "time": 0, "angle": -5.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"dummy_text": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"arrow_btn_disable2": {
+		"slots": {
+			"arrow_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffff56" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"btn_back": {
+				"color": [
+					{ "time": 0, "color": "ffffff9f" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_back" }
+				]
+			},
+			"btn_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffff3f" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"dummy_text": {
+				"color": [
+					{ "time": 0, "color": "ffffff6a" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "left" }
+				]
+			}
+		},
+		"bones": {
+			"arrow_icon": {
+				"rotate": [
+					{ "time": 0, "angle": -5.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -12.18, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": -1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"dummy_text": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"arrow_btn_idle": {
+		"slots": {
+			"arrow_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"btn_back": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_back" }
+				]
+			},
+			"btn_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"btn_circle2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffff77" },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffff77" },
+					{ "time": 3, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"dummy_text": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "dummy_text" }
+				]
+			}
+		},
+		"bones": {
+			"dummy_text": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_icon": {
+				"rotate": [
+					{ "time": 0, "angle": -5.38 },
+					{ "time": 0.5, "angle": -1.61 },
+					{ "time": 1, "angle": -5.38 },
+					{ "time": 1.5, "angle": -1.61 },
+					{ "time": 2, "angle": -5.38 },
+					{ "time": 2.5, "angle": -1.61 },
+					{ "time": 3, "angle": -5.38 },
+					{ "time": 3.5, "angle": -1.61 },
+					{ "time": 4, "angle": -5.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"arrow_btn_idle2": {
+		"slots": {
+			"arrow_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"btn_back": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_back" }
+				]
+			},
+			"btn_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"btn_circle2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffff77" },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffff77" },
+					{ "time": 3, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"dummy_text": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "left" }
+				]
+			}
+		},
+		"bones": {
+			"dummy_text": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_icon": {
+				"rotate": [
+					{ "time": 0, "angle": -5.38 },
+					{ "time": 0.5, "angle": -1.61 },
+					{ "time": 1, "angle": -5.38 },
+					{ "time": 1.5, "angle": -1.61 },
+					{ "time": 2, "angle": -5.38 },
+					{ "time": 2.5, "angle": -1.61 },
+					{ "time": 3, "angle": -5.38 },
+					{ "time": 3.5, "angle": -1.61 },
+					{ "time": 4, "angle": -5.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -12.18, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": -1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"arrow_btn_touch": {
+		"slots": {
+			"arrow_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"arrow_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"btn_back": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_back" }
+				]
+			},
+			"btn_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"btn_circle2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"btn_circle_eff_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle_eff_2" }
+				]
+			},
+			"btn_circle_eff_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle_eff_3" }
+				]
+			},
+			"btn_circle_eff_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle_eff_4" }
+				]
+			},
+			"dummy_text": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "dummy_text" }
+				]
+			}
+		},
+		"bones": {
+			"dummy_text": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hexagon_eff_4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hexagon_eff_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hexagon_eff_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.5, "x": 1.2, "y": 1.2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_icon": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -4.19, "y": -0.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5, "x": 1.25, "y": 1.25 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"arrow_btn_touch2": {
+		"slots": {
+			"arrow_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"arrow_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "arrow_icon" }
+				]
+			},
+			"btn_back": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_back" }
+				]
+			},
+			"btn_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"btn_circle2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle" }
+				]
+			},
+			"btn_circle_eff_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle_eff_2" }
+				]
+			},
+			"btn_circle_eff_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle_eff_3" }
+				]
+			},
+			"btn_circle_eff_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "btn_circle_eff_4" }
+				]
+			},
+			"dummy_text": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "left" }
+				]
+			}
+		},
+		"bones": {
+			"dummy_text": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hexagon_eff_4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hexagon_eff_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hexagon_eff_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.1, "y": 1.1 },
+					{ "time": 0.5, "x": 1.2, "y": 1.2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_icon": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -12.18, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": -1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arrow_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -4.19, "y": -0.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5, "x": 1.25, "y": 1.25 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"empty": {}
+}
+}

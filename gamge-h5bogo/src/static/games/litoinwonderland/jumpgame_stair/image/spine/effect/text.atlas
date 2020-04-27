@@ -1,0 +1,132 @@
+
+text.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ex_point
+  rotate: false
+  xy: 727, 762
+  size: 119, 116
+  orig: 119, 116
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 2, 546
+  size: 289, 289
+  orig: 289, 289
+  offset: 0, 0
+  index: -1
+lyto_1
+  rotate: false
+  xy: 2, 162
+  size: 198, 202
+  orig: 198, 202
+  offset: 0, 0
+  index: -1
+lyto_2
+  rotate: false
+  xy: 434, 635
+  size: 197, 202
+  orig: 197, 202
+  offset: 0, 0
+  index: -1
+lyto_eye
+  rotate: false
+  xy: 202, 350
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+lyto_eyebrow
+  rotate: false
+  xy: 434, 622
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+lyto_nose
+  rotate: true
+  xy: 2, 2
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 264, 521
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+st_1
+  rotate: true
+  xy: 727, 699
+  size: 61, 76
+  orig: 61, 76
+  offset: 0, 0
+  index: -1
+st_2
+  rotate: false
+  xy: 293, 550
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+st_3
+  rotate: false
+  xy: 972, 965
+  size: 46, 57
+  orig: 46, 57
+  offset: 0, 0
+  index: -1
+t_excel
+  rotate: false
+  xy: 2, 837
+  size: 402, 185
+  orig: 402, 185
+  offset: 0, 0
+  index: -1
+t_feve1
+  rotate: false
+  xy: 2, 25
+  size: 244, 135
+  orig: 244, 135
+  offset: 0, 0
+  index: -1
+t_fever2
+  rotate: true
+  xy: 293, 588
+  size: 247, 139
+  orig: 247, 139
+  offset: 0, 0
+  index: -1
+t_fever3
+  rotate: false
+  xy: 724, 880
+  size: 246, 142
+  orig: 246, 142
+  offset: 0, 0
+  index: -1
+t_good
+  rotate: false
+  xy: 2, 366
+  size: 260, 178
+  orig: 260, 178
+  offset: 0, 0
+  index: -1
+t_perfect
+  rotate: false
+  xy: 406, 839
+  size: 316, 183
+  orig: 316, 183
+  offset: 0, 0
+  index: -1
+wow
+  rotate: true
+  xy: 633, 687
+  size: 150, 92
+  orig: 150, 92
+  offset: 0, 0
+  index: -1

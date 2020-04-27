@@ -1,0 +1,446 @@
+{
+"skeleton": { "hash": "sKU5gdLdAHthBlgzVf3GqauWLWI", "spine": "3.6.52", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "mission_ribbon", "parent": "root" },
+	{ "name": "ribbon_minion_1", "parent": "mission_ribbon", "rotation": 119.34, "x": -226.07, "y": 75.61 },
+	{ "name": "ribbon_minion_2", "parent": "mission_ribbon", "rotation": 103.75, "x": -180.02, "y": 99.04 },
+	{ "name": "ribbon_minion_3", "parent": "mission_ribbon", "rotation": 94.23, "x": -121.03, "y": 73.19 },
+	{ "name": "ribbon_minion_4", "parent": "mission_ribbon", "rotation": 93.79, "x": -60.43, "y": 91.77 },
+	{ "name": "ribbon_minion_5", "parent": "mission_ribbon", "rotation": 110.21, "x": 89.85, "y": 111.16 },
+	{ "name": "ribbon_minion_6", "parent": "mission_ribbon", "rotation": 66.04, "x": 131.06, "y": 83.69 },
+	{ "name": "ribbon_minion_7", "parent": "mission_ribbon", "rotation": 34.75, "x": 200.55, "y": 95.81 }
+],
+"slots": [
+	{ "name": "ribbon_minion_7", "bone": "ribbon_minion_7" },
+	{ "name": "ribbon_minion_5", "bone": "ribbon_minion_5" },
+	{ "name": "ribbon_minion_6", "bone": "ribbon_minion_6" },
+	{ "name": "ribbon_minion_1", "bone": "ribbon_minion_1" },
+	{ "name": "ribbon_minion_4", "bone": "ribbon_minion_4" },
+	{ "name": "ribbon_minion_2", "bone": "ribbon_minion_2" },
+	{ "name": "ribbon_minion_3", "bone": "ribbon_minion_3" },
+	{ "name": "ribbon_1", "bone": "mission_ribbon" }
+],
+"skins": {
+	"default": {
+		"ribbon_1": {
+			"ribbon": { "y": 14.03, "width": 706, "height": 215 }
+		},
+		"ribbon_minion_1": {
+			"ribbon_minion_1": { "x": 37.57, "y": 2.79, "scaleX": 2, "scaleY": 2, "rotation": -119.34, "width": 52, "height": 46 }
+		},
+		"ribbon_minion_2": {
+			"ribbon_minion_2": { "x": 50.97, "y": 5.7, "rotation": -103.75, "width": 135, "height": 133 }
+		},
+		"ribbon_minion_3": {
+			"ribbon_minion_3": { "x": 45.28, "y": 3.96, "scaleX": 2, "scaleY": 2, "rotation": -94.23, "width": 56, "height": 59 }
+		},
+		"ribbon_minion_4": {
+			"ribbon_minion_4": { "x": 32.34, "y": -0.58, "scaleX": 2, "scaleY": 2, "rotation": -93.79, "width": 38, "height": 43 }
+		},
+		"ribbon_minion_5": {
+			"ribbon_minion_5": { "x": 18.61, "y": -1.39, "scaleX": 2, "scaleY": 2, "rotation": -110.21, "width": 49, "height": 40 }
+		},
+		"ribbon_minion_6": {
+			"ribbon_minion_6": { "x": 67.38, "y": 4.76, "rotation": -66.04, "width": 133, "height": 170 }
+		},
+		"ribbon_minion_7": {
+			"ribbon_minion_7": { "x": 55.81, "y": -5.53, "scaleX": 2, "scaleY": 2, "rotation": -34.75, "width": 70, "height": 60 }
+		}
+	}
+},
+"animations": {
+	"mission_complete_idle": {
+		"slots": {
+			"ribbon_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon" }
+				]
+			},
+			"ribbon_minion_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_1" }
+				]
+			},
+			"ribbon_minion_2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_2" }
+				]
+			},
+			"ribbon_minion_3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_3" }
+				]
+			},
+			"ribbon_minion_4": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_4" }
+				]
+			},
+			"ribbon_minion_5": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_5" }
+				]
+			},
+			"ribbon_minion_6": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_6" }
+				]
+			},
+			"ribbon_minion_7": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_7" }
+				]
+			}
+		},
+		"bones": {
+			"ribbon_minion_7": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mission_ribbon": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"mission_complete_in": {
+		"slots": {
+			"ribbon_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon" },
+					{ "time": 0.6, "name": "ribbon" }
+				]
+			},
+			"ribbon_minion_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_1" },
+					{ "time": 0.6, "name": "ribbon_minion_1" }
+				]
+			},
+			"ribbon_minion_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_2" },
+					{ "time": 0.6, "name": "ribbon_minion_2" }
+				]
+			},
+			"ribbon_minion_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_3" },
+					{ "time": 0.6, "name": "ribbon_minion_3" }
+				]
+			},
+			"ribbon_minion_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_4" },
+					{ "time": 0.6, "name": "ribbon_minion_4" }
+				]
+			},
+			"ribbon_minion_5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_5" },
+					{ "time": 0.6, "name": "ribbon_minion_5" }
+				]
+			},
+			"ribbon_minion_6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_6" },
+					{ "time": 0.6, "name": "ribbon_minion_6" }
+				]
+			},
+			"ribbon_minion_7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ribbon_minion_7" },
+					{ "time": 0.6, "name": "ribbon_minion_7" }
+				]
+			}
+		},
+		"bones": {
+			"mission_ribbon": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.139, "y": 0.541 },
+					{ "time": 0.1333, "x": 1.05, "y": 1 },
+					{ "time": 0.2667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.5, "y": 1 },
+					{ "time": 0.5, "x": 1.15, "y": 1 },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_6": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0.5, "y": 1 },
+					{ "time": 0.3667, "x": 1.15, "y": 1 },
+					{ "time": 0.4667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_5": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.5, "y": 1 },
+					{ "time": 0.4333, "x": 1.15, "y": 1 },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_4": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.5, "y": 1 },
+					{ "time": 0.5, "x": 1.15, "y": 1 },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.5, "y": 1 },
+					{ "time": 0.4333, "x": 1.15, "y": 1 },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0.5, "y": 1 },
+					{ "time": 0.3667, "x": 1.15, "y": 1 },
+					{ "time": 0.4667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"ribbon_minion_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.5, "y": 1 },
+					{ "time": 0.4333, "x": 1.15, "y": 1 },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

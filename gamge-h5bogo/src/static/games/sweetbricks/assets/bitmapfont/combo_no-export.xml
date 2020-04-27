@@ -1,0 +1,25 @@
+<font>
+	<info face="C:\xdk_prj\Neo_SweetBricks(DOC)\png_ui\combo_no-export" size="58" />
+	<common lineHeight="58" scaleW="217" scaleH="198" pages="1" />
+	<pages>
+		<page id="0" file="C:\xdk_prj\Neo_SweetBricks(DOC)\png_ui\combo_no-export.png" />
+	</pages>
+	<chars count="14">
+		<char id="48" x="61" y="0" width="53" height="65" xoffset="0" yoffset="-7" xadvance="57" /><!-- 0 -->
+		<char id="49" x="168" y="0" width="39" height="64" xoffset="0" yoffset="-7" xadvance="43" /><!-- 1 -->
+		<char id="50" x="58" y="66" width="52" height="63" xoffset="0" yoffset="-7" xadvance="56" /><!-- 2 -->
+		<char id="51" x="115" y="0" width="52" height="64" xoffset="0" yoffset="-6" xadvance="56" /><!-- 3 -->
+		<char id="52" x="0" y="65" width="57" height="64" xoffset="0" yoffset="-7" xadvance="61" /><!-- 4 -->
+		<char id="53" x="165" y="129" width="51" height="64" xoffset="0" yoffset="-6" xadvance="55" /><!-- 5 -->
+		<char id="54" x="112" y="132" width="52" height="65" xoffset="0" yoffset="-7" xadvance="56" /><!-- 6 -->
+		<char id="55" x="165" y="65" width="51" height="63" xoffset="0" yoffset="-6" xadvance="55" /><!-- 7 -->
+		<char id="56" x="57" y="130" width="54" height="65" xoffset="0" yoffset="-7" xadvance="58" /><!-- 8 -->
+		<char id="57" x="112" y="66" width="52" height="65" xoffset="0" yoffset="-7" xadvance="56" /><!-- 9 -->
+		<char id="120" x="0" y="130" width="56" height="64" xoffset="0" yoffset="-7" xadvance="60" /><!-- x -->
+		<char id="43" x="0" y="0" width="60" height="64" xoffset="0" yoffset="-7" xadvance="64" /><!-- + -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="21" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="168" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

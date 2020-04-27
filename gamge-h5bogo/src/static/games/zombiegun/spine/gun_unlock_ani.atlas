@@ -1,0 +1,97 @@
+
+gun_unlock_ani.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_linelight
+  rotate: false
+  xy: 659, 529
+  size: 116, 52
+  orig: 116, 52
+  offset: 0, 0
+  index: -1
+gun_name_bar
+  rotate: false
+  xy: 2, 94
+  size: 818, 101
+  orig: 818, 101
+  offset: 0, 0
+  index: -1
+gun_option_bar
+  rotate: false
+  xy: 659, 583
+  size: 142, 124
+  orig: 142, 124
+  offset: 0, 0
+  index: -1
+gun_shop_slot_1
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_gun_name
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_gun_option
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_info
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+gun_shop_slot_back
+  rotate: false
+  xy: 2, 468
+  size: 655, 551
+  orig: 655, 551
+  offset: 0, 0
+  index: -1
+gun_shop_slot_back_part_1
+  rotate: true
+  xy: 822, 68
+  size: 639, 63
+  orig: 639, 63
+  offset: 0, 0
+  index: -1
+gun_shop_slot_back_part_2
+  rotate: true
+  xy: 887, 108
+  size: 599, 40
+  orig: 599, 40
+  offset: 0, 0
+  index: -1
+gun_shop_slot_eff
+  rotate: false
+  xy: 659, 709
+  size: 352, 310
+  orig: 352, 310
+  offset: 0, 0
+  index: -1
+text_new_gun
+  rotate: false
+  xy: 2, 197
+  size: 666, 269
+  orig: 666, 269
+  offset: 0, 0
+  index: -1
+yellow_line
+  rotate: false
+  xy: 2, 23
+  size: 796, 69
+  orig: 796, 69
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,209 @@
+
+bricks_title.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 1411, 1406
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+back_effect
+  rotate: true
+  xy: 724, 694
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+back_object
+  rotate: false
+  xy: 2, 766
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+back_object_effect
+  rotate: true
+  xy: 590, 332
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+ball
+  rotate: true
+  xy: 992, 94
+  size: 236, 237
+  orig: 236, 237
+  offset: 0, 0
+  index: -1
+ball_eff_1
+  rotate: false
+  xy: 1246, 1433
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+ball_eff_2
+  rotate: false
+  xy: 1580, 1105
+  size: 240, 299
+  orig: 240, 299
+  offset: 0, 0
+  index: -1
+ball_eff_3
+  rotate: false
+  xy: 1231, 60
+  size: 280, 221
+  orig: 280, 221
+  offset: 0, 0
+  index: -1
+bear_1
+  rotate: false
+  xy: 1594, 813
+  size: 252, 290
+  orig: 252, 290
+  offset: 0, 0
+  index: -1
+bear_1_part_1
+  rotate: false
+  xy: 1773, 1503
+  size: 58, 45
+  orig: 58, 45
+  offset: 0, 0
+  index: -1
+bear_1_part_2
+  rotate: false
+  xy: 490, 99
+  size: 74, 78
+  orig: 74, 78
+  offset: 0, 0
+  index: -1
+bear_1_part_3
+  rotate: false
+  xy: 590, 694
+  size: 81, 70
+  orig: 81, 70
+  offset: 0, 0
+  index: -1
+bear_2
+  rotate: false
+  xy: 1366, 690
+  size: 226, 381
+  orig: 226, 381
+  offset: 0, 0
+  index: -1
+bear_3
+  rotate: true
+  xy: 1594, 701
+  size: 110, 262
+  orig: 110, 262
+  offset: 0, 0
+  index: -1
+control_bar
+  rotate: false
+  xy: 590, 152
+  size: 400, 178
+  orig: 400, 178
+  offset: 0, 0
+  index: -1
+control_bar_eff
+  rotate: false
+  xy: 1639, 351
+  size: 271, 110
+  orig: 271, 110
+  offset: 0, 0
+  index: -1
+star_1
+  rotate: false
+  xy: 1513, 86
+  size: 172, 170
+  orig: 172, 170
+  offset: 0, 0
+  index: -1
+star_2
+  rotate: true
+  xy: 1687, 2
+  size: 109, 106
+  orig: 109, 106
+  offset: 0, 0
+  index: -1
+star_3
+  rotate: true
+  xy: 1513, 2
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1
+star_eff_1
+  rotate: false
+  xy: 724, 1056
+  size: 520, 531
+  orig: 520, 531
+  offset: 0, 0
+  index: -1
+star_eff_2
+  rotate: false
+  xy: 1232, 283
+  size: 405, 405
+  orig: 405, 405
+  offset: 0, 0
+  index: -1
+start
+  rotate: false
+  xy: 1639, 258
+  size: 338, 91
+  orig: 338, 91
+  offset: 0, 0
+  index: -1
+title_add_1
+  rotate: false
+  xy: 1639, 463
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+title_add_2
+  rotate: false
+  xy: 1246, 1073
+  size: 332, 331
+  orig: 332, 331
+  offset: 0, 0
+  index: -1
+title_add_3
+  rotate: false
+  xy: 724, 1589
+  size: 685, 457
+  orig: 685, 457
+  offset: 0, 0
+  index: -1
+title_add_4
+  rotate: false
+  xy: 2, 179
+  size: 586, 585
+  orig: 586, 585
+  offset: 0, 0
+  index: -1
+title_logo_1
+  rotate: true
+  xy: 1773, 1550
+  size: 496, 194
+  orig: 496, 194
+  offset: 0, 0
+  index: -1
+title_logo_2
+  rotate: false
+  xy: 2, 37
+  size: 486, 140
+  orig: 486, 140
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1687, 113
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1

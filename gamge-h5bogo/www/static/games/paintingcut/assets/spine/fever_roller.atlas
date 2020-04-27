@@ -1,0 +1,230 @@
+
+fever_roller.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_base_fever
+  rotate: false
+  xy: 460, 847
+  size: 720, 175
+  orig: 720, 175
+  offset: 0, 0
+  index: -1
+back_base_fever_2
+  rotate: true
+  xy: 1729, 389
+  size: 207, 36
+  orig: 207, 36
+  offset: 0, 0
+  index: -1
+color_2
+  rotate: false
+  xy: 1723, 753
+  size: 180, 269
+  orig: 180, 269
+  offset: 0, 0
+  index: -1
+color_3
+  rotate: false
+  xy: 1001, 327
+  size: 180, 269
+  orig: 180, 269
+  offset: 0, 0
+  index: -1
+color_4
+  rotate: false
+  xy: 1183, 327
+  size: 180, 269
+  orig: 180, 269
+  offset: 0, 0
+  index: -1
+color_5
+  rotate: false
+  xy: 1365, 327
+  size: 180, 269
+  orig: 180, 269
+  offset: 0, 0
+  index: -1
+color_6
+  rotate: false
+  xy: 1547, 327
+  size: 180, 269
+  orig: 180, 269
+  offset: 0, 0
+  index: -1
+fever_star
+  rotate: false
+  xy: 460, 603
+  size: 621, 242
+  orig: 621, 242
+  offset: 0, 0
+  index: -1
+month_board
+  rotate: true
+  xy: 2, 2
+  size: 204, 166
+  orig: 204, 166
+  offset: 0, 0
+  index: -1
+paint_roller_1
+  rotate: false
+  xy: 2, 350
+  size: 456, 672
+  orig: 456, 672
+  offset: 0, 0
+  index: -1
+paint_roller_2_1
+  rotate: false
+  xy: 2, 208
+  size: 343, 140
+  orig: 343, 140
+  offset: 0, 0
+  index: -1
+paint_roller_2_2
+  rotate: true
+  xy: 1905, 679
+  size: 343, 140
+  orig: 343, 140
+  offset: 0, 0
+  index: -1
+paint_roller_2_3
+  rotate: false
+  xy: 1083, 598
+  size: 343, 140
+  orig: 343, 140
+  offset: 0, 0
+  index: -1
+paint_roller_2_4
+  rotate: false
+  xy: 1428, 598
+  size: 343, 140
+  orig: 343, 140
+  offset: 0, 0
+  index: -1
+roller_type_2_1
+  rotate: true
+  xy: 1182, 882
+  size: 140, 539
+  orig: 140, 539
+  offset: 0, 0
+  index: -1
+roller_type_2_2
+  rotate: true
+  xy: 460, 461
+  size: 140, 539
+  orig: 140, 539
+  offset: 0, 0
+  index: -1
+roller_type_2_3
+  rotate: true
+  xy: 460, 319
+  size: 140, 539
+  orig: 140, 539
+  offset: 0, 0
+  index: -1
+roller_type_2_4
+  rotate: true
+  xy: 1182, 740
+  size: 140, 539
+  orig: 140, 539
+  offset: 0, 0
+  index: -1
+star_1
+  rotate: false
+  xy: 347, 263
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+star_2
+  rotate: false
+  xy: 1083, 766
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+star_3
+  rotate: false
+  xy: 170, 121
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+text_fever_1
+  rotate: true
+  xy: 1773, 602
+  size: 98, 22
+  orig: 98, 22
+  offset: 0, 0
+  index: -1
+text_fever_2
+  rotate: true
+  xy: 1797, 602
+  size: 98, 22
+  orig: 98, 22
+  offset: 0, 0
+  index: -1
+text_fever_3
+  rotate: true
+  xy: 1821, 602
+  size: 98, 22
+  orig: 98, 22
+  offset: 0, 0
+  index: -1
+text_fever_4
+  rotate: true
+  xy: 1845, 602
+  size: 98, 22
+  orig: 98, 22
+  offset: 0, 0
+  index: -1
+text_fever_5
+  rotate: true
+  xy: 434, 250
+  size: 98, 22
+  orig: 98, 22
+  offset: 0, 0
+  index: -1
+text_plus_1
+  rotate: false
+  xy: 347, 212
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+text_plus_2
+  rotate: false
+  xy: 170, 70
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+text_plus_3
+  rotate: false
+  xy: 257, 157
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+text_plus_4
+  rotate: false
+  xy: 170, 19
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+text_plus_5
+  rotate: false
+  xy: 1773, 702
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1857, 713
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1

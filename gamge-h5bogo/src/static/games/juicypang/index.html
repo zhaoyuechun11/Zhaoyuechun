@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Juicy Pang</title>
+
+</head>
+<body>
+    <script>
+        var IS_ANDROID = false;
+		var isGamePocketReady = true;
+        function loaded()
+        {
+            setInterval(hideURLbar, 500);
+        }
+
+        function hideURLbar()
+        {
+            window.scrollTo(0, 1);
+        }
+
+        function naverFullscreenPlay()
+        {
+            if(IS_ANDROID == true && GamePocket.Util.isNaverApp())
+            {
+                GamePocket.Util.naverAppFullscreen();
+            }
+        }
+
+        function naverFullscreenStop()
+        {
+            if(IS_ANDROID == true && GamePocket.Util.isNaverApp())
+            {
+                GamePocket.Util.cancelNaverAppFullscreen();
+            }
+        }
+
+        window.onload = function(){
+            
+
+            document.getElementById('gameJs').setAttribute("src", "game.js?ver=1.0.3");
+        }
+    </script>
+    <script id='gameJs'></script>
+</body>
+</html>

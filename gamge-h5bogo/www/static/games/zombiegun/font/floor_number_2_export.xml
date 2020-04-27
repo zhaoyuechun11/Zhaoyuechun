@@ -1,0 +1,24 @@
+<font>
+	<info face="FloorFont" size="61" />
+	<common lineHeight="61" scaleW="443" scaleH="445" pages="1" />
+	<pages>
+		<page id="0" file="floor_number_2_export.png" />
+	</pages>
+	<chars count="13">
+		<char id="48" x="297" y="162" width="78" height="130" xoffset="0" yoffset="-82" xadvance="81" /><!-- 0 -->
+		<char id="49" x="383" y="0" width="59" height="149" xoffset="0" yoffset="-90" xadvance="62" /><!-- 1 -->
+		<char id="50" x="104" y="0" width="97" height="150" xoffset="0" yoffset="-86" xadvance="100" /><!-- 2 -->
+		<char id="51" x="102" y="164" width="97" height="155" xoffset="0" yoffset="-94" xadvance="100" /><!-- 3 -->
+		<char id="52" x="200" y="151" width="96" height="141" xoffset="0" yoffset="-84" xadvance="99" /><!-- 4 -->
+		<char id="53" x="0" y="0" width="103" height="163" xoffset="0" yoffset="-97" xadvance="106" /><!-- 5 -->
+		<char id="54" x="295" y="293" width="90" height="151" xoffset="0" yoffset="-92" xadvance="93" /><!-- 6 -->
+		<char id="55" x="0" y="164" width="101" height="149" xoffset="0" yoffset="-88" xadvance="104" /><!-- 7 -->
+		<char id="56" x="202" y="0" width="87" height="138" xoffset="0" yoffset="-90" xadvance="90" /><!-- 8 -->
+		<char id="57" x="200" y="293" width="94" height="149" xoffset="0" yoffset="-83" xadvance="97" /><!-- 9 -->
+		<char id="102" x="297" y="0" width="85" height="161" xoffset="0" yoffset="-91" xadvance="88" /><!-- f -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="17" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="136" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

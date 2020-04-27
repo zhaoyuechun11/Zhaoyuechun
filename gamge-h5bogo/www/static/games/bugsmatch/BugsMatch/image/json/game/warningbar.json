@@ -1,0 +1,20 @@
+{"frames": {
+
+"warning_bar.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":80},
+	"sourceSize": {"w":720,"h":80}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "warningbar.png",
+	"format": "RGBA8888",
+	"size": {"w":722,"h":82},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:19e88e14052106be30edbfe3e62eeef1:80e5e7b0c8bc16b62bedf3b5bcefe6be:9f2ff7f8b2b2d8ebe53b1418551fbd5a$"
+}
+}

@@ -1,0 +1,41 @@
+
+aurora.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aurora_1
+  rotate: false
+  xy: 2, 832
+  size: 720, 145
+  orig: 720, 145
+  offset: 0, 0
+  index: -1
+aurora_2
+  rotate: false
+  xy: 2, 685
+  size: 720, 145
+  orig: 720, 145
+  offset: 0, 0
+  index: -1
+ice
+  rotate: false
+  xy: 724, 947
+  size: 253, 30
+  orig: 253, 30
+  offset: 0, 0
+  index: -1
+sea
+  rotate: false
+  xy: 2, 648
+  size: 701, 35
+  orig: 701, 35
+  offset: 0, 0
+  index: -1
+stage_effect
+  rotate: false
+  xy: 2, 591
+  size: 49, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1

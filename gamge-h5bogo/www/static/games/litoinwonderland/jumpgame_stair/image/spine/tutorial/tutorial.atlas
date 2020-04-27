@@ -1,0 +1,69 @@
+
+tutorial.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tutorial_bg
+  rotate: false
+  xy: 2, 277
+  size: 488, 659
+  orig: 488, 659
+  offset: 0, 0
+  index: -1
+tutorial_hand
+  rotate: false
+  xy: 2, 111
+  size: 136, 128
+  orig: 136, 128
+  offset: 0, 0
+  index: -1
+tutorial_lyto1
+  rotate: false
+  xy: 2, 2
+  size: 108, 107
+  orig: 108, 107
+  offset: 0, 0
+  index: -1
+tutorial_lyto2
+  rotate: false
+  xy: 492, 752
+  size: 101, 122
+  orig: 101, 122
+  offset: 0, 0
+  index: -1
+tutorial_shadow
+  rotate: false
+  xy: 278, 255
+  size: 35, 20
+  orig: 35, 20
+  offset: 0, 0
+  index: -1
+tutorial_text_1
+  rotate: false
+  xy: 492, 876
+  size: 227, 60
+  orig: 227, 60
+  offset: 0, 0
+  index: -1
+tutorial_text_2
+  rotate: false
+  xy: 2, 241
+  size: 274, 34
+  orig: 274, 34
+  offset: 0, 0
+  index: -1
+tutorial_text_hold
+  rotate: false
+  xy: 140, 193
+  size: 119, 46
+  orig: 119, 46
+  offset: 0, 0
+  index: -1
+tutorial_text_touch
+  rotate: false
+  xy: 721, 889
+  size: 144, 47
+  orig: 144, 47
+  offset: 0, 0
+  index: -1

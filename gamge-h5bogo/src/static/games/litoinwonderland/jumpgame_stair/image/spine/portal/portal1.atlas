@@ -1,0 +1,76 @@
+
+portal1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light1
+  rotate: false
+  xy: 417, 352
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 239, 715
+  size: 243, 244
+  orig: 243, 244
+  offset: 0, 0
+  index: -1
+light3
+  rotate: false
+  xy: 484, 722
+  size: 237, 237
+  orig: 237, 237
+  offset: 0, 0
+  index: -1
+light4
+  rotate: false
+  xy: 2, 560
+  size: 235, 399
+  orig: 235, 399
+  offset: 0, 0
+  index: -1
+portal1_1
+  rotate: false
+  xy: 2, 108
+  size: 190, 220
+  orig: 190, 220
+  offset: 0, 0
+  index: -1
+portal1_2
+  rotate: true
+  xy: 195, 333
+  size: 189, 220
+  orig: 189, 220
+  offset: 0, 0
+  index: -1
+portal1_3
+  rotate: true
+  xy: 239, 524
+  size: 189, 221
+  orig: 189, 221
+  offset: 0, 0
+  index: -1
+portal1_4
+  rotate: false
+  xy: 723, 731
+  size: 188, 228
+  orig: 188, 228
+  offset: 0, 0
+  index: -1
+portal1_5
+  rotate: false
+  xy: 2, 330
+  size: 191, 228
+  orig: 191, 228
+  offset: 0, 0
+  index: -1
+twinkle
+  rotate: false
+  xy: 913, 901
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1

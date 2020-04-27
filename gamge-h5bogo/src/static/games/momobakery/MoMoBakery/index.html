@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MoMo Bakery</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+</head>
+<body>
+<script type="text/javascript">
+    // 주소창 자동 닫힘
+    window.addEventListener("load", function(){
+        setTimeout(loaded, 100);
+    }, false);
+
+    function loaded(){
+        window.scrollTo(0, 1);
+    }
+
+    var gamen = {};
+    gamen.start = function ($returnFunc){
+        var skey = 999;
+        var okey = 888;
+
+        //pk값 암호화
+        var pk = XORcipher().xorEncoder("abcd144223", skey);
+        //유니크 값 암호화
+        var uniqu = XORcipher().xorEncoder("chadol0202", skey);
+
+        //서버의 키값을 바이트로 변환
+        var skeyStr = skey.toString();
+        var bytes0 = [];
+        for (var i = 0; i < skeyStr.length; ++i){
+            bytes0.push(skeyStr.charCodeAt(i));
+        }
+
+        var okeyStr = okey.toString();
+        var bytes1 = [];
+        for (i = 0; i < okeyStr.length; ++i){
+            bytes1.push(okeyStr.charCodeAt(i));
+        }
+
+        //업적 정보
+        gamen.achievement = [];
+        gamen.achievement[0] = XORcipher().xorEncoder("1_gamen_1_gamen_23,52,30_gamen_set_gamen_res/game_medal_0001.png_gamen_0", 999);
+        gamen.achievement[1] = XORcipher().xorEncoder("2_gamen_1_gamen_23,52,30_gamen_set_gamen_res/game_medal_0002.png_gamen_0", 999);
+        gamen.achievement[2] = XORcipher().xorEncoder("3_gamen_1_gamen_23,52,30_gamen_set_gamen_res/game_medal_0003.png_gamen_0", 999);
+        gamen.achievement[3] = XORcipher().xorEncoder("4_gamen_1_gamen_23,52,30_gamen_set_gamen_res/game_medal_0004.png_gamen_0", 999);
+        return $returnFunc(true, uniqu, pk, bytes0, bytes1);
+    };
+
+    gamen.point = function($type, $point, $time){};
+    gamen.otherpoint = function($type, $point, $time){};
+
+    gamen.finish = function ($pk, $score, $returnFunc, $uniq, $sTime, $eTime, $synchroKey){
+        //키값을 바이트에서 숫자로 변환
+        var skey = Math.floor(String.fromCharCode.apply(String, $synchroKey));
+
+        skey = 999;
+
+        //pk 복호화
+        var pk = XORcipher().xorDecoder($pk, skey);
+        //총점수 복호화
+        var score = XORcipher().xorDecoder($score, skey);
+
+        //리턴 함수 복호화
+        //var returnFunc = XORcipher().xorDecoder($returnFunc, skey);
+        var returnFunc = $returnFunc;
+
+        //순위 암호화
+        var rankNum = 123;
+        var rank = XORcipher().xorEncoder(rankNum.toString(), skey);
+
+        return returnFunc(false, rank);
+    };
+
+    gamen.loadend = function(){};
+    gamen.pointstatuscheck = function(){};
+    gamen.promiseplay = function(){};
+
+    gamen.spkey = function($num){
+        return Math.floor(String.fromCharCode.apply(String, $num));
+    };
+
+    gamen.opkey = function($num){
+        return $num;
+    };
+
+    //외부서비스 여부
+    gamen.score_view_status = false;
+
+    //파라미터 값
+    function getHttpParam(name){
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(window.location.href);
+
+        if(results == null) return "";
+        else return results[1];
+    }
+
+    var tempStage = getHttpParam("la");
+    if(tempStage == ""){
+        gamen.game_language = "en";//사용 언어
+    }else{
+        gamen.game_language = tempStage;//사용 언어
+    }
+
+    /*이미지 서버*/
+    var IMG_SERVER = '';
+    var GAME_IMG_PATH = '';
+    var COMMON_IMG_PATH = '../human/';
+
+    /*JS 서버*/
+    var JS_SERVER = '';
+    var GAME_JS_PATH = '';
+    var COMMON_JS_PATH = '../human/';
+    var JS_PATH = '';
+
+    var CACHE_VER = 0.2;
+
+</script>
+<script src="cocos2d.js"></script>
+</body>
+</html>

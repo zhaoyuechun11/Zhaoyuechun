@@ -1,0 +1,196 @@
+{"frames": {
+
+"ad_view_btn_1.png":
+{
+	"frame": {"x":1,"y":515,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"ad_view_btn_2.png":
+{
+	"frame": {"x":182,"y":515,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"btn_continue.png":
+{
+	"frame": {"x":363,"y":635,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"btn_shop_ok.png":
+{
+	"frame": {"x":653,"y":1,"w":244,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":112},
+	"sourceSize": {"w":244,"h":112}
+},
+"close_btn.png":
+{
+	"frame": {"x":1,"y":678,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"dollar_1.png":
+{
+	"frame": {"x":777,"y":490,"w":119,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":113},
+	"sourceSize": {"w":119,"h":113}
+},
+"elevator_btn.png":
+{
+	"frame": {"x":182,"y":678,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"game_over_reward.png":
+{
+	"frame": {"x":653,"y":115,"w":212,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":62},
+	"sourceSize": {"w":212,"h":62}
+},
+"gold_ui.png":
+{
+	"frame": {"x":1,"y":431,"w":448,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":448,"h":82},
+	"sourceSize": {"w":448,"h":82}
+},
+"gun_1.png":
+{
+	"frame": {"x":327,"y":213,"w":324,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":13,"w":324,"h":209},
+	"sourceSize": {"w":324,"h":222}
+},
+"gun_2.png":
+{
+	"frame": {"x":1,"y":1,"w":324,"h":214},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":324,"h":214},
+	"sourceSize": {"w":324,"h":222}
+},
+"gun_4.png":
+{
+	"frame": {"x":327,"y":1,"w":324,"h":210},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":12,"w":324,"h":210},
+	"sourceSize": {"w":324,"h":222}
+},
+"gun_5.png":
+{
+	"frame": {"x":1,"y":217,"w":324,"h":212},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":324,"h":212},
+	"sourceSize": {"w":324,"h":222}
+},
+"gun_6.png":
+{
+	"frame": {"x":451,"y":424,"w":324,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":13,"w":324,"h":209},
+	"sourceSize": {"w":324,"h":222}
+},
+"gun_shop_price_2_btn.png":
+{
+	"frame": {"x":653,"y":179,"w":186,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":75},
+	"sourceSize": {"w":186,"h":75}
+},
+"gun_shop_use_btn.png":
+{
+	"frame": {"x":653,"y":256,"w":186,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":75},
+	"sourceSize": {"w":186,"h":75}
+},
+"home_btn.png":
+{
+	"frame": {"x":544,"y":635,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"popup_sound_off_btn.png":
+{
+	"frame": {"x":725,"y":635,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"popup_sound_on_btn.png":
+{
+	"frame": {"x":899,"y":1,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"replay_btn.png":
+{
+	"frame": {"x":867,"y":164,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"retry_btn.png":
+{
+	"frame": {"x":841,"y":327,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"sound_off_btn.png":
+{
+	"frame": {"x":725,"y":635,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+},
+"sound_on_btn.png":
+{
+	"frame": {"x":899,"y":1,"w":179,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":161},
+	"sourceSize": {"w":179,"h":161}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "zombie_ui-2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:04e8e8e61be8e689c681578ae9a37502:63a26c3fc30f95394839b1820c9ca457:c0b179a67c896fb8d9e15f777b562d1f$"
+}
+}

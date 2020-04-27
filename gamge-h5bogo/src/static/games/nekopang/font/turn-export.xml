@@ -1,0 +1,23 @@
+<font>
+	<info face="turn" size="89" />
+	<common lineHeight="89" scaleW="269" scaleH="268" pages="1" />
+	<pages>
+		<page id="0" file="./turn-export.png" />
+	</pages>
+	<chars count="12">
+		<char id="48" x="73" y="90" width="72" height="88" xoffset="0" yoffset="1" xadvance="64" /><!-- 0 -->
+		<char id="49" x="215" y="89" width="53" height="88" xoffset="0" yoffset="1" xadvance="45" /><!-- 1 -->
+		<char id="50" x="145" y="179" width="70" height="88" xoffset="0" yoffset="1" xadvance="62" /><!-- 2 -->
+		<char id="51" x="146" y="0" width="69" height="88" xoffset="0" yoffset="1" xadvance="61" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="74" height="89" xoffset="0" yoffset="0" xadvance="66" /><!-- 4 -->
+		<char id="53" x="146" y="89" width="68" height="87" xoffset="0" yoffset="2" xadvance="60" /><!-- 5 -->
+		<char id="54" x="0" y="179" width="72" height="88" xoffset="0" yoffset="1" xadvance="64" /><!-- 6 -->
+		<char id="55" x="75" y="0" width="70" height="87" xoffset="0" yoffset="2" xadvance="62" /><!-- 7 -->
+		<char id="56" x="73" y="179" width="71" height="88" xoffset="0" yoffset="1" xadvance="63" /><!-- 8 -->
+		<char id="57" x="0" y="90" width="72" height="88" xoffset="0" yoffset="1" xadvance="64" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="25" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="200" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

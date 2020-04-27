@@ -1,0 +1,55 @@
+
+bubble_crack.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb-04-1
+  rotate: false
+  xy: 2, 340
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-2
+  rotate: false
+  xy: 2, 171
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-3
+  rotate: false
+  xy: 191, 340
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-4
+  rotate: false
+  xy: 2, 2
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bomb-04-5
+  rotate: false
+  xy: 191, 171
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+bubble_crack_1
+  rotate: false
+  xy: 380, 451
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+bubble_crack_2
+  rotate: false
+  xy: 191, 113
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1

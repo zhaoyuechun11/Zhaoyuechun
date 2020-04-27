@@ -1,0 +1,41 @@
+
+foothold_2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foothold1
+  rotate: false
+  xy: 256, 314
+  size: 168, 110
+  orig: 168, 110
+  offset: 0, 0
+  index: -1
+foothold2
+  rotate: false
+  xy: 2, 105
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+foothold3
+  rotate: false
+  xy: 2, 247
+  size: 252, 177
+  orig: 252, 177
+  offset: 0, 0
+  index: -1
+foothold_bg2
+  rotate: false
+  xy: 2, 7
+  size: 61, 96
+  orig: 61, 96
+  offset: 0, 0
+  index: -1
+foothold_side0
+  rotate: true
+  xy: 256, 261
+  size: 51, 93
+  orig: 51, 93
+  offset: 0, 0
+  index: -1

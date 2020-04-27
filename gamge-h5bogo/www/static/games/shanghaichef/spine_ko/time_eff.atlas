@@ -1,0 +1,20 @@
+
+time_eff.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+time_effect_1
+  rotate: false
+  xy: 2, 2
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+time_effect_2
+  rotate: false
+  xy: 96, 2
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1

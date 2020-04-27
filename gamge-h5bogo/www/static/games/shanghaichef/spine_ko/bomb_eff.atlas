@@ -1,0 +1,97 @@
+
+bomb_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+block_white
+  rotate: false
+  xy: 415, 400
+  size: 75, 90
+  orig: 75, 90
+  offset: 0, 0
+  index: -1
+bomb_eff_1
+  rotate: false
+  xy: 139, 411
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_2
+  rotate: false
+  xy: 2, 179
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_3
+  rotate: false
+  xy: 139, 330
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_4
+  rotate: false
+  xy: 231, 411
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_5
+  rotate: false
+  xy: 2, 98
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_6
+  rotate: false
+  xy: 231, 330
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_7
+  rotate: false
+  xy: 323, 411
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_8
+  rotate: false
+  xy: 2, 17
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+bomb_eff_9
+  rotate: false
+  xy: 323, 330
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+light_eff_1
+  rotate: false
+  xy: 2, 376
+  size: 135, 114
+  orig: 135, 114
+  offset: 0, 0
+  index: -1
+light_eff_2
+  rotate: false
+  xy: 2, 260
+  size: 135, 114
+  orig: 135, 114
+  offset: 0, 0
+  index: -1
+star_eff
+  rotate: false
+  xy: 139, 267
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1

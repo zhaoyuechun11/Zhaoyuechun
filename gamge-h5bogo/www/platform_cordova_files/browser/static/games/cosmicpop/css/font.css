@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Conv_HMKMRHD_NumberEng';
+	src: url("../font/HMKMRHD_NumberEng.eot");
+	src: url("../font/HMKMRHD_NumberEng.eot?#iefix") format("embedded-opentype"),
+         url("../font/HMKMRHD_NumberEng.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+}
+

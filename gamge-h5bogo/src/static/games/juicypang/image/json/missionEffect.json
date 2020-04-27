@@ -1,0 +1,92 @@
+{"frames": {
+
+"ui_mission_1.png":
+{
+	"frame": {"x":130,"y":364,"w":120,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":36,"w":120,"h":132},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_2.png":
+{
+	"frame": {"x":1,"y":364,"w":127,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":38,"w":127,"h":126},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_3.png":
+{
+	"frame": {"x":396,"y":315,"w":133,"h":141},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":29,"w":133,"h":141},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_4.png":
+{
+	"frame": {"x":252,"y":362,"w":142,"h":137},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":30,"w":142,"h":137},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_5.png":
+{
+	"frame": {"x":358,"y":162,"w":148,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":22,"w":148,"h":151},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_6.png":
+{
+	"frame": {"x":190,"y":1,"w":158,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":17,"w":158,"h":158},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_7.png":
+{
+	"frame": {"x":358,"y":1,"w":165,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":19,"w":165,"h":159},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_8.png":
+{
+	"frame": {"x":184,"y":189,"w":172,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":11,"w":172,"h":171},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_9.png":
+{
+	"frame": {"x":1,"y":189,"w":181,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":12,"w":181,"h":173},
+	"sourceSize": {"w":220,"h":200}
+},
+"ui_mission_10.png":
+{
+	"frame": {"x":1,"y":1,"w":187,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":3,"w":187,"h":186},
+	"sourceSize": {"w":220,"h":200}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "missionEffect.png",
+	"format": "RGBA8888",
+	"size": {"w":530,"h":500},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8bd2d13f6d170f2865eb4d8f5c6f86b1:320948bd9acfb221eead6317b74fc425:7e97271e4956299399aa577b88a892eb$"
+}
+}

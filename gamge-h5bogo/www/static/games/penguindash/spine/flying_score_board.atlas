@@ -1,0 +1,132 @@
+
+flying_score_board.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+character
+  rotate: false
+  xy: 592, 33
+  size: 99, 92
+  orig: 99, 92
+  offset: 0, 0
+  index: -1
+character_flower
+  rotate: false
+  xy: 175, 53
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+new_bomb_01
+  rotate: false
+  xy: 268, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_02
+  rotate: false
+  xy: 430, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_03
+  rotate: false
+  xy: 592, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_04
+  rotate: false
+  xy: 754, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_05
+  rotate: false
+  xy: 916, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_06
+  rotate: false
+  xy: 1078, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_07
+  rotate: false
+  xy: 1240, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_08
+  rotate: false
+  xy: 1402, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_09
+  rotate: false
+  xy: 1564, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_10
+  rotate: false
+  xy: 1726, 127
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_11
+  rotate: false
+  xy: 268, 5
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+new_bomb_12
+  rotate: false
+  xy: 430, 5
+  size: 160, 120
+  orig: 160, 120
+  offset: 0, 0
+  index: -1
+score_board
+  rotate: false
+  xy: 2, 2
+  size: 171, 86
+  orig: 171, 86
+  offset: 0, 0
+  index: -1
+score_cloud
+  rotate: false
+  xy: 2, 90
+  size: 264, 157
+  orig: 264, 157
+  offset: 0, 0
+  index: -1
+score_cloud_eff
+  rotate: false
+  xy: 1888, 147
+  size: 147, 100
+  orig: 147, 100
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 592, 12
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1

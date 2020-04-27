@@ -1,0 +1,90 @@
+
+guard_line.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+line_1
+  rotate: false
+  xy: 2, 2
+  size: 25, 918
+  orig: 25, 918
+  offset: 0, 0
+  index: -1
+line_2
+  rotate: false
+  xy: 29, 883
+  size: 612, 37
+  orig: 612, 37
+  offset: 0, 0
+  index: -1
+machine
+  rotate: false
+  xy: 29, 828
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+thunder_eff_1
+  rotate: false
+  xy: 643, 883
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_2
+  rotate: false
+  xy: 29, 789
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_3
+  rotate: false
+  xy: 84, 844
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_4
+  rotate: false
+  xy: 685, 883
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_5
+  rotate: false
+  xy: 29, 750
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_6
+  rotate: false
+  xy: 126, 844
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_7
+  rotate: false
+  xy: 727, 883
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_8
+  rotate: false
+  xy: 29, 711
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+thunder_eff_9
+  rotate: false
+  xy: 168, 844
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1

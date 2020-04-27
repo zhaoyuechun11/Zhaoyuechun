@@ -1,0 +1,323 @@
+syntax = "proto2";
+package up;
+
+//tcp协议格式为：packet_len(2)+id(2)+seq(1)+reserve(4)+body即数据包长度(2字节大端序，包括id+seq+reserve+body，不包含packet_len本身字节)+协议号(2字节大端序)+序号(1字节)+预留字节(4字节)+数据包包体
+
+//websocket协议格式为：head+body即数据包长度(2字节大端序，包括协议号+包体字节，不包含本身字节)+协议号(4字节大端序)+数据包包体
+//head = seq(1)+id(2)+body_len(2) seq:序号(暂未实现)，1字节；id，消息号,2个字节；body_len，消息体长度，2个字节(消息体长度其实无意义，可作保留字段用)
+
+//通用协议------------------------------------------
+//登录流程：连接-->handshake(暂时不用，后期再实现)-->login-->get_role_info[首次-->create_role[-->get_role_info]]
+//游戏流程：获取相关信息-->...-->match_game-->game_ready
+
+
+//通用协议------------------------------------------
+enum handshake_type_enum {
+    suggest_upgrade       = 1;  // 建议升级
+    required_upgrade      = 2;  // 强制升级
+    server_maintain       = 3;  // 服务维护
+    server_restart        = 4;  // 服务重启
+}
+
+enum login_type_enum {
+    default_login   = 1;  // 默认登陆方式 (账号/密码)
+    facebook_login  = 2;  // facebook登陆
+	quick_login		= 3;  // 游客登录
+}
+
+enum logout_reason_enum{
+    normal_logout = 1;  //客户端正常登出，服务端将立即关闭连接，客户端将不能收到服务端任何消息
+    switch_user = 2;    //切换用户，服务端给予一定时间让用户选择其它帐户登录，连接暂时不会关闭
+    //以下仅为服务端使用
+    break_line  = 20;    //客户端断线
+    for_error   = 21;    //错误引起
+    relogin     = 22;    //重复登录，系统自动先将前一登录登出
+    timeout_logout     = 23;    //超时引起
+    kick    = 24;    //被踢下线
+}
+
+// 错误码
+enum result_enum {
+    error_code_success                                      = 0;    //操作成功
+    error_code_none                                         = 90002;    //正常的失败，无须打印警告或错误日志
+    error_code_fail                                         = 90003;    //失败，服务器异常
+    error_code_invalid_req                                  = 90004;    //非法操作，操作依赖的状态不正常
+    error_code_role_inexistent                              = 90005;    //角色不存在
+    error_code_diamond_not_enough                           = 90006;    //玩家钻石不够，可能是自身，也可能是其他玩家影响
+    error_code_db_fail                                      = 90007;    //db操作失败
+    error_code_service_inexistent                           = 90008;    //未找到请求对应的服务，可能服务未开启
+    error_code_game_not_begin                               = 90009;    //游戏没有开始
+    error_code_param_error                                  = 90012;    //参数错误，如超出有效范围
+    error_code_not_join_game                                = 90013;    //没有加入游戏或没有参与匹配游戏
+    error_code_allow_in_one_room_limit                      = 90014;    //同一时间仅允许在一个房间玩游戏，一个玩家只允许创建一个固定庄家房间
+    error_code_playing_unable_leave_room                    = 90015;    //游戏中不允许离开房间
+    error_code_alread_playing                               = 90016;    //已经在游戏中
+    error_code_player_count_not_enough                      = 90018;    //玩家个数不够
+    error_code_can_not_join_game                            = 90019;    //不能加入游戏
+    error_code_alread_sit_down                              = 90020;    //已经坐下
+    error_code_gold_is_not_enough                           = 90021;    //金币不足
+    error_code_send_expression_to_myself                    = 90024;    //给自己发表情
+    error_code_obj_already_existent                         = 90025;    //对象已存在
+    //...增加错误码
+}
+
+message result {
+    required result_enum     _err_no                 = 1;        // 错误码
+    optional string          _err_desc               = 2;        // 失败时的错误原因描述
+}
+
+//游戏玩家显示的信息:ID,昵称，微信头像
+message role_base_info_struct {
+    required uint64                            _uid                    = 1;  // 用户唯一标识，登录时由服务器返回
+    required string                            _role_name              = 2;  // 角色名
+    optional string                            _head_portrait          = 3;  // 头像，目前微信登录才有效
+    optional uint32                            _sex                    = 4;  // 性别：1，男；2，女
+}
+
+//玩家自身信息:ID,昵称，钻石数量，微信头像
+message role_info_struct {
+    required role_base_info_struct             _role_base_info         = 1;  // 基本信息
+    optional uint64                            _diamond                = 2;  // 钻石
+    optional uint64                            _gold                   = 3;  // 金币
+    optional int32                             _total_charm            = 4;  // 总魅力值
+    optional int32                             _today_charm            = 5;  // 当日获得的魅力值（每日24时刷新）
+    optional bool                              _is_trusteeship         = 6;  // 是否托管状态
+    optional string                            _other_info             = 99; // 其它信息(服务器无须特别关心和操作的，可能只须记录及原样转发给客户端)，使用json格式，目前微信登录才有效
+}
+
+//聊天频道：1，当前游戏组聊(如一个处牌座内部)；2，私聊，仅两人交流；3，所在游戏所有在线玩家广播；4，所有游戏全服在线玩家广播；5，玩家所以公会广播；
+enum chat_channel {
+    playing    = 1;
+    private    = 2;
+    cur_game   = 3;
+    all_world  = 4;
+    game_guild = 5;
+}
+
+//内容类型：1，固定选择文字；2，表情；3，语音; 4, 自定义文字；5，邀请游戏；6，同意邀请游戏；
+enum chat_type {
+    chat_optional    = 1;
+    chat_face        = 2;
+    chat_voice       = 3;
+    chat_custom      = 4;
+    chat_invite_game = 5;
+    chat_agree_invite_game = 6;
+}
+//通用协议------------------------------------------
+
+//玩家分数
+message user_game_score {
+    required uint64                 _uid                    = 1;
+    required uint64                 _cur_score              = 2;
+}
+
+//喜爱游戏
+message love_game_struct {
+    required string                 _gid                    = 1;
+    required uint32                 _play_times             = 2;
+}
+
+//游戏在线数
+message gid_num_struct {
+    required string                 _gid                    = 1;
+    required uint64                 _online_num             = 2;
+}
+
+//测试协议------------------------------------------
+//仅测试协议类型用
+message test_sub_struct {
+    //标量数值类型
+    required uint32              _required           = 1;
+    optional uint32              _optional           = 2[default = 1];         //默认值测试
+    repeated uint32              _repeated           = 3;
+}
+message test_protobuf {
+    //标量数值类型
+    required double              _double             = 1;
+    required float               _float              = 2;
+    required int32               _int32              = 3;
+    required int64               _int64              = 4;
+    required uint32              _uint32             = 5;
+    required uint64              _uint64             = 6;
+    optional sint32              _sint32             = 7;
+    optional sint64              _sint64             = 8;
+    optional fixed32             _fixed32            = 9;
+    optional fixed64             _fixed64            = 10;
+    optional sfixed32            _sfixed32           = 11;
+    optional sfixed64            _sfixed64           = 12;
+    optional bool                _bool               = 13;
+    optional string              _string             = 14;
+    optional bytes               _bytes              = 15;
+
+    //枚举类型测试，枚举常量必须在32位整型值的范围内。因为enum值是使用可变编码方式的，对负数不够高效，因此不推荐在enum中使用负数。
+    optional login_type_enum     _login_type_enum    = 16;
+
+    //字段规则
+    optional uint32              _required           = 17;
+    optional uint32              _optional           = 18[default = 10];         //默认值测试
+    repeated uint32              _repeated           = 19;
+
+    //使用其他消息类型
+    optional test_sub_struct     _test_sub_struct    = 20;
+}
+message TestOtherProtobuf {
+    //标量数值类型
+    optional double              Adouble             = 1;
+    optional float               Afloat              = 2;
+    optional int32               Aint32              = 3;
+    optional int64               Aint64              = 4;
+    optional uint32              Auint32             = 5;
+    optional uint64              Auint64             = 6;
+    optional sint32              Asint32             = 7;
+    optional sint64              Asint64             = 8;
+    optional fixed32             Afixed32            = 9;
+    optional fixed64             Afixed64            = 10;
+    optional sfixed32            Asfixed32           = 11;
+    optional sfixed64            Asfixed64           = 12;
+    optional bool                Abool               = 13;
+    optional string              Astring             = 14;
+    optional bytes               Abytes              = 15;
+}
+//测试协议------------------------------------------
+
+
+//暂时不用，后期再实现
+message handshake {
+    required string              _client_version        = 1;                       // 客户端版本号
+    required string              _client_encrypt_key    = 2;        			   // 用于后面服务端较验客户端数据包请求的合法性，目前暂用于客户端断开直接重连后免登录验证
+    required string              _verify_value          = 3;        			   // 用于按约定的算法效验_encrypt_key合法性
+}
+
+message keepalive {
+    optional string              _something             = 1;                       // 根据版本自定含义，目前可以为空或任意
+}
+
+message login {
+    required login_type_enum     _login_type            = 1;                       // 登陆方式
+    optional string              _user_name             = 2;                       // 账号(sdk模式时为sdk平台帐号)
+    optional string              _user_password         = 3;                       // 密码(sdk可能为token或session，微信登录为计算的asc码)
+    optional string              _bind_data             = 4;                       // 绑定数据
+}
+
+message logout {//此消息无服务端回应消息
+    required logout_reason_enum     _reason             = 1;                       // 登出原因
+}
+
+message create_role {
+    required string              _role_name             = 1;  // 角色名
+    optional uint32              _sex                   = 2;  // 性别：1，男；2，女
+    optional string              _head_portrait         = 3;  // 头像，目前微信登录才有效
+    optional string              _other_info            = 4;  // 其它信息(服务器无须特别关心和操作的，可能只须记录及原样转发给客户端)，使用json格式，目前微信登录才有效
+    optional uint32              _is_robot              = 5;  // 是否设置为机器人：非0表示设置为机器人
+}
+
+message modify_role_name {
+    required string              _new_role_name             = 1;                       // 新角色名
+}
+
+message modify_role_head_img {
+    required string           _new_head_img                 = 1;
+}
+
+//用户信息
+message get_role_info {
+    optional uint64              _uid               = 1;
+}
+
+//聊天
+message chat {
+    required chat_type              _type                   = 1; //内容类型：1，固定选择文字；2，表情；3，语音; 4, 自定义文字；5，邀请游戏；6，同意邀请游戏；
+    optional string                 _data                   = 2; //聊天数据：根据_type来定义具体值，可能为一个id，也可以为具体内容
+    optional chat_channel           _channel                = 3; //聊天频道：1，当前游戏组聊(如一个处牌座内部)；2，私聊，仅两人交流；3，所在游戏所有在线玩家广播；4，所有游戏全服在线玩家广播；5，玩家所以公会广播；
+    optional uint64                 _to_uid                 = 4; //仅针对game_channel.private类型有效
+}
+
+//建议
+message suggest {
+    required string                 _type                   = 1; //内容类型：后面考虑：normal,通用/综合建议，按游戏名/id建议
+    required string                 _data                   = 2; //建议的具体内容
+}
+//通用协议------------------------------------------
+
+
+//匹配服协议ggame_match------------------------------------------
+//匹配游戏
+message match_game {
+    required string                 _gid                   = 1; // 注意，_gid字段已被设计为被gate服作为路由机制，所以所有针对_gid操作的请求协议，均需独立放在第一层且固定名称字段
+}
+
+//取消匹配游戏
+message cancel_match_game {
+    // required string                 _gid                   = 1;
+}
+//匹配服协议ggame_match------------------------------------------
+
+
+//公共逻辑服协议gpublic_game_logic------------------------------------------
+//游戏准备就绪
+message game_ready {
+}
+
+//重新进入游戏(之前曾强退过)
+message reentry_game {
+    required string                 _gid                   = 1;
+}
+
+//强制退出游戏
+message quit_game {
+}
+
+//游戏分数改变，将广播给一起玩的所有玩家
+message game_score_change {
+    required uint64                 _cur_score              = 1;
+}
+
+//游戏私有数据广播，统一封装成string，例如json串，此协议可用于在游戏中互动消息，如发送表情、聊天、点赞等，具体是否允许这些操作取决于具体需求，我们这里仅先提供实现机制；这些消息若需要服务器统计的话，需另外明确定义或明确定义_private_data格式让服务器参与解析和作相应处理
+message game_private_data {
+    required string                 _private_data           = 1;
+}
+//公共逻辑服协议gpublic_game_logic------------------------------------------
+
+
+//游戏动态数据服协议guser_game_data------------------------------------------
+//获取喜欢游戏列表
+message get_love_game_list {
+    optional uint64              _uid               = 1; // 如果为空表示自己
+}
+
+//获取动态游戏数据
+message get_game_data {
+    optional uint64              _uid               = 1;
+}
+//游戏动态数据服协议guser_game_data------------------------------------------
+
+
+//获取好友列表
+message get_friend_list {
+
+}
+
+//添加好友
+message add_friend {
+    required uint64             _uid               = 1; //添加的好友uid
+}
+//接受好友请求
+message agree_add_friend {
+    required uint64             _to_uid            = 1; //发起添加好友的uid
+    required bool               _is_agree          = 2; //true为同意,false拒绝  
+}
+
+//删除好友
+message remove_friend {
+    required uint64             _uid               = 1; //删除的好友uid
+}
+
+//搜索好友
+message search_friend {
+    required uint64             _uid_or_name       = 1; //uid 或者name
+}
+//获取游戏在线数人数
+message game_online_num {
+    repeated string             _gid_list          = 1; //游戏的gid列表
+}
+

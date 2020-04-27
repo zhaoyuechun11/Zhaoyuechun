@@ -1,0 +1,181 @@
+
+captain.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_1
+  rotate: true
+  xy: 212, 187
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+arm_2
+  rotate: true
+  xy: 413, 269
+  size: 66, 73
+  orig: 66, 73
+  offset: 0, 0
+  index: -1
+arm_3
+  rotate: true
+  xy: 350, 270
+  size: 40, 51
+  orig: 40, 51
+  offset: 0, 0
+  index: -1
+arm_4
+  rotate: false
+  xy: 276, 204
+  size: 42, 49
+  orig: 42, 49
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 216, 419
+  size: 108, 88
+  orig: 108, 88
+  offset: 0, 0
+  index: -1
+eff_1
+  rotate: false
+  xy: 460, 462
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+eff_2
+  rotate: false
+  xy: 154, 254
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+eff_3
+  rotate: false
+  xy: 136, 49
+  size: 74, 76
+  orig: 74, 76
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 216, 255
+  size: 107, 36
+  orig: 107, 36
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: true
+  xy: 136, 127
+  size: 107, 36
+  orig: 107, 36
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: true
+  xy: 174, 145
+  size: 107, 36
+  orig: 107, 36
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: true
+  xy: 451, 337
+  size: 107, 36
+  orig: 107, 36
+  offset: 0, 0
+  index: -1
+eye_5
+  rotate: true
+  xy: 413, 337
+  size: 107, 36
+  orig: 107, 36
+  offset: 0, 0
+  index: -1
+goggle
+  rotate: false
+  xy: 2, 236
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+goggle_ani_1
+  rotate: false
+  xy: 2, 173
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+goggle_ani_2
+  rotate: false
+  xy: 326, 446
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+goggle_ani_3
+  rotate: false
+  xy: 2, 110
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+goggle_ani_4
+  rotate: false
+  xy: 2, 47
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+goggle_ani_5
+  rotate: false
+  xy: 216, 356
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+goggle_ani_6
+  rotate: false
+  xy: 216, 293
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+goggle_white
+  rotate: true
+  xy: 350, 312
+  size: 132, 61
+  orig: 132, 61
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 318
+  size: 212, 189
+  orig: 212, 189
+  offset: 0, 0
+  index: -1
+leg_1
+  rotate: false
+  xy: 212, 157
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+leg_2
+  rotate: false
+  xy: 245, 157
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 17
+  size: 130, 28
+  orig: 130, 28
+  offset: 0, 0
+  index: -1

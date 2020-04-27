@@ -1,0 +1,33 @@
+{
+"skeleton": { "hash": "uiAkHZUeMaojWYyoyy+nzXLLakE", "spine": "3.5.46", "width": 140, "height": 160, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "ui_move_effect", "bone": "bone", "attachment": "ui_move_effect" }
+],
+"skins": {
+	"default": {
+		"ui_move_effect": {
+			"ui_move_effect": { "width": 140, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ui_move_effect": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff28" },
+					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "ui_move_effect" }
+				]
+			}
+		}
+	}
+}
+}

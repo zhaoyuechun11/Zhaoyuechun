@@ -1,0 +1,34 @@
+
+bomb_winter.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_winter_1
+  rotate: false
+  xy: 2, 2
+  size: 109, 124
+  orig: 109, 124
+  offset: 0, 0
+  index: -1
+eff_winter_2
+  rotate: false
+  xy: 113, 56
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1
+eff_winter_3
+  rotate: false
+  xy: 177, 67
+  size: 67, 59
+  orig: 67, 59
+  offset: 0, 0
+  index: -1
+eff_winter_4
+  rotate: false
+  xy: 177, 67
+  size: 67, 59
+  orig: 67, 59
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,28 @@
+{"frames": {
+
+"brazil_building_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+},
+"brazil_building_0002.png":
+{
+	"frame": {"x":893,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "brazilBuilding.png",
+	"format": "RGBA8888",
+	"size": {"w":1784,"h":1107},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1167665a2620a24a8efaee857aab8eb6:d848e0c945007dfc5b2338219c641339:1ae0590ed21aed7b5ed6e456d9dcb579$"
+}
+}

@@ -1,0 +1,1 @@
+var AudioManage=function(){return function(){}}();

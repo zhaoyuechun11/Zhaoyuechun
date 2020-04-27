@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "9sYyXgogmfCx9HqWqTj89xXzVqU", "spine": "3.5.18", "width": 720, "height": 1280, "fps": 30, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "foot", "parent": "all" },
+	{ "name": "eff_2", "parent": "foot" }
+],
+"slots": [
+	{ "name": "foot_print_eff", "bone": "foot" },
+	{ "name": "egg-eff-00", "bone": "eff_2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"egg-eff-00": {
+			"egg-eff-00": { "width": 188, "height": 205 }
+		},
+		"foot_print_eff": {
+			"foot_print_eff": { "width": 239, "height": 235 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"egg-eff-00": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "egg-eff-00" }
+				]
+			},
+			"foot_print_eff": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "foot_print_eff" }
+				]
+			}
+		},
+		"bones": {
+			"foot": {
+				"rotate": [
+					{ "time": 0, "angle": 10.13 },
+					{ "time": 0.1667, "angle": -6.9 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 0.2667, "x": 1.05, "y": 1.05 },
+					{ "time": 0.3667, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"eff_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1.981, "y": 1.595 },
+					{ "time": 0.5, "x": 2.151, "y": 1.754 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"all": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.35, "y": 0.35 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "xM1ITCtMBp4J3r/vgvkYVLwKzMw", "spine": "3.4.02", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "coin", "parent": "root" }
+],
+"slots": [
+	{ "name": "coin_1", "bone": "coin" }
+],
+"skins": {
+	"default": {
+		"coin_1": {
+			"coin_1": { "width": 65, "height": 65 },
+			"coin_2": { "width": 65, "height": 65 },
+			"coin_3": { "width": 65, "height": 65 },
+			"coin_4": { "width": 65, "height": 65 },
+			"coin_5": { "width": 65, "height": 65 },
+			"coin_6": { "width": 65, "height": 65 }
+		}
+	}
+},
+"animations": {
+	"coin": {
+		"slots": {
+			"coin_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "coin_1" },
+					{ "time": 0.1, "name": "coin_2" },
+					{ "time": 0.2, "name": "coin_3" },
+					{ "time": 0.3, "name": "coin_4" },
+					{ "time": 0.4, "name": "coin_5" },
+					{ "time": 0.5, "name": "coin_6" },
+					{ "time": 0.6, "name": "coin_1" }
+				]
+			}
+		},
+		"bones": {
+			"coin": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,27 @@
+
+heart_bomb.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb_eff
+  rotate: false
+  xy: 2, 87
+  size: 187, 167
+  orig: 187, 167
+  offset: 0, 0
+  index: -1
+heart
+  rotate: true
+  xy: 2, 2
+  size: 83, 68
+  orig: 83, 68
+  offset: 0, 0
+  index: -1
+heart_eff
+  rotate: true
+  xy: 72, 2
+  size: 83, 68
+  orig: 83, 68
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+foot_bomb_eff_big.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+egg-eff-00
+  rotate: false
+  xy: 2, 2
+  size: 188, 205
+  orig: 188, 205
+  offset: 0, 0
+  index: -1
+foot_print_eff
+  rotate: false
+  xy: 2, 209
+  size: 239, 235
+  orig: 239, 235
+  offset: 0, 0
+  index: -1

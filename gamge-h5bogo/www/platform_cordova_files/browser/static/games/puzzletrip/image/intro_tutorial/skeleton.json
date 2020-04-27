@@ -1,0 +1,385 @@
+{
+"skeleton": { "hash": "4faG9rDelUA07Q1pi8w52/7pC/c", "spine": "3.6.52", "width": 630, "height": 720, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "back", "parent": "root", "length": 288.88, "rotation": -89.44, "x": -0.44, "y": -0.33 },
+	{ "name": "hand", "parent": "back", "length": 273.09, "rotation": -8.65, "x": 4.25, "y": -1.47 },
+	{ "name": "bone3", "parent": "hand", "x": 59.83, "y": 357.77 },
+	{ "name": "effect", "parent": "root", "length": 163.67, "rotation": -91, "x": 2.41, "y": -0.33 },
+	{ "name": "effect2", "parent": "bone3", "length": 165.07, "rotation": 7.59, "x": -66.88, "y": -358.77 },
+	{ "name": "effect3", "parent": "bone3", "length": 193.16, "rotation": 28.11, "x": -60.45, "y": -357.91, "color": "9c9c9cff" },
+	{ "name": "effect_1", "parent": "bone3", "length": 74.67, "rotation": -24.29, "x": -58.94, "y": -368.57 },
+	{ "name": "effect_2", "parent": "bone3", "length": 122.43, "rotation": -55.03, "x": -64.81, "y": -360.08 },
+	{ "name": "effect_1-2", "parent": "bone3", "length": 73.52, "rotation": 45.44, "x": -63.5, "y": -358.34, "color": "9c9c9c00" },
+	{ "name": "effect_2_2", "parent": "bone3", "length": 90.95, "rotation": 4.21, "x": -67.42, "y": -363.56 },
+	{ "name": "effect_2_3", "parent": "bone3", "length": 111.12, "rotation": 56.45, "x": -63.5, "y": -358.34 },
+	{ "name": "puzzle_0", "parent": "back", "length": 163.65, "rotation": -0.07, "x": 0.01, "y": 1.42 },
+	{ "name": "puzzle_1", "parent": "back", "length": 96.77, "rotation": 0.28, "x": -1.39, "y": 2.86 },
+	{ "name": "puzzle_effect_0003", "parent": "root", "length": 113.06, "rotation": -91.47, "x": -30.84, "y": -169.3 },
+	{ "name": "puzzle_effect_0006", "parent": "root", "length": 116.89, "rotation": -90.47, "x": -8.52, "y": -186.3 },
+	{ "name": "puzzle_effect_0008", "parent": "root", "length": 115.06, "rotation": -92.41, "x": -8.52, "y": 120.14 }
+],
+"slots": [
+	{ "name": "back", "bone": "root" },
+	{ "name": "puzzle_1", "bone": "puzzle_1", "attachment": "puzzle_1" },
+	{ "name": "page", "bone": "root", "attachment": "page" },
+	{ "name": "effect", "bone": "effect" },
+	{ "name": "effect2", "bone": "effect2", "attachment": "effect" },
+	{ "name": "puzzle_0", "bone": "puzzle_0", "attachment": "puzzle_0" },
+	{ "name": "hand", "bone": "hand", "attachment": "hand" },
+	{ "name": "effect3", "bone": "effect3", "attachment": "effect" },
+	{ "name": "effect_2", "bone": "effect_2", "attachment": "effect_2" },
+	{ "name": "effect_3", "bone": "effect_2_2", "attachment": "effect_2" },
+	{ "name": "effect_4", "bone": "effect_2_3", "attachment": "effect_2" },
+	{ "name": "effect_1", "bone": "effect_1", "attachment": "effect_1" },
+	{ "name": "effect_1_2", "bone": "effect_1-2", "attachment": "effect_1" },
+	{ "name": "puzzle_effect_0003", "bone": "puzzle_effect_0003", "attachment": "puzzle_effect_0003" },
+	{ "name": "puzzle_effect_0006", "bone": "puzzle_effect_0006", "attachment": "puzzle_effect_0006" },
+	{ "name": "puzzle_effect_0008", "bone": "puzzle_effect_0008", "attachment": "puzzle_effect_0008" }
+],
+"skins": {
+	"default": {
+		"back": {
+			"back": { "x": -18, "y": -145, "width": 269, "height": 209 }
+		},
+		"effect": {
+			"effect": { "x": 208.75, "y": -74.21, "rotation": 91, "width": 150, "height": 150 }
+		},
+		"effect2": {
+			"effect": { "x": 170.83, "y": -7.07, "rotation": 90.49, "width": 150, "height": 150 }
+		},
+		"effect3": {
+			"effect": { "x": 207.34, "y": -14.99, "rotation": 69.98, "width": 150, "height": 150 }
+		},
+		"effect_1": {
+			"effect_1": { "x": 167.74, "y": 67.22, "rotation": 64.04, "width": 50, "height": 90 }
+		},
+		"effect_1_2": {
+			"effect_1": { "x": 160.04, "y": -91.94, "rotation": 107.1, "width": 50, "height": 90 }
+		},
+		"effect_2": {
+			"effect_2": { "x": 153.5, "y": 142.89, "rotation": 153.11, "width": 60, "height": 60 }
+		},
+		"effect_3": {
+			"effect_2": { "x": 166.39, "y": 7.77, "rotation": 93.88, "width": 60, "height": 60 }
+		},
+		"effect_4": {
+			"effect_2": { "x": 177.72, "y": -109.62, "rotation": 41.63, "width": 60, "height": 60 }
+		},
+		"hand": {
+			"hand": { "x": 270.11, "y": -0.14, "rotation": 98.09, "width": 111, "height": 117 }
+		},
+		"page": {
+			"page": { "y": -10, "width": 630, "height": 720 }
+		},
+		"puzzle_0": {
+			"puzzle_0": { "x": 185.57, "y": -12.6, "rotation": 89.5, "width": 200, "height": 110 }
+		},
+		"puzzle_1": {
+			"puzzle_1": { "x": 72.91, "y": -13.48, "rotation": 89.16, "width": 200, "height": 180 }
+		},
+		"puzzle_effect_0003": {
+			"puzzle_effect_0003": { "x": 14.96, "y": 19.71, "rotation": 91.47, "width": 250, "height": 150 }
+		},
+		"puzzle_effect_0006": {
+			"puzzle_effect_0006": { "rotation": 90.47, "width": 250, "height": 150 }
+		},
+		"puzzle_effect_0008": {
+			"puzzle_effect_0008": { "x": 306.95, "y": 12.9, "rotation": 92.41, "width": 250, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"back": {
+				"attachment": [
+					{ "time": 0, "name": "back" }
+				]
+			},
+			"effect": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "effect" },
+					{ "time": 0.1333, "name": "effect" }
+				]
+			},
+			"effect2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1333, "name": "effect" },
+					{ "time": 0.2667, "name": "effect" }
+				]
+			},
+			"effect3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.4, "name": "effect" }
+				]
+			},
+			"effect_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "effect_1" }
+				]
+			},
+			"effect_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "effect_2" }
+				]
+			},
+			"effect_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "effect_2" }
+				]
+			},
+			"effect_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "effect_2" }
+				]
+			},
+			"effect_1_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "effect_1" }
+				]
+			},
+			"hand": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "hand" }
+				]
+			},
+			"page": {
+				"attachment": [
+					{ "time": 0, "name": "page" },
+					{ "time": 0.5667, "name": "page" }
+				]
+			},
+			"puzzle_0": {
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "puzzle_0" }
+				]
+			},
+			"puzzle_1": {
+				"attachment": [
+					{ "time": 0, "name": "puzzle_1" }
+				]
+			},
+			"puzzle_effect_0003": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "puzzle_effect_0003" }
+				]
+			},
+			"puzzle_effect_0006": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffff00" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.7, "name": "puzzle_effect_0006" }
+				]
+			},
+			"puzzle_effect_0008": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "puzzle_effect_0008" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0 }
+				]
+			},
+			"hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 0.88, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0.88 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -60.44, "y": 76.02 },
+					{ "time": 0.2667, "x": -21.35, "y": 143.94, "curve": "stepped" },
+					{ "time": 0.4, "x": -21.35, "y": 143.94 }
+				]
+			},
+			"puzzle_1": {
+				"translate": [
+					{ "time": 1, "x": 0, "y": 0 },
+					{ "time": 1.1, "x": 78.31, "y": -0.77 }
+				]
+			},
+			"effect": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 3.5 },
+					{ "time": 0.1333, "x": -2, "y": 3.5 }
+				]
+			},
+			"effect2": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": 69.11, "y": -70.15 },
+					{ "time": 0.2667, "x": 39.56, "y": -142.74 }
+				]
+			},
+			"effect3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 71.54, "y": -69.25 },
+					{ "time": 0.2667, "x": 41.21, "y": -142.06, "curve": "stepped" },
+					{ "time": 0.4, "x": 41.21, "y": -142.06 }
+				]
+			},
+			"effect_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 70.13, "y": -67.07 },
+					{ "time": 0.2667, "x": 40.58, "y": -139.66 }
+				]
+			},
+			"effect_2_2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 70.08, "y": -67.03 },
+					{ "time": 0.2667, "x": 40.52, "y": -139.62 }
+				]
+			},
+			"effect_2_3": {
+				"translate": [
+					{ "time": 0, "x": -2.18, "y": -4.33 },
+					{ "time": 0.1333, "x": 67.9, "y": -71.39 },
+					{ "time": 0.2667, "x": 38.35, "y": -143.98 },
+					{ "time": 0.4, "x": 38.35, "y": -143.98 }
+				]
+			},
+			"effect_1": {
+				"translate": [
+					{ "time": 0, "x": -3.11, "y": 3.35 },
+					{ "time": 0.1333, "x": 66.94, "y": -63.76 },
+					{ "time": 0.2667, "x": 37.39, "y": -136.35 },
+					{ "time": 0.4, "x": 37.39, "y": -136.35 }
+				]
+			},
+			"effect_1-2": {
+				"translate": [
+					{ "time": 0, "x": -1.09, "y": -1.07 },
+					{ "time": 0.1333, "x": 69.04, "y": -68.15 },
+					{ "time": 0.2667, "x": 39.49, "y": -140.73 },
+					{ "time": 0.4, "x": 39.49, "y": -140.73 }
+				]
+			},
+			"puzzle_effect_0003": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "puzzle_0", "offset": 1 },
+					{ "slot": "hand", "offset": 4 }
+				]
+			},
+			{
+				"time": 0.2667,
+				"offsets": [
+					{ "slot": "puzzle_0", "offset": 1 },
+					{ "slot": "hand", "offset": 4 }
+				]
+			},
+			{
+				"time": 0.4,
+				"offsets": [
+					{ "slot": "puzzle_0", "offset": 1 },
+					{ "slot": "hand", "offset": 4 }
+				]
+			}
+		]
+	}
+}
+}

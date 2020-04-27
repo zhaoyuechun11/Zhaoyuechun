@@ -1,0 +1,300 @@
+
+somi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 122, 203
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 939, 877
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 939, 852
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 394
+  size: 217, 211
+  orig: 217, 211
+  offset: 0, 0
+  index: -1
+ear
+  rotate: false
+  xy: 847, 820
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+ef_3
+  rotate: false
+  xy: 257, 647
+  size: 187, 187
+  orig: 187, 187
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 78, 31
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 99, 79
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 2, 2
+  size: 24, 6
+  orig: 24, 6
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: false
+  xy: 221, 422
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+eyebrow
+  rotate: true
+  xy: 221, 551
+  size: 54, 26
+  orig: 54, 26
+  offset: 0, 0
+  index: -1
+eyebrow6
+  rotate: true
+  xy: 970, 934
+  size: 88, 48
+  orig: 88, 48
+  offset: 0, 0
+  index: -1
+foot
+  rotate: true
+  xy: 588, 731
+  size: 103, 67
+  orig: 103, 67
+  offset: 0, 0
+  index: -1
+gate
+  rotate: false
+  xy: 2, 232
+  size: 157, 160
+  orig: 157, 160
+  offset: 0, 0
+  index: -1
+help
+  rotate: true
+  xy: 161, 278
+  size: 114, 49
+  orig: 114, 49
+  offset: 0, 0
+  index: -1
+hit_ef
+  rotate: false
+  xy: 2, 607
+  size: 253, 227
+  orig: 253, 227
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: false
+  xy: 343, 581
+  size: 74, 64
+  orig: 74, 64
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: true
+  xy: 221, 499
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1
+mouth3
+  rotate: false
+  xy: 2, 10
+  size: 74, 45
+  orig: 74, 45
+  offset: 0, 0
+  index: -1
+ryto_body
+  rotate: false
+  xy: 970, 892
+  size: 52, 40
+  orig: 52, 40
+  offset: 0, 0
+  index: -1
+ryto_eyebrow
+  rotate: true
+  xy: 249, 551
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+ryto_hand
+  rotate: false
+  xy: 419, 612
+  size: 19, 33
+  orig: 19, 33
+  offset: 0, 0
+  index: -1
+ryto_head
+  rotate: false
+  xy: 664, 845
+  size: 181, 177
+  orig: 181, 177
+  offset: 0, 0
+  index: -1
+ryto_shadow
+  rotate: false
+  xy: 446, 711
+  size: 140, 123
+  orig: 140, 123
+  offset: 0, 0
+  index: -1
+somi_an
+  rotate: false
+  xy: 664, 836
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+somi_body
+  rotate: false
+  xy: 847, 910
+  size: 121, 112
+  orig: 121, 112
+  offset: 0, 0
+  index: -1
+somi_ear
+  rotate: true
+  xy: 221, 450
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+somi_eye1
+  rotate: false
+  xy: 657, 822
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+somi_eye2
+  rotate: true
+  xy: 343, 569
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+somi_eye4
+  rotate: false
+  xy: 221, 406
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+somi_eye5
+  rotate: false
+  xy: 122, 178
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+somi_foot
+  rotate: false
+  xy: 533, 654
+  size: 49, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1
+somi_hand
+  rotate: false
+  xy: 161, 229
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+somi_mouth
+  rotate: true
+  xy: 250, 430
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+somi_mouth2
+  rotate: false
+  xy: 588, 712
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+somi_nose
+  rotate: false
+  xy: 28, 2
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+somi_shadow
+  rotate: false
+  xy: 2, 57
+  size: 95, 86
+  orig: 95, 86
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 257, 569
+  size: 84, 76
+  orig: 84, 76
+  offset: 0, 0
+  index: -1
+stick_1
+  rotate: false
+  xy: 99, 99
+  size: 20, 44
+  orig: 20, 44
+  offset: 0, 0
+  index: -1
+stick_2
+  rotate: true
+  xy: 446, 643
+  size: 66, 85
+  orig: 66, 85
+  offset: 0, 0
+  index: -1
+t_congratulation
+  rotate: false
+  xy: 2, 836
+  size: 660, 186
+  orig: 660, 186
+  offset: 0, 0
+  index: -1
+wing2
+  rotate: false
+  xy: 2, 145
+  size: 118, 85
+  orig: 118, 85
+  offset: 0, 0
+  index: -1

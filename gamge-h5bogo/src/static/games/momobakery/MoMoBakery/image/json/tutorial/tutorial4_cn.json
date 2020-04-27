@@ -1,0 +1,20 @@
+{"frames": {
+
+"tutorial_7.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":1230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":1230},
+	"sourceSize": {"w":720,"h":1230}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "tutorial4_cn.png",
+	"format": "RGBA8888",
+	"size": {"w":722,"h":1232},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:85087215409e706b78c87fc76a218bfe:94ef67eb16e2c0b7a80d439ab6804e06:a8faea5bd17a8021ee9302d2313ab5ad$"
+}
+}

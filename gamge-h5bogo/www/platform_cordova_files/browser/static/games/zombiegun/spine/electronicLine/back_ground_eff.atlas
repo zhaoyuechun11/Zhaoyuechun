@@ -1,0 +1,41 @@
+
+back_ground_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+electric_code
+  rotate: false
+  xy: 127, 110
+  size: 41, 194
+  orig: 41, 194
+  offset: 0, 0
+  index: -1
+electric_eff_1
+  rotate: false
+  xy: 2, 306
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1
+electric_eff_2
+  rotate: false
+  xy: 2, 154
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1
+electric_eff_3
+  rotate: false
+  xy: 127, 306
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1
+electric_eff_4
+  rotate: false
+  xy: 2, 2
+  size: 123, 150
+  orig: 123, 150
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+target.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 2, 56
+  size: 93, 102
+  orig: 93, 102
+  offset: 0, 0
+  index: -1
+target
+  rotate: false
+  xy: 2, 2
+  size: 40, 52
+  orig: 40, 52
+  offset: 0, 0
+  index: -1

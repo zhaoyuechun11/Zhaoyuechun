@@ -1,0 +1,206 @@
+{
+"skeleton": { "hash": "ucMFIqgkd8SwPGEoOvkucyk/bj8", "spine": "3.4.02", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "btn_arrow_1", "parent": "root" },
+	{ "name": "btn_arrow_2", "parent": "root" },
+	{ "name": "btn_space", "parent": "root" }
+],
+"slots": [
+	{ "name": "tutorial_keyboard", "bone": "btn_arrow_1" },
+	{ "name": "tutorial_keyboard2", "bone": "btn_arrow_2" },
+	{ "name": "tutorial_space_btn", "bone": "btn_space" }
+],
+"skins": {
+	"default": {
+		"tutorial_keyboard": {
+			"tutorial_keyboard": { "width": 140, "height": 146 },
+			"tutorial_keyboard_click": { "width": 140, "height": 146 }
+		},
+		"tutorial_keyboard2": {
+			"tutorial_keyboard": { "scaleX": -1, "width": 140, "height": 146 },
+			"tutorial_keyboard_click": { "scaleX": -1, "width": 140, "height": 146 }
+		},
+		"tutorial_space_btn": {
+			"tutorial_space_btn": { "width": 257, "height": 146 },
+			"tutorial_space_btn_click": { "width": 257, "height": 146 }
+		}
+	}
+},
+"animations": {
+	"btn_arrow_1_click": {
+		"slots": {
+			"tutorial_keyboard": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_keyboard" },
+					{ "time": 0.3333, "name": "tutorial_keyboard_click" },
+					{ "time": 0.6666, "name": "tutorial_keyboard" }
+				]
+			}
+		},
+		"bones": {
+			"btn_arrow_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"btn_arrow_1_idle": {
+		"slots": {
+			"tutorial_keyboard": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_keyboard" }
+				]
+			}
+		},
+		"bones": {
+			"btn_arrow_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"btn_arrow_2_click": {
+		"slots": {
+			"tutorial_keyboard2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_keyboard" },
+					{ "time": 0.3333, "name": "tutorial_keyboard_click" },
+					{ "time": 0.6666, "name": "tutorial_keyboard_click" }
+				]
+			}
+		},
+		"bones": {
+			"btn_arrow_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"btn_arrow_2_idle": {
+		"slots": {
+			"tutorial_keyboard2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_keyboard" }
+				]
+			}
+		},
+		"bones": {
+			"btn_arrow_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"btn_space_click": {
+		"slots": {
+			"tutorial_space_btn": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_space_btn" },
+					{ "time": 0.3333, "name": "tutorial_space_btn_click" },
+					{ "time": 0.6666, "name": "tutorial_space_btn_click" }
+				]
+			}
+		},
+		"bones": {
+			"btn_space": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"btn_space_idle": {
+		"slots": {
+			"tutorial_space_btn": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_space_btn" }
+				]
+			}
+		},
+		"bones": {
+			"btn_space": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,356 @@
+{"frames": {
+
+"momo_fever_0001.png":
+{
+	"frame": {"x":269,"y":520,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0002.png":
+{
+	"frame": {"x":532,"y":520,"w":262,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":262,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0003.png":
+{
+	"frame": {"x":1594,"y":524,"w":263,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":8,"w":263,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0004.png":
+{
+	"frame": {"x":796,"y":520,"w":265,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":9,"w":265,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0005.png":
+{
+	"frame": {"x":1063,"y":521,"w":267,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":10,"w":267,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0006.png":
+{
+	"frame": {"x":1666,"y":261,"w":271,"h":261},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":11,"w":271,"h":261},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0007.png":
+{
+	"frame": {"x":1390,"y":261,"w":274,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":13,"w":274,"h":260},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0008.png":
+{
+	"frame": {"x":1113,"y":260,"w":275,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":275,"h":259},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0009.png":
+{
+	"frame": {"x":1640,"y":1,"w":276,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":16,"w":276,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0010.png":
+{
+	"frame": {"x":1,"y":259,"w":276,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":17,"w":276,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0011.png":
+{
+	"frame": {"x":1,"y":1,"w":268,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":18,"w":268,"h":256},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0012.png":
+{
+	"frame": {"x":548,"y":1,"w":267,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":17,"w":267,"h":257},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0013.png":
+{
+	"frame": {"x":817,"y":1,"w":267,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":16,"w":267,"h":257},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0014.png":
+{
+	"frame": {"x":1113,"y":260,"w":275,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":275,"h":259},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0015.png":
+{
+	"frame": {"x":279,"y":260,"w":278,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":16,"w":278,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0016.png":
+{
+	"frame": {"x":559,"y":260,"w":280,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":17,"w":280,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0017.png":
+{
+	"frame": {"x":1086,"y":1,"w":277,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":18,"w":277,"h":257},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0018.png":
+{
+	"frame": {"x":271,"y":1,"w":275,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":18,"w":275,"h":256},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0019.png":
+{
+	"frame": {"x":1365,"y":1,"w":273,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":17,"w":273,"h":257},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0020.png":
+{
+	"frame": {"x":841,"y":260,"w":270,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":15,"w":270,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0021.png":
+{
+	"frame": {"x":1,"y":519,"w":266,"h":261},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":11,"w":266,"h":261},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0022.png":
+{
+	"frame": {"x":269,"y":520,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0023.png":
+{
+	"frame": {"x":1332,"y":523,"w":260,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":260,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0024.png":
+{
+	"frame": {"x":1,"y":782,"w":259,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":259,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0025.png":
+{
+	"frame": {"x":262,"y":784,"w":256,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":256,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0026.png":
+{
+	"frame": {"x":520,"y":784,"w":253,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":6,"w":253,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0027.png":
+{
+	"frame": {"x":775,"y":784,"w":248,"h":264},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":5,"w":248,"h":264},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0028.png":
+{
+	"frame": {"x":1281,"y":787,"w":245,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":5,"w":245,"h":265},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0029.png":
+{
+	"frame": {"x":1780,"y":789,"w":244,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":4,"w":244,"h":267},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0030.png":
+{
+	"frame": {"x":252,"y":1049,"w":243,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":243,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0031.png":
+{
+	"frame": {"x":1493,"y":1056,"w":242,"h":269},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":242,"h":269},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0032.png":
+{
+	"frame": {"x":497,"y":1049,"w":246,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":246,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0033.png":
+{
+	"frame": {"x":745,"y":1050,"w":248,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":248,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0034.png":
+{
+	"frame": {"x":1,"y":1047,"w":249,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":249,"h":267},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0035.png":
+{
+	"frame": {"x":1780,"y":789,"w":244,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":4,"w":244,"h":267},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0036.png":
+{
+	"frame": {"x":252,"y":1049,"w":243,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":243,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0037.png":
+{
+	"frame": {"x":1493,"y":1056,"w":242,"h":269},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":242,"h":269},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0038.png":
+{
+	"frame": {"x":1737,"y":1058,"w":244,"h":269},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":244,"h":269},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0039.png":
+{
+	"frame": {"x":995,"y":1051,"w":246,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":246,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0040.png":
+{
+	"frame": {"x":1243,"y":1054,"w":248,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":248,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0041.png":
+{
+	"frame": {"x":1528,"y":789,"w":250,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":250,"h":265},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0042.png":
+{
+	"frame": {"x":1025,"y":785,"w":254,"h":264},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":5,"w":254,"h":264},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_fever_0043.png":
+{
+	"frame": {"x":269,"y":520,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "momo_fever.png",
+	"format": "RGBA8888",
+	"size": {"w":2025,"h":1328},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9dcf145c5db639d64e289c1abf62ed5e:bc08e64b689f6f03b5052728cf02f5bf:0c19ec5c9b0c8a7c1975af46ff116510$"
+}
+}

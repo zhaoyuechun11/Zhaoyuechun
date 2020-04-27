@@ -1,0 +1,20 @@
+
+text3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light1
+  rotate: false
+  xy: 2, 2
+  size: 89, 236
+  orig: 89, 236
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 93, 205
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1

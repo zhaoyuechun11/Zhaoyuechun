@@ -1,0 +1,41 @@
+
+new_best_eff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bullet_1
+  rotate: false
+  xy: 652, 874
+  size: 67, 71
+  orig: 67, 71
+  offset: 0, 0
+  index: -1
+bullet_2
+  rotate: false
+  xy: 2, 450
+  size: 85, 71
+  orig: 85, 71
+  offset: 0, 0
+  index: -1
+eff
+  rotate: false
+  xy: 652, 947
+  size: 327, 32
+  orig: 327, 32
+  offset: 0, 0
+  index: -1
+new_best_text_1
+  rotate: false
+  xy: 2, 523
+  size: 636, 221
+  orig: 636, 221
+  offset: 0, 0
+  index: -1
+new_best_text_2
+  rotate: false
+  xy: 2, 746
+  size: 648, 233
+  orig: 648, 233
+  offset: 0, 0
+  index: -1

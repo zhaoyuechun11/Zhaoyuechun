@@ -1,0 +1,125 @@
+
+intro.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird
+  rotate: false
+  xy: 691, 344
+  size: 121, 104
+  orig: 121, 104
+  offset: 0, 0
+  index: -1
+effect1
+  rotate: true
+  xy: 364, 381
+  size: 314, 325
+  orig: 314, 325
+  offset: 0, 0
+  index: -1
+effect2
+  rotate: true
+  xy: 875, 841
+  size: 173, 60
+  orig: 173, 60
+  offset: 0, 0
+  index: -1
+intro_bg
+  rotate: false
+  xy: 2, 374
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+lyto_body
+  rotate: false
+  xy: 875, 697
+  size: 78, 46
+  orig: 78, 46
+  offset: 0, 0
+  index: -1
+lyto_hand1
+  rotate: true
+  xy: 814, 344
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+lyto_hand2
+  rotate: true
+  xy: 2, 2
+  size: 27, 51
+  orig: 27, 51
+  offset: 0, 0
+  index: -1
+lyto_head
+  rotate: false
+  xy: 2, 31
+  size: 353, 341
+  orig: 353, 341
+  offset: 0, 0
+  index: -1
+lyto_leg1
+  rotate: false
+  xy: 886, 416
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+lyto_leg2
+  rotate: false
+  xy: 937, 848
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 937, 964
+  size: 79, 50
+  orig: 79, 50
+  offset: 0, 0
+  index: -1
+somi_body
+  rotate: true
+  xy: 691, 450
+  size: 245, 229
+  orig: 245, 229
+  offset: 0, 0
+  index: -1
+somi_ear1
+  rotate: true
+  xy: 875, 745
+  size: 94, 55
+  orig: 94, 55
+  offset: 0, 0
+  index: -1
+somi_ear2
+  rotate: false
+  xy: 814, 371
+  size: 70, 77
+  orig: 70, 77
+  offset: 0, 0
+  index: -1
+somi_hand1
+  rotate: false
+  xy: 937, 881
+  size: 48, 81
+  orig: 48, 81
+  offset: 0, 0
+  index: -1
+somi_hand2
+  rotate: false
+  xy: 922, 615
+  size: 49, 80
+  orig: 49, 80
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 364, 697
+  size: 509, 317
+  orig: 509, 317
+  offset: 0, 0
+  index: -1

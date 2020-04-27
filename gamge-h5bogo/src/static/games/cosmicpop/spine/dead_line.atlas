@@ -1,0 +1,13 @@
+
+dead_line.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+line_3
+  rotate: false
+  xy: 2, 610
+  size: 627, 19
+  orig: 627, 19
+  offset: 0, 0
+  index: -1

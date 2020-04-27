@@ -1,0 +1,36 @@
+{"frames": {
+
+"check.png":
+{
+	"frame": {"x":209,"y":421,"w":40,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":29},
+	"sourceSize": {"w":40,"h":29}
+},
+"popup_bg5.png":
+{
+	"frame": {"x":1,"y":1,"w":615,"h":418},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":615,"h":418},
+	"sourceSize": {"w":615,"h":418}
+},
+"popup_bt_ok.png":
+{
+	"frame": {"x":1,"y":421,"w":206,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":206,"h":84},
+	"sourceSize": {"w":206,"h":84}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "naver_browserAlert.png",
+	"format": "RGBA8888",
+	"size": {"w":617,"h":506},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:82b95f45719ed86ed5f6d0c0644deff9:cad174d3dde0db5ab003e801c780a926:9d13228d1cf9600ed5ed5ceeff026840$"
+}
+}

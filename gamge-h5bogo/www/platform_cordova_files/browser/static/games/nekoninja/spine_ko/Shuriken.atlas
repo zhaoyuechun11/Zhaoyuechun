@@ -1,0 +1,202 @@
+
+Shuriken.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shuriken001
+  rotate: true
+  xy: 359, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken002
+  rotate: true
+  xy: 494, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken003
+  rotate: true
+  xy: 629, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken004
+  rotate: true
+  xy: 764, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken005
+  rotate: true
+  xy: 899, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken006
+  rotate: true
+  xy: 1034, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken007
+  rotate: true
+  xy: 1169, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken008
+  rotate: true
+  xy: 1304, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken009
+  rotate: true
+  xy: 1439, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken010
+  rotate: true
+  xy: 1574, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken011
+  rotate: true
+  xy: 1709, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken012
+  rotate: true
+  xy: 1844, 346
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken013
+  rotate: true
+  xy: 186, 232
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken014
+  rotate: true
+  xy: 321, 214
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken015
+  rotate: true
+  xy: 456, 214
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken016
+  rotate: true
+  xy: 591, 214
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken017
+  rotate: true
+  xy: 726, 214
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken018
+  rotate: true
+  xy: 996, 216
+  size: 128, 131
+  orig: 128, 131
+  offset: 0, 0
+  index: -1
+Shuriken019
+  rotate: true
+  xy: 1129, 216
+  size: 128, 131
+  orig: 128, 131
+  offset: 0, 0
+  index: -1
+Shuriken020
+  rotate: true
+  xy: 1262, 216
+  size: 128, 131
+  orig: 128, 131
+  offset: 0, 0
+  index: -1
+Shuriken021
+  rotate: true
+  xy: 1395, 216
+  size: 128, 131
+  orig: 128, 131
+  offset: 0, 0
+  index: -1
+Shuriken022
+  rotate: true
+  xy: 861, 214
+  size: 130, 133
+  orig: 130, 133
+  offset: 0, 0
+  index: -1
+Shuriken023
+  rotate: false
+  xy: 2, 292
+  size: 182, 184
+  orig: 182, 184
+  offset: 0, 0
+  index: -1
+Shuriken024
+  rotate: false
+  xy: 2, 2
+  size: 131, 134
+  orig: 131, 134
+  offset: 0, 0
+  index: -1
+Shuriken025
+  rotate: false
+  xy: 2, 138
+  size: 148, 152
+  orig: 148, 152
+  offset: 0, 0
+  index: -1
+bomb-02-25p
+  rotate: false
+  xy: 186, 364
+  size: 171, 112
+  orig: 171, 112
+  offset: 0, 0
+  index: -1
+eff-02-1
+  rotate: false
+  xy: 1528, 224
+  size: 126, 120
+  orig: 126, 120
+  offset: 0, 0
+  index: -1
+eff_3
+  rotate: false
+  xy: 1656, 273
+  size: 88, 71
+  orig: 88, 71
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,72 @@
+{
+"skeleton": { "hash": "UNXyQcljWuiZQULId8DyEZkyrpY", "spine": "3.5.46", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "pig_2", "parent": "root", "x": 29.9, "y": -31.33 }
+],
+"slots": [
+	{ "name": "pig_2_2_mouth", "bone": "pig_2" },
+	{ "name": "pig_2_3", "bone": "pig_2" }
+],
+"skins": {
+	"default": {
+		"pig_2_2_mouth": {
+			"pig_2_2": { "x": -19.64, "y": 100.27, "width": 183, "height": 206 }
+		},
+		"pig_2_3": {
+			"pig_2_3": { "x": -19.64, "y": 100.27, "width": 183, "height": 206 }
+		}
+	}
+},
+"animations": {
+	"6_combo_ani_up": {
+		"slots": {
+			"pig_2_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "pig_2_3" }
+				]
+			},
+			"pig_2_2_mouth": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "pig_2_2" }
+				]
+			}
+		},
+		"bones": {
+			"pig_2": {
+				"rotate": [
+					{ "time": 0, "angle": -3.24, "curve": "stepped" },
+					{ "time": 0.1333, "angle": -3.24 },
+					{ "time": 0.2333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 30.59, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 30.59, "y": 0 },
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.385, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1.385 },
+					{ "time": 0.2333, "x": 1, "y": 0.964 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,34 @@
+
+shield_broken_ui.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shield
+  rotate: false
+  xy: 2, 2
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+shield_part_1
+  rotate: false
+  xy: 103, 2
+  size: 37, 57
+  orig: 37, 57
+  offset: 0, 0
+  index: -1
+shield_part_2
+  rotate: false
+  xy: 61, 2
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+text_1
+  rotate: false
+  xy: 142, 31
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1

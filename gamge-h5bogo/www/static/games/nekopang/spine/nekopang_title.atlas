@@ -1,0 +1,293 @@
+
+nekopang_title.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: true
+  xy: 1240, 1686
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+camera_light_eff
+  rotate: false
+  xy: 583, 310
+  size: 182, 232
+  orig: 182, 232
+  offset: 0, 0
+  index: -1
+cat_1
+  rotate: false
+  xy: 609, 1229
+  size: 359, 363
+  orig: 359, 363
+  offset: 0, 0
+  index: -1
+cat_2
+  rotate: false
+  xy: 970, 1237
+  size: 315, 355
+  orig: 315, 355
+  offset: 0, 0
+  index: -1
+cat_3
+  rotate: false
+  xy: 1315, 1059
+  size: 244, 271
+  orig: 244, 271
+  offset: 0, 0
+  index: -1
+cat_4
+  rotate: false
+  xy: 583, 102
+  size: 186, 206
+  orig: 186, 206
+  offset: 0, 0
+  index: -1
+cat_5
+  rotate: true
+  xy: 512, 544
+  size: 313, 283
+  orig: 313, 283
+  offset: 0, 0
+  index: -1
+film
+  rotate: false
+  xy: 1069, 665
+  size: 248, 276
+  orig: 248, 276
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 2, 1201
+  size: 605, 845
+  orig: 605, 845
+  offset: 0, 0
+  index: -1
+heart_character_1
+  rotate: false
+  xy: 512, 859
+  size: 275, 340
+  orig: 275, 340
+  offset: 0, 0
+  index: -1
+heart_character_2
+  rotate: false
+  xy: 1287, 1332
+  size: 272, 352
+  orig: 272, 352
+  offset: 0, 0
+  index: -1
+heart_character_3
+  rotate: false
+  xy: 1561, 1332
+  size: 265, 352
+  orig: 265, 352
+  offset: 0, 0
+  index: -1
+heart_character_4_arm_1
+  rotate: false
+  xy: 1240, 1607
+  size: 40, 77
+  orig: 40, 77
+  offset: 0, 0
+  index: -1
+heart_character_4_arm_2
+  rotate: false
+  xy: 997, 571
+  size: 63, 60
+  orig: 63, 60
+  offset: 0, 0
+  index: -1
+heart_character_4_arm_3
+  rotate: false
+  xy: 2, 6
+  size: 69, 58
+  orig: 69, 58
+  offset: 0, 0
+  index: -1
+heart_character_4_body
+  rotate: false
+  xy: 868, 438
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+heart_character_4_camera
+  rotate: false
+  xy: 767, 328
+  size: 92, 78
+  orig: 92, 78
+  offset: 0, 0
+  index: -1
+heart_character_4_face_1
+  rotate: false
+  xy: 1069, 555
+  size: 136, 108
+  orig: 136, 108
+  offset: 0, 0
+  index: -1
+heart_character_4_face_2
+  rotate: false
+  xy: 1318, 486
+  size: 136, 108
+  orig: 136, 108
+  offset: 0, 0
+  index: -1
+heart_character_4_hair
+  rotate: false
+  xy: 1036, 943
+  size: 277, 292
+  orig: 277, 292
+  offset: 0, 0
+  index: -1
+heart_character_4_head
+  rotate: true
+  xy: 797, 633
+  size: 280, 270
+  orig: 280, 270
+  offset: 0, 0
+  index: -1
+heart_character_4_ribbon
+  rotate: true
+  xy: 480, 57
+  size: 117, 101
+  orig: 117, 101
+  offset: 0, 0
+  index: -1
+heart_character_4_ribbon_add_1
+  rotate: true
+  xy: 73, 7
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+heart_character_4_ribbon_add_2
+  rotate: false
+  xy: 1507, 981
+  size: 48, 76
+  orig: 48, 76
+  offset: 0, 0
+  index: -1
+heart_cover
+  rotate: true
+  xy: 1882, 1686
+  size: 360, 164
+  orig: 360, 164
+  offset: 0, 0
+  index: -1
+photo_1
+  rotate: false
+  xy: 1319, 596
+  size: 178, 175
+  orig: 178, 175
+  offset: 0, 0
+  index: -1
+photo_2
+  rotate: false
+  xy: 789, 915
+  size: 245, 312
+  orig: 245, 312
+  offset: 0, 0
+  index: -1
+photo_3
+  rotate: true
+  xy: 1828, 1234
+  size: 161, 188
+  orig: 161, 188
+  offset: 0, 0
+  index: -1
+photo_4
+  rotate: true
+  xy: 767, 408
+  size: 134, 99
+  orig: 134, 99
+  offset: 0, 0
+  index: -1
+star_1
+  rotate: true
+  xy: 1319, 773
+  size: 188, 177
+  orig: 188, 177
+  offset: 0, 0
+  index: -1
+star_2
+  rotate: false
+  xy: 1790, 1059
+  size: 183, 173
+  orig: 183, 173
+  offset: 0, 0
+  index: -1
+star_3
+  rotate: true
+  xy: 1207, 547
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+start_btn
+  rotate: true
+  xy: 480, 176
+  size: 336, 101
+  orig: 336, 101
+  offset: 0, 0
+  index: -1
+title
+  rotate: true
+  xy: 2, 514
+  size: 685, 508
+  orig: 685, 508
+  offset: 0, 0
+  index: -1
+title_character_arm_1
+  rotate: false
+  xy: 1315, 963
+  size: 190, 94
+  orig: 190, 94
+  offset: 0, 0
+  index: -1
+title_character_arm_2
+  rotate: false
+  xy: 797, 546
+  size: 198, 85
+  orig: 198, 85
+  offset: 0, 0
+  index: -1
+title_character_body
+  rotate: true
+  xy: 1561, 1062
+  size: 268, 227
+  orig: 268, 227
+  offset: 0, 0
+  index: -1
+title_character_camera
+  rotate: true
+  xy: 1828, 1397
+  size: 287, 217
+  orig: 287, 217
+  offset: 0, 0
+  index: -1
+title_character_hair
+  rotate: false
+  xy: 609, 1594
+  size: 629, 452
+  orig: 629, 452
+  offset: 0, 0
+  index: -1
+title_character_head
+  rotate: false
+  xy: 2, 66
+  size: 476, 446
+  orig: 476, 446
+  offset: 0, 0
+  index: -1
+white_back
+  rotate: false
+  xy: 609, 1204
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1

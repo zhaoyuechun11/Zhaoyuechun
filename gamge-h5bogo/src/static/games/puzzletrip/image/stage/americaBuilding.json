@@ -1,0 +1,28 @@
+{"frames": {
+
+"america_building_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+},
+"america_building_0002.png":
+{
+	"frame": {"x":893,"y":1,"w":890,"h":1105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":890,"h":1105},
+	"sourceSize": {"w":890,"h":1105}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "americaBuilding.png",
+	"format": "RGBA8888",
+	"size": {"w":1784,"h":1107},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8907c5c673205f4418013917d03ba6d3:164537c17764c0c25860a2daf3c52a02:e60f85e8ecfce2906e5946f802b65c42$"
+}
+}

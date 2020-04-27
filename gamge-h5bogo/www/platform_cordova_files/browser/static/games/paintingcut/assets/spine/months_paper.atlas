@@ -1,0 +1,48 @@
+
+months_paper.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+months_paper
+  rotate: false
+  xy: 2, 23
+  size: 419, 420
+  orig: 419, 420
+  offset: 0, 0
+  index: -1
+text_months_score_2
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_best_months
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_best_months_score
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_months
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+text_months_score
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "zTBRQyiVN5sWlcxLFj/8SQtzXW4", "spine": "3.5.51", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "jewel_eff", "parent": "root" },
+	{ "name": "jewel_eff_2", "parent": "root" }
+],
+"slots": [
+	{ "name": "jewel", "bone": "jewel_eff" },
+	{ "name": "jewel_2", "bone": "jewel_eff_2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"jewel": {
+			"jewel": { "width": 79, "height": 85 }
+		},
+		"jewel_2": {
+			"jewel_2": { "width": 79, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"jewel_charge_eff": {
+		"slots": {
+			"jewel": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffa2" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "jewel" }
+				]
+			},
+			"jewel_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "jewel_2" }
+				]
+			}
+		},
+		"bones": {
+			"jewel_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"jewel_eff_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3, "x": 1.35, "y": 1.35 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

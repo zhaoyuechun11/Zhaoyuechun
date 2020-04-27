@@ -1,0 +1,48 @@
+
+page_lock_ani.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cap
+  rotate: true
+  xy: 380, 269
+  size: 720, 182
+  orig: 720, 182
+  offset: 0, 0
+  index: -1
+cap_white
+  rotate: false
+  xy: 2, 2
+  size: 360, 91
+  orig: 360, 91
+  offset: 0, 0
+  index: -1
+gate
+  rotate: false
+  xy: 2, 95
+  size: 376, 894
+  orig: 376, 894
+  offset: 0, 0
+  index: -1
+gate_white
+  rotate: false
+  xy: 564, 278
+  size: 188, 447
+  orig: 188, 447
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 564, 727
+  size: 375, 262
+  orig: 375, 262
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 380, 202
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1

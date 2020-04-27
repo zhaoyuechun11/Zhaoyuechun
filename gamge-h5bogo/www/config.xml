@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dotjoy.bongo" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="Fullscreen" value="false" />
+    <hook src="hooks/hookers.js" type="before_prepare" />
+    <hook src="hooks/beforedep.js" type="before_deploy" />
+    <name>Bongo</name>
+    <description>
+        Brand new cordova project!
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="res/screen/android/bongo_logo.png" />
+    </platform>
+    <platform name="ios">
+        <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-facebook4" spec="~4.0.0">
+        <variable name="APP_ID" value="279052759480098" />
+        <variable name="APP_NAME" value="Bongo" />
+    </plugin>
+    <plugin name="cordova-plugin-file-transfer" spec="~1.7.1" />
+    <plugin name="cordova-plugin-googleplus" spec="~7.0.0">
+        <variable name="REVERSED_CLIENT_ID" value="com.apps.googleusercontent.572025193413-9n11124b4hh4eicjq9aaj8t2npq7s1r8" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="572025193413-uh9sa0kopn55sh1rkacuk5e74jt8b5q5.apps.googleusercontent.com" />
+    </plugin>
+    <plugin name="cordova-android-support-gradle-release" spec="~2.0.1" />
+    <plugin name="cordova-plugin-android-permissions" spec="^1.0.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-plugin-crosswalk-webview" spec="~2.4.0" />
+    <plugin name="cordova-plugin-camera" spec="~4.0.3" />
+    <plugin name="cordova-plugin-zip" spec="~3.1.0" />
+    <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
+    <plugin name="cordova-plugin-app-version" spec="~0.1.9" />
+    <plugin name="org.apache.cordova.cache" spec="E:\avazu\bongo\node_modules\cordova-plugin-cache" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <plugin name="cordova-plugin-device" spec="~2.0.2" />
+    <plugin name="cordova-plugin-broadcaster" spec="^3.1.1" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="org.apache.cordova.agoravoice" spec="/Users/Tomato/Downloads/agoravoice">
+        <variable name="AGORA_ID" value="3268bbf868934d2f9b8bc20b195fdcc8" />
+        <variable name="AGORA_ANDROID_SDK_VERSION" value="2.2.0" />
+    </plugin>
+    <engine name="browser" spec="^5.0.4" />
+    <engine name="android" spec="^7.1.4" />
+</widget>

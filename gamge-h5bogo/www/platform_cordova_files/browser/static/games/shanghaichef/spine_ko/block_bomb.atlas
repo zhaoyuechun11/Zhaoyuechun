@@ -1,0 +1,76 @@
+
+block_bomb.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+block_white
+  rotate: true
+  xy: 2, 9
+  size: 75, 90
+  orig: 75, 90
+  offset: 0, 0
+  index: -1
+circle_eff
+  rotate: false
+  xy: 2, 346
+  size: 161, 161
+  orig: 161, 161
+  offset: 0, 0
+  index: -1
+cloud_eff_1
+  rotate: false
+  xy: 2, 216
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+cloud_eff_2
+  rotate: false
+  xy: 165, 379
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+cloud_eff_3
+  rotate: false
+  xy: 2, 86
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+cloud_eff_4
+  rotate: false
+  xy: 313, 379
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+cloud_eff_5
+  rotate: false
+  xy: 165, 249
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+cloud_eff_6
+  rotate: false
+  xy: 313, 249
+  size: 146, 128
+  orig: 146, 128
+  offset: 0, 0
+  index: -1
+star_1
+  rotate: false
+  xy: 461, 462
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+star_2
+  rotate: false
+  xy: 94, 50
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1

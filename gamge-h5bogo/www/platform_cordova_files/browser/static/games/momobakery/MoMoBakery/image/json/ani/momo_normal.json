@@ -1,0 +1,412 @@
+{"frames": {
+
+"momo_normal_0001.png":
+{
+	"frame": {"x":806,"y":522,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0002.png":
+{
+	"frame": {"x":1069,"y":523,"w":260,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":8,"w":260,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0003.png":
+{
+	"frame": {"x":790,"y":786,"w":262,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":8,"w":262,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0004.png":
+{
+	"frame": {"x":1054,"y":787,"w":263,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":8,"w":263,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0005.png":
+{
+	"frame": {"x":1331,"y":523,"w":265,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":9,"w":265,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0006.png":
+{
+	"frame": {"x":1319,"y":787,"w":267,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":9,"w":267,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0007.png":
+{
+	"frame": {"x":1598,"y":537,"w":268,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":10,"w":268,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0008.png":
+{
+	"frame": {"x":268,"y":520,"w":271,"h":261},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":12,"w":271,"h":261},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0009.png":
+{
+	"frame": {"x":1086,"y":261,"w":274,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":13,"w":274,"h":260},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0010.png":
+{
+	"frame": {"x":810,"y":261,"w":274,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":274,"h":259},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0011.png":
+{
+	"frame": {"x":542,"y":1,"w":273,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":16,"w":273,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0012.png":
+{
+	"frame": {"x":817,"y":1,"w":274,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":16,"w":274,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0013.png":
+{
+	"frame": {"x":1093,"y":1,"w":274,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":17,"w":274,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0014.png":
+{
+	"frame": {"x":1,"y":1,"w":269,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":18,"w":269,"h":256},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0015.png":
+{
+	"frame": {"x":272,"y":1,"w":268,"h":257},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":17,"w":268,"h":257},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0016.png":
+{
+	"frame": {"x":1369,"y":1,"w":268,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":16,"w":268,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0017.png":
+{
+	"frame": {"x":1,"y":259,"w":269,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":15,"w":269,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0018.png":
+{
+	"frame": {"x":272,"y":260,"w":267,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":15,"w":267,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0019.png":
+{
+	"frame": {"x":541,"y":261,"w":267,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":14,"w":267,"h":258},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0020.png":
+{
+	"frame": {"x":1362,"y":261,"w":266,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":12,"w":266,"h":260},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0021.png":
+{
+	"frame": {"x":1,"y":519,"w":265,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":11,"w":265,"h":260},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0022.png":
+{
+	"frame": {"x":541,"y":521,"w":263,"h":261},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":10,"w":263,"h":261},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0023.png":
+{
+	"frame": {"x":1,"y":781,"w":263,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":9,"w":263,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0024.png":
+{
+	"frame": {"x":806,"y":522,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0025.png":
+{
+	"frame": {"x":266,"y":783,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0026.png":
+{
+	"frame": {"x":1588,"y":801,"w":260,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":260,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0027.png":
+{
+	"frame": {"x":529,"y":784,"w":259,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":259,"h":262},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0028.png":
+{
+	"frame": {"x":1,"y":1045,"w":258,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":258,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0029.png":
+{
+	"frame": {"x":261,"y":1047,"w":257,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":7,"w":257,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0030.png":
+{
+	"frame": {"x":520,"y":1048,"w":255,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":6,"w":255,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0031.png":
+{
+	"frame": {"x":777,"y":1051,"w":253,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":6,"w":253,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0032.png":
+{
+	"frame": {"x":1630,"y":272,"w":249,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":5,"w":249,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0033.png":
+{
+	"frame": {"x":1,"y":1310,"w":248,"h":264},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":5,"w":248,"h":264},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0034.png":
+{
+	"frame": {"x":1262,"y":1317,"w":246,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":4,"w":246,"h":266},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0035.png":
+{
+	"frame": {"x":1510,"y":1331,"w":245,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":4,"w":245,"h":266},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0036.png":
+{
+	"frame": {"x":1,"y":1576,"w":244,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":244,"h":267},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0037.png":
+{
+	"frame": {"x":497,"y":1579,"w":243,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":3,"w":243,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0038.png":
+{
+	"frame": {"x":1639,"y":1,"w":242,"h":269},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":242,"h":269},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0039.png":
+{
+	"frame": {"x":1240,"y":1585,"w":245,"h":269},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":245,"h":269},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0040.png":
+{
+	"frame": {"x":742,"y":1583,"w":246,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":246,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0041.png":
+{
+	"frame": {"x":990,"y":1584,"w":248,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":248,"h":268},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0042.png":
+{
+	"frame": {"x":247,"y":1578,"w":248,"h":267},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":248,"h":267},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0043.png":
+{
+	"frame": {"x":761,"y":1316,"w":248,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":4,"w":248,"h":265},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0044.png":
+{
+	"frame": {"x":1011,"y":1317,"w":249,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":4,"w":249,"h":265},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0045.png":
+{
+	"frame": {"x":251,"y":1312,"w":251,"h":264},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":4,"w":251,"h":264},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0046.png":
+{
+	"frame": {"x":1032,"y":1052,"w":253,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":5,"w":253,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0047.png":
+{
+	"frame": {"x":504,"y":1313,"w":255,"h":264},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":5,"w":255,"h":264},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0048.png":
+{
+	"frame": {"x":1287,"y":1052,"w":257,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":6,"w":257,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0049.png":
+{
+	"frame": {"x":1546,"y":1066,"w":259,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":259,"h":263},
+	"sourceSize": {"w":318,"h":277}
+},
+"momo_normal_0050.png":
+{
+	"frame": {"x":806,"y":522,"w":261,"h":262},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":261,"h":262},
+	"sourceSize": {"w":318,"h":277}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "momo_normal.png",
+	"format": "RGBA8888",
+	"size": {"w":1882,"h":1855},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4ff37216ee7978ce1df3a1c5a4100c46:e1973009e93a69ebe968326a2f508740:638853348a436205760d2d87f7e6f47d$"
+}
+}

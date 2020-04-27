@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "9/rBvNMUHlVz/XR+S1y3dD6sOos", "spine": "3.4.02", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "cloud_2", "parent": "root", "x": -239.76, "y": 369.88, "scaleX": 0.65, "scaleY": 0.65 }
+],
+"slots": [
+	{ "name": "cloud2", "bone": "cloud_2" }
+],
+"skins": {
+	"default": {
+		"cloud2": {
+			"cloud": { "width": 351, "height": 372 }
+		}
+	}
+},
+"animations": {
+	"cloud_2": {
+		"slots": {
+			"cloud2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "cloud" }
+				]
+			}
+		},
+		"bones": {
+			"cloud_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -209.03, "y": -11.94 },
+					{ "time": 101.4, "x": 738.8, "y": -489.63 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -117.53 }
+				]
+			}
+		}
+	}
+}
+}

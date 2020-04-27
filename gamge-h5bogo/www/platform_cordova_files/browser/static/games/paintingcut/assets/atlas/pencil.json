@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "pencil_1.png",
+	"frame": {"x":1,"y":1,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_2.png",
+	"frame": {"x":603,"y":1,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_3.png",
+	"frame": {"x":603,"y":433,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_4.png",
+	"frame": {"x":904,"y":1,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_5.png",
+	"frame": {"x":904,"y":433,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_6.png",
+	"frame": {"x":1205,"y":1,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_7.png",
+	"frame": {"x":1205,"y":433,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_8.png",
+	"frame": {"x":1506,"y":1,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_9.png",
+	"frame": {"x":1506,"y":433,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_10.png",
+	"frame": {"x":1,"y":433,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_11.png",
+	"frame": {"x":302,"y":1,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+},
+{
+	"filename": "pencil_12.png",
+	"frame": {"x":302,"y":433,"w":299,"h":430},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":299,"h":430},
+	"sourceSize": {"w":299,"h":430}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pencil.png",
+	"format": "RGBA8888",
+	"size": {"w":1806,"h":864},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f6eb5f29940a36b68573e5f15ca20d67:3f7e500d6cdd5902e0403ee248f18c35:3e2b172d14635fdf565a889a17deac28$"
+}
+}

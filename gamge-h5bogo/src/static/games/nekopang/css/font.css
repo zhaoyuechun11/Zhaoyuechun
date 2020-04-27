@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "VERDANAB";
+    src: url("../font/VERDANAB.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JAPAN_TTF";
+    src: url("../font/bokutachi.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

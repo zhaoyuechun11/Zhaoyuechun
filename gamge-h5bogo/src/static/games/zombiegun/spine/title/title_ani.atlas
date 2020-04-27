@@ -1,0 +1,48 @@
+
+title_ani.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 317
+  size: 360, 640
+  orig: 360, 640
+  offset: 0, 0
+  index: -1
+title_logo_1
+  rotate: false
+  xy: 364, 690
+  size: 593, 267
+  orig: 593, 267
+  offset: 0, 0
+  index: -1
+title_logo_2
+  rotate: false
+  xy: 2, 62
+  size: 343, 253
+  orig: 343, 253
+  offset: 0, 0
+  index: -1
+title_logo_3
+  rotate: false
+  xy: 364, 361
+  size: 245, 327
+  orig: 245, 327
+  offset: 0, 0
+  index: -1
+zombie_2_hit_eff_2
+  rotate: false
+  xy: 611, 312
+  size: 191, 171
+  orig: 191, 171
+  offset: 0, 0
+  index: -1
+zombie_2_hit_eff_3
+  rotate: false
+  xy: 611, 485
+  size: 241, 203
+  orig: 241, 203
+  offset: 0, 0
+  index: -1

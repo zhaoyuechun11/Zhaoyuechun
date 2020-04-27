@@ -1,0 +1,65 @@
+{
+"skeleton": { "hash": "S5iyB2b3U4x2jj8BWxhnPh2bBks", "spine": "3.4.02", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "gameover", "parent": "root", "y": 77.76 }
+],
+"slots": [
+	{ "name": "gameover", "bone": "gameover" }
+],
+"skins": {
+	"default": {
+		"gameover": {
+			"gameover": { "y": -77.76, "width": 657, "height": 170 }
+		}
+	}
+},
+"animations": {
+	"game_over": {
+		"slots": {
+			"gameover": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "gameover" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"gameover": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 140.09 },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": -15.11 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.026 },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

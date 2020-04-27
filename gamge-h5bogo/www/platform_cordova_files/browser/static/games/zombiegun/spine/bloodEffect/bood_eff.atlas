@@ -1,0 +1,41 @@
+
+bood_eff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood_eff
+  rotate: false
+  xy: 2, 206
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+claw_eff_1
+  rotate: false
+  xy: 359, 471
+  size: 363, 444
+  orig: 363, 444
+  offset: 0, 0
+  index: -1
+claw_eff_2
+  rotate: false
+  xy: 2, 446
+  size: 355, 469
+  orig: 355, 469
+  offset: 0, 0
+  index: -1
+zombie_2_hit_eff_2
+  rotate: false
+  xy: 724, 744
+  size: 191, 171
+  orig: 191, 171
+  offset: 0, 0
+  index: -1
+zombie_2_hit_eff_3
+  rotate: false
+  xy: 2, 241
+  size: 241, 203
+  orig: 241, 203
+  offset: 0, 0
+  index: -1

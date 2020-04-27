@@ -1,0 +1,268 @@
+{
+  "gameList": [
+    {
+    "gameId": "supperzzle",
+    "gameUrl": "supperzzle",
+    "gameName": "Fun Link",
+    "gameImage": "./static/icon/lianliankan.jpg",
+    "gamePlayer": 2000,
+    "gameColor": "#003ab4",
+    "gameServer": null,
+    "singleMode": false
+    }, {
+      "gameId": "slices",
+      "gameUrl": "slices",
+      "gameName": "Slices",
+      "gameImage": "./static/icon/slices.jpg",
+      "gamePlayer": 10000,
+      "gameColor": "#4d9500",
+      "gameServer": null,
+      "singleMode": false
+    }, {
+      "gameId": "darts",
+      "gameUrl": "darts",
+      "gameName": "Knife Throw",
+      "gameImage": "./static/icon/feidao.jpg",
+      "gamePlayer": 10000,
+      "gameColor": "#af5e00",
+      "gameServer": null,
+      "singleMode": false
+    }, {
+      "gameId": "penguinjump",
+      "gameUrl": "penguinjump",
+      "gameName": "Penguin Jump",
+      "gameImage": "./static/icon/penguinjump.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#999ef0",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "stickmanrun",
+      "gameUrl": "stickmanrun",
+      "gameName": "Stick Man",
+      "gameImage": "./static/icon/stickman.png",
+      "gamePlayer": 10000,
+      "gameColor": "#4d9500",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "slamcookies",
+      "gameUrl": "slamcookies",
+      "gameName": "Hit Cookie",
+      "gameImage": "./static/icon/slamcookies.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#d8ecf1",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "birds",
+      "gameUrl": "birds",
+      "gameName": "Birds",
+      "gameImage": "./static/icon/birds.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#613ed7",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "ludoescape",
+      "gameUrl": "ludoescape",
+      "gameName": "Jelly Escape",
+      "gameImage": "./static/icon/ludoescape.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#18b8dc",
+      "gameServer": null,
+      "singleMode": false
+    },{
+      "gameId": "climbhigh",
+      "gameUrl": "climbhigh",
+      "gameName": "Prince Climb",
+      "gameImage": "./static/icon/climbhigh.jpg",
+      "gamePlayer": 2000,
+      "gameColor": "#999ef0",
+      "singleMode": false,
+      "gameServer": {
+        "url": "5.9.36.158",
+        "port": "8900"
+      }
+    },
+    {
+      "gameId": "jumpover",
+      "gameUrl": "jumpover",
+      "gameName": "Jump Over",
+      "gameImage": "./static/icon/jumpover.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#f3741c",
+      "gameServer": null,
+      "singleMode": false
+    },
+    {
+      "gameId": "puzzletrip",
+      "gameUrl": "puzzletrip",
+      "gameName": "Puzzle Trip",
+      "gameImage": "./static/icon/001.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#1cc0f3",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "juicypang",
+      "gameUrl": "juicypang",
+      "gameName": "Juicy Pang",
+      "gameImage": "./static/icon/002.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#ffea27",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "geteggs",
+      "gameUrl": "geteggs",
+      "gameName": "Get Eggs",
+      "gameImage": "./static/icon/003.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#ff2310",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "bugsmatch",
+      "gameUrl": "bugsmatch",
+      "gameName": "Bugs Match",
+      "gameImage": "./static/icon/004.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#741cf3",
+      "gameServer": null,
+      "singleMode": true
+    },{
+      "gameId": "momobakery",
+      "gameUrl": "momobakery",
+      "gameName": "Momo Bakery",
+      "gameImage": "./static/icon/005.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#8ee5e8",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "cosmicpop",
+      "gameUrl": "cosmicpop",
+      "gameName": "Cosmic Pop",
+      "gameImage": "./static/icon/022.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#1c9cf3",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "zombiegun",
+      "gameUrl": "zombiegun",
+      "gameName": "Zombie Gun",
+      "gameImage": "./static/icon/024.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#ff2310",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "penguindash",
+      "gameUrl": "penguindash",
+      "gameName": "Penguin Dash",
+      "gameImage": "./static/icon/025.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#42d3d8",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "nekoninja",
+      "gameUrl": "nekoninja",
+      "gameName": "Neko Ninja",
+      "gameImage": "./static/icon/031.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#1c53f3",
+      "gameServer": null,
+      "singleMode": true
+    },{
+      "gameId": "nekopang",
+      "gameUrl": "nekopang",
+      "gameName": "Neko Pang",
+      "gameImage": "./static/icon/033.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#a1d842",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "shanghaichef",
+      "gameUrl": "shanghaichef",
+      "gameName": "Shanghai Chef",
+      "gameImage": "./static/icon/034.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#f32d1c",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "sweetbricks",
+      "gameUrl": "sweetbricks",
+      "gameName": "Sweet bricks",
+      "gameImage": "./static/icon/042.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#f32d1c",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "paintingcut",
+      "gameUrl": "paintingcut",
+      "gameName": "Painting Cut",
+      "gameImage": "./static/icon/054.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#42d892",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "sweetbricks",
+      "gameUrl": "sweetbricks",
+      "gameName": "Sweet Bricks",
+      "gameImage": "./static/icon/042.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#f32d1c",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "pocketsudoku",
+      "gameUrl": "pocketsudoku",
+      "gameName": "Pocket Sudoku",
+      "gameImage": "./static/icon/052.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#f31ce3",
+      "gameServer": null,
+      "singleMode": true
+    },
+    {
+      "gameId": "litoinwonderland",
+      "gameUrl": "litoinwonderland",
+      "gameName": "Litoin Wonderland",
+      "gameImage": "./static/icon/052.jpg",
+      "gamePlayer": 1000,
+      "gameColor": "#939393",
+      "gameServer": null,
+      "singleMode": true
+    }
+  ],
+  "homeGames": [
+    [ "puzzletrip","juicypang"],
+    [ "geteggs", "cosmicpop"],
+    [ "nekopang", "paintingcut"],
+    [ "pocketsudoku", "sweetbricks"],
+    [ "supperzzle", "slices"],
+    [ "darts","penguinjump"],
+    [ "stickmanrun","slamcookies"],
+    [ "ludoescape","birds"],
+    [ "jumpover", "climbhigh"]
+  ]
+}

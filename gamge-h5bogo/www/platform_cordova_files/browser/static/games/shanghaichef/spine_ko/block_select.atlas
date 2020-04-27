@@ -1,0 +1,27 @@
+
+block_select.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+block_line_eff
+  rotate: false
+  xy: 2, 35
+  size: 73, 88
+  orig: 73, 88
+  offset: 0, 0
+  index: -1
+round_eff_1
+  rotate: false
+  xy: 77, 92
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+round_eff_2
+  rotate: false
+  xy: 2, 2
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1

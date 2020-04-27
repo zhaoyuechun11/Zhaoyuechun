@@ -1,0 +1,44 @@
+{"frames": {
+
+"greece_ground_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":786},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":786},
+	"sourceSize": {"w":720,"h":786}
+},
+"greece_ground_0002.png":
+{
+	"frame": {"x":723,"y":1,"w":720,"h":786},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":786},
+	"sourceSize": {"w":720,"h":786}
+},
+"greece_randmark_0001.png":
+{
+	"frame": {"x":1,"y":789,"w":720,"h":403},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":403},
+	"sourceSize": {"w":720,"h":403}
+},
+"greece_randmark_0002.png":
+{
+	"frame": {"x":723,"y":789,"w":720,"h":403},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":403},
+	"sourceSize": {"w":720,"h":403}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "greeceBlock.png",
+	"format": "RGBA8888",
+	"size": {"w":1444,"h":1193},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0ec7c7f9c7031f5f50dedbbdc7529882:b2393b83d5c5986e39a8347c56bd6b03:44d679318c373663ee45bf2f42e6deba$"
+}
+}

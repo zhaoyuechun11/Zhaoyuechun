@@ -1,0 +1,74 @@
+{
+"skeleton": { "hash": "qDzSuQSiDsZTJffvdx4UOmJsDLM", "spine": "3.6.52", "width": 594.41, "height": 279, "images": "./psd/cut/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "cut_helpme", "parent": "root", "length": 179.31, "rotation": 175.13, "x": -241.87, "y": 1.05 },
+	{ "name": "cut_mouse", "parent": "root", "length": 22.84, "rotation": 104.04, "x": -111.68, "y": -86.21 }
+],
+"slots": [
+	{ "name": "cut_bg", "bone": "root", "attachment": "cut_bg" },
+	{ "name": "cut_helpme", "bone": "cut_helpme", "attachment": "cut_helpme" },
+	{ "name": "cut_mouse", "bone": "cut_mouse", "attachment": "cut_mouse" }
+],
+"skins": {
+	"default": {
+		"cut_bg": {
+			"cut_bg": { "x": -268, "y": -0.17, "width": 541, "height": 255 }
+		},
+		"cut_helpme": {
+			"cut_helpme": { "x": 165.24, "y": 4.72, "rotation": -175.13, "width": 370, "height": 279 }
+		},
+		"cut_mouse": {
+			"cut_mouse": { "x": 7.63, "y": -2.61, "rotation": -104.04, "width": 71, "height": 54 }
+		}
+	}
+},
+"animations": {
+	"cut": {
+		"slots": {
+			"cut_helpme": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "cut_helpme" }
+				]
+			}
+		},
+		"bones": {
+			"cut_helpme": {
+				"rotate": [
+					{ "time": 0.6667, "angle": 0 },
+					{ "time": 0.8333, "angle": -4.43 },
+					{ "time": 1, "angle": 4.07 },
+					{ "time": 1.1667, "angle": -4.43 },
+					{ "time": 1.3333, "angle": 4.07 },
+					{ "time": 1.5, "angle": -4.43 },
+					{ "time": 1.6667, "angle": 4.07 },
+					{ "time": 1.8333, "angle": -4.43 },
+					{ "time": 2, "angle": 4.07 },
+					{ "time": 2.1667, "angle": -4.43 },
+					{ "time": 2.3333, "angle": 4.07 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 0.433, "y": 0.468 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			},
+			"cut_mouse": {
+				"translate": [
+					{ "time": 0, "x": -1.12, "y": 4.47, "curve": "stepped" },
+					{ "time": 0.4, "x": -1.12, "y": 4.47 },
+					{ "time": 0.5, "x": -1.12, "y": 1.12 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.793, "y": 0.793, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.793, "y": 0.793 },
+					{ "time": 0.5, "x": 1.025, "y": 1.025 },
+					{ "time": 0.6667, "x": 0.779, "y": 1.147 },
+					{ "time": 0.8333, "x": 1.186, "y": 0.896 },
+					{ "time": 1, "x": 0.986, "y": 0.965 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,139 @@
+
+ready_start.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clear_character
+  rotate: false
+  xy: 2, 1397
+  size: 285, 346
+  orig: 285, 346
+  offset: 0, 0
+  index: -1
+clear_character_eff
+  rotate: false
+  xy: 432, 848
+  size: 114, 146
+  orig: 114, 146
+  offset: 0, 0
+  index: -1
+game_over
+  rotate: false
+  xy: 706, 1949
+  size: 380, 97
+  orig: 380, 97
+  offset: 0, 0
+  index: -1
+game_over_character
+  rotate: false
+  xy: 2, 723
+  size: 285, 330
+  orig: 285, 330
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 1414, 1825
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+photo_1
+  rotate: true
+  xy: 289, 723
+  size: 81, 94
+  orig: 81, 94
+  offset: 0, 0
+  index: -1
+photo_2
+  rotate: true
+  xy: 2, 2
+  size: 67, 49
+  orig: 67, 49
+  offset: 0, 0
+  index: -1
+photo_3
+  rotate: false
+  xy: 1414, 1891
+  size: 122, 155
+  orig: 122, 155
+  offset: 0, 0
+  index: -1
+ready
+  rotate: true
+  xy: 289, 1322
+  size: 421, 119
+  orig: 421, 119
+  offset: 0, 0
+  index: -1
+ready_character_1
+  rotate: false
+  xy: 2, 397
+  size: 288, 324
+  orig: 288, 324
+  offset: 0, 0
+  index: -1
+ready_character_2
+  rotate: false
+  xy: 2, 71
+  size: 288, 324
+  orig: 288, 324
+  offset: 0, 0
+  index: -1
+ready_character_3
+  rotate: false
+  xy: 289, 996
+  size: 288, 324
+  orig: 288, 324
+  offset: 0, 0
+  index: -1
+ready_character_4
+  rotate: true
+  xy: 1088, 1758
+  size: 288, 324
+  orig: 288, 324
+  offset: 0, 0
+  index: -1
+stage_clear
+  rotate: false
+  xy: 2, 1948
+  size: 702, 98
+  orig: 702, 98
+  offset: 0, 0
+  index: -1
+start
+  rotate: false
+  xy: 2, 1745
+  size: 497, 201
+  orig: 497, 201
+  offset: 0, 0
+  index: -1
+start_arm_1
+  rotate: false
+  xy: 501, 1797
+  size: 112, 149
+  orig: 112, 149
+  offset: 0, 0
+  index: -1
+start_arm_2
+  rotate: true
+  xy: 410, 1631
+  size: 112, 53
+  orig: 112, 53
+  offset: 0, 0
+  index: -1
+start_character
+  rotate: false
+  xy: 2, 1055
+  size: 285, 340
+  orig: 285, 340
+  offset: 0, 0
+  index: -1
+start_character_eff
+  rotate: false
+  xy: 289, 806
+  size: 141, 188
+  orig: 141, 188
+  offset: 0, 0
+  index: -1

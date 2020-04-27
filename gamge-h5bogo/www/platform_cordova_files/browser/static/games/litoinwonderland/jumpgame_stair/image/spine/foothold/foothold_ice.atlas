@@ -1,0 +1,97 @@
+
+foothold_ice.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ice
+  rotate: false
+  xy: 264, 405
+  size: 180, 105
+  orig: 180, 105
+  offset: 0, 0
+  index: -1
+ice_ef1
+  rotate: false
+  xy: 2, 273
+  size: 260, 237
+  orig: 260, 237
+  offset: 0, 0
+  index: -1
+ice_ef10
+  rotate: true
+  xy: 287, 29
+  size: 80, 82
+  orig: 80, 82
+  offset: 0, 0
+  index: -1
+ice_ef2
+  rotate: false
+  xy: 101, 14
+  size: 81, 83
+  orig: 81, 83
+  offset: 0, 0
+  index: -1
+ice_ef3
+  rotate: false
+  xy: 2, 99
+  size: 176, 172
+  orig: 176, 172
+  offset: 0, 0
+  index: -1
+ice_ef4
+  rotate: false
+  xy: 2, 2
+  size: 97, 95
+  orig: 97, 95
+  offset: 0, 0
+  index: -1
+ice_ef5
+  rotate: true
+  xy: 378, 298
+  size: 105, 100
+  orig: 105, 100
+  offset: 0, 0
+  index: -1
+ice_ef6
+  rotate: true
+  xy: 288, 111
+  size: 72, 82
+  orig: 72, 82
+  offset: 0, 0
+  index: -1
+ice_ef7
+  rotate: false
+  xy: 264, 297
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+ice_ef8
+  rotate: true
+  xy: 180, 159
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+ice_ef9
+  rotate: false
+  xy: 184, 59
+  size: 101, 98
+  orig: 101, 98
+  offset: 0, 0
+  index: -1
+ice_side1
+  rotate: false
+  xy: 288, 185
+  size: 93, 110
+  orig: 93, 110
+  offset: 0, 0
+  index: -1
+ice_side2
+  rotate: false
+  xy: 383, 186
+  size: 92, 110
+  orig: 92, 110
+  offset: 0, 0
+  index: -1

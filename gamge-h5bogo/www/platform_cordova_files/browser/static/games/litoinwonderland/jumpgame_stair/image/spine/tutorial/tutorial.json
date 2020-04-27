@@ -1,0 +1,381 @@
+{
+"skeleton": { "hash": "k6krXutWdo1UCgjIDh9suZ88TBY", "spine": "3.6.53", "width": 579, "height": 982, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hand", "parent": "root", "length": 99.06, "rotation": 134.42, "x": 161.49, "y": 100.65 },
+	{ "name": "hand2", "parent": "root", "length": 99.06, "rotation": 134.42, "x": 88.77, "y": -225.14 },
+	{ "name": "hold", "parent": "root", "x": -104.92, "y": -40.05 },
+	{ "name": "lyto", "parent": "root", "length": 84.88, "rotation": 94.24, "x": -39.23, "y": 145.1 },
+	{ "name": "lyto2", "parent": "root", "rotation": 94.24, "x": -40.27, "y": 145.23 },
+	{ "name": "lyto3", "parent": "root", "length": 84.88, "rotation": 94.24, "x": -96.3, "y": -200.89 },
+	{ "name": "t1", "parent": "root", "y": 427.46 },
+	{ "name": "t2", "parent": "root", "x": 2.13, "y": -414.05 },
+	{ "name": "touch", "parent": "root", "x": 85.41, "y": 265.44 }
+],
+"slots": [
+	{ "name": "tutorial_bg", "bone": "root", "attachment": "tutorial_bg" },
+	{ "name": "tutorial_hand", "bone": "hand", "attachment": "tutorial_hand" },
+	{ "name": "tutorial_hand2", "bone": "hand2", "attachment": "tutorial_hand" },
+	{ "name": "tutorial_shadow", "bone": "lyto2", "attachment": "tutorial_shadow" },
+	{ "name": "tutorial_lyto2", "bone": "lyto", "attachment": "tutorial_lyto2" },
+	{ "name": "tutorial_lyto3", "bone": "lyto3", "attachment": "tutorial_lyto2" },
+	{ "name": "tutorial_text_2", "bone": "t2", "attachment": "tutorial_text_2" },
+	{ "name": "tutorial_text_1", "bone": "t1", "attachment": "tutorial_text_1" },
+	{ "name": "tutorial_text_touch", "bone": "touch", "attachment": "tutorial_text_touch" },
+	{ "name": "tutorial_text_hold", "bone": "hold", "attachment": "tutorial_text_hold" }
+],
+"skins": {
+	"default": {
+		"tutorial_bg": {
+			"tutorial_bg": { "width": 488, "height": 659 }
+		},
+		"tutorial_hand": {
+			"tutorial_hand": {
+				"type": "mesh",
+				"uvs": [ 0.45908, 0.27929, 0.36802, 0.14491, 0.30226, 0, 0.06955, 0.03741, 0.01896, 0.20404, 0.08473, 0.38679, 0.27696, 0.55879, 0.05437, 0.80604, 0.14543, 0.91422, 0.58555, 1, 0.9599, 0.87591, 1, 0.45666, 0.90426, 0.2601, 0.63108, 0.13416 ],
+				"triangles": [ 3, 1, 4, 1, 3, 2, 5, 1, 0, 5, 4, 1, 6, 5, 0, 12, 11, 0, 8, 7, 6, 6, 0, 11, 12, 0, 13, 10, 9, 11, 9, 6, 11, 8, 6, 9 ],
+				"vertices": [ 71.39, -4.68, 92.34, -7.88, 111.85, -14.47, 130.58, 11.48, 120.17, 31.32, 97.2, 41.31, 63.18, 38.05, 61.76, 81.82, 43.2, 82.67, -6.53, 47.6, -30.83, 0.12, 3.69, -41.33, 30.77, -49.64, 68.29, -34.39 ],
+				"hull": 14,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 0, 26 ],
+				"width": 136,
+				"height": 128
+			}
+		},
+		"tutorial_hand2": {
+			"tutorial_hand": {
+				"type": "mesh",
+				"uvs": [ 0.45908, 0.27929, 0.36802, 0.14491, 0.30226, 0, 0.06955, 0.03741, 0.01896, 0.20404, 0.08473, 0.38679, 0.27696, 0.55879, 0.05437, 0.80604, 0.14543, 0.91422, 0.58555, 1, 0.9599, 0.87591, 1, 0.45666, 0.90426, 0.2601, 0.63108, 0.13416 ],
+				"triangles": [ 3, 1, 4, 1, 3, 2, 5, 1, 0, 5, 4, 1, 6, 5, 0, 12, 11, 0, 8, 7, 6, 6, 0, 11, 12, 0, 13, 10, 9, 11, 9, 6, 11, 8, 6, 9 ],
+				"vertices": [ 71.39, -4.68, 92.34, -7.88, 111.85, -14.47, 130.58, 11.48, 120.17, 31.32, 97.2, 41.31, 63.18, 38.05, 61.76, 81.82, 43.2, 82.67, -6.53, 47.6, -30.83, 0.12, 3.69, -41.33, 30.77, -49.64, 68.29, -34.39 ],
+				"hull": 14,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 0, 26 ],
+				"width": 136,
+				"height": 128
+			}
+		},
+		"tutorial_lyto2": {
+			"tutorial_lyto2": { "x": 58.33, "y": 3.54, "scaleX": -0.9, "scaleY": 0.9, "rotation": -94.24, "width": 101, "height": 122 }
+		},
+		"tutorial_lyto3": {
+			"tutorial_lyto1": { "width": 108, "height": 107 },
+			"tutorial_lyto2": { "x": 58.33, "y": 3.54, "scaleX": -0.9, "scaleY": 0.9, "rotation": -94.24, "width": 101, "height": 122 }
+		},
+		"tutorial_shadow": {
+			"tutorial_shadow": { "x": 0.53, "y": -0.45, "rotation": -94.24, "width": 35, "height": 20 }
+		},
+		"tutorial_text_1": {
+			"tutorial_text_1": { "y": -2.29, "width": 227, "height": 60 }
+		},
+		"tutorial_text_2": {
+			"tutorial_text_2": { "x": -2.13, "y": -3.17, "width": 274, "height": 34 }
+		},
+		"tutorial_text_hold": {
+			"tutorial_text_hold": { "x": 3.05, "y": 1.54, "width": 119, "height": 46 }
+		},
+		"tutorial_text_touch": {
+			"tutorial_text_touch": { "x": -2.94, "y": -2.71, "width": 144, "height": 47 }
+		}
+	}
+},
+"animations": {
+	"tutorial_ingame": {
+		"slots": {
+			"tutorial_lyto3": {
+				"attachment": [
+					{ "time": 1.1333, "name": "tutorial_lyto1" },
+					{ "time": 1.7, "name": "tutorial_lyto2" }
+				]
+			},
+			"tutorial_text_2": {
+				"color": [
+					{ "time": 0, "color": "ffffff84" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff84" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff84" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff84" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff84" }
+				]
+			},
+			"tutorial_text_hold": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": "tutorial_text_hold" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"tutorial_text_touch": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_text_touch" }
+				]
+			}
+		},
+		"bones": {
+			"hand": {
+				"translate": [
+					{ "time": 0, "x": -6.51, "y": 7.44 }
+				]
+			},
+			"lyto": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 0, "y": 30.51 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 0.887, "y": 1 },
+					{ "time": 0.6667, "x": 0.927, "y": 1 },
+					{ "time": 0.8333, "x": 0.887, "y": 1 },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"lyto2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 0.6667, "x": 0.762, "y": 0.762 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"touch": {
+				"translate": [
+					{ "time": 0, "x": 7.44, "y": -17.67 }
+				]
+			},
+			"hand2": {
+				"translate": [
+					{ "time": 0, "x": -6.77, "y": -6.21 }
+				]
+			},
+			"lyto3": {
+				"rotate": [
+					{ "time": 1.1333, "angle": 0 },
+					{ "time": 1.4333, "angle": -179.21 },
+					{ "time": 1.7, "angle": 0.92 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0 },
+					{ "time": 1.1333, "x": 27.72, "y": 53.4 },
+					{ "time": 1.4333, "x": 106.8, "y": 174.81 },
+					{ "time": 1.7, "x": 204.89, "y": 142.51 },
+					{ "time": 1.7333, "x": 210.31, "y": 92.2, "curve": "stepped" },
+					{ "time": 2.5, "x": 210.31, "y": 92.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 1.1, "x": 0.822, "y": 1 },
+					{ "time": 1.4333, "x": 0.927, "y": 1 },
+					{ "time": 1.7333, "x": 0.887, "y": 1 },
+					{ "time": 1.8, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"tutorial_hand": {
+					"tutorial_hand": [
+						{ "time": 0.1667 },
+						{
+							"time": 0.5,
+							"offset": 2,
+							"vertices": [ 8.03313, 8.19716, 8.65334, 16.67224, 4.02731, 20.50691, -5.45269, 15.82404, -6.97102, 8.95668, 0.54884, -1.96368, 5.79936, -5.68341, 4.63952, -4.54668 ]
+						},
+						{ "time": 0.6667 }
+					]
+				},
+				"tutorial_hand2": {
+					"tutorial_hand": [
+						{ "time": 0.1667 },
+						{
+							"time": 0.2333,
+							"offset": 2,
+							"vertices": [ 8.03313, 8.19716, 8.65334, 16.67224, 4.02731, 20.50691, -5.45269, 15.82404, -6.97102, 8.95668, 0.54884, -1.96368, 5.79936, -5.68341, 4.63952, -4.54668 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 1.1,
+							"offset": 2,
+							"vertices": [ 8.03313, 8.19716, 8.65334, 16.67224, 4.02731, 20.50691, -5.45269, 15.82404, -6.97102, 8.95668, 0.54884, -1.96368, 5.79936, -5.68341, 4.63952, -4.54668 ]
+						},
+						{ "time": 1.1667 }
+					]
+				}
+			}
+		}
+	},
+	"tutorial_popup": {
+		"slots": {
+			"tutorial_lyto3": {
+				"attachment": [
+					{ "time": 1.1333, "name": "tutorial_lyto1" },
+					{ "time": 1.7, "name": "tutorial_lyto2" }
+				]
+			},
+			"tutorial_text_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tutorial_text_2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tutorial_text_hold": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": "tutorial_text_hold" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"tutorial_text_touch": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "tutorial_text_touch" }
+				]
+			}
+		},
+		"bones": {
+			"hand": {
+				"translate": [
+					{ "time": 0, "x": -6.51, "y": 7.44 }
+				]
+			},
+			"lyto": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 0, "y": 30.51 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 0.887, "y": 1 },
+					{ "time": 0.6667, "x": 0.927, "y": 1 },
+					{ "time": 0.8333, "x": 0.887, "y": 1 },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"lyto2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 0.6667, "x": 0.762, "y": 0.762 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"touch": {
+				"translate": [
+					{ "time": 0, "x": 7.44, "y": -17.67 }
+				]
+			},
+			"hand2": {
+				"translate": [
+					{ "time": 0, "x": -6.77, "y": -6.21 }
+				]
+			},
+			"lyto3": {
+				"rotate": [
+					{ "time": 1.1333, "angle": 0 },
+					{ "time": 1.4333, "angle": -179.21 },
+					{ "time": 1.7, "angle": 0.92 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0 },
+					{ "time": 1.1333, "x": 27.72, "y": 53.4 },
+					{ "time": 1.4333, "x": 106.8, "y": 174.81 },
+					{ "time": 1.7, "x": 204.89, "y": 142.51 },
+					{ "time": 1.7333, "x": 210.31, "y": 92.2, "curve": "stepped" },
+					{ "time": 2.5, "x": 210.31, "y": 92.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1 },
+					{ "time": 1.1, "x": 0.822, "y": 1 },
+					{ "time": 1.4333, "x": 0.927, "y": 1 },
+					{ "time": 1.7333, "x": 0.887, "y": 1 },
+					{ "time": 1.8, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"tutorial_hand": {
+					"tutorial_hand": [
+						{ "time": 0.1667 },
+						{
+							"time": 0.5,
+							"offset": 2,
+							"vertices": [ 8.03313, 8.19716, 8.65334, 16.67224, 4.02731, 20.50691, -5.45269, 15.82404, -6.97102, 8.95668, 0.54884, -1.96368, 5.79936, -5.68341, 4.63952, -4.54668 ]
+						},
+						{ "time": 0.6667 }
+					]
+				},
+				"tutorial_hand2": {
+					"tutorial_hand": [
+						{ "time": 0.1667 },
+						{
+							"time": 0.2333,
+							"offset": 2,
+							"vertices": [ 8.03313, 8.19716, 8.65334, 16.67224, 4.02731, 20.50691, -5.45269, 15.82404, -6.97102, 8.95668, 0.54884, -1.96368, 5.79936, -5.68341, 4.63952, -4.54668 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 1.1,
+							"offset": 2,
+							"vertices": [ 8.03313, 8.19716, 8.65334, 16.67224, 4.02731, 20.50691, -5.45269, 15.82404, -6.97102, 8.95668, 0.54884, -1.96368, 5.79936, -5.68341, 4.63952, -4.54668 ]
+						},
+						{ "time": 1.1667 }
+					]
+				}
+			}
+		}
+	}
+}
+}

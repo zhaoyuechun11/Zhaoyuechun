@@ -1,0 +1,79 @@
+{
+"skeleton": { "hash": "x2Tm8+OWOjNqAq0Zw+P/vE6yyG4", "spine": "3.4.02", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "siren_eff_blue", "parent": "root", "x": 241.79, "y": 530.11, "scaleX": 10, "scaleY": 10 }
+],
+"slots": [
+	{ "name": "siren_eff2", "bone": "siren_eff_blue", "color": "2d82ffcb" },
+	{ "name": "siren_eff_blue", "bone": "siren_eff_blue", "color": "4effaa6a" },
+	{ "name": "siren_eff_red_3", "bone": "siren_eff_blue", "color": "ffffff74" }
+],
+"skins": {
+	"default": {
+		"siren_eff2": {
+			"siren_eff": { "width": 324, "height": 324 }
+		},
+		"siren_eff_blue": {
+			"siren_eff": { "scaleX": 0.4, "scaleY": 0.4, "width": 324, "height": 324 }
+		},
+		"siren_eff_red_3": {
+			"siren_eff": { "scaleX": 0.1, "scaleY": 0.1, "width": 324, "height": 324 }
+		}
+	}
+},
+"animations": {
+	"elevator_siren_blue": {
+		"slots": {
+			"siren_eff2": {
+				"color": [
+					{ "time": 0, "color": "2d82ff00" },
+					{ "time": 0.3333, "color": "2d82ffcb" },
+					{ "time": 0.6666, "color": "2d82ff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "siren_eff" }
+				]
+			},
+			"siren_eff_blue": {
+				"color": [
+					{ "time": 0, "color": "4effaa00" },
+					{ "time": 0.3333, "color": "4effaa6a" },
+					{ "time": 0.6666, "color": "4effaa00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "siren_eff" }
+				]
+			},
+			"siren_eff_red_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff74" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "siren_eff" }
+				]
+			}
+		},
+		"bones": {
+			"siren_eff_blue": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 45.1, "y": 53.06 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 },
+					{ "time": 0.3333, "x": 1.5, "y": 1.5 },
+					{ "time": 0.6666, "x": 0.8, "y": 0.8 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

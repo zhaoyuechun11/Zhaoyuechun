@@ -1,0 +1,48 @@
+
+stage_lock_ani.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rock_icon
+  rotate: false
+  xy: 358, 343
+  size: 94, 109
+  orig: 94, 109
+  offset: 0, 0
+  index: -1
+rock_icon_white
+  rotate: false
+  xy: 358, 232
+  size: 94, 109
+  orig: 94, 109
+  offset: 0, 0
+  index: -1
+rock_stage_slot
+  rotate: false
+  xy: 180, 19
+  size: 170, 212
+  orig: 170, 212
+  offset: 0, 0
+  index: -1
+white_eff_1
+  rotate: false
+  xy: 2, 233
+  size: 176, 219
+  orig: 176, 219
+  offset: 0, 0
+  index: -1
+white_eff_2
+  rotate: false
+  xy: 2, 12
+  size: 176, 219
+  orig: 176, 219
+  offset: 0, 0
+  index: -1
+white_eff_3
+  rotate: false
+  xy: 180, 233
+  size: 176, 219
+  orig: 176, 219
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+neko_shadow.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk-eff-03
+  rotate: false
+  xy: 209, 385
+  size: 138, 125
+  orig: 138, 125
+  offset: 0, 0
+  index: -1
+atk-eff-04
+  rotate: false
+  xy: 349, 385
+  size: 138, 125
+  orig: 138, 125
+  offset: 0, 0
+  index: -1
+atk-eff-1
+  rotate: true
+  xy: 209, 253
+  size: 77, 101
+  orig: 77, 101
+  offset: 0, 0
+  index: -1
+atk-eff-2
+  rotate: false
+  xy: 203, 150
+  size: 77, 101
+  orig: 77, 101
+  offset: 0, 0
+  index: -1
+attack_1_neko
+  rotate: false
+  xy: 2, 40
+  size: 199, 234
+  orig: 199, 234
+  offset: 0, 0
+  index: -1
+attack_2_neko
+  rotate: false
+  xy: 2, 276
+  size: 205, 234
+  orig: 205, 234
+  offset: 0, 0
+  index: -1
+beard
+  rotate: false
+  xy: 2, 2
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+idle_shadow
+  rotate: false
+  xy: 209, 332
+  size: 144, 51
+  orig: 144, 51
+  offset: 0, 0
+  index: -1
+shadow_eye
+  rotate: false
+  xy: 355, 341
+  size: 92, 42
+  orig: 92, 42
+  offset: 0, 0
+  index: -1

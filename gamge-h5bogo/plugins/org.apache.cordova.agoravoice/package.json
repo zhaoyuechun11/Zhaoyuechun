@@ -1,0 +1,19 @@
+{
+  "name": "org.apache.cordova.agoravoice",
+  "version": "1.0.0",
+  "description": "1 to 1",
+  "cordova": {
+    "id": "org.apache.cordova.agoravoice",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "javames",
+  "license": "ISC"
+}

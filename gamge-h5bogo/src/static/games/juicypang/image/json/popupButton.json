@@ -1,0 +1,116 @@
+{"frames": {
+
+"main_btn_bgm1.png":
+{
+	"frame": {"x":327,"y":307,"w":240,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":73},
+	"sourceSize": {"w":240,"h":73}
+},
+"main_btn_bgm2.png":
+{
+	"frame": {"x":1,"y":316,"w":240,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":73},
+	"sourceSize": {"w":240,"h":73}
+},
+"main_btn_continue.png":
+{
+	"frame": {"x":653,"y":205,"w":240,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":75},
+	"sourceSize": {"w":240,"h":75}
+},
+"main_btn_replay.png":
+{
+	"frame": {"x":653,"y":282,"w":240,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":240,"h":75},
+	"sourceSize": {"w":240,"h":75}
+},
+"popup_btn_bgm1.png":
+{
+	"frame": {"x":362,"y":1,"w":324,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":100},
+	"sourceSize": {"w":325,"h":100}
+},
+"popup_btn_bgm2.png":
+{
+	"frame": {"x":688,"y":1,"w":324,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":100},
+	"sourceSize": {"w":325,"h":100}
+},
+"popup_btn_check.png":
+{
+	"frame": {"x":362,"y":103,"w":324,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":324,"h":100},
+	"sourceSize": {"w":325,"h":100}
+},
+"popup_btn_em1.png":
+{
+	"frame": {"x":688,"y":103,"w":324,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":100},
+	"sourceSize": {"w":325,"h":100}
+},
+"popup_btn_em2.png":
+{
+	"frame": {"x":1,"y":113,"w":324,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":100},
+	"sourceSize": {"w":325,"h":100}
+},
+"popup_btn_exit.png":
+{
+	"frame": {"x":895,"y":205,"w":67,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":67},
+	"sourceSize": {"w":67,"h":67}
+},
+"popup_btn_gameover.png":
+{
+	"frame": {"x":1,"y":215,"w":324,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":324,"h":99},
+	"sourceSize": {"w":325,"h":100}
+},
+"popup_btn_main.png":
+{
+	"frame": {"x":1,"y":1,"w":359,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":359,"h":110},
+	"sourceSize": {"w":360,"h":110}
+},
+"popup_btn_shuffle.png":
+{
+	"frame": {"x":327,"y":205,"w":324,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":100},
+	"sourceSize": {"w":325,"h":100}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "popupButton.png",
+	"format": "RGBA8888",
+	"size": {"w":1013,"h":390},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e3c6cf26ac26a4d2d1f79ce11c2842f2:67b40a422cade4b99d3cc9de883a8440:e653f30cae0fc7a2a4a183a7fe650c15$"
+}
+}

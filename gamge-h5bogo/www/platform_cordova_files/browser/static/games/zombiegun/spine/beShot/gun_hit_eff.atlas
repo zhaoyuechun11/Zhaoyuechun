@@ -1,0 +1,20 @@
+
+gun_hit_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+egg-eff-00
+  rotate: false
+  xy: 2, 170
+  size: 159, 152
+  orig: 159, 152
+  offset: 0, 0
+  index: -1
+gun_fire_2
+  rotate: true
+  xy: 2, 2
+  size: 166, 143
+  orig: 166, 143
+  offset: 0, 0
+  index: -1

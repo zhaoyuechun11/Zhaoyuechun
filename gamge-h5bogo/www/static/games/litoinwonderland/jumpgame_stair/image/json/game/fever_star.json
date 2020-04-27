@@ -1,0 +1,44 @@
+{"frames": {
+
+"fever_star1.png":
+{
+	"frame": {"x":1,"y":200,"w":197,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":6,"w":197,"h":192},
+	"sourceSize": {"w":200,"h":200}
+},
+"fever_star2.png":
+{
+	"frame": {"x":1,"y":394,"w":197,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":6,"w":197,"h":192},
+	"sourceSize": {"w":200,"h":200}
+},
+"fever_star3.png":
+{
+	"frame": {"x":1,"y":1,"w":197,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":197,"h":197},
+	"sourceSize": {"w":200,"h":200}
+},
+"fever_star4.png":
+{
+	"frame": {"x":1,"y":588,"w":197,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":6,"w":197,"h":192},
+	"sourceSize": {"w":200,"h":200}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "fever_star.png",
+	"format": "RGBA8888",
+	"size": {"w":199,"h":781},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cb89f2dfb4c896696db67a29440c08c5:2f97f92b87891055054380741bbfbaaa:df1574b050c53317e225967591053df3$"
+}
+}

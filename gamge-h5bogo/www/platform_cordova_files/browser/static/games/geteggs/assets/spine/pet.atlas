@@ -1,0 +1,125 @@
+
+pet.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_1
+  rotate: false
+  xy: 2, 182
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+arm_2
+  rotate: false
+  xy: 286, 365
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 203, 356
+  size: 81, 67
+  orig: 81, 67
+  offset: 0, 0
+  index: -1
+clear
+  rotate: false
+  xy: 2, 242
+  size: 108, 102
+  orig: 108, 102
+  offset: 0, 0
+  index: -1
+clear_2
+  rotate: false
+  xy: 404, 455
+  size: 80, 47
+  orig: 80, 47
+  offset: 0, 0
+  index: -1
+eff_1
+  rotate: false
+  xy: 2, 425
+  size: 199, 77
+  orig: 199, 77
+  offset: 0, 0
+  index: -1
+eff_2
+  rotate: false
+  xy: 2, 346
+  size: 199, 77
+  orig: 199, 77
+  offset: 0, 0
+  index: -1
+eff_3
+  rotate: false
+  xy: 203, 425
+  size: 199, 77
+  orig: 199, 77
+  offset: 0, 0
+  index: -1
+eff_4
+  rotate: false
+  xy: 486, 474
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+eye_1
+  rotate: false
+  xy: 404, 441
+  size: 51, 12
+  orig: 51, 12
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: false
+  xy: 2, 209
+  size: 51, 12
+  orig: 51, 12
+  offset: 0, 0
+  index: -1
+eye_3
+  rotate: false
+  xy: 286, 392
+  size: 51, 12
+  orig: 51, 12
+  offset: 0, 0
+  index: -1
+eye_4
+  rotate: false
+  xy: 112, 291
+  size: 51, 12
+  orig: 51, 12
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 112, 305
+  size: 70, 39
+  orig: 70, 39
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 184, 324
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+water_1
+  rotate: false
+  xy: 2, 223
+  size: 103, 17
+  orig: 103, 17
+  offset: 0, 0
+  index: -1
+water_2
+  rotate: false
+  xy: 286, 406
+  size: 103, 17
+  orig: 103, 17
+  offset: 0, 0
+  index: -1

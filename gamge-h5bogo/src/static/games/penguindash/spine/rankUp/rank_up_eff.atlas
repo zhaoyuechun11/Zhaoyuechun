@@ -1,0 +1,20 @@
+
+rank_up_eff.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rankup
+  rotate: false
+  xy: 379, 820
+  size: 630, 189
+  orig: 630, 189
+  offset: 0, 0
+  index: -1
+rankup_arrow
+  rotate: false
+  xy: 2, 528
+  size: 375, 481
+  orig: 375, 481
+  offset: 0, 0
+  index: -1

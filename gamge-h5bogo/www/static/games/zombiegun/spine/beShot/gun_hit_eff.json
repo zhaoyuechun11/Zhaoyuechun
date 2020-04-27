@@ -1,0 +1,197 @@
+{
+"skeleton": { "hash": "oMlECEZ+bMZy1D8ZMcRFQD/f3fI", "spine": "3.4.02", "width": 344, "height": 560, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hit_eff", "parent": "root", "x": 115.15, "y": 10.26 }
+],
+"slots": [
+	{ "name": "gun_fire_5", "bone": "hit_eff", "blend": "additive" },
+	{ "name": "hit_eff", "bone": "hit_eff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"gun_fire_5": {
+			"gun_fire_2": { "width": 166, "height": 143 }
+		},
+		"hit_eff": {
+			"egg-eff-00": { "width": 159, "height": 152 }
+		}
+	}
+},
+"animations": {
+	"hit_eff_1": {
+		"slots": {
+			"gun_fire_5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "gun_fire_2" }
+				]
+			},
+			"hit_eff": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "egg-eff-00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -122.95, "y": -80.03 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hit_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -57.32, "y": 44.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 1.2, "y": 1.2 },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"hit_eff_2": {
+		"slots": {
+			"gun_fire_5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "gun_fire_2" }
+				]
+			},
+			"hit_eff": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "egg-eff-00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -23.19, "y": -6.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hit_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -57.32, "y": 44.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 1.2, "y": 1.2 },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"hit_eff_3": {
+		"slots": {
+			"gun_fire_5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "gun_fire_2" }
+				]
+			},
+			"hit_eff": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "egg-eff-00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -187.91, "y": -141.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"hit_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -57.32, "y": 44.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 1.2, "y": 1.2 },
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

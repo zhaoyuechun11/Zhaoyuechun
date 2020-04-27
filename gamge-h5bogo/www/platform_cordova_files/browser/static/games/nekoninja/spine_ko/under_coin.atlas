@@ -1,0 +1,20 @@
+
+under_coin.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_2
+  rotate: false
+  xy: 2, 69
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+coin_3
+  rotate: false
+  xy: 2, 2
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1

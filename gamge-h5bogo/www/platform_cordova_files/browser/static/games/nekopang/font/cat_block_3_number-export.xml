@@ -1,0 +1,23 @@
+<font>
+	<info face="cat_block_3_number" size="89" />
+	<common lineHeight="89" scaleW="141" scaleH="137" pages="1" />
+	<pages>
+		<page id="0" file="./cat_block_3_number-export.png" />
+	</pages>
+	<chars count="12">
+		<char id="48" x="39" y="45" width="37" height="45" xoffset="0" yoffset="44" xadvance="35" /><!-- 0 -->
+		<char id="49" x="113" y="90" width="27" height="43" xoffset="0" yoffset="45" xadvance="25" /><!-- 1 -->
+		<char id="50" x="77" y="45" width="36" height="44" xoffset="0" yoffset="44" xadvance="34" /><!-- 2 -->
+		<char id="51" x="0" y="91" width="37" height="44" xoffset="0" yoffset="45" xadvance="35" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="40" height="44" xoffset="0" yoffset="44" xadvance="38" /><!-- 4 -->
+		<char id="53" x="41" y="0" width="36" height="44" xoffset="0" yoffset="45" xadvance="34" /><!-- 5 -->
+		<char id="54" x="38" y="91" width="37" height="45" xoffset="0" yoffset="44" xadvance="35" /><!-- 6 -->
+		<char id="55" x="78" y="0" width="35" height="43" xoffset="0" yoffset="45" xadvance="33" /><!-- 7 -->
+		<char id="56" x="0" y="45" width="38" height="45" xoffset="0" yoffset="44" xadvance="36" /><!-- 8 -->
+		<char id="57" x="76" y="91" width="36" height="45" xoffset="0" yoffset="44" xadvance="34" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="25" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="200" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

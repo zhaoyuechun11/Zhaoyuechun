@@ -1,0 +1,27 @@
+
+item_use_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_eff_2
+  rotate: false
+  xy: 2, 2
+  size: 95, 96
+  orig: 95, 96
+  offset: 0, 0
+  index: -1
+ef_light_04
+  rotate: false
+  xy: 2, 254
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+egg-eff-00
+  rotate: false
+  xy: 2, 100
+  size: 159, 152
+  orig: 159, 152
+  offset: 0, 0
+  index: -1

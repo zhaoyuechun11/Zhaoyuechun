@@ -1,0 +1,27 @@
+
+cut.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cut_bg
+  rotate: false
+  xy: 2, 361
+  size: 541, 255
+  orig: 541, 255
+  offset: 0, 0
+  index: -1
+cut_helpme
+  rotate: false
+  xy: 2, 80
+  size: 370, 279
+  orig: 370, 279
+  offset: 0, 0
+  index: -1
+cut_mouse
+  rotate: false
+  xy: 545, 562
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1

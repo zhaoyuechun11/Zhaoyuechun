@@ -1,0 +1,1 @@
+var GameMode=function(){return function(){this.horizontalCount=9,this.verticalCount=12}}();

@@ -1,0 +1,13 @@
+
+popup_eff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff
+  rotate: false
+  xy: 2, 329
+  size: 412, 85
+  orig: 412, 85
+  offset: 0, 0
+  index: -1

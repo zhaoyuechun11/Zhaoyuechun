@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "nvRsJj3v/nj5t/BTk/Ev/zUHYC0", "spine": "3.4.02", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "target", "parent": "root", "y": -149 }
+],
+"slots": [
+	{ "name": "target_shadow", "bone": "target" },
+	{ "name": "target", "bone": "target" }
+],
+"skins": {
+	"default": {
+		"target": {
+			"target": { "y": 149, "width": 199, "height": 302 }
+		},
+		"target_shadow": {
+			"shadow": { "scaleX": 1.849, "scaleY": 0.88, "width": 180, "height": 59 }
+		}
+	}
+},
+"animations": {
+	"target_hit": {
+		"slots": {
+			"target": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "target" }
+				]
+			},
+			"target_shadow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			}
+		},
+		"bones": {
+			"target": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 1, "y": 0.248 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1666, "x": 0, "y": 27.67 }
+				]
+			}
+		}
+	},
+	"target_idle": {
+		"slots": {
+			"target": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "target" }
+				]
+			},
+			"target_shadow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			}
+		},
+		"bones": {
+			"target": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"target_rise": {
+		"slots": {
+			"target": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "target" }
+				]
+			},
+			"target_shadow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "shadow" }
+				]
+			}
+		},
+		"bones": {
+			"target": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.248 },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 27.67 },
+					{ "time": 0.1666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

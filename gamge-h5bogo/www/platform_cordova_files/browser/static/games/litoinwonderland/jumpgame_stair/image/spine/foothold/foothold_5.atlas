@@ -1,0 +1,90 @@
+
+foothold_5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foothold1
+  rotate: true
+  xy: 2, 193
+  size: 173, 109
+  orig: 173, 109
+  offset: 0, 0
+  index: -1
+foothold1_side1
+  rotate: false
+  xy: 908, 880
+  size: 98, 124
+  orig: 98, 124
+  offset: 0, 0
+  index: -1
+foothold1_side2
+  rotate: false
+  xy: 174, 562
+  size: 99, 121
+  orig: 99, 121
+  offset: 0, 0
+  index: -1
+foothold2
+  rotate: false
+  xy: 2, 685
+  size: 227, 139
+  orig: 227, 139
+  offset: 0, 0
+  index: -1
+foothold2_side1
+  rotate: false
+  xy: 2, 51
+  size: 126, 140
+  orig: 126, 140
+  offset: 0, 0
+  index: -1
+foothold2_side2
+  rotate: false
+  xy: 779, 862
+  size: 127, 142
+  orig: 127, 142
+  offset: 0, 0
+  index: -1
+foothold3
+  rotate: false
+  xy: 2, 826
+  size: 278, 178
+  orig: 278, 178
+  offset: 0, 0
+  index: -1
+foothold3_side1
+  rotate: false
+  xy: 2, 368
+  size: 155, 160
+  orig: 155, 160
+  offset: 0, 0
+  index: -1
+foothold3_side2
+  rotate: false
+  xy: 626, 852
+  size: 151, 152
+  orig: 151, 152
+  offset: 0, 0
+  index: -1
+foothold_side1
+  rotate: false
+  xy: 2, 530
+  size: 170, 153
+  orig: 170, 153
+  offset: 0, 0
+  index: -1
+foothold_side2
+  rotate: false
+  xy: 454, 851
+  size: 170, 153
+  orig: 170, 153
+  offset: 0, 0
+  index: -1
+foothold_side3
+  rotate: false
+  xy: 282, 850
+  size: 170, 154
+  orig: 170, 154
+  offset: 0, 0
+  index: -1

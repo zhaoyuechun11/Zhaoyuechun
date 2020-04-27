@@ -1,0 +1,48 @@
+
+stage_slot_ani.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+stage_select_slot
+  rotate: false
+  xy: 2, 576
+  size: 191, 285
+  orig: 191, 285
+  offset: 0, 0
+  index: -1
+stage_select_slot_2
+  rotate: false
+  xy: 2, 289
+  size: 191, 285
+  orig: 191, 285
+  offset: 0, 0
+  index: -1
+stage_select_slot_3
+  rotate: false
+  xy: 195, 576
+  size: 191, 285
+  orig: 191, 285
+  offset: 0, 0
+  index: -1
+stage_select_slot_4
+  rotate: false
+  xy: 2, 2
+  size: 191, 285
+  orig: 191, 285
+  offset: 0, 0
+  index: -1
+stage_select_slot_5
+  rotate: false
+  xy: 195, 289
+  size: 191, 285
+  orig: 191, 285
+  offset: 0, 0
+  index: -1
+stage_select_slot_6
+  rotate: false
+  xy: 388, 576
+  size: 191, 285
+  orig: 191, 285
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,12 @@
+[OPTIONS]
+Backup=0
+DeleteComment=1
+DeleteWhiteSpace=0
+ChangeNames=0
+ChangeNamesInString=0
+Rewrite=1
+RenameFileSufix=_jso
+Compres=1
+GeneratePrefix=
+HeaderFile=
+HeaderText=

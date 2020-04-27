@@ -1,0 +1,82 @@
+{
+"skeleton": { "hash": "TDa6YCqd9BWce/1d47gHrsPiHxI", "spine": "3.5.46", "width": 374, "height": 96, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fever_btn_eff_1_1", "parent": "root", "x": -127.33 },
+	{ "name": "fever_btn_eff_1_2", "parent": "root", "x": 128.08 }
+],
+"slots": [
+	{ "name": "object", "bone": "fever_btn_eff_1_1", "attachment": "object" },
+	{ "name": "object2", "bone": "fever_btn_eff_1_2", "attachment": "object" }
+],
+"skins": {
+	"default": {
+		"object": {
+			"object": { "width": 48, "height": 49 }
+		},
+		"object2": {
+			"object": { "width": 48, "height": 49 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"object": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "object" }
+				]
+			},
+			"object2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "object" }
+				]
+			}
+		},
+		"bones": {
+			"fever_btn_eff_1_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 270 },
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1, "angle": 90 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"fever_btn_eff_1_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 270 },
+					{ "time": 0.6667, "angle": 180 },
+					{ "time": 1, "angle": 90 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

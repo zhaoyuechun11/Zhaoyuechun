@@ -1,0 +1,41 @@
+
+bubble_friend.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm
+  rotate: false
+  xy: 96, 54
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 13
+  size: 92, 113
+  orig: 92, 113
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 3
+  size: 56, 8
+  orig: 56, 8
+  offset: 0, 0
+  index: -1
+happy
+  rotate: true
+  xy: 96, 68
+  size: 58, 29
+  orig: 58, 29
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 116, 46
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1

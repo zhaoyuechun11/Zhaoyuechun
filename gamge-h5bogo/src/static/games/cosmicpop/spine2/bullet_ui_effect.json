@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "sWGHZr5wePGkGNnDCbQEBIHo1TY", "spine": "3.5.43", "width": 0, "height": 0, "images": "./resource/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bullet_ui", "parent": "root" },
+	{ "name": "bullet_ui_eff", "parent": "bullet_ui" }
+],
+"slots": [
+	{ "name": "bullet_ui", "bone": "bullet_ui" },
+	{ "name": "bullet_ui2", "bone": "bullet_ui_eff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bullet_ui": {
+			"bullet_ui": { "width": 94, "height": 94 }
+		},
+		"bullet_ui2": {
+			"bullet_ui": { "width": 94, "height": 94 }
+		}
+	}
+},
+"animations": {
+	"bullet_ui_effect_active": {
+		"slots": {
+			"bullet_ui": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bullet_ui" }
+				]
+			},
+			"bullet_ui2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bullet_ui" }
+				]
+			}
+		},
+		"bones": {
+			"bullet_ui": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bullet_ui_eff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5, "x": 1.3, "y": 1.3 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"bullet_ui_effect_idle": {
+		"slots": {
+			"bullet_ui": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "bullet_ui" }
+				]
+			}
+		},
+		"bones": {
+			"bullet_ui": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"empty": {}
+}
+}

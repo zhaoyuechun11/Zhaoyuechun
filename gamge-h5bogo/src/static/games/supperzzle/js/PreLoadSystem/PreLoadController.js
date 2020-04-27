@@ -1,0 +1,1 @@
+var PreLoadController=function(){function e(){this.AddListener()}return e.prototype.AddListener=function(){EventManage.Instance().AddListener(EventEnum.start_game,this.StartGame.bind(this))},e.prototype.StartGame=function(){0==e.isPreLoad?(ResourceManage.Instance().ResourceVersion(),e.isPreLoad=!0):EventManage.Instance().Broadcast(EventEnum.preLoad_complete)},e.isPreLoad=!1,e}();

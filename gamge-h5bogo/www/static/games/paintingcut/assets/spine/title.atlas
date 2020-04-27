@@ -1,0 +1,174 @@
+
+title.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 2, 759
+  size: 730, 1280
+  orig: 730, 1280
+  offset: 0, 0
+  index: -1
+back2
+  rotate: false
+  xy: 1323, 1310
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+ball_1
+  rotate: false
+  xy: 438, 133
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+ball_2
+  rotate: false
+  xy: 973, 906
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+ball_3
+  rotate: false
+  xy: 1271, 1188
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+ball_4
+  rotate: false
+  xy: 1890, 1966
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+ball_shadow
+  rotate: false
+  xy: 2, 2
+  size: 434, 223
+  orig: 434, 223
+  offset: 0, 0
+  index: -1
+ball_shadow_2
+  rotate: false
+  xy: 1424, 1724
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+btn_start
+  rotate: false
+  xy: 1424, 1743
+  size: 550, 98
+  orig: 550, 98
+  offset: 0, 0
+  index: -1
+logo_eff_1
+  rotate: false
+  xy: 538, 266
+  size: 134, 128
+  orig: 134, 128
+  offset: 0, 0
+  index: -1
+logo_eff_2
+  rotate: false
+  xy: 997, 1237
+  size: 324, 113
+  orig: 324, 113
+  offset: 0, 0
+  index: -1
+logo_eff_3
+  rotate: true
+  xy: 734, 895
+  size: 384, 237
+  orig: 384, 237
+  offset: 0, 0
+  index: -1
+logo_eff_4
+  rotate: false
+  xy: 1424, 1843
+  size: 464, 196
+  orig: 464, 196
+  offset: 0, 0
+  index: -1
+logo_eff_5
+  rotate: false
+  xy: 997, 1475
+  size: 380, 235
+  orig: 380, 235
+  offset: 0, 0
+  index: -1
+logo_eff_6
+  rotate: false
+  xy: 997, 1352
+  size: 371, 121
+  orig: 371, 121
+  offset: 0, 0
+  index: -1
+logo_eff_7
+  rotate: false
+  xy: 734, 753
+  size: 264, 140
+  orig: 264, 140
+  offset: 0, 0
+  index: -1
+logo_eff_8
+  rotate: false
+  xy: 720, 482
+  size: 262, 83
+  orig: 262, 83
+  offset: 0, 0
+  index: -1
+part
+  rotate: false
+  xy: 2, 396
+  size: 716, 361
+  orig: 716, 361
+  offset: 0, 0
+  index: -1
+part2
+  rotate: false
+  xy: 734, 1712
+  size: 688, 327
+  orig: 688, 327
+  offset: 0, 0
+  index: -1
+pencil
+  rotate: false
+  xy: 734, 1281
+  size: 261, 429
+  orig: 261, 429
+  offset: 0, 0
+  index: -1
+pencil_shadow
+  rotate: false
+  xy: 973, 954
+  size: 296, 281
+  orig: 296, 281
+  offset: 0, 0
+  index: -1
+title_logo
+  rotate: false
+  xy: 2, 227
+  size: 534, 167
+  orig: 534, 167
+  offset: 0, 0
+  index: -1
+title_logo_2
+  rotate: false
+  xy: 720, 567
+  size: 266, 184
+  orig: 266, 184
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1379, 1668
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1

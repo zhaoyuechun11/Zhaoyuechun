@@ -1,0 +1,204 @@
+
+
+@font-face {
+	font-family: NothernAcrom;
+	src: url(../fonts/The.Northern.Block_Acrom.otf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: NothernAcrom;
+	src: url(../fonts/The.Northern.Block_Acrom.Bold.otf);
+	font-weight: bold;
+}
+
+* {
+	font-family: NothernAcrom;
+}
+
+.md{
+	.navbar {
+		background-color: white;
+		.title {
+			text-align: center;
+			margin: auto;
+			font-weight: bold;
+			color: #2196f3;
+		}
+
+		.right{
+			margin-left: 0px;
+		}
+
+		a.link{
+			padding:28px;
+		}
+	}
+
+	.progressbar {
+		height: 20px;
+	}
+
+	.navbar:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		width: 100%;
+		top: 100%;
+		bottom: auto;
+		height: 1px;
+		pointer-events: none;
+		background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.3)),color-stop(40%,rgba(0,0,0,.1)),color-stop(50%,rgba(0,0,0,.05)),color-stop(80%,rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+		/* background: -webkit-linear-gradient(top,rgba(0,0,0,.3) 0%,rgba(0,0,0,.1) 40%,rgba(0,0,0,.05) 50%,rgba(0,0,0,0) 80%,rgba(0,0,0,0) 100%); */
+		/* background: linear-gradient(to bottom,rgba(0,0,0,.3) 0%,rgba(0,0,0,.1) 40%,rgba(0,0,0,.05) 50%,rgba(0,0,0,0) 80%,rgba(0,0,0,0) 100%); */
+	}
+}
+
+.panel-left {
+	box-shadow: none !important;
+}
+
+// 主界面入口
+.home-entry {
+	padding-top: 46%;
+}
+
+
+@keyframes flipInY {
+	from {
+		transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+	}
+
+	to {
+		transform: perspective(400px);
+	}
+}
+
+.flipInY {
+	backface-visibility: visible !important;
+	animation-name: flipInY;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes flipInX {
+	from {
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+	}
+
+	to {
+		transform: perspective(400px);
+	}
+}
+
+.flipInX {
+	backface-visibility: visible !important;
+	animation-name: flipInX;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes bounceIn {
+	from,
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+
+	0% {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+
+	20% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+
+	40% {
+		transform: scale3d(0.9, 0.9, 0.9);
+	}
+
+	60% {
+		opacity: 1;
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+
+	80% {
+		transform: scale3d(0.97, 0.97, 0.97);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.bounceIn {
+	animation-duration: 1s;
+	animation-name: bounceIn;
+}
+
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.infinite {
+	animation-iteration-count: infinite;
+}
+
+.delay-1s {
+	animation-delay: 200ms;
+}
+
+.delay-2s {
+	animation-delay: 400ms;
+}
+
+.delay-3s {
+	animation-delay: 600ms;
+}
+
+.delay-4s {
+	animation-delay: 4s;
+}
+
+.delay-5s {
+	animation-delay: 5s;
+}
+

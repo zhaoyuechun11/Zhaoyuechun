@@ -1,0 +1,52 @@
+{"frames": {
+
+"fever_effect_2_0025.png":
+{
+	"frame": {"x":723,"y":1,"w":720,"h":430},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":430},
+	"sourceSize": {"w":720,"h":592}
+},
+"fever_effect_2_0026.png":
+{
+	"frame": {"x":723,"y":433,"w":720,"h":430},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":430},
+	"sourceSize": {"w":720,"h":592}
+},
+"fever_effect_2_0027.png":
+{
+	"frame": {"x":723,"y":865,"w":720,"h":430},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":430},
+	"sourceSize": {"w":720,"h":592}
+},
+"fever_effect_2_0028.png":
+{
+	"frame": {"x":1,"y":474,"w":720,"h":441},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":441},
+	"sourceSize": {"w":720,"h":592}
+},
+"fever_effect_2_0029.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":471},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":471},
+	"sourceSize": {"w":720,"h":592}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "fever_effect2_4.png",
+	"format": "RGBA8888",
+	"size": {"w":1444,"h":1296},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:831667de061e0ab65337c65427f0358f:951688bedcca589d4e5ba7e21ef027c8:373caea1913b4605c74ca3b6236515c9$"
+}
+}

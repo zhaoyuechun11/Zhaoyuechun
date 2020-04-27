@@ -1,0 +1,44 @@
+{"frames": {
+
+"america_ground_0001.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":786},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":786},
+	"sourceSize": {"w":720,"h":786}
+},
+"america_ground_0002.png":
+{
+	"frame": {"x":723,"y":1,"w":720,"h":786},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":786},
+	"sourceSize": {"w":720,"h":786}
+},
+"america_randmark_0001.png":
+{
+	"frame": {"x":1,"y":789,"w":720,"h":403},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":403},
+	"sourceSize": {"w":720,"h":403}
+},
+"america_randmark_0002.png":
+{
+	"frame": {"x":723,"y":789,"w":720,"h":403},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":403},
+	"sourceSize": {"w":720,"h":403}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "americaBlock.png",
+	"format": "RGBA8888",
+	"size": {"w":1444,"h":1193},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9d0b049eef5c0758248617e9eca92d95:7dadab673bf8f96d4838fa115139cc15:fd33350d26d55a1fef667e4d15e9d02f$"
+}
+}

@@ -1,0 +1,52 @@
+{"frames": {
+
+"item_popup_bg.png":
+{
+	"frame": {"x":1,"y":1,"w":720,"h":364},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":364},
+	"sourceSize": {"w":720,"h":375}
+},
+"item_popup_gloves.png":
+{
+	"frame": {"x":1,"y":367,"w":605,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":605,"h":255},
+	"sourceSize": {"w":605,"h":255}
+},
+"item_popup_hammer.png":
+{
+	"frame": {"x":1,"y":624,"w":605,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":605,"h":255},
+	"sourceSize": {"w":605,"h":255}
+},
+"item_popup_refrigerator1.png":
+{
+	"frame": {"x":1,"y":881,"w":605,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":605,"h":255},
+	"sourceSize": {"w":605,"h":255}
+},
+"item_popup_refrigerator2.png":
+{
+	"frame": {"x":1,"y":1138,"w":605,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":605,"h":255},
+	"sourceSize": {"w":605,"h":255}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "guide.png",
+	"format": "RGBA8888",
+	"size": {"w":722,"h":1394},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2df7bf13f8aa2041f9246370269466b4:4c03c2959c252ccd3e4856d028b498c8:37a49f3ac0ab10ec9ff9969403f7c995$"
+}
+}
