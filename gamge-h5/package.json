@@ -46,7 +46,7 @@
     },
     "dependencies": {
         "agora-rtc-sdk": "^2.5.0",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "cordova-android": "^7.1.4",
         "cordova-android-support-gradle-release": "^2.0.1",
         "cordova-browser": "^5.0.4",
